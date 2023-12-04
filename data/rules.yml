@@ -11,3 +11,13 @@ rules:
   steps:
   - intent: bot_challenge
   - action: utter_iamabot
+
+- rule: action default
+  steps:
+  - intent: nlu_fallblack
+  - action: action_default_fallback
+
+- rule: cntt - hoi tong quan
+  steps:
+  - intent: cntt_tongquan
+  - action: action_truyvan_nganh_thongtinphu_coso

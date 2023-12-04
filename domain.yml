@@ -8,6 +8,57 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - cntt_tongquan
+  - nlu_fallblack
+
+entities:
+  - thongtinchinh
+  - coso
+  - thongtinphu
+  - namhoc
+
+slots:
+  thongtinchinh:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: thongtinchinh
+  coso:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: coso
+
+  thongtinphu:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: thongtinphu
+
+  namhoc:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: namhoc  
+
+actions:
+  - action_reset_all_slots
+  - action_nganh_dao_tao
+  - action_default_fallback
+  - action_cntt_tongquan
+  - action_truyvan_data
+  - action_truyvan_thongtinchinh
+  - action_truyvan_nganh_thongtinphu
+  - action_truyvan_nganh_thongtinphu_coso
+  - action_truyvan_nganh
+  - action_show_slot
+  - action_truyvan_thongtinchinh_thongtinphu_namhoc
+  - action_truyvan_thongtinchinh_thongtinphu
+
 
 responses:
   utter_greet:

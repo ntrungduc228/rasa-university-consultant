@@ -1,0 +1,767 @@
+{
+    "nganh": {
+        "cntt": {
+            "tong_quan": {
+                "chung": "Ngành Công nghệ thông tin\n Mã ngành: 7480201\nThời gian đào tạo: 4,5 năm\nKhối lượng kiến thức: 152 tín chỉ\nBằng tốt nghiệp: KỸ SƯ\nGiới thiệu sơ lược:\n\nCông nghệ thông tin đã và đang thay đổi toàn diện mọi mặt của xã hội. Trong xu thế đó, chương trình đào tạo ngành Công nghệ thông tin của Học viện trang bị cho sinh viên những kiến thức, kỹ năng hiện đại về cả phần cứng, phần mềm lẫn mạng máy tính; đáp ứng các yêu cầu về nghiên cứu phát triển và ứng dụng công nghệ thông tin trong các lĩnh vực kinh tế, kỹ thuật, sản xuất, dịch vụ và quốc phòng.\n\nCác chuyên ngành:\n- Công nghệ phần mềm\n- Kỹ thuật máy tính\n- Hệ thống thông tin\n- Khoa học máy tính\n- Máy tính và truyền thông dữ liệu",
+                "bac": "Ngành Công nghệ thông tin\n Mã ngành: 7480201\nThời gian đào tạo: 4,5 năm\nKhối lượng kiến thức: 152 tín chỉ\nBằng tốt nghiệp: KỸ SƯ\nGiới thiệu sơ lược:\n\nCông nghệ thông tin đã và đang thay đổi toàn diện mọi mặt của xã hội. Trong xu thế đó, chương trình đào tạo ngành Công nghệ thông tin của Học viện trang bị cho sinh viên những kiến thức, kỹ năng hiện đại về cả phần cứng, phần mềm lẫn mạng máy tính; đáp ứng các yêu cầu về nghiên cứu phát triển và ứng dụng công nghệ thông tin trong các lĩnh vực kinh tế, kỹ thuật, sản xuất, dịch vụ và quốc phòng.\n\nCác chuyên ngành:\n- Công nghệ phần mềm\n- Kỹ thuật máy tính\n- Hệ thống thông tin\n- Khoa học máy tính\n- Máy tính và truyền thông dữ liệu",
+                "nam": "Ngành Công nghệ thông tin\n Mã ngành: 7480201\nThời gian đào tạo: 4,5 năm\nKhối lượng kiến thức: 152 tín chỉ\nBằng tốt nghiệp: KỸ SƯ\nGiới thiệu sơ lược:\n\nCông nghệ thông tin đã và đang thay đổi toàn diện mọi mặt của xã hội. Trong xu thế đó, chương trình đào tạo ngành Công nghệ thông tin của Học viện trang bị cho sinh viên những kiến thức, kỹ năng hiện đại về cả phần cứng, phần mềm lẫn mạng máy tính; đáp ứng các yêu cầu về nghiên cứu phát triển và ứng dụng công nghệ thông tin trong các lĩnh vực kinh tế, kỹ thuật, sản xuất, dịch vụ và quốc phòng.\n\nCác chuyên ngành:\n- Công nghệ phần mềm\n- Kỹ thuật máy tính\n- Hệ thống thông tin\n- Khoa học máy tính\n- Máy tính và truyền thông dữ liệu"
+            },
+            "ma_nganh": {
+                "chung": "Mã ngành Công nghệ thông tin: 7480201"
+            },
+            "diem_chuan": {
+                "chung": {
+                    "chung": "Điểm trúng tuyển ngành Công nghệ thông tin cơ sở phía Bắc:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1\n Điểm trúng tuyển ngành Công nghệ thông tin cơ sở Nam:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1",
+                    "2023": "Điểm trúng tuyển ngành Công nghệ thông tin năm 2023\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "2022": "Điểm trúng tuyển ngành Công nghệ thông tin năm 2022\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "2021": "Điểm trúng tuyển ngành Công nghệ thông tin năm 2021\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "2020": "Điểm trúng tuyển ngành Công nghệ thông tin năm 2020\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "2019": "Điểm trúng tuyển ngành Công nghệ thông tin năm 2019\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59"
+                },
+                "bac": {
+                    "chung": "Điểm trúng tuyển ngành Công nghệ thông tin cơ sở phía Bắc:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1",
+                    "2023": "Điểm trúng tuyển ngành Công nghệ thông tin cơ sở phía Bắc năm 2023: 25,1",
+                    "2022": "Điểm trúng tuyển ngành Công nghệ thông tin cơ sở phía Bắc năm 2022: 25,1",
+                    "2021": "Điểm trúng tuyển ngành Công nghệ thông tin cơ sở phía Bắc năm 2021: 25,1",
+                    "2020": "Điểm trúng tuyển ngành Công nghệ thông tin cơ sở phía Bắc năm 2020: 25,1",
+                    "2019": "Điểm trúng tuyển ngành Công nghệ thông tin cơ sở phía Bắc năm 2019: 25,1"
+                },
+                "nam": {
+                    "chung": "Điểm trúng tuyển ngành Công nghệ thông tin cơ sở phía Nam:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1",
+                    "2023": "Điểm trúng tuyển ngành Công nghệ thông tin cơ sở phía Nam năm 2023: 25,1",
+                    "2022": "Điểm trúng tuyển ngành Công nghệ thông tin cơ sở phía Nam năm 2022: 25,1",
+                    "2021": "Điểm trúng tuyển ngành Công nghệ thông tin cơ sở phía Nam năm 2021: 25,1",
+                    "2020": "Điểm trúng tuyển ngành Công nghệ thông tin cơ sở phía Nam năm 2020: 25,1",
+                    "2019": "Điểm trúng tuyển ngành Công nghệ thông tin cơ sở phía Nam năm 2019: 25,1"
+                }
+            },
+            "sotc": {
+                "chung": "Khối lượng kiến thức ngành Công nghệ thông tin: 150 tín chỉ"
+            },
+            "thoi_gian_dao_tao": {
+                "chung": "Thời gian đào tạo ngành Công nghệ thông tin là 4,5 năm"
+            },
+            "loai_bang": {
+                "chung": "Bằng tốt nghiệp ngành Công nghệ thông tin: KỸ SƯ"
+            },
+            "tot_nghiep_lam_gi": {
+                "chung": "Học công nghệ thông tin ra trường làm kỹ sư (... chưa thêm data)"
+            },
+            "hoc_phi": {
+                "chung": "Học phí năm 2023\n Khoá 2021 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2022 ngành kĩ thuật 650.000 đông/tín chỉ\n Học phí năm 2022\n Khoá 2020 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2021 ngành kĩ thuật 650.000 đông/tín chỉ\n Học phí năm 2021\n Khoá 2020 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2019 ngành kĩ thuật 650.000 đông/tín chỉ\n Học phí năm 2020\n Khoá 2018 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2019 ngành kĩ thuật 650.000 đông/tín chỉ\n Học phí năm 2019\n Khoá 2017 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2018 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "2023": "Học phí năm 2023\n Khoá 2021 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2022 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "2022": "Học phí năm 2022\n Khoá 2020 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2021 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "2021": "Học phí năm 2021\n Khoá 2019 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2020 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "2020": "Học phí năm 2020\n Khoá 2018 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2019 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "2019": "Học phí năm 2019\n Khoá 2017 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2018 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "bac": "",
+                "nam": "123"
+            },
+            "chuyen_nganh": {
+                "chung": "Ngành Công nghệ thông tin bao gồm các chuyên ngành:\n Công nghệ phần mềm\n Kỹ thuật máy tính\n Hệ thống thông tin\n Khoa học máy tính\n Máy tính và truyền thông dữ liệu",
+                "bac": "Ngành Công nghệ thông tin bao gồm các chuyên ngành:\n Công nghệ phần mềm\n Kỹ thuật máy tính\n Hệ thống thông tin\n Khoa học máy tính\n Máy tính và truyền thông dữ liệu",
+                "nam": "Ngành Công nghệ thông tin bao gồm các chuyên ngành:\n Công nghệ phần mềm\n Kỹ thuật máy tính\n Hệ thống thông tin\n Khoa học máy tính\n Máy tính và truyền thông dữ liệu"
+            },
+            "khoi_thi": {
+                "chung": "Tổ hợp xét tuyển: Toán – Lý – Hóa (A00) hoặc Toán – Lý – Anh (A01)"
+            },
+            "chuong_trinh_dao_tao": {
+                "chung": "Thông tin chương trình đào tạo ngành Công nghệ thông tin:\nThời gian đào tạo 4,5 năm\nKhối lượng kiến thức 150 tín chỉ\nSinh viên được trang bị kiến thức về giáo dục đại cương, kiến thức cơ sở ngành, kiến thức chuyên ngành và cả kỹ năng mềm.\nChi tiết xem thêm tại: https://ptithcm.edu.vn/wp-content/uploads/2014/03/BanHanhChuongTrinhKhung_DHCQ-CNTT_684_QD-HV.pdf "
+            }
+        },
+        "ktdtvt": {
+            "tong_quan": {
+                "chung": "Ngành Kỹ thuật điện tử viễn thông\n Mã ngành: 7520207\nThời gian đào tạo: 4,5 năm\nKhối lượng kiến thức: 152 tín chỉ\nBằng tốt nghiệp: KỸ SƯ\nGiới thiệu sơ lược:\n\nTừ thiết bị vệ tinh đến các tuyến cáp xuyên đại dương, từ chiếc máy thu hình, điện thoại cố định, di động, máy tính cá nhân, máy tính bảng,… tới các thiết bị điện tử tích hợp có kích thước siêu nhỏ… tất cả đã kết nối và hình thành nên hệ thống mạng truyền thông liên lạc toàn cầu, nền tảng của công nghệ IOT. Ngành Kỹ thuật Điện tử – Viễn thông của Học viện trang bị kiến thức, kỹ năng nhằm đào tạo những kỹ sư kiến tạo, làm chủ và phát triển ra những sản phẩm công nghệ hệ, thống như vậy.",
+                "bac": "Ngành Kỹ thuật điện tử viễn thông\n Mã ngành: 7520207\nThời gian đào tạo: 4,5 năm\nKhối lượng kiến thức: 152 tín chỉ\nBằng tốt nghiệp: KỸ SƯ\nGiới thiệu sơ lược:\n\nTừ thiết bị vệ tinh đến các tuyến cáp xuyên đại dương, từ chiếc máy thu hình, điện thoại cố định, di động, máy tính cá nhân, máy tính bảng,… tới các thiết bị điện tử tích hợp có kích thước siêu nhỏ… tất cả đã kết nối và hình thành nên hệ thống mạng truyền thông liên lạc toàn cầu, nền tảng của công nghệ IOT. Ngành Kỹ thuật Điện tử – Viễn thông của Học viện trang bị kiến thức, kỹ năng nhằm đào tạo những kỹ sư kiến tạo, làm chủ và phát triển ra những sản phẩm công nghệ hệ, thống như vậy.",
+                "nam": "Ngành Kỹ thuật điện tử viễn thông\n Mã ngành: 7520207\nThời gian đào tạo: 4,5 năm\nKhối lượng kiến thức: 152 tín chỉ\nBằng tốt nghiệp: KỸ SƯ\nGiới thiệu sơ lược:\n\nTừ thiết bị vệ tinh đến các tuyến cáp xuyên đại dương, từ chiếc máy thu hình, điện thoại cố định, di động, máy tính cá nhân, máy tính bảng,… tới các thiết bị điện tử tích hợp có kích thước siêu nhỏ… tất cả đã kết nối và hình thành nên hệ thống mạng truyền thông liên lạc toàn cầu, nền tảng của công nghệ IOT. Ngành Kỹ thuật Điện tử – Viễn thông của Học viện trang bị kiến thức, kỹ năng nhằm đào tạo những kỹ sư kiến tạo, làm chủ và phát triển ra những sản phẩm công nghệ hệ, thống như vậy."
+            },
+            "ma_nganh": {
+                "chung": "Mã ngành Kỹ thuật điện tử viễn thông: 7520207"
+            },
+            "diem_chuan": {
+                "chung": {
+                    "chung": "Điểm trúng tuyển ngành Kỹ thuật điện tử viễn thông cơ sở phía Bắc:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1\n Điểm trúng tuyển ngành Kỹ thuật điện tử viễn thông cơ sở Nam:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1",
+                    "2023": "Điểm trúng tuyển ngành Kỹ thuật điện tử viễn thông năm 2023\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "2022": "Điểm trúng tuyển ngành Kỹ thuật điện tử viễn thông năm 2022\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "2021": "Điểm trúng tuyển ngành Kỹ thuật điện tử viễn thông năm 2021\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "2020": "Điểm trúng tuyển ngành Kỹ thuật điện tử viễn thông năm 2020\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "2019": "Điểm trúng tuyển ngành Kỹ thuật điện tử viễn thông năm 2019\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59"
+                },
+                "bac": {
+                    "chung": "Điểm trúng tuyển ngành Kỹ thuật điện tử viễn thông cơ sở phía Bắc:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1",
+                    "2023": "Điểm trúng tuyển ngành Kỹ thuật điện tử viễn thông cơ sở phía Bắc năm 2023: 25,1",
+                    "2022": "Điểm trúng tuyển ngành Kỹ thuật điện tử viễn thông cơ sở phía Bắc năm 2022: 25,1",
+                    "2021": "Điểm trúng tuyển ngành Kỹ thuật điện tử viễn thông cơ sở phía Bắc năm 2021: 25,1",
+                    "2020": "Điểm trúng tuyển ngành Kỹ thuật điện tử viễn thông cơ sở phía Bắc năm 2020: 25,1",
+                    "2019": "Điểm trúng tuyển ngành Kỹ thuật điện tử viễn thông cơ sở phía Bắc năm 2019: 25,1"
+                },
+                "nam": {
+                    "chung": "Điểm trúng tuyển ngành Kỹ thuật điện tử viễn thông cơ sở phía Nam:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1",
+                    "2023": "Điểm trúng tuyển ngành Kỹ thuật điện tử viễn thông cơ sở phía Nam năm 2023: 25,1",
+                    "2022": "Điểm trúng tuyển ngành Kỹ thuật điện tử viễn thông cơ sở phía Nam năm 2022: 25,1",
+                    "2021": "Điểm trúng tuyển ngành Kỹ thuật điện tử viễn thông cơ sở phía Nam năm 2021: 25,1",
+                    "2020": "Điểm trúng tuyển ngành Kỹ thuật điện tử viễn thông cơ sở phía Nam năm 2020: 25,1",
+                    "2019": "Điểm trúng tuyển ngành Kỹ thuật điện tử viễn thông cơ sở phía Nam năm 2019: 25,1"
+                }
+            },
+            "sotc": {
+                "chung": "Khối lượng kiến thức ngành Kỹ thuật điện tử viễn thông: 150 tín chỉ"
+            },
+            "thoi_gian_dao_tao": {
+                "chung": "Thời gian đào tạo ngành Kỹ thuật điện tử viễn thông là 4,5 năm"
+            },
+            "loai_bang": {
+                "chung": "Bằng tốt nghiệp ngành Kỹ thuật điện tử viễn thông: KỸ SƯ"
+            },
+            "tot_nghiep_lam_gi": {
+                "chung": "Học Kỹ thuật điện tử viễn thông ra trường làm kỹ sư (... chưa thêm data)"
+            },
+            "hoc_phi": {
+                "chung": "Học phí năm 2023\n Khoá 2021 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2022 ngành kĩ thuật 650.000 đông/tín chỉ\n Học phí năm 2022\n Khoá 2020 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2021 ngành kĩ thuật 650.000 đông/tín chỉ\n Học phí năm 2021\n Khoá 2020 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2019 ngành kĩ thuật 650.000 đông/tín chỉ\n Học phí năm 2020\n Khoá 2018 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2019 ngành kĩ thuật 650.000 đông/tín chỉ\n Học phí năm 2019\n Khoá 2017 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2018 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "2023": "Học phí năm 2023\n Khoá 2021 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2022 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "2022": "Học phí năm 2022\n Khoá 2020 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2021 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "2021": "Học phí năm 2021\n Khoá 2019 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2020 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "2020": "Học phí năm 2020\n Khoá 2018 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2019 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "2019": "Học phí năm 2019\n Khoá 2017 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2018 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "bac": "",
+                "nam": "123"
+            },
+            "chuyen_nganh": {
+                "chung": "Ngành Kỹ thuật điện tử viễn thông bao gồm các chuyên ngành:\n Mạng và dịch vụ Internet\n Thông tin vô tuyến và di động\n Hệ thống IoT",
+                "bac": "Ngành Kỹ thuật điện tử viễn thông bao gồm các chuyên ngành:\n Mạng và dịch vụ Internet\n Thông tin vô tuyến và di động\n Hệ thống IoT",
+                "nam": "Ngành Kỹ thuật điện tử viễn thông bao gồm các chuyên ngành:\n Mạng và dịch vụ Internet\n Thông tin vô tuyến và di động\n Hệ thống IoT"
+            },
+            "khoi_thi": {
+                "chung": "Tổ hợp xét tuyển Ngành Kỹ thuật điện tử viễn thông: Toán – Lý – Hóa (A00) hoặc Toán – Lý – Anh (A01)"
+            },
+            "chuong_trinh_dao_tao": {
+                "chung": "Thông tin chương trình đào tạo ngành Kỹ thuật điện tử viễn thông:\nThời gian đào tạo 4,5 năm\nKhối lượng kiến thức 150 tín chỉ\nSinh viên được trang bị kiến thức về giáo dục đại cương, kiến thức cơ sở ngành, kiến thức chuyên ngành và cả kỹ năng mềm.\nChi tiết xem thêm tại: https://ptithcm.edu.vn/wp-content/uploads/2014/03/BanHanhChuongTrinhKhung_DHCQ-KTDTVT_984_QD-HV.pdf"
+            }
+        },
+        "ktddt": {
+            "tong_quan": {
+                "chung": "Ngành Kỹ thuật điện điện tử\n Mã ngành: 7510301\nThời gian đào tạo: 4,5 năm\nKhối lượng kiến thức: 152 tín chỉ\nBằng tốt nghiệp: KỸ SƯ\nGiới thiệu sơ lược:\n\nCác thiết bị điện, điện tử được sử dụng rộng rãi trong mọi lĩnh vực của sản xuất và đời sống. Đặc biệt trong xu hướng hội tụ điện tử – truyền thông – công nghệ thông tin, ngành công nghệ kỹ thuật điện, điện tử đóng vai trò quan trọng trong việc tạo ra các thiết bị điện, điện tử, các quy trình sản xuất tự động hóa, chế tạo các thiết bị đảm nhiệm các vai trò mà con người không làm được. Đây chính là mục tiêu đào tạo kỹ sư ngành ngày tại Học viện.",
+                "bac": "Ngành Kỹ thuật điện điện tử\n Mã ngành: 7510301\nThời gian đào tạo: 4,5 năm\nKhối lượng kiến thức: 152 tín chỉ\nBằng tốt nghiệp: KỸ SƯ\nGiới thiệu sơ lược:\n\nCác thiết bị điện, điện tử được sử dụng rộng rãi trong mọi lĩnh vực của sản xuất và đời sống. Đặc biệt trong xu hướng hội tụ điện tử – truyền thông – công nghệ thông tin, ngành công nghệ kỹ thuật điện, điện tử đóng vai trò quan trọng trong việc tạo ra các thiết bị điện, điện tử, các quy trình sản xuất tự động hóa, chế tạo các thiết bị đảm nhiệm các vai trò mà con người không làm được. Đây chính là mục tiêu đào tạo kỹ sư ngành ngày tại Học viện.",
+                "nam": "Ngành Kỹ thuật điện điện tử\n Mã ngành: 7510301\nThời gian đào tạo: 4,5 năm\nKhối lượng kiến thức: 152 tín chỉ\nBằng tốt nghiệp: KỸ SƯ\nGiới thiệu sơ lược:\n\nCác thiết bị điện, điện tử được sử dụng rộng rãi trong mọi lĩnh vực của sản xuất và đời sống. Đặc biệt trong xu hướng hội tụ điện tử – truyền thông – công nghệ thông tin, ngành công nghệ kỹ thuật điện, điện tử đóng vai trò quan trọng trong việc tạo ra các thiết bị điện, điện tử, các quy trình sản xuất tự động hóa, chế tạo các thiết bị đảm nhiệm các vai trò mà con người không làm được. Đây chính là mục tiêu đào tạo kỹ sư ngành ngày tại Học viện."
+            },
+            "ma_nganh": {
+                "chung": "Mã ngành Kỹ thuật điện điện tử: 7510301"
+            },
+            "diem_chuan": {
+                "chung": {
+                    "chung": "Điểm trúng tuyển ngành Kỹ thuật điện điện tử cơ sở phía Bắc:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1\n Điểm trúng tuyển ngành Kỹ thuật điện điện tử cơ sở Nam:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1",
+                    "2023": "Điểm trúng tuyển ngành Kỹ thuật điện điện tử năm 2023\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "2022": "Điểm trúng tuyển ngành Kỹ thuật điện điện tử năm 2022\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "2021": "Điểm trúng tuyển ngành Kỹ thuật điện điện tử năm 2021\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "2020": "Điểm trúng tuyển ngành Kỹ thuật điện điện tử năm 2020\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "2019": "Điểm trúng tuyển ngành Kỹ thuật điện điện tử năm 2019\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59"
+                },
+                "bac": {
+                    "chung": "Điểm trúng tuyển ngành Kỹ thuật điện điện tử cơ sở phía Bắc:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1",
+                    "2023": "Điểm trúng tuyển ngành Kỹ thuật điện điện tử cơ sở phía Bắc năm 2023: 25,1",
+                    "2022": "Điểm trúng tuyển ngành Kỹ thuật điện điện tử cơ sở phía Bắc năm 2022: 25,1",
+                    "2021": "Điểm trúng tuyển ngành Kỹ thuật điện điện tử cơ sở phía Bắc năm 2021: 25,1",
+                    "2020": "Điểm trúng tuyển ngành Kỹ thuật điện điện tử cơ sở phía Bắc năm 2020: 25,1",
+                    "2019": "Điểm trúng tuyển ngành Kỹ thuật điện điện tử cơ sở phía Bắc năm 2019: 25,1"
+                },
+                "nam": {
+                    "chung": "Điểm trúng tuyển ngành Kỹ thuật điện điện tử cơ sở phía Nam:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1",
+                    "2023": "Điểm trúng tuyển ngành Kỹ thuật điện điện tử cơ sở phía Nam năm 2023: 25,1",
+                    "2022": "Điểm trúng tuyển ngành Kỹ thuật điện điện tử cơ sở phía Nam năm 2022: 25,1",
+                    "2021": "Điểm trúng tuyển ngành Kỹ thuật điện điện tử cơ sở phía Nam năm 2021: 25,1",
+                    "2020": "Điểm trúng tuyển ngành Kỹ thuật điện điện tử cơ sở phía Nam năm 2020: 25,1",
+                    "2019": "Điểm trúng tuyển ngành Kỹ thuật điện điện tử cơ sở phía Nam năm 2019: 25,1"
+                }
+            },
+            "sotc": {
+                "chung": "Khối lượng kiến thức ngành Kỹ thuật điện điện tử: 150 tín chỉ"
+            },
+            "thoi_gian_dao_tao": {
+                "chung": "Thời gian đào tạo ngành Kỹ thuật điện điện tử là 4,5 năm"
+            },
+            "loai_bang": {
+                "chung": "Bằng tốt nghiệp ngành Kỹ thuật điện điện tử: KỸ SƯ"
+            },
+            "tot_nghiep_lam_gi": {
+                "chung": "Học Kỹ thuật điện điện tử ra trường làm kỹ sư (... chưa thêm data)"
+            },
+            "hoc_phi": {
+                "chung": "Học phí năm 2023\n Khoá 2021 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2022 ngành kĩ thuật 650.000 đông/tín chỉ\n Học phí năm 2022\n Khoá 2020 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2021 ngành kĩ thuật 650.000 đông/tín chỉ\n Học phí năm 2021\n Khoá 2020 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2019 ngành kĩ thuật 650.000 đông/tín chỉ\n Học phí năm 2020\n Khoá 2018 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2019 ngành kĩ thuật 650.000 đông/tín chỉ\n Học phí năm 2019\n Khoá 2017 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2018 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "2023": "Học phí năm 2023\n Khoá 2021 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2022 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "2022": "Học phí năm 2022\n Khoá 2020 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2021 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "2021": "Học phí năm 2021\n Khoá 2019 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2020 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "2020": "Học phí năm 2020\n Khoá 2018 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2019 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "2019": "Học phí năm 2019\n Khoá 2017 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2018 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "bac": "",
+                "nam": "123"
+            },
+            "chuyen_nganh": {
+                "chung": "Ngành Kỹ thuật điện điện tử bao gồm các chuyên ngành:\n Điện tử máy tính\n Xử lý tín hiệu truyền thông\n Robotic",
+                "bac": "Ngành Kỹ thuật điện điện tử bao gồm các chuyên ngành:\n Điện tử máy tính\n Xử lý tín hiệu truyền thông\n Robotic",
+                "nam": "Ngành Kỹ thuật điện điện tử bao gồm các chuyên ngành:\n Điện tử máy tính\n Xử lý tín hiệu truyền thông\n Robotic"
+            },
+            "khoi_thi": {
+                "chung": "Tổ hợp xét tuyển Ngành Kỹ thuật điện điện tử: Toán – Lý – Hóa (A00) hoặc Toán – Lý – Anh (A01)"
+            },
+            "chuong_trinh_dao_tao": {
+                "chung": "Thông tin chương trình đào tạo ngành Kỹ thuật điện điện tử:\nThời gian đào tạo 4,5 năm\nKhối lượng kiến thức 150 tín chỉ\nSinh viên được trang bị kiến thức về giáo dục đại cương, kiến thức cơ sở ngành, kiến thức chuyên ngành và cả kỹ năng mềm.\nChi tiết xem thêm tại: https://ptithcm.edu.vn/wp-content/uploads/2021/07/20230718_BanHanhChuongTrinhDaoTaoTrinhDoDaiHoc_CNKTDDT_944_QD-HV.pdf"
+            }
+        },
+        "iot": {
+            "tong_quan": {
+                "chung": "Ngành Công nghệ Internet vạn vật(iot)\n Mã ngành: 7520208\nThời gian đào tạo: 4,5 năm\nKhối lượng kiến thức: 152 tín chỉ\nBằng tốt nghiệp: KỸ SƯ\nGiới thiệu sơ lược:\n\nMạng lưới vạn vật kết nối internet hay mạng lưới thiết bị kết nối internet viết tắt là IoT( Internet of Things) là một xu thế của thế giới, khi mà mỗi đồ vật, con người được cung cấp một định danh của riêng mình, và tất cả có khả năng truyền tải, trao đổi thông tin, dữ liệu qua một mạng duy nhất mà không cần đến sự tương tác trực tiếp giữa người với người hay người với máy tính. IoT giúp các công ty tự động hóa các quy trình sản xuất, giảm chi phí lao động. Nó cũng cải thiện việc cung cấp dịch vụ, giúp giảm chi phí giao dịch, phân phối sản phẩm,…và mang lại sự minh bạch trong các giao dịch của khách hàng. Chương trình đào tạo ngành công nghệ IoT của Học viện nhằm trang bị cho sinh viên những kiến thức toàn diện và hiện đại về IoT, kiến thức căn bản trong hội tụ điện tử – viễn thông – công nghệ thông tin, những kỹ năng phù hợp với xu hướng phát triển của hệ thống, mạng, công nghệ và dịch vụ IoT.",
+                "bac": "Ngành Công nghệ Internet vạn vật \n Mã ngành: 7520208\nThời gian đào tạo: 4,5 năm\nKhối lượng kiến thức: 152 tín chỉ\nBằng tốt nghiệp: KỸ SƯ\nGiới thiệu sơ lược:\n\nMạng lưới vạn vật kết nối internet hay mạng lưới thiết bị kết nối internet viết tắt là IoT( Internet of Things) là một xu thế của thế giới, khi mà mỗi đồ vật, con người được cung cấp một định danh của riêng mình, và tất cả có khả năng truyền tải, trao đổi thông tin, dữ liệu qua một mạng duy nhất mà không cần đến sự tương tác trực tiếp giữa người với người hay người với máy tính. IoT giúp các công ty tự động hóa các quy trình sản xuất, giảm chi phí lao động. Nó cũng cải thiện việc cung cấp dịch vụ, giúp giảm chi phí giao dịch, phân phối sản phẩm,…và mang lại sự minh bạch trong các giao dịch của khách hàng. Chương trình đào tạo ngành công nghệ IoT của Học viện nhằm trang bị cho sinh viên những kiến thức toàn diện và hiện đại về IoT, kiến thức căn bản trong hội tụ điện tử – viễn thông – công nghệ thông tin, những kỹ năng phù hợp với xu hướng phát triển của hệ thống, mạng, công nghệ và dịch vụ IoT.",
+                "nam": "Ngành Công nghệ Internet vạn vật(iot)\n Mã ngành: 7520208\nThời gian đào tạo: 4,5 năm\nKhối lượng kiến thức: 152 tín chỉ\nBằng tốt nghiệp: KỸ SƯ\nGiới thiệu sơ lược:\n\nMạng lưới vạn vật kết nối internet hay mạng lưới thiết bị kết nối internet viết tắt là IoT( Internet of Things) là một xu thế của thế giới, khi mà mỗi đồ vật, con người được cung cấp một định danh của riêng mình, và tất cả có khả năng truyền tải, trao đổi thông tin, dữ liệu qua một mạng duy nhất mà không cần đến sự tương tác trực tiếp giữa người với người hay người với máy tính. IoT giúp các công ty tự động hóa các quy trình sản xuất, giảm chi phí lao động. Nó cũng cải thiện việc cung cấp dịch vụ, giúp giảm chi phí giao dịch, phân phối sản phẩm,…và mang lại sự minh bạch trong các giao dịch của khách hàng. Chương trình đào tạo ngành công nghệ IoT của Học viện nhằm trang bị cho sinh viên những kiến thức toàn diện và hiện đại về IoT, kiến thức căn bản trong hội tụ điện tử – viễn thông – công nghệ thông tin, những kỹ năng phù hợp với xu hướng phát triển của hệ thống, mạng, công nghệ và dịch vụ IoT."
+            },
+            "ma_nganh": {
+                "chung": "Mã ngành Công nghệ Internet vạn vật(iot): 7520208"
+            },
+            "diem_chuan": {
+                "chung": {
+                    "chung": "Điểm trúng tuyển ngành Công nghệ Internet vạn vật(iot) cơ sở phía Bắc:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1\n Điểm trúng tuyển ngành Công nghệ Internet vạn vật(iot) cơ sở Nam:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1",
+                    "2023": "Điểm trúng tuyển ngành Công nghệ Internet vạn vật(iot) năm 2023\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "2022": "Điểm trúng tuyển ngành Công nghệ Internet vạn vật(iot) năm 2022\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "2021": "Điểm trúng tuyển ngành Công nghệ Internet vạn vật(iot) năm 2021\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "2020": "Điểm trúng tuyển ngành Công nghệ Internet vạn vật(iot) năm 2020\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "2019": "Điểm trúng tuyển ngành Công nghệ Internet vạn vật(iot) năm 2019\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59"
+                },
+                "bac": {
+                    "chung": "Điểm trúng tuyển ngành Công nghệ Internet vạn vật(iot) cơ sở phía Bắc:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1",
+                    "2023": "Điểm trúng tuyển ngành Công nghệ Internet vạn vật(iot) cơ sở phía Bắc năm 2023: 25,1",
+                    "2022": "Điểm trúng tuyển ngành Công nghệ Internet vạn vật(iot) cơ sở phía Bắc năm 2022: 25,1",
+                    "2021": "Điểm trúng tuyển ngành Công nghệ Internet vạn vật(iot) cơ sở phía Bắc năm 2021: 25,1",
+                    "2020": "Điểm trúng tuyển ngành Công nghệ Internet vạn vật(iot) cơ sở phía Bắc năm 2020: 25,1",
+                    "2019": "Điểm trúng tuyển ngành Công nghệ Internet vạn vật(iot) cơ sở phía Bắc năm 2019: 25,1"
+                },
+                "nam": {
+                    "chung": "Điểm trúng tuyển ngành Công nghệ Internet vạn vật(iot) cơ sở phía Nam:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1",
+                    "2023": "Điểm trúng tuyển ngành Công nghệ Internet vạn vật(iot) cơ sở phía Nam năm 2023: 25,1",
+                    "2022": "Điểm trúng tuyển ngành Công nghệ Internet vạn vật(iot) cơ sở phía Nam năm 2022: 25,1",
+                    "2021": "Điểm trúng tuyển ngành Công nghệ Internet vạn vật(iot) cơ sở phía Nam năm 2021: 25,1",
+                    "2020": "Điểm trúng tuyển ngành Công nghệ Internet vạn vật(iot) cơ sở phía Nam năm 2020: 25,1",
+                    "2019": "Điểm trúng tuyển ngành Công nghệ Internet vạn vật(iot) cơ sở phía Nam năm 2019: 25,1"
+                }
+            },
+            "sotc": {
+                "chung": "Khối lượng kiến thức ngành Công nghệ Internet vạn vật(iot): 150 tín chỉ"
+            },
+            "thoi_gian_dao_tao": {
+                "chung": "Thời gian đào tạo ngành Công nghệ Internet vạn vật(iot) là 4,5 năm"
+            },
+            "loai_bang": {
+                "chung": "Bằng tốt nghiệp ngành Công nghệ Internet vạn vật(iot): KỸ SƯ"
+            },
+            "tot_nghiep_lam_gi": {
+                "chung": "Học Công nghệ Internet vạn vật(iot) ra trường làm kỹ sư (... chưa thêm data)"
+            },
+            "hoc_phi": {
+                "chung": "Học phí năm 2023\n Khoá 2021 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2022 ngành kĩ thuật 650.000 đông/tín chỉ\n Học phí năm 2022\n Khoá 2020 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2021 ngành kĩ thuật 650.000 đông/tín chỉ\n Học phí năm 2021\n Khoá 2020 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2019 ngành kĩ thuật 650.000 đông/tín chỉ\n Học phí năm 2020\n Khoá 2018 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2019 ngành kĩ thuật 650.000 đông/tín chỉ\n Học phí năm 2019\n Khoá 2017 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2018 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "2023": "Học phí năm 2023\n Khoá 2021 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2022 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "2022": "Học phí năm 2022\n Khoá 2020 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2021 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "2021": "Học phí năm 2021\n Khoá 2019 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2020 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "2020": "Học phí năm 2020\n Khoá 2018 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2019 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "2019": "Học phí năm 2019\n Khoá 2017 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2018 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "bac": "",
+                "nam": "123"
+            },
+            "chuyen_nganh": {
+                "chung": "Ngành Công nghệ Internet vạn vật(iot) chưa có chuyên ngành",
+                "bac": "Ngành Công nghệ Internet vạn vật(iot) chưa có chuyên ngành",
+                "nam": "Ngành Công nghệ Internet vạn vật(iot) chưa có chuyên ngành"
+            },
+            "khoi_thi": {
+                "chung": "Tổ hợp xét tuyển Ngành Công nghệ Internet vạn vật(iot): Toán – Lý – Hóa (A00) hoặc Toán – Lý – Anh (A01)"
+            },
+            "chuong_trinh_dao_tao": {
+                "chung": "Thông tin chương trình đào tạo ngành Công nghệ Internet vạn vật(iot):\nThời gian đào tạo 4,5 năm\nKhối lượng kiến thức 150 tín chỉ\nSinh viên được trang bị kiến thức về giáo dục đại cương, kiến thức cơ sở ngành, kiến thức chuyên ngành và cả kỹ năng mềm.\nChi tiết xem thêm tại: https://ptithcm.edu.vn/wp-content/uploads/2020/02/20211209_BanHanhChuongTrinhKhung_DHCQ-CNIoT_1206_QD-HV.pdf"
+            }
+        },
+        "attt": {
+            "tong_quan": {
+                "chung": "Ngành An toàn thông tin\n Mã ngành: 7480202\nThời gian đào tạo: 4,5 năm\nKhối lượng kiến thức: 152 tín chỉ\nBằng tốt nghiệp: KỸ SƯ\nGiới thiệu sơ lược:\n\nAn toàn thông tin là ngành rất “nóng” tại Việt Nam hiện tại và trong tương lai. Hiện nay, nhiều giao dịch điện tử hoạt động trong các ngành kinh tế mũi nhọn, trọng điểm như: tài chính, ngân hàng, bảo hiểm, giao dịch thương mại điện tử, công nghiệp nội dung số, hàng không… của Việt Nam cũng như thế giới đều diễn ra trên Internet. Vì vậy, nhu cầu nguồn nhân lực về an ninh mạng và an toàn thông tin ngày càng trở nên cấp thiết. Học viện Công nghệ Bưu chính Viễn thông là trường đại học đầu tiên được cấp phép đào tạo ngành An toàn thông tin bậc đại học, là một trong các trường Đại học đầu tiên được cấp phép đào tạo An toàn thông tin trong đề án đào tạo chuyên gia An ninh, An toàn thông tin của Chính phủ.",
+                "bac": "Ngành An toàn thông tin\n Mã ngành: 7480202\nThời gian đào tạo: 4,5 năm\nKhối lượng kiến thức: 152 tín chỉ\nBằng tốt nghiệp: KỸ SƯ\nGiới thiệu sơ lược:\n\nAn toàn thông tin là ngành rất “nóng” tại Việt Nam hiện tại và trong tương lai. Hiện nay, nhiều giao dịch điện tử hoạt động trong các ngành kinh tế mũi nhọn, trọng điểm như: tài chính, ngân hàng, bảo hiểm, giao dịch thương mại điện tử, công nghiệp nội dung số, hàng không… của Việt Nam cũng như thế giới đều diễn ra trên Internet. Vì vậy, nhu cầu nguồn nhân lực về an ninh mạng và an toàn thông tin ngày càng trở nên cấp thiết. Học viện Công nghệ Bưu chính Viễn thông là trường đại học đầu tiên được cấp phép đào tạo ngành An toàn thông tin bậc đại học, là một trong các trường Đại học đầu tiên được cấp phép đào tạo An toàn thông tin trong đề án đào tạo chuyên gia An ninh, An toàn thông tin của Chính phủ.",
+                "nam": "Ngành An toàn thông tin\n Mã ngành: 7480202\nThời gian đào tạo: 4,5 năm\nKhối lượng kiến thức: 152 tín chỉ\nBằng tốt nghiệp: KỸ SƯ\nGiới thiệu sơ lược:\n\nAn toàn thông tin là ngành rất “nóng” tại Việt Nam hiện tại và trong tương lai. Hiện nay, nhiều giao dịch điện tử hoạt động trong các ngành kinh tế mũi nhọn, trọng điểm như: tài chính, ngân hàng, bảo hiểm, giao dịch thương mại điện tử, công nghiệp nội dung số, hàng không… của Việt Nam cũng như thế giới đều diễn ra trên Internet. Vì vậy, nhu cầu nguồn nhân lực về an ninh mạng và an toàn thông tin ngày càng trở nên cấp thiết. Học viện Công nghệ Bưu chính Viễn thông là trường đại học đầu tiên được cấp phép đào tạo ngành An toàn thông tin bậc đại học, là một trong các trường Đại học đầu tiên được cấp phép đào tạo An toàn thông tin trong đề án đào tạo chuyên gia An ninh, An toàn thông tin của Chính phủ."
+            },
+            "ma_nganh": {
+                "chung": "Mã ngành An toàn thông tin: 7480202"
+            },
+            "diem_chuan": {
+                "chung": {
+                    "chung": "Điểm trúng tuyển ngành An toàn thông tin cơ sở phía Bắc:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1\n Điểm trúng tuyển ngành An toàn thông tin cơ sở Nam:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1",
+                    "2023": "Điểm trúng tuyển ngành An toàn thông tin năm 2023\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "2022": "Điểm trúng tuyển ngành An toàn thông tin năm 2022\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "2021": "Điểm trúng tuyển ngành An toàn thông tin năm 2021\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "2020": "Điểm trúng tuyển ngành An toàn thông tin năm 2020\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "2019": "Điểm trúng tuyển ngành An toàn thông tin năm 2019\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59"
+                },
+                "bac": {
+                    "chung": "Điểm trúng tuyển ngành An toàn thông tin cơ sở phía Bắc:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1",
+                    "2023": "Điểm trúng tuyển ngành An toàn thông tin cơ sở phía Bắc năm 2023: 25,1",
+                    "2022": "Điểm trúng tuyển ngành An toàn thông tin cơ sở phía Bắc năm 2022: 25,1",
+                    "2021": "Điểm trúng tuyển ngành An toàn thông tin cơ sở phía Bắc năm 2021: 25,1",
+                    "2020": "Điểm trúng tuyển ngành An toàn thông tin cơ sở phía Bắc năm 2020: 25,1",
+                    "2019": "Điểm trúng tuyển ngành An toàn thông tin cơ sở phía Bắc năm 2019: 25,1"
+                },
+                "nam": {
+                    "chung": "Điểm trúng tuyển ngành An toàn thông tin cơ sở phía Nam:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1",
+                    "2023": "Điểm trúng tuyển ngành An toàn thông tin cơ sở phía Nam năm 2023: 25,1",
+                    "2022": "Điểm trúng tuyển ngành An toàn thông tin cơ sở phía Nam năm 2022: 25,1",
+                    "2021": "Điểm trúng tuyển ngành An toàn thông tin cơ sở phía Nam năm 2021: 25,1",
+                    "2020": "Điểm trúng tuyển ngành An toàn thông tin cơ sở phía Nam năm 2020: 25,1",
+                    "2019": "Điểm trúng tuyển ngành An toàn thông tin cơ sở phía Nam năm 2019: 25,1"
+                }
+            },
+            "sotc": {
+                "chung": "Khối lượng kiến thức ngành An toàn thông tin: 150 tín chỉ"
+            },
+            "thoi_gian_dao_tao": {
+                "chung": "Thời gian đào tạo ngành An toàn thông tin là 4,5 năm"
+            },
+            "loai_bang": {
+                "chung": "Bằng tốt nghiệp ngành An toàn thông tin: KỸ SƯ"
+            },
+            "tot_nghiep_lam_gi": {
+                "chung": "Học An toàn thông tin ra trường làm kỹ sư (... chưa thêm data)"
+            },
+            "hoc_phi": {
+                "chung": "Học phí năm 2023\n Khoá 2021 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2022 ngành kĩ thuật 650.000 đông/tín chỉ\n Học phí năm 2022\n Khoá 2020 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2021 ngành kĩ thuật 650.000 đông/tín chỉ\n Học phí năm 2021\n Khoá 2020 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2019 ngành kĩ thuật 650.000 đông/tín chỉ\n Học phí năm 2020\n Khoá 2018 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2019 ngành kĩ thuật 650.000 đông/tín chỉ\n Học phí năm 2019\n Khoá 2017 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2018 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "2023": "Học phí năm 2023\n Khoá 2021 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2022 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "2022": "Học phí năm 2022\n Khoá 2020 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2021 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "2021": "Học phí năm 2021\n Khoá 2019 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2020 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "2020": "Học phí năm 2020\n Khoá 2018 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2019 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "2019": "Học phí năm 2019\n Khoá 2017 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2018 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "bac": "",
+                "nam": "123"
+            },
+            "chuyen_nganh": {
+                "chung": "Ngành An toàn thông tin chưa có chuyên ngành",
+                "bac": "Ngành An toàn thông tin chưa có chuyên ngành",
+                "nam": "Ngành An toàn thông tin chưa có chuyên ngành"
+            },
+            "khoi_thi": {
+                "chung": "Tổ hợp xét tuyển Ngành An toàn thông tin: Toán – Lý – Hóa (A00) hoặc Toán – Lý – Anh (A01)"
+            },
+            "chuong_trinh_dao_tao": {
+                "chung": "Thông tin chương trình đào tạo ngành An toàn thông tin:\nThời gian đào tạo 4,5 năm\nKhối lượng kiến thức 150 tín chỉ\nSinh viên được trang bị kiến thức về giáo dục đại cương, kiến thức cơ sở ngành, kiến thức chuyên ngành và cả kỹ năng mềm.\nChi tiết xem thêm tại: https://ptithcm.edu.vn/wp-content/uploads/2014/03/BanHanhChuongTrinhKhung_DHCQ-ATTT_686_QD-HV.pdf"
+            }
+        },
+        "ktdkvtdh": {
+            "tong_quan": {
+                "chung": "Ngành Kỹ thuật điều khiển và tự động hoá\n Mã ngành: 7520216\nThời gian đào tạo: 4,5 năm\nKhối lượng kiến thức: 152 tín chỉ\nBằng tốt nghiệp: KỸ SƯ\nGiới thiệu sơ lược:\n\nKỹ thuật điều khiển và Tự động hoá là ngành đào tạo về lĩnh vực nghiên cứu, thiết kế, vận hành các hệ thống tự động, các dây chuyền sản xuất tự động tại các nhà máy; thiết kế, điều khiển và chế tạo robot …Ngành Kỹ thuật điều khiển và Tự động hóa trang bị cho các bạn sinh viên các kiến thức về kỹ thuật điều khiển tự động, nghiên cứu các thuật toán điều khiển hiện đại; sử dụng các bộ điều khiển, cơ cấu chấp hành kết nối tạo thành một hệ thống nhằm mục đích tự động hóa các quy trình công nghệ sản xuất, tạo ra các thiết bị thay thế con người trong các hoạt động đòi hỏi độ chính xác cao, hoặc có thể làm việc trong môi trường khắc nghiệt, nguy hiểm…",
+                "bac": "Ngành Kỹ thuật điều khiển và tự động hoá\n Mã ngành: 7520216\nThời gian đào tạo: 4,5 năm\nKhối lượng kiến thức: 152 tín chỉ\nBằng tốt nghiệp: KỸ SƯ\nGiới thiệu sơ lược:\n\nKỹ thuật điều khiển và Tự động hoá là ngành đào tạo về lĩnh vực nghiên cứu, thiết kế, vận hành các hệ thống tự động, các dây chuyền sản xuất tự động tại các nhà máy; thiết kế, điều khiển và chế tạo robot …Ngành Kỹ thuật điều khiển và Tự động hóa trang bị cho các bạn sinh viên các kiến thức về kỹ thuật điều khiển tự động, nghiên cứu các thuật toán điều khiển hiện đại; sử dụng các bộ điều khiển, cơ cấu chấp hành kết nối tạo thành một hệ thống nhằm mục đích tự động hóa các quy trình công nghệ sản xuất, tạo ra các thiết bị thay thế con người trong các hoạt động đòi hỏi độ chính xác cao, hoặc có thể làm việc trong môi trường khắc nghiệt, nguy hiểm…",
+                "nam": "Ngành Kỹ thuật điều khiển và tự động hoá\n Mã ngành: 7520216\nThời gian đào tạo: 4,5 năm\nKhối lượng kiến thức: 152 tín chỉ\nBằng tốt nghiệp: KỸ SƯ\nGiới thiệu sơ lược:\n\nKỹ thuật điều khiển và Tự động hoá là ngành đào tạo về lĩnh vực nghiên cứu, thiết kế, vận hành các hệ thống tự động, các dây chuyền sản xuất tự động tại các nhà máy; thiết kế, điều khiển và chế tạo robot …Ngành Kỹ thuật điều khiển và Tự động hóa trang bị cho các bạn sinh viên các kiến thức về kỹ thuật điều khiển tự động, nghiên cứu các thuật toán điều khiển hiện đại; sử dụng các bộ điều khiển, cơ cấu chấp hành kết nối tạo thành một hệ thống nhằm mục đích tự động hóa các quy trình công nghệ sản xuất, tạo ra các thiết bị thay thế con người trong các hoạt động đòi hỏi độ chính xác cao, hoặc có thể làm việc trong môi trường khắc nghiệt, nguy hiểm…"
+            },
+            "ma_nganh": {
+                "chung": "Mã ngành Kỹ thuật điều khiển và tự động hoá: 7520216"
+            },
+            "diem_chuan": {
+                "chung": {
+                    "chung": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá cơ sở phía Bắc:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1\n Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá cơ sở Nam:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1",
+                    "2023": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá năm 2023\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "2022": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá năm 2022\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "2021": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá năm 2021\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "2020": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá năm 2020\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "2019": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá năm 2019\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59"
+                },
+                "bac": {
+                    "chung": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá cơ sở phía Bắc:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1",
+                    "2023": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá cơ sở phía Bắc năm 2023: 25,1",
+                    "2022": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá cơ sở phía Bắc năm 2022: 25,1",
+                    "2021": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá cơ sở phía Bắc năm 2021: 25,1",
+                    "2020": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá cơ sở phía Bắc năm 2020: 25,1",
+                    "2019": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá cơ sở phía Bắc năm 2019: 25,1"
+                },
+                "nam": {
+                    "chung": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá cơ sở phía Nam:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1",
+                    "2023": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá cơ sở phía Nam năm 2023: 25,1",
+                    "2022": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá cơ sở phía Nam năm 2022: 25,1",
+                    "2021": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá cơ sở phía Nam năm 2021: 25,1",
+                    "2020": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá cơ sở phía Nam năm 2020: 25,1",
+                    "2019": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá cơ sở phía Nam năm 2019: 25,1"
+                }
+            },
+            "sotc": {
+                "chung": "Khối lượng kiến thức ngành Kỹ thuật điều khiển và tự động hoá: 150 tín chỉ"
+            },
+            "thoi_gian_dao_tao": {
+                "chung": "Thời gian đào tạo ngành Kỹ thuật điều khiển và tự động hoá là 4,5 năm"
+            },
+            "loai_bang": {
+                "chung": "Bằng tốt nghiệp ngành Kỹ thuật điều khiển và tự động hoá: KỸ SƯ"
+            },
+            "tot_nghiep_lam_gi": {
+                "chung": "Học Kỹ thuật điều khiển và tự động hoá ra trường làm kỹ sư (... chưa thêm data)"
+            },
+            "hoc_phi": {
+                "chung": "Học phí năm 2023\n Khoá 2021 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2022 ngành kĩ thuật 650.000 đông/tín chỉ\n Học phí năm 2022\n Khoá 2020 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2021 ngành kĩ thuật 650.000 đông/tín chỉ\n Học phí năm 2021\n Khoá 2020 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2019 ngành kĩ thuật 650.000 đông/tín chỉ\n Học phí năm 2020\n Khoá 2018 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2019 ngành kĩ thuật 650.000 đông/tín chỉ\n Học phí năm 2019\n Khoá 2017 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2018 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "2023": "Học phí năm 2023\n Khoá 2021 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2022 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "2022": "Học phí năm 2022\n Khoá 2020 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2021 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "2021": "Học phí năm 2021\n Khoá 2019 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2020 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "2020": "Học phí năm 2020\n Khoá 2018 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2019 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "2019": "Học phí năm 2019\n Khoá 2017 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2018 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "bac": "",
+                "nam": "123"
+            },
+            "chuyen_nganh": {
+                "chung": "Ngành Kỹ thuật điều khiển và tự động hoá bao gồm các chuyên ngành:\n Kỹ thuật điều khiển\n Tự động hóa",
+                "bac": "Ngành Kỹ thuật điều khiển và tự động hoá bao gồm các chuyên ngành:\n Kỹ thuật điều khiển\n Tự động hóa",
+                "nam": "Ngành Kỹ thuật điều khiển và tự động hoá bao gồm các chuyên ngành:\n Kỹ thuật điều khiển\n Tự động hóa"
+            },
+            "khoi_thi": {
+                "chung": "Tổ hợp xét tuyển: Toán – Lý – Hóa (A00) hoặc Toán – Lý – Anh (A01)"
+            },
+            "chuong_trinh_dao_tao": {
+                "chung": "Thông tin chương trình đào tạo ngành Kỹ thuật điều khiển và tự động hoá:\nThời gian đào tạo 4,5 năm\nKhối lượng kiến thức 150 tín chỉ\nSinh viên được trang bị kiến thức về giáo dục đại cương, kiến thức cơ sở ngành, kiến thức chuyên ngành và cả kỹ năng mềm.\nChi tiết xem thêm tại: https://ptithcm.edu.vn/wp-content/uploads/2021/01/20230831_BanHanhChuongTrinhGiaoDucDaiHoc_KTDKTDH_1245_QD-HV.pdf"
+            }
+        },
+        "cndpt": {
+            "tong_quan": {
+                "chung": "Ngành Công nghệ đa phương tiện\n Mã ngành: 7329001\nThời gian đào tạo: 4,5 năm\nKhối lượng kiến thức: 152 tín chỉ\nBằng tốt nghiệp: KỸ SƯ\nGiới thiệu sơ lược:\n\nLà trường đại học đầu tiên đào tạo ngành này ở trình độ đại học, Học viện tập trung vào các chuyên ngành liên quan đến các lĩnh vực truyền hình, thiết kế đồ họa và phát triển dịch vụ và ứng dụng đa phương tiện trên mạng truyền thông. Với các lĩnh vực đào tạo này, sau khi ra trường sinh viên có thể làm việc trong nhiều tổ chức, nhiều doanh nghiệp hoạt động trong lĩnh vực công nghệ thông tin, viễn thông, giải trí, điện ảnh, truyền hình, thiết kế công nghiệp, quảng cáo,…tạo ra các sản phẩm đa phương tiện khác nhau như game, web, quảng cáo, phim ảnh, đồ họa 2D/3D,…",
+                "bac": "Ngành Công nghệ đa phương tiện\n Mã ngành: 7329001\nThời gian đào tạo: 4,5 năm\nKhối lượng kiến thức: 152 tín chỉ\nBằng tốt nghiệp: KỸ SƯ\nGiới thiệu sơ lược:\n\nLà trường đại học đầu tiên đào tạo ngành này ở trình độ đại học, Học viện tập trung vào các chuyên ngành liên quan đến các lĩnh vực truyền hình, thiết kế đồ họa và phát triển dịch vụ và ứng dụng đa phương tiện trên mạng truyền thông. Với các lĩnh vực đào tạo này, sau khi ra trường sinh viên có thể làm việc trong nhiều tổ chức, nhiều doanh nghiệp hoạt động trong lĩnh vực công nghệ thông tin, viễn thông, giải trí, điện ảnh, truyền hình, thiết kế công nghiệp, quảng cáo,…tạo ra các sản phẩm đa phương tiện khác nhau như game, web, quảng cáo, phim ảnh, đồ họa 2D/3D,…",
+                "nam": "Ngành Công nghệ đa phương tiện\n Mã ngành: 7329001\nThời gian đào tạo: 4,5 năm\nKhối lượng kiến thức: 152 tín chỉ\nBằng tốt nghiệp: KỸ SƯ\nGiới thiệu sơ lược:\n\nLà trường đại học đầu tiên đào tạo ngành này ở trình độ đại học, Học viện tập trung vào các chuyên ngành liên quan đến các lĩnh vực truyền hình, thiết kế đồ họa và phát triển dịch vụ và ứng dụng đa phương tiện trên mạng truyền thông. Với các lĩnh vực đào tạo này, sau khi ra trường sinh viên có thể làm việc trong nhiều tổ chức, nhiều doanh nghiệp hoạt động trong lĩnh vực công nghệ thông tin, viễn thông, giải trí, điện ảnh, truyền hình, thiết kế công nghiệp, quảng cáo,…tạo ra các sản phẩm đa phương tiện khác nhau như game, web, quảng cáo, phim ảnh, đồ họa 2D/3D,…"
+            },
+            "ma_nganh": {
+                "chung": "Mã ngành Công nghệ đa phương tiện: 7329001"
+            },
+            "diem_chuan": {
+                "chung": {
+                    "chung": "Điểm trúng tuyển ngành Công nghệ đa phương tiện cơ sở phía Bắc:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1\n Điểm trúng tuyển ngành Công nghệ đa phương tiện cơ sở Nam:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1",
+                    "2023": "Điểm trúng tuyển ngành Công nghệ đa phương tiện năm 2023\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "2022": "Điểm trúng tuyển ngành Công nghệ đa phương tiện năm 2022\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "2021": "Điểm trúng tuyển ngành Công nghệ đa phương tiện năm 2021\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "2020": "Điểm trúng tuyển ngành Công nghệ đa phương tiện năm 2020\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "2019": "Điểm trúng tuyển ngành Công nghệ đa phương tiện năm 2019\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59"
+                },
+                "bac": {
+                    "chung": "Điểm trúng tuyển ngành Công nghệ đa phương tiện cơ sở phía Bắc:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1",
+                    "2023": "Điểm trúng tuyển ngành Công nghệ đa phương tiện cơ sở phía Bắc năm 2023: 25,1",
+                    "2022": "Điểm trúng tuyển ngành Công nghệ đa phương tiện cơ sở phía Bắc năm 2022: 25,1",
+                    "2021": "Điểm trúng tuyển ngành Công nghệ đa phương tiện cơ sở phía Bắc năm 2021: 25,1",
+                    "2020": "Điểm trúng tuyển ngành Công nghệ đa phương tiện cơ sở phía Bắc năm 2020: 25,1",
+                    "2019": "Điểm trúng tuyển ngành Công nghệ đa phương tiện cơ sở phía Bắc năm 2019: 25,1"
+                },
+                "nam": {
+                    "chung": "Điểm trúng tuyển ngành Công nghệ đa phương tiện cơ sở phía Nam:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1",
+                    "2023": "Điểm trúng tuyển ngành Công nghệ đa phương tiện cơ sở phía Nam năm 2023: 25,1",
+                    "2022": "Điểm trúng tuyển ngành Công nghệ đa phương tiện cơ sở phía Nam năm 2022: 25,1",
+                    "2021": "Điểm trúng tuyển ngành Công nghệ đa phương tiện cơ sở phía Nam năm 2021: 25,1",
+                    "2020": "Điểm trúng tuyển ngành Công nghệ đa phương tiện cơ sở phía Nam năm 2020: 25,1",
+                    "2019": "Điểm trúng tuyển ngành Công nghệ đa phương tiện cơ sở phía Nam năm 2019: 25,1"
+                }
+            },
+            "sotc": {
+                "chung": "Khối lượng kiến thức ngành Công nghệ đa phương tiện: 150 tín chỉ"
+            },
+            "thoi_gian_dao_tao": {
+                "chung": "Thời gian đào tạo ngành Công nghệ đa phương tiện là 4,5 năm"
+            },
+            "loai_bang": {
+                "chung": "Bằng tốt nghiệp ngành Công nghệ đa phương tiện: KỸ SƯ"
+            },
+            "tot_nghiep_lam_gi": {
+                "chung": "Học Công nghệ đa phương tiện ra trường làm kỹ sư (... chưa thêm data)"
+            },
+            "hoc_phi": {
+                "chung": "Học phí năm 2023\n Khoá 2021 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2022 ngành kĩ thuật 650.000 đông/tín chỉ\n Học phí năm 2022\n Khoá 2020 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2021 ngành kĩ thuật 650.000 đông/tín chỉ\n Học phí năm 2021\n Khoá 2020 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2019 ngành kĩ thuật 650.000 đông/tín chỉ\n Học phí năm 2020\n Khoá 2018 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2019 ngành kĩ thuật 650.000 đông/tín chỉ\n Học phí năm 2019\n Khoá 2017 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2018 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "2023": "Học phí năm 2023\n Khoá 2021 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2022 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "2022": "Học phí năm 2022\n Khoá 2020 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2021 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "2021": "Học phí năm 2021\n Khoá 2019 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2020 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "2020": "Học phí năm 2020\n Khoá 2018 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2019 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "2019": "Học phí năm 2019\n Khoá 2017 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2018 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "bac": "",
+                "nam": "123"
+            },
+            "chuyen_nganh": {
+                "chung": "Ngành Công nghệ đa phương tiện bao gồm các chuyên ngành:\n Phát triển ứng dụng đa phương tiện\n Thiết kế đa phương tiện",
+                "bac": "Ngành Công nghệ đa phương tiện bao gồm các chuyên ngành:\n Phát triển ứng dụng đa phương tiện\n Thiết kế đa phương tiện",
+                "nam": "Ngành Công nghệ đa phương tiện bao gồm các chuyên ngành:\n Phát triển ứng dụng đa phương tiện\n Thiết kế đa phương tiện"
+            },
+            "khoi_thi": {
+                "chung": "Tổ hợp xét tuyển Ngành Công nghệ đa phương tiện: Toán – Lý – Hóa (A00) hoặc Toán – Lý – Anh (A01)"
+            },
+            "chuong_trinh_dao_tao": {
+                "chung": "Thông tin chương trình đào tạo ngành Công nghệ đa phương tiện:\nThời gian đào tạo 4,5 năm\nKhối lượng kiến thức 150 tín chỉ\nSinh viên được trang bị kiến thức về giáo dục đại cương, kiến thức cơ sở ngành, kiến thức chuyên ngành và cả kỹ năng mềm.\nChi tiết xem thêm tại: https://ptithcm.edu.vn/wp-content/uploads/2014/03/20230823_BanHanhChuongTrinhGiaoDucDaiHocHeChinhQuy_CNDPT_1172_QD-HV.pdf"
+            }
+        },
+        "qtkd": {
+            "tong_quan": {
+                "chung": "Ngành Quản trị kinh doanh\n Mã ngành: 7340101\nThời gian đào tạo: 4 năm\nKhối lượng kiến thức: 129 tín chỉ\nBằng tốt nghiệp: CỬ NHÂN\nGiới thiệu sơ lược:\n\nNgành Quản trị kinh doanh tại Học viện không chỉ trang bị cho sinh viên hệ thống kiến thức về kinh doanh và quản trị điều hành các loại hình doanh nghiệp trong nền kinh tế thị trường, mà còn phát triển khả năng vận dụng các nguyên lý khoa học quản trị kinh doanh trong hoạt động thực tiễn, phù hợp với điều kiện môi trường cụ thể thông qua các đề tài khởi nghiệp kinh doanh của sinh viên, các cuộc thi phát triển ý tưởng kinh doanh, tham gia vào mạng lưới cộng tác viên kinh doanh tại các doanh nghiệp viễn thông, bảo hiểm, tài chính,…",
+                "bac": "Ngành Quản trị kinh doanh\n Mã ngành: 7340101\nThời gian đào tạo: 4 năm\nKhối lượng kiến thức: 129 tín chỉ\nBằng tốt nghiệp: CỬ NHÂN\nGiới thiệu sơ lược:\n\nNgành Quản trị kinh doanh tại Học viện không chỉ trang bị cho sinh viên hệ thống kiến thức về kinh doanh và quản trị điều hành các loại hình doanh nghiệp trong nền kinh tế thị trường, mà còn phát triển khả năng vận dụng các nguyên lý khoa học quản trị kinh doanh trong hoạt động thực tiễn, phù hợp với điều kiện môi trường cụ thể thông qua các đề tài khởi nghiệp kinh doanh của sinh viên, các cuộc thi phát triển ý tưởng kinh doanh, tham gia vào mạng lưới cộng tác viên kinh doanh tại các doanh nghiệp viễn thông, bảo hiểm, tài chính,…",
+                "nam": "Ngành Quản trị kinh doanh\n Mã ngành: 7340101\nThời gian đào tạo: 4 năm\nKhối lượng kiến thức: 129 tín chỉ\nBằng tốt nghiệp: CỬ NHÂN\nGiới thiệu sơ lược:\n\nNgành Quản trị kinh doanh tại Học viện không chỉ trang bị cho sinh viên hệ thống kiến thức về kinh doanh và quản trị điều hành các loại hình doanh nghiệp trong nền kinh tế thị trường, mà còn phát triển khả năng vận dụng các nguyên lý khoa học quản trị kinh doanh trong hoạt động thực tiễn, phù hợp với điều kiện môi trường cụ thể thông qua các đề tài khởi nghiệp kinh doanh của sinh viên, các cuộc thi phát triển ý tưởng kinh doanh, tham gia vào mạng lưới cộng tác viên kinh doanh tại các doanh nghiệp viễn thông, bảo hiểm, tài chính,…"
+            },
+            "ma_nganh": {
+                "chung": "Mã ngành Quản trị kinh doanh: 7340101"
+            },
+            "diem_chuan": {
+                "chung": {
+                    "chung": "Điểm trúng tuyển ngành Quản trị kinh doanh cơ sở phía Bắc:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1\n Điểm trúng tuyển ngành Quản trị kinh doanh cơ sở Nam:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1",
+                    "2023": "Điểm trúng tuyển ngành Quản trị kinh doanh năm 2023\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "2022": "Điểm trúng tuyển ngành Quản trị kinh doanh năm 2022\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "2021": "Điểm trúng tuyển ngành Quản trị kinh doanh năm 2021\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "2020": "Điểm trúng tuyển ngành Quản trị kinh doanh năm 2020\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "2019": "Điểm trúng tuyển ngành Quản trị kinh doanh năm 2019\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59"
+                },
+                "bac": {
+                    "chung": "Điểm trúng tuyển ngành Quản trị kinh doanh cơ sở phía Bắc:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1",
+                    "2023": "Điểm trúng tuyển ngành Quản trị kinh doanh cơ sở phía Bắc năm 2023: 25,1",
+                    "2022": "Điểm trúng tuyển ngành Quản trị kinh doanh cơ sở phía Bắc năm 2022: 25,1",
+                    "2021": "Điểm trúng tuyển ngành Quản trị kinh doanh cơ sở phía Bắc năm 2021: 25,1",
+                    "2020": "Điểm trúng tuyển ngành Quản trị kinh doanh cơ sở phía Bắc năm 2020: 25,1",
+                    "2019": "Điểm trúng tuyển ngành Quản trị kinh doanh cơ sở phía Bắc năm 2019: 25,1"
+                },
+                "nam": {
+                    "chung": "Điểm trúng tuyển ngành Quản trị kinh doanh cơ sở phía Nam:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1",
+                    "2023": "Điểm trúng tuyển ngành Quản trị kinh doanh cơ sở phía Nam năm 2023: 25,1",
+                    "2022": "Điểm trúng tuyển ngành Quản trị kinh doanh cơ sở phía Nam năm 2022: 25,1",
+                    "2021": "Điểm trúng tuyển ngành Quản trị kinh doanh cơ sở phía Nam năm 2021: 25,1",
+                    "2020": "Điểm trúng tuyển ngành Quản trị kinh doanh cơ sở phía Nam năm 2020: 25,1",
+                    "2019": "Điểm trúng tuyển ngành Quản trị kinh doanh cơ sở phía Nam năm 2019: 25,1"
+                }
+            },
+            "sotc": {
+                "chung": "Khối lượng kiến thức ngành Quản trị kinh doanh: 129 tín chỉ"
+            },
+            "thoi_gian_dao_tao": {
+                "chung": "Thời gian đào tạo ngành Quản trị kinh doanh là 4 năm"
+            },
+            "loai_bang": {
+                "chung": "Bằng tốt nghiệp ngành Quản trị kinh doanh: CỬ NHÂN"
+            },
+            "tot_nghiep_lam_gi": {
+                "chung": "Học Quản trị kinh doanh ra trường làm kỹ sư (... chưa thêm data)"
+            },
+            "hoc_phi": {
+                "chung": "Học phí năm 2023\n Khoá 2021 trở về trước các ngành kinh tế: 630.000 đồng/tín chỉ \nKhoá 2022 ngành kinh tế 650.000 đông/tín chỉ\n Học phí năm 2022\n Khoá 2020 trở về trước các ngành kinh tế: 630.000 đồng/tín chỉ \nKhoá 2021 ngành kinh tế 650.000 đông/tín chỉ\n Học phí năm 2021\n Khoá 2020 trở về trước các ngành kinh tế: 630.000 đồng/tín chỉ \nKhoá 2019 ngành kinh tế 650.000 đông/tín chỉ\n Học phí năm 2020\n Khoá 2018 trở về trước các ngành kinh tế: 630.000 đồng/tín chỉ \nKhoá 2019 ngành kinh tế 650.000 đông/tín chỉ\n Học phí năm 2019\n Khoá 2017 trở về trước các ngành kinh tế: 630.000 đồng/tín chỉ \nKhoá 2018 ngành kinh tế 650.000 đông/tín chỉ",
+                "2023": "Học phí năm 2023\n Khoá 2021 trở về trước các ngành kinh tế: 630.000 đồng/tín chỉ \nKhoá 2022 ngành kinh tế 650.000 đông/tín chỉ",
+                "2022": "Học phí năm 2022\n Khoá 2020 trở về trước các ngành kinh tế: 630.000 đồng/tín chỉ \nKhoá 2021 ngành kinh tế 650.000 đông/tín chỉ",
+                "2021": "Học phí năm 2021\n Khoá 2019 trở về trước các ngành kinh tế: 630.000 đồng/tín chỉ \nKhoá 2020 ngành kinh tế 650.000 đông/tín chỉ",
+                "2020": "Học phí năm 2020\n Khoá 2018 trở về trước các ngành kinh tế: 630.000 đồng/tín chỉ \nKhoá 2019 ngành kinh tế 650.000 đông/tín chỉ",
+                "2019": "Học phí năm 2019\n Khoá 2017 trở về trước các ngành kinh tế: 630.000 đồng/tín chỉ \nKhoá 2018 ngành kinh tế 650.000 đông/tín chỉ",
+                "bac": "",
+                "nam": "123"
+            },
+            "chuyen_nganh": {
+                "chung": "Ngành Quản trị kinh doanh bao gồm các chuyên ngành:\n Quản trị doanh nghiệp\n Quản trị Marketing\n Thương mại điện tử\n Logistics",
+                "bac": "Ngành Quản trị kinh doanh bao gồm các chuyên ngành:\n Quản trị doanh nghiệp\n Quản trị Marketing\n Thương mại điện tử\n Logistics",
+                "nam": "Ngành Quản trị kinh doanh bao gồm các chuyên ngành:\n Quản trị doanh nghiệp\n Quản trị Marketing\n Thương mại điện tử\n Logistics"
+            },
+            "khoi_thi": {
+                "chung": "Tổ hợp xét tuyển Ngành Quản trị kinh doanh: Toán – Lý – Hóa (A00) hoặc Toán – Lý – Anh (A01)  hoặc Toán – Văn – Anh (D01)"
+            },
+            "chuong_trinh_dao_tao": {
+                "chung": "Thông tin chương trình đào tạo ngành Quản trị kinh doanh:\nThời gian đào tạo 4 năm\nKhối lượng kiến thức 129 tín chỉ\nSinh viên được trang bị kiến thức về giáo dục đại cương, kiến thức cơ sở ngành, kiến thức chuyên ngành và cả kỹ năng mềm.\nChi tiết xem thêm tại: https://ptithcm.edu.vn/wp-content/uploads/2014/03/20210730_BanHanhChuongTrinhKhung_DHCQ-QTKD_644_QD-HV.pdf"
+            }
+        },
+        "mkt": {
+            "tong_quan": {
+                "chung": "Ngành Marketing\n Mã ngành: 7340115\nThời gian đào tạo: 4 năm\nKhối lượng kiến thức: 127 tín chỉ\nBằng tốt nghiệp: CỬ NHÂN\nGiới thiệu sơ lược:\n\nMarketing Đưa sản phẩm đến với khách hàng, định hướng sử dụng sản phẩm cho khách hàng; khó mà hình dung được mức độ thành công của các công ty trong hầu hết các lĩnh vực mà thiếu vắng “bàn tay” của các chuyên gia marketing qua các chiến dịch quảng bá đầy sáng tạo, truyền cảm hứng và gây ảnh hưởng đến cộng đồng người tiêu dùng. Tại Học viện, bên cạnh các kiến thức chuyên môn, sinh viên còn được bổ trợ thêm các kỹ năng mềm như kỹ năng giao tiếp, kỹ năng lắng nghe, thuyết phục,… để nâng cao năng lực bản thân.",
+                "bac": "Ngành Marketing\n Mã ngành: 7340115\nThời gian đào tạo: 4 năm\nKhối lượng kiến thức: 127 tín chỉ\nBằng tốt nghiệp: CỬ NHÂN\nGiới thiệu sơ lược:\n\nMarketing Đưa sản phẩm đến với khách hàng, định hướng sử dụng sản phẩm cho khách hàng; khó mà hình dung được mức độ thành công của các công ty trong hầu hết các lĩnh vực mà thiếu vắng “bàn tay” của các chuyên gia marketing qua các chiến dịch quảng bá đầy sáng tạo, truyền cảm hứng và gây ảnh hưởng đến cộng đồng người tiêu dùng. Tại Học viện, bên cạnh các kiến thức chuyên môn, sinh viên còn được bổ trợ thêm các kỹ năng mềm như kỹ năng giao tiếp, kỹ năng lắng nghe, thuyết phục,… để nâng cao năng lực bản thân.",
+                "nam": "Ngành Marketing\n Mã ngành: 7340115\nThời gian đào tạo: 4 năm\nKhối lượng kiến thức: 127 tín chỉ\nBằng tốt nghiệp: CỬ NHÂN\nGiới thiệu sơ lược:\n\nMarketing Đưa sản phẩm đến với khách hàng, định hướng sử dụng sản phẩm cho khách hàng; khó mà hình dung được mức độ thành công của các công ty trong hầu hết các lĩnh vực mà thiếu vắng “bàn tay” của các chuyên gia marketing qua các chiến dịch quảng bá đầy sáng tạo, truyền cảm hứng và gây ảnh hưởng đến cộng đồng người tiêu dùng. Tại Học viện, bên cạnh các kiến thức chuyên môn, sinh viên còn được bổ trợ thêm các kỹ năng mềm như kỹ năng giao tiếp, kỹ năng lắng nghe, thuyết phục,… để nâng cao năng lực bản thân."
+            },
+            "ma_nganh": {
+                "chung": "Mã ngành Marketing: 7340115"
+            },
+            "diem_chuan": {
+                "chung": {
+                    "chung": "Điểm trúng tuyển ngành Marketing cơ sở phía Bắc:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1\n Điểm trúng tuyển ngành Marketing cơ sở Nam:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1",
+                    "2023": "Điểm trúng tuyển ngành Marketing năm 2023\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "2022": "Điểm trúng tuyển ngành Marketing năm 2022\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "2021": "Điểm trúng tuyển ngành Marketing năm 2021\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "2020": "Điểm trúng tuyển ngành Marketing năm 2020\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "2019": "Điểm trúng tuyển ngành Marketing năm 2019\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59"
+                },
+                "bac": {
+                    "chung": "Điểm trúng tuyển ngành Marketing cơ sở phía Bắc:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1",
+                    "2023": "Điểm trúng tuyển ngành Marketing cơ sở phía Bắc năm 2023: 25,1",
+                    "2022": "Điểm trúng tuyển ngành Marketing cơ sở phía Bắc năm 2022: 25,1",
+                    "2021": "Điểm trúng tuyển ngành Marketing cơ sở phía Bắc năm 2021: 25,1",
+                    "2020": "Điểm trúng tuyển ngành Marketing cơ sở phía Bắc năm 2020: 25,1",
+                    "2019": "Điểm trúng tuyển ngành Marketing cơ sở phía Bắc năm 2019: 25,1"
+                },
+                "nam": {
+                    "chung": "Điểm trúng tuyển ngành Marketing cơ sở phía Nam:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1",
+                    "2023": "Điểm trúng tuyển ngành Marketing cơ sở phía Nam năm 2023: 25,1",
+                    "2022": "Điểm trúng tuyển ngành Marketing cơ sở phía Nam năm 2022: 25,1",
+                    "2021": "Điểm trúng tuyển ngành Marketing cơ sở phía Nam năm 2021: 25,1",
+                    "2020": "Điểm trúng tuyển ngành Marketing cơ sở phía Nam năm 2020: 25,1",
+                    "2019": "Điểm trúng tuyển ngành Marketing cơ sở phía Nam năm 2019: 25,1"
+                }
+            },
+            "sotc": {
+                "chung": "Khối lượng kiến thức ngành Marketing: 127 tín chỉ"
+            },
+            "thoi_gian_dao_tao": {
+                "chung": "Thời gian đào tạo ngành Marketing là 4 năm"
+            },
+            "loai_bang": {
+                "chung": "Bằng tốt nghiệp ngành Marketing: CỬ NHÂN"
+            },
+            "tot_nghiep_lam_gi": {
+                "chung": "Học Marketing ra trường làm kỹ sư (... chưa thêm data)"
+            },
+            "hoc_phi": {
+                "chung": "Học phí năm 2023\n Khoá 2021 trở về trước các ngành kinh tế: 630.000 đồng/tín chỉ \nKhoá 2022 ngành kinh tế 650.000 đông/tín chỉ\n Học phí năm 2022\n Khoá 2020 trở về trước các ngành kinh tế: 630.000 đồng/tín chỉ \nKhoá 2021 ngành kinh tế 650.000 đông/tín chỉ\n Học phí năm 2021\n Khoá 2020 trở về trước các ngành kinh tế: 630.000 đồng/tín chỉ \nKhoá 2019 ngành kinh tế 650.000 đông/tín chỉ\n Học phí năm 2020\n Khoá 2018 trở về trước các ngành kinh tế: 630.000 đồng/tín chỉ \nKhoá 2019 ngành kinh tế 650.000 đông/tín chỉ\n Học phí năm 2019\n Khoá 2017 trở về trước các ngành kinh tế: 630.000 đồng/tín chỉ \nKhoá 2018 ngành kinh tế 650.000 đông/tín chỉ",
+                "2023": "Học phí năm 2023\n Khoá 2021 trở về trước các ngành kinh tế: 630.000 đồng/tín chỉ \nKhoá 2022 ngành kinh tế 650.000 đông/tín chỉ",
+                "2022": "Học phí năm 2022\n Khoá 2020 trở về trước các ngành kinh tế: 630.000 đồng/tín chỉ \nKhoá 2021 ngành kinh tế 650.000 đông/tín chỉ",
+                "2021": "Học phí năm 2021\n Khoá 2019 trở về trước các ngành kinh tế: 630.000 đồng/tín chỉ \nKhoá 2020 ngành kinh tế 650.000 đông/tín chỉ",
+                "2020": "Học phí năm 2020\n Khoá 2018 trở về trước các ngành kinh tế: 630.000 đồng/tín chỉ \nKhoá 2019 ngành kinh tế 650.000 đông/tín chỉ",
+                "2019": "Học phí năm 2019\n Khoá 2017 trở về trước các ngành kinh tế: 630.000 đồng/tín chỉ \nKhoá 2018 ngành kinh tế 650.000 đông/tín chỉ",
+                "bac": "",
+                "nam": "123"
+            },
+            "chuyen_nganh": {
+                "chung": "Ngành Marketing bao gồm các chuyên ngành:\n Internet Marketing\n Phân tích dữ liệu Marketing số\n Truyền thông Marketing",
+                "bac": "Ngành Marketing bao gồm các chuyên ngành:\n Internet Marketing\n Phân tích dữ liệu Marketing số\n Truyền thông Marketing",
+                "nam": "Ngành Marketing bao gồm các chuyên ngành:\n Internet Marketing\n Phân tích dữ liệu Marketing số\n Truyền thông Marketing"
+            },
+            "khoi_thi": {
+                "chung": "Tổ hợp xét tuyển Ngành Marketing: Toán – Lý – Hóa (A00) hoặc Toán – Lý – Anh (A01) hoặc Toán – Văn – Anh (D01)"
+            },
+            "chuong_trinh_dao_tao": {
+                "chung": "Thông tin chương trình đào tạo ngành Marketing:\nThời gian đào tạo 4 năm\nKhối lượng kiến thức 129 tín chỉ\nSinh viên được trang bị kiến thức về giáo dục đại cương, kiến thức cơ sở ngành, kiến thức chuyên ngành và cả kỹ năng mềm.\nChi tiết xem thêm tại: https://ptithcm.edu.vn/wp-content/uploads/2014/03/20221027_BanHanhChuongTrinhGiaoDucDaiHoc_DHCQ-MAR_1454_QD-HV.pdf"
+            }
+        },
+        "kt": {
+            "tong_quan": {
+                "chung": "Ngành Kế toán\n Mã ngành: 7340301\nThời gian đào tạo: 4 năm\nKhối lượng kiến thức: 130 tín chỉ\nBằng tốt nghiệp: CỬ NHÂN\nGiới thiệu sơ lược:\n\nThu thập, xử lý và cung cấp thông tin về toàn bộ tài sản và sự vận động của tài sản nhằm đưa ra những thông tin hữu ích cho các quyết định kinh doanh và đánh giá hiệu quả các hoạt động trong doanh nghiệp. Kế toán là bộ phận không thể thiếu ở tất cả các cơ quan, đơn vị và tổ chức. Tại Học viện sinh viên được cung cấp nền tảng vững chắc và đầy đủ về tài chính kế toán; sinh viên xem xét, nắm bắt và vận dụng các lý thuyết đã học thông qua việc thực tập tại các công ty, các doanh nghiệp.",
+                "bac": "Ngành Kế toán\n Mã ngành: 7340301\nThời gian đào tạo: 4 năm\nKhối lượng kiến thức: 130 tín chỉ\nBằng tốt nghiệp: CỬ NHÂN\nGiới thiệu sơ lược:\n\nThu thập, xử lý và cung cấp thông tin về toàn bộ tài sản và sự vận động của tài sản nhằm đưa ra những thông tin hữu ích cho các quyết định kinh doanh và đánh giá hiệu quả các hoạt động trong doanh nghiệp. Kế toán là bộ phận không thể thiếu ở tất cả các cơ quan, đơn vị và tổ chức. Tại Học viện sinh viên được cung cấp nền tảng vững chắc và đầy đủ về tài chính kế toán; sinh viên xem xét, nắm bắt và vận dụng các lý thuyết đã học thông qua việc thực tập tại các công ty, các doanh nghiệp.",
+                "nam": "Ngành Kế toán\n Mã ngành: 7340301\nThời gian đào tạo: 4 năm\nKhối lượng kiến thức: 130 tín chỉ\nBằng tốt nghiệp: CỬ NHÂN\nGiới thiệu sơ lược:\n\nThu thập, xử lý và cung cấp thông tin về toàn bộ tài sản và sự vận động của tài sản nhằm đưa ra những thông tin hữu ích cho các quyết định kinh doanh và đánh giá hiệu quả các hoạt động trong doanh nghiệp. Kế toán là bộ phận không thể thiếu ở tất cả các cơ quan, đơn vị và tổ chức. Tại Học viện sinh viên được cung cấp nền tảng vững chắc và đầy đủ về tài chính kế toán; sinh viên xem xét, nắm bắt và vận dụng các lý thuyết đã học thông qua việc thực tập tại các công ty, các doanh nghiệp."
+            },
+            "ma_nganh": {
+                "chung": "Mã ngành Kế toán: 7340301"
+            },
+            "diem_chuan": {
+                "chung": {
+                    "chung": "Điểm trúng tuyển ngành Kế toán cơ sở phía Bắc:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1\n Điểm trúng tuyển ngành Kế toán cơ sở Nam:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1",
+                    "2023": "Điểm trúng tuyển ngành Kế toán năm 2023\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "2022": "Điểm trúng tuyển ngành Kế toán năm 2022\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "2021": "Điểm trúng tuyển ngành Kế toán năm 2021\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "2020": "Điểm trúng tuyển ngành Kế toán năm 2020\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "2019": "Điểm trúng tuyển ngành Kế toán năm 2019\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59"
+                },
+                "bac": {
+                    "chung": "Điểm trúng tuyển ngành Kế toán cơ sở phía Bắc:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1",
+                    "2023": "Điểm trúng tuyển ngành Kế toán cơ sở phía Bắc năm 2023: 25,1",
+                    "2022": "Điểm trúng tuyển ngành Kế toán cơ sở phía Bắc năm 2022: 25,1",
+                    "2021": "Điểm trúng tuyển ngành Kế toán cơ sở phía Bắc năm 2021: 25,1",
+                    "2020": "Điểm trúng tuyển ngành Kế toán cơ sở phía Bắc năm 2020: 25,1",
+                    "2019": "Điểm trúng tuyển ngành Kế toán cơ sở phía Bắc năm 2019: 25,1"
+                },
+                "nam": {
+                    "chung": "Điểm trúng tuyển ngành Kế toán cơ sở phía Nam:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1",
+                    "2023": "Điểm trúng tuyển ngành Kế toán cơ sở phía Nam năm 2023: 25,1",
+                    "2022": "Điểm trúng tuyển ngành Kế toán cơ sở phía Nam năm 2022: 25,1",
+                    "2021": "Điểm trúng tuyển ngành Kế toán cơ sở phía Nam năm 2021: 25,1",
+                    "2020": "Điểm trúng tuyển ngành Kế toán cơ sở phía Nam năm 2020: 25,1",
+                    "2019": "Điểm trúng tuyển ngành Kế toán cơ sở phía Nam năm 2019: 25,1"
+                }
+            },
+            "sotc": {
+                "chung": "Khối lượng kiến thức ngành Kế toán: 130 tín chỉ"
+            },
+            "thoi_gian_dao_tao": {
+                "chung": "Thời gian đào tạo ngành Kế toán là 4 năm"
+            },
+            "loai_bang": {
+                "chung": "Bằng tốt nghiệp ngành Kế toán: CỬ NHÂN"
+            },
+            "tot_nghiep_lam_gi": {
+                "chung": "Học Kế toán ra trường làm kỹ sư (... chưa thêm data)"
+            },
+            "hoc_phi": {
+                "chung": "Học phí năm 2023\n Khoá 2021 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2022 ngành kĩ thuật 650.000 đông/tín chỉ\n Học phí năm 2022\n Khoá 2020 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2021 ngành kĩ thuật 650.000 đông/tín chỉ\n Học phí năm 2021\n Khoá 2020 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2019 ngành kĩ thuật 650.000 đông/tín chỉ\n Học phí năm 2020\n Khoá 2018 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2019 ngành kĩ thuật 650.000 đông/tín chỉ\n Học phí năm 2019\n Khoá 2017 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2018 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "2023": "Học phí năm 2023\n Khoá 2021 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2022 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "2022": "Học phí năm 2022\n Khoá 2020 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2021 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "2021": "Học phí năm 2021\n Khoá 2019 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2020 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "2020": "Học phí năm 2020\n Khoá 2018 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2019 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "2019": "Học phí năm 2019\n Khoá 2017 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2018 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "bac": "",
+                "nam": "123"
+            },
+            "chuyen_nganh": {
+                "chung": "Ngành Kế toán bao chưa có chuyên ngành",
+                "bac": "Ngành Kế toán bao chưa có chuyên ngành",
+                "nam": "Ngành Kế toán bao chưa có chuyên ngành"
+            },
+            "khoi_thi": {
+                "chung": "Tổ hợp xét tuyển Ngành Kế toán: Toán – Lý – Hóa (A00) hoặc Toán – Lý – Anh (A01) hoặc Toán – Văn – Anh (D01)"
+            },
+            "chuong_trinh_dao_tao": {
+                "chung": "Thông tin chương trình đào tạo ngành Kế toán:\nThời gian đào tạo 4 năm\nKhối lượng kiến thức 129 tín chỉ\nSinh viên được trang bị kiến thức về giáo dục đại cương, kiến thức cơ sở ngành, kiến thức chuyên ngành và cả kỹ năng mềm.\nChi tiết xem thêm tại: https://ptithcm.edu.vn/wp-content/uploads/2014/03/BanHanhChuongTrinhDaoTao_DHCQ-KT_222_QD-HV_24022022.pdf"
+            }
+        }
+    },
+    "phuong_thuc_tuyen_sinh": {
+        "chung": "Học viện Công nghệ Bưu chính Viễn thông áp dụng 04 phương thức tuyển sinh (xét tuyển):\n - Xét tuyển thẳng theo quy chế tuyển sinh của Bộ GD&ĐT và theo Đề án tuyển sinh của Học viện\n - Xét tuyển dựa vào kết quả thi tốt nghiệp THPT\n - Xét tuyển kết hợp theo Đề án tuyển sinh của Học viện\n - Xét tuyển dựa vào kết quả các kỳ thi đánh giá năng lực, đánh giá tư duy\n "
+    },
+    "nganh_dao_tao": {
+        "chung": "Học viện Công nghệ Bưu chính Viễn thông hiện đang đào tạo các ngành như:\n - Kỹ thuật Điện tử viễn thông\n - Công nghệ Kỹ thuật Điện, điện tử\n - Công nghệ thông tin\n - An toàn thông tin\n - Công nghệ đa phương tiện\n - Quản trị kinh doanh\n - Marketing\n - Kế toán",
+        "ki_thuat": "cac nganh ki thuat cua truong",
+        "kinh_te": "cac nganh kinh te cua truong"
+    },
+    "hoc_phi": {
+        "chung": {
+            "chung": "Học phí năm 2023\n Khoá 2021 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2022 ngành kĩ thuật 650.000 đông/tín chỉ\n Học phí năm 2022\n Khoá 2020 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2021 ngành kĩ thuật 650.000 đông/tín chỉ\n Học phí năm 2021\n Khoá 2020 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2019 ngành kĩ thuật 650.000 đông/tín chỉ\n Học phí năm 2020\n Khoá 2018 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2019 ngành kĩ thuật 650.000 đông/tín chỉ\n Học phí năm 2019\n Khoá 2017 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2018 ngành kĩ thuật 650.000 đông/tín chỉ\n Học phí năm 2023\n Khoá 2021 trở về trước các ngành kinh tế: 630.000 đồng/tín chỉ \nKhoá 2022 ngành kinh tế 650.000 đông/tín chỉ\n Học phí năm 2022\n Khoá 2020 trở về trước các ngành kinh tế: 630.000 đồng/tín chỉ \nKhoá 2021 ngành kinh tế 650.000 đông/tín chỉ\n Học phí năm 2021\n Khoá 2020 trở về trước các ngành kinh tế: 630.000 đồng/tín chỉ \nKhoá 2019 ngành kinh tế 650.000 đông/tín chỉ\n Học phí năm 2020\n Khoá 2018 trở về trước các ngành kinh tế: 630.000 đồng/tín chỉ \nKhoá 2019 ngành kinh tế 650.000 đông/tín chỉ\n Học phí năm 2019\n Khoá 2017 trở về trước các ngành kinh tế: 630.000 đồng/tín chỉ \nKhoá 2018 ngành kinh tế 650.000 đông/tín chỉ",
+            "2023": "hoc phi chung 2023",
+            "2022": "hoc phi chung 2022",
+            "2021": "hoc phi chung 2021",
+            "2020": "hoc phi chung 2020",
+            "2019": "hoc phi chung 2019"
+        },
+        "ki_thuat": {
+            "chung": "hoc phi ki thuat chung 2023 2022 2021",
+            "2023": "hoc phi ki thuat  2023",
+            "2022": "hoc phi ki thuat  2022",
+            "2021": "hoc phi ki thuat  2021",
+            "2020": "hoc phi ki thuat  2020",
+            "2019": "hoc phi ki thuat  2019"
+        },
+        "kinh_te": {
+            "chung": "hoc phi kinh te chung 2023 2022 2021",
+            "2023": "hoc phi kinh te 2023 thoi",
+            "2022": "hoc phi kinh te  2022",
+            "2021": "hoc phi kinh te  2021",
+            "2020": "hoc phi kinh te  2020",
+            "2019": "hoc phi kinh te  2019"
+        },
+        "bac": {},
+        "nam": {}
+    },
+    "thoi_gian_dao_tao": {
+        "chung": "- Chương trình đào tạo được thực hiện trong 4,5 năm gồm 9 học kỳ: có 8 học kỳ tích lũy kiến thức tại Học viện và 1 kỳ thực tập chuyên sâu và thực tập thực tế tại cơ sở (đối với các ngành CNTT, CNKT Đ-ĐT, KT ĐTVT, ATTT, CNĐPT, KT ĐK&TĐH, IoT) và 4 năm gồm 8 học kỳ: có 7 học kỳ tích lũy kiến thức tại Học viện và 1 kỳ thực tập chuyên sâu và thực tập thực tế tại cơ sở (đối với các ngành QTKD, Kế toán, Marketing). Cuối khóa sinh viên làm đồ án/khóa luận tốt nghiệp hoặc học các học phần thay thế tốt nghiệp theo quy chế đào tạo.\n - Sinh viên được đào tạo theo Quy chế đào tạo đại học áp dụng theo Thông tư số 08/2021/TT-BGDĐT ngày 18 tháng 3 năm 2021 của Bộ trưởng Bộ Giáo dục và Đào tạo.\n - Thời gian học tập tối thiểu là từ 3,5-4 năm và thời gian học tập tối đa là 8-9 năm tùy theo từng ngành.  "
+    },
+    "khoa_quan_ly": {
+        "chung": "Các phòng, trung tâm và khoa của Học viện: \nPhòng Giáo vụ\nPhòng Công tác Sinh viên\nPhòng Đào tạo & Khoa học Công nghệ\nPhòng Tổ chức - Hành chính – Quản trị\nPhòng Kinh tế - Tài chính\nTrung tâm Khảo thí & Đảm bảo chất lượng giáo dục\nKhoa Cơ Bản 2\nKhoa Công Nghệ Thông Tin 2\nKhoa Kỹ thuật Điện tử 2\nKhoa Viễn thông 2\nKhoa Quản trị Kinh doanh 2\n",
+        "cntt": {
+            "chung": "",
+            "phu_trach": "",
+            "chuc_nang": "",
+            "giang_vien": ""
+        }
+    },
+    "sotc": {
+        "chung": {}
+    },
+    "truong": {
+        "chung": ""
+    },
+    "vhvl": {
+        "chung": "Đại học Vừa làm vừa học là hình thức đào tạo mà Học viện đưa ra nhằm tạo điều kiện cho những sinh viên:\n– Có nhu cầu làm việc sớm, tự lập về tài chính và tích lũy kinh nghiệm làm việc;\n– Hoặc các sinh viên muốn theo học cùng lúc 2 chương trình đào tạo đại học (chính quy và VLVH);\n– Hoặc những sinh viên không có điều kiện tham gia học tập như hệ chính quy.",
+        "phu_hop": "Chương trình Đại học Vừa làm vừa học phù hợp với tất cả mọi người.\nBạn là học sinh mới tốt nghiệp THPT, người bận rộn, đang đi học, đã đi làm, hay phải đi công tác… đều có thể tham gia học hệ VLVH.",
+        "ly_do": "Lần đầu tiên tại Việt Nam, chương trình đào tạo VLVH được phát triển trên nền tảng Đại học số đã được ứng dụng AI và công nghệ 4.0\n– Bằng cấp được Bộ GD&ĐT công nhận, bình đẳng như các hệ đào tạo khác, có giá trị sử dụng suốt đời trên phạm vi toàn quốc\n– Không phải thi tuyển\n– Chương trình đào tạo mang tính ứng dụng, bám sát thực tế, luôn được cập nhật và chú trọng phát triển toàn diện năng lực người học\n– Môi trường học tập chủ động, thân thiện, năng động, minh bạch; phương pháp giảng dạy tiên tiến\n– Đội ngũ giảng viên có chuyên môn cao, tận tâm và nhiệt tình cùng với đội ngũ cố vấn học tập sẵn sàng tư vấn 24/24\n– Thời gian và phương thức đào tạo linh động, sinh viên có thể tranh thủ thời gian vừa làm việc vừa học tập\n– Có thể học lên các bậc học cao hơn như Thạc sỹ, Tiến sỹ, thi công chức theo đúng quy định của Nhà nước\n– Sinh viên được bố trí thực tập, việc làm 100%",
+        "nganh_dao_tao": "hệ VLVH đào tạo 03 ngành: Quản trị kinh doanh, Kỹ thuật điện tử viễn thông, Công nghệ thông tin",
+        "sotc": "Chương trình đào tạo ngành Quản trị kinh doanh có tổng số 130 tín chỉ, ngành Công nghệ thông tin và Kỹ thuật điện tử viễn thông có tổng số 150 tín chỉ.",
+        "hoc_phi": "Học phí sẽ được thu với mức 550.000 đồng/1 tín chỉ đối với ngành Quản trị kinh doanh và 575.000 đồng/1 tín chỉ đối với ngành Công nghệ thông tin và Kỹ thuật điện tử viễn thông. Trong quá trình học, sinh viên sẽ đóng học phí theo từng đợt, Học viện sẽ thông báo cụ thể thời gian các đợt thu.",
+        "dieu_kien_tot_nghiep": "Để được xét tốt nghiệp, Anh/Chị cần hoàn thành tất cả các học phần trong chương trình đào tạo (bao gồm cả Tin học và Ngoại ngữ). Bên cạnh đó, Anh/Chị cũng cần phải hoàn thành đầy đủ hồ sơ mà Học viện yêu cầu.",
+        "loai_bang": "Người hoàn thành chương trình học được cấp Bằng Cử nhân/Kỹ sư do Học viện Công nghệ Bưu chính Viễn thông cấp. Văn bằng được Bộ GD&ĐT công nhận, có trị suốt đời, có thể học lên các bậc học cao hơn, thi công chức, nâng ngạch, thăng hạng,… theo đúng quy định của Nhà nước. \nXem mẫu phôi bằng: https://eript.ptit.edu.vn/wp-content/uploads/2021/08/IMG_9358.jpg",
+        "co_hoi_viec_lam": "Hiện tại Học viện đã ký các thỏa thuận hợp tác về cung cấp nguồn nhân lực cho các doanh nghiệp như Samsung, VNPT, Mobifone, Viettel, CMC… do đó trong quá trình học tập sinh viên được tham gia các chương trình định hướng, tư vấn nghề nghiệp, chương trình thực tập sinh, các hội thảo, chương trình tư vấn tuyển dụng trực tiếp ngay từ những năm học cuối. Các thông tin tuyển dụng mới nhất thường xuyên được thông báo đến sinh viên. Đồng thời, sau học kỳ 6 các em thực tập tại các doanh nghiệp mà Học viện đã ký kết hợp tác. Vì vậy, cơ hội thực hành và việc làm sau khi tốt nghiệp tại Học viện là rất rộng mở, Học viện cam kết hỗ trợ việc làm sau khi sinh viên tốt nghiệp đạt chuẩn đầu ra."
+    },
+    "ktx": {
+        "chung": "Ký túc xá Học viện Công nghệ Bưu chính Viễn thông Cơ sở tại TP. Hồ Chí Minh nằm trong khuôn viên Cơ sở đào tạo tại TP. Thủ Đức,  số 97, đường Man Thiện, Phường Hiệp Phú, TP. Thủ Đức, TP. Hồ Chí Minh.\nKý túc xá có 97 phòng dịch vụ với sức chứa gần 1.000 sinh viên. Là một trong số ít ký túc xá sinh viên tại TP. Thủ Đức nói riêng và TP. Hồ Chí Minh nói chung nằm cạnh các tòa nhà giảng đường, khu thực hành, thí nghiệm; có khuôn viên cây xanh, sân chơi thể thao thuận tiện cho sinh viên sinh hoạt, học tập và rèn luyện.\nTiếp giáp với Khu Công nghệ cao TP. Hồ Chí Minh, gần Trung tâm thương mại lớn nhất TP. Thủ Đức, sinh viên ở tại Ký túc xá có cơ hội trải nghiệm học tập, làm thêm, vui chơi giải trí hữu ích.",
+        "phong_dich_vu": "Phí: 360.000đ/SV/tháng\n(đóng theo học kỳ 1.800.000đ/SV)\nSố người: 10 – 12 sinh viên/ phòng\nNhà vệ sinh, nhà tắm khép kín trong phòng, có người phục vụ vệ sinh trong phòng. Nhân viên phục vụ vệ sinh trong phòng ở và các khu công cộng.\nNhà vệ sinh, nhà tắm khép kín trong phòng, có người phục vụ vệ sinh trong phòng. Nhân viên phục vụ vệ sinh trong phòng ở và các khu công cộng. Có ti vi truyền hình cáp\nNước được hỗ trợ;\nĐiện định mức 14 KWh/SV/tháng, sinh viên phải trả tiền vượt định mức.\nWifi miễn phí toàn bộ khu KTX, camera quan sát giám sát an ninh trật tự toàn bộ hành lang khu nội trú.",
+        "phong_dich_vu_clc": "Phí: 430.000đ/SV/tháng (đóng theo học kỳ 2.150.000đ/SV)\nSố người: 6 – 10 sinh viên/ phòng\nNhà vệ sinh, nhà tắm khép kín trong phòng, có người phục vụ vệ sinh trong phòng. Nhân viên phục vụ vệ sinh trong phòng ở và các khu công cộng. Có ti vi truyền hình cáp\nNước được hỗ trợ;Điện định mức 14 KWh/SV/tháng, sinh viên phải trả tiền vượt định mức.\nWifi miễn phí toàn bộ khu KTX, camera quan sát giám sát an ninh trật tự toàn bộ hành lang khu nội trú."
+    },
+    "dieu_kien_tot_nghiep": {
+        "chung": "Sinh viên được đào tạo học theo học chế tín chỉ, áp dụng theo Quy chế đào tạo tín chỉ của Bộ Giáo dục và Đào tạo của và của Học Viện.\nKết thúc khoá học, sinh viên được công nhận tốt nghiệp và được cấp bằng Đại học khi hội tụ đủ các tiêu chuẩn theo Quy chế đào tạo đại học theo học chế tín chỉ."
+    }
+}
