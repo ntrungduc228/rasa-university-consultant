@@ -21,3 +21,8 @@ rules:
   steps:
   - intent: intent_ttchinh_ttphu
   - action: action_ttchinh_ttphu
+
+- rule: cntt - hintent_ttchinh_ttphu_coso
+  steps:
+  - intent: intent_ttchinh_ttphu_coso
+  - action: action_ttchinh_ttphu_coso

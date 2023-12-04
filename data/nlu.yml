@@ -178,6 +178,18 @@ nlu:
     - [ma nganh]{"entity":"thongtinphu","value":"ma_nganh"} [AN TOÀN THÔNG TIN]{"entity":"thongtinchinh","value":"attt"}
     - [ma nganh]{"entity":"thongtinphu","value":"ma_nganh"} [AN TOAN THONG TIN]{"entity":"thongtinchinh","value":"attt"}
 
+
+- intent: intent_ttchinh_ttphu_coso
+  examples: |
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [kỹ thuật điện tử viễn thông]{"entity":"thongtinchinh","value":"ktdtvt"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [kỹ thuật điện tử viễn thông]{"entity":"thongtinchinh","value":"ktdtvt"} cơ sở phía [bắc]{"entity":"coso","value":"bac"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [kỹ thuật điện tử viễn thông]{"entity":"thongtinchinh","value":"ktdtvt"} cơ sở phía [nam]{"entity":"coso","value":"nam"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [ktdtvt]{"entity":"thongtinchinh","value":"ktdtvt"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [ktdtvt]{"entity":"thongtinchinh","value":"ktdtvt"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [ky thuat dien tu vien thong]{"entity":"thongtinchinh","value":"ktdtvt"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [ky thuat dien tu vien thong]{"entity":"thongtinchinh","value":"ktdtvt"} co so phia [bac]{"entity":"coso","value":"bac"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [ky thuat dien tu vien thong]{"entity":"thongtinchinh","value":"ktdtvt"} co so phia [nam]{"entity":"coso","value":"nam"}
+
 - synonym: bac
   examples: |
     - bac
