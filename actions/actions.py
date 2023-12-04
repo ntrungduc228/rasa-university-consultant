@@ -81,8 +81,7 @@ class ActionTimThongtinchinhThongtinphu(Action):
         isNganh = False
         print_tmp_val()
         # [UserUttered(text="/utter_hoi_chuc_nang")]
-        print(f'action_chinh_phu -> thongtinchinh: {thongtinchinh} -  thongtinphu: {thongtinphu} \n')
-        print(f'Flag_IsNganh -> Flag: {isFlag} -  IsNganh: {isNganh} \n')
+
 
         if thongtinchinh is None:
             return [FollowupAction("utter_hoi_chuc_nang")]
@@ -92,6 +91,11 @@ class ActionTimThongtinchinhThongtinphu(Action):
 
         if thongtinchinh in nganh_data:
             isNganh = True
+
+        print(f'action_chinh_phu -> thongtinchinh: {thongtinchinh} -  thongtinphu: {thongtinphu} \n')
+        print(f'Flag_IsNganh -> Flag: {isFlag} -  IsNganh: {isNganh} \n')
+
+        ### Now handle process    
 
         if isFlag == True:
             
