@@ -65,6 +65,7 @@ actions:
   - action_ttchinh_ttphu
   - action_ttchinh_ttphu_coso
   - action_ttchinh_ttphu_namhoc
+  - action_ttchinh_ttphu_cosonamhoc
 
 
 responses:

@@ -103,6 +103,163 @@ nlu:
     - Trường mình có các [phương thức tuyển sinh]{"entity":"thongtinchinh","value":"phuong_thuc_tuyen_sinh"} nào ạ
     - [phuong thuc tuyen sinh]{"entity":"thongtinchinh","value":"phuong_thuc_tuyen_sinh"}
     - [hinh thuc tuyen sinh]{"entity":"thongtinchinh","value":"phuong_thuc_tuyen_sinh"}
+
+    - truong [dao tao may nam]{"entity":"thongtinchinh","value":"thoi_gian_dao_tao"}
+    - truong [dao tao bao lau]{"entity":"thongtinchinh","value":"thoi_gian_dao_tao"}
+    - [thoi gian dao tao]{"entity":"thongtinchinh","value":"thoi_gian_dao_tao"}
+    - [thời gian đào tạo]{"entity":"thongtinchinh","value":"thoi_gian_dao_tao"}
+    - trường [đào tạo bao lâu]{"entity":"thongtinchinh","value":"thoi_gian_dao_tao"}
+    - trường [đào tạo mấy năm]{"entity":"thongtinchinh","value":"thoi_gian_dao_tao"}
+    - [Thời gian đào tạo]{"entity":"thongtinchinh","value":"thoi_gian_dao_tao"} kéo dài bao lâu?
+    - Cần bao nhiêu [thời gian]{"entity":"thongtinchinh","value":"thoi_gian_dao_tao"} để hoàn thành đào tạo? 
+    - Khoảng [thời gian học]{"entity":"thongtinchinh","value":"thoi_gian_dao_tao"} là bao lâu?
+    - [Thời gian]{"entity":"thongtinchinh","value":"thoi_gian_dao_tao"} cần để tốt nghiệp là bao lâu?
+    - [Thời gian học tập]{"entity":"thongtinchinh","value":"thoi_gian_dao_tao"} là bao nhiêu? 
+    - Bao nhiêu [thời gian]{"entity":"thongtinchinh","value":"thoi_gian_dao_tao"} là cần thiết cho quá trình đào tạo?
+    - Đào tạo kéo dài trong khoảng [bao lâu]{"entity":"thongtinchinh","value":"thoi_gian_dao_tao"}?
+    - [Thoi gian dao tao]{"entity":"thongtinchinh","value":"thoi_gian_dao_tao"} keo dai bao lau?
+    - Can bao nhieu [thoi gian de hoan thanh dao tao]{"entity":"thongtinchinh","value":"thoi_gian_dao_tao"}?
+    - Khoang [thoi gian hoc]{"entity":"thongtinchinh","value":"thoi_gian_dao_tao"} la bao lau?
+    - [Thoi gian can de tot nghiep]{"entity":"thongtinchinh","value":"thoi_gian_dao_tao"} la bao lau?
+    - [Thoi gian hoc tap]{"entity":"thongtinchinh","value":"thoi_gian_dao_tao"} la bao nhieu?
+    - Bao lau [thoi gian]{"entity":"thongtinchinh","value":"thoi_gian_dao_tao"} la can thiet cho qua trinh dao tao? 
+    - Thoi gian can dau tu cho dao tao la [bao lau]{"entity":"thongtinchinh","value":"thoi_gian_dao_tao"}
+    - [Dao tao keo dai trong khoang bao lau]{"entity":"thongtinchinh","value":"thoi_gian_dao_tao"}?
+
+    - cho em hỏi [học phí]{"entity":"thongtinchinh","value":"hoc_phi"} của trường bao nhiêu 1 năm
+    - [học phí]{"entity":"thongtinchinh","value":"hoc_phi"}
+    - [hoc phi]{"entity":"thongtinchinh","value":"hoc_phi"}
+    - [học phí]{"entity":"thongtinchinh","value":"hoc_phi"} của trường bao nhiêu ạ
+    - [học phí]{"entity":"thongtinchinh","value":"hoc_phi"} 1 năm bao nhiêu
+    - [hoc phi]{"entity":"thongtinchinh","value":"hoc_phi"} 1 nam bao nhieu
+    - Tổng chi phí [học phí]{"entity":"thongtinchinh","value":"hoc_phi"} một năm là bao nhiêu?
+    - Phải trả bao nhiêu tiền [học phí]{"entity":"thongtinchinh","value":"hoc_phi"} trong vòng một năm?
+    - Những khoản phí [học phí]{"entity":"thongtinchinh","value":"hoc_phi"} cần chi trả trong một năm là bao nhiêu?
+    - Chi phí [học phí]{"entity":"thongtinchinh","value":"hoc_phi"} hàng năm là bao nhiêu tiền?
+    - Tổng cộng chi phí [học phí]{"entity":"thongtinchinh","value":"hoc_phi"} một năm là bao nhiêu?
+    - Bảng giá [học phí]{"entity":"thongtinchinh","value":"hoc_phi"} một năm là bao nhiêu tiền?
+    - Tính tổng chi phí [học phí]{"entity":"thongtinchinh","value":"hoc_phi"} theo năm là bao nhiêu?
+    - [Học phí]{"entity":"thongtinchinh","value":"hoc_phi"} hàng năm tại trường là bao nhiêu tiền?
+    - Tính toán chi phí [học phí]{"entity":"thongtinchinh","value":"hoc_phi"} một năm tại trường là bao nhiêu?
+    - Tính tổng số tiền [học phí]{"entity":"thongtinchinh","value":"hoc_phi"} cần thanh toán mỗi năm là bao nhiêu?
+    - Tong chi phi [hoc phi]{"entity":"thongtinchinh","value":"hoc_phi"} mot nam la bao nhieu?
+    - Phai tra bao nhieu tien [hoc phi]{"entity":"thongtinchinh","value":"hoc_phi"} trong vong mot nam?
+    - Nhung khoan phi [hoc phi]{"entity":"thongtinchinh","value":"hoc_phi"} can chi tra trong mot nam la bao nhieu?
+    - Chi phi [hoc phi]{"entity":"thongtinchinh","value":"hoc_phi"} hang nam la bao nhieu tien?
+    - Tong cong chi phi [hoc phi]{"entity":"thongtinchinh","value":"hoc_phi"} mot nam la bao nhieu?
+    - Bang gia [hoc phi]{"entity":"thongtinchinh","value":"hoc_phi"} mot nam la bao nhieu tien?
+    - Tinh tong chi phi [hoc phi]{"entity":"thongtinchinh","value":"hoc_phi"} theo nam la bao nhieu?
+    - [Hoc phi]{"entity":"thongtinchinh","value":"hoc_phi"} hang nam tai truong la bao nhieu tien?
+    - Tinh toan chi phi [hoc phi]{"entity":"thongtinchinh","value":"hoc_phi"} mot nam tai truong la bao nhieu?
+    - Tinh tong so tien [hoc phi]{"entity":"thongtinchinh","value":"hoc_phi"} can thanh toan moi nam la bao nhieu?"
+
+    - Cho em hỏi các [ngành đào tạo]{"entity":"thongtinchinh","value":"nganh_dao_tao"} của trường
+    - trường đào tạo [ngành]{"entity":"thongtinchinh","value":"nganh_dao_tao"} nào ạ
+    - Thế trường [đào tạo ngành]{"entity":"thongtinchinh","value":"nganh_dao_tao"} nào
+    - Các [ngành đào tạo]{"entity":"thongtinchinh","value":"nganh_dao_tao"} của trường là gì
+    - các [ngành đào tạo]{"entity":"thongtinchinh","value":"nganh_dao_tao"}
+    - cac [ngành đào tạo]{"entity":"thongtinchinh","value":"nganh_dao_tao"}
+    - truong [dao tao nganh]{"entity":"thongtinchinh","value":"nganh_dao_tao"} nao
+    - cac [nganh dao tao]{"entity":"thongtinchinh","value":"nganh_dao_tao"} cua truong
+    - cac [nganh dao tao]{"entity":"thongtinchinh","value":"nganh_dao_tao"}
+    - các [ngành đào tạo]{"entity":"thongtinchinh","value":"nganh_dao_tao"}
+
+    - [ki tuc xa]{"entity":"thongtinchinh","value":"ktx"}
+    - [kí túc xá]{"entity":"thongtinchinh","value":"ktx"}
+    - [ktx]{"entity":"thongtinchinh","value":"ktx"}
+    - [ký túc xá]{"entity":"thongtinchinh","value":"ktx"}
+    - [ky túc xa]{"entity":"thongtinchinh","value":"ktx"}
+    - cho em hỏi về [kí túc xá]{"entity":"thongtinchinh","value":"ktx"}
+    - em muốn biết về [kí túc xá]{"entity":"thongtinchinh","value":"ktx"}
+    - em muốn hỏi về [kí túc xá]{"entity":"thongtinchinh","value":"ktx"}
+    - em muon hoi ve [ki tuc xa]{"entity":"thongtinchinh","value":"ktx"}
+    - em muon biet ve [ki tuc xa]{"entity":"thongtinchinh","value":"ktx"}
+    - cho em hỏi về [ký túc xá]{"entity":"thongtinchinh","value":"ktx"}
+    - em muốn biết về [ký túc xá]{"entity":"thongtinchinh","value":"ktx"}
+    - em muốn hỏi về [ký túc xá]{"entity":"thongtinchinh","value":"ktx"}
+    - em muon hoi ve [ky tuc xa]{"entity":"thongtinchinh","value":"ktx"}
+    - em muon biet ve [ky tuc xa]{"entity":"thongtinchinh","value":"ktx"}
+    - cho em hoi ve [ktx]{"entity":"thongtinchinh","value":"ktx"}
+    - cho em hỏi về [ktx]{"entity":"thongtinchinh","value":"ktx"}
+    - em muốn hỏi về [ktx]{"entity":"thongtinchinh","value":"ktx"}
+    - em muốn biết về [ktx]{"entity":"thongtinchinh","value":"ktx"}
+    - em muon hoi ve [ktx]{"entity":"thongtinchinh","value":"ktx"}
+
+    - [ki tuc xa]{"entity":"thongtinchinh","value":"ktx"} [phong dich vu]{"entity":"thongtinphu","value":"phong_dich_vu"}
+    - [kí túc xá]{"entity":"thongtinchinh","value":"ktx"} [phòng dịch vụ]{"entity":"thongtinphu","value":"phong_dich_vu"}
+    - [ktx]{"entity":"thongtinchinh","value":"ktx"} [phòng dịch vụ]{"entity":"thongtinphu","value":"phong_dich_vu"}
+    - [ký túc xá]{"entity":"thongtinchinh","value":"ktx"} [phòng dịch vụ]{"entity":"thongtinphu","value":"phong_dich_vu"}
+    - [phong dich vu]{"entity":"thongtinphu","value":"phong_dich_vu"} [ky túc xa]{"entity":"thongtinchinh","value":"ktx"}
+    - cho em hỏi về [phòng dịch vụ]{"entity":"thongtinphu","value":"phong_dich_vu"} ở [kí túc xá]{"entity":"thongtinchinh","value":"ktx"}
+    - em muốn biết về [phòng dịch vụ]{"entity":"thongtinphu","value":"phong_dich_vu"} [kí túc xá]{"entity":"thongtinchinh","value":"ktx"}
+    - em muốn hỏi về [phòng dịch vụ]{"entity":"thongtinphu","value":"phong_dich_vu"} [kí túc xá]{"entity":"thongtinchinh","value":"ktx"}
+    - em muon hoi ve [phong dich vu]{"entity":"thongtinphu","value":"phong_dich_vu"} [ki tuc xa]{"entity":"thongtinchinh","value":"ktx"}
+    - em muon biet ve [phong dich vu]{"entity":"thongtinphu","value":"phong_dich_vu"} [ki tuc xa]{"entity":"thongtinchinh","value":"ktx"}
+    - cho em hỏi về [phong dich vu]{"entity":"thongtinphu","value":"phong_dich_vu"} [ký túc xá]{"entity":"thongtinchinh","value":"ktx"}
+    - em muốn biết về [phòng dịch vụ]{"entity":"thongtinphu","value":"phong_dich_vu"} [ký túc xá]{"entity":"thongtinchinh","value":"ktx"}
+    - em muốn hỏi về [phòng dịch vụ]{"entity":"thongtinphu","value":"phong_dich_vu"} [ký túc xá]{"entity":"thongtinchinh","value":"ktx"}
+    - em muon hoi ve [phong dich vu]{"entity":"thongtinphu","value":"phong_dich_vu"} [ky tuc xa]{"entity":"thongtinchinh","value":"ktx"}
+    - em muon biet ve [phong dich vu]{"entity":"thongtinphu","value":"phong_dich_vu"} [ky tuc xa]{"entity":"thongtinchinh","value":"ktx"}
+    - cho em hoi ve [phong dich vu]{"entity":"thongtinphu","value":"phong_dich_vu"} [ktx]{"entity":"thongtinchinh","value":"ktx"}
+    - cho em hỏi về [phòng dịch vụ]{"entity":"thongtinphu","value":"phong_dich_vu"} [ktx]{"entity":"thongtinchinh","value":"ktx"}
+    - em muốn hỏi về [phòng dịch vụ]{"entity":"thongtinphu","value":"phong_dich_vu"} [ktx]{"entity":"thongtinchinh","value":"ktx"}
+    - em muốn biết về [phòng dịch vụ]{"entity":"thongtinphu","value":"phong_dich_vu"} [ktx]{"entity":"thongtinchinh","value":"ktx"}
+    - em muon hoi ve [phong dich vu]{"entity":"thongtinphu","value":"phong_dich_vu"} [ktx]{"entity":"thongtinchinh","value":"ktx"}
+    - [phong dich vu]{"entity":"thongtinphu","value":"phong_dich_vu"} [ki tuc xa]{"entity":"thongtinchinh","value":"ktx"}
+    - [phòng dịch vụ]{"entity":"thongtinphu","value":"phong_dich_vu"} [kí túc xá]{"entity":"thongtinchinh","value":"ktx"}
+    - [phòng dịch vụ]{"entity":"thongtinphu","value":"phong_dich_vu"} [ktx]{"entity":"thongtinchinh","value":"ktx"}
+    - [phòng dịch vụ]{"entity":"thongtinphu","value":"phong_dich_vu"} [ký túc xá]{"entity":"thongtinchinh","value":"ktx"}
+
+    - [ki tuc xa]{"entity":"thongtinchinh","value":"ktx"} [phong dich vu chat luong cao]{"entity":"thongtinphu","value":"phong_dich_vu_clc"}
+    - [kí túc xá]{"entity":"thongtinchinh","value":"ktx"} [phòng dịch vụ chất lượng cao]{"entity":"thongtinphu","value":"phong_dich_vu_clc"}
+    - [ktx]{"entity":"thongtinchinh","value":"ktx"} [phòng dịch vụ chất lượng cao]{"entity":"thongtinphu","value":"phong_dich_vu_clc"}
+    - [ký túc xá]{"entity":"thongtinchinh","value":"ktx"} [phòng dịch vụ chất luọng cao]{"entity":"thongtinphu","value":"phong_dich_vu_clc"}
+    - [phong dich vu clc]{"entity":"thongtinphu","value":"phong_dich_vu_clc"} [ky túc xa]{"entity":"thongtinchinh","value":"ktx"}
+    - cho em hỏi về [phòng dịch vụ chất lượng cao]{"entity":"thongtinphu","value":"phong_dich_vu_clc"} ở [kí túc xá]{"entity":"thongtinchinh","value":"ktx"}
+    - em muốn biết về [phòng dịch vụ chất lượng cao]{"entity":"thongtinphu","value":"phong_dich_vu_clc"} [kí túc xá]{"entity":"thongtinchinh","value":"ktx"}
+    - em muốn hỏi về [phòng dịch vụ chất lượng cao]{"entity":"thongtinphu","value":"phong_dich_vu_clc"} [kí túc xá]{"entity":"thongtinchinh","value":"ktx"}
+    - em muon hoi ve [phong dich vu chat luong cao]{"entity":"thongtinphu","value":"phong_dich_vu_clc"} [ki tuc xa]{"entity":"thongtinchinh","value":"ktx"}
+    - em muon biet ve [phong dich vu chat luong cao]{"entity":"thongtinphu","value":"phong_dich_vu_clc"} [ki tuc xa]{"entity":"thongtinchinh","value":"ktx"}
+    - cho em hỏi về [phong dich vu chat luong cao]{"entity":"thongtinphu","value":"phong_dich_vu_clc"} [ký túc xá]{"entity":"thongtinchinh","value":"ktx"}
+    - em muốn biết về [phòng dịch vụ chất lượng cao]{"entity":"thongtinphu","value":"phong_dich_vu_clc"} [ký túc xá]{"entity":"thongtinchinh","value":"ktx"}
+    - em muốn hỏi về [phòng dịch vụ chất lượng cao]{"entity":"thongtinphu","value":"phong_dich_vu_clc"} [ký túc xá]{"entity":"thongtinchinh","value":"ktx"}
+    - em muon hoi ve [phong dich vu chat luong cao]{"entity":"thongtinphu","value":"phong_dich_vu_clc"} [ky tuc xa]{"entity":"thongtinchinh","value":"ktx"}
+    - em muon biet ve [phong dich vu chat luong cao]{"entity":"thongtinphu","value":"phong_dich_vu_clc"} [ky tuc xa]{"entity":"thongtinchinh","value":"ktx"}
+    - cho em hoi ve [phong dich vu chat luong cao]{"entity":"thongtinphu","value":"phong_dich_vu_clc"} [ktx]{"entity":"thongtinchinh","value":"ktx"}
+    - cho em hỏi về [phòng dịch vụ chất lượng cao]{"entity":"thongtinphu","value":"phong_dich_vu_clc"} [ktx]{"entity":"thongtinchinh","value":"ktx"}
+    - em muốn hỏi về [phòng dịch vụ chất lượng cao]{"entity":"thongtinphu","value":"phong_dich_vu_clc"} [ktx]{"entity":"thongtinchinh","value":"ktx"}
+    - em muốn biết về [phòng dịch vụ chất lượng cao]{"entity":"thongtinphu","value":"phong_dich_vu_clc"} [ktx]{"entity":"thongtinchinh","value":"ktx"}
+    - em muon hoi ve [phong dich vu chat luong cao]{"entity":"thongtinphu","value":"phong_dich_vu_clc"} [ktx]{"entity":"thongtinchinh","value":"ktx"}
+    - [phong dich vu chat luong cao]{"entity":"thongtinphu","value":"phong_dich_vu_clc"} [ki tuc xa]{"entity":"thongtinchinh","value":"ktx"}
+    - [phòng dịch vụ chất lượng cao]{"entity":"thongtinphu","value":"phong_dich_vu_clc"} [kí túc xá]{"entity":"thongtinchinh","value":"ktx"}
+    - [phòng dịch vụ chất lượng cao]{"entity":"thongtinphu","value":"phong_dich_vu_clc"} [ktx]{"entity":"thongtinchinh","value":"ktx"}
+    - [phòng dịch vụ chất lượng cao]{"entity":"thongtinphu","value":"phong_dich_vu_clc"} [ký túc xá]{"entity":"thongtinchinh","value":"ktx"}
+
+    - [điều kiện tốt nghiệp]{"entity":"thongtinchinh","value":"dieu_kien_tot_nghiep"}
+    - [dieu kien tot nghiep]{"entity":"thongtinchinh","value":"dieu_kien_tot_nghiep"}
+    - [Điều kiện để tốt nghiệp]{"entity":"thongtinchinh","value":"dieu_kien_tot_nghiep"} là gì ạ?
+    - [dieu kien tot nghiep]{"entity":"thongtinchinh","value":"dieu_kien_tot_nghiep"}
+    - [dieu kien de tot nghiep]{"entity":"thongtinchinh","value":"dieu_kien_tot_nghiep"}
+    - [dieu kien de ra truong]{"entity":"thongtinchinh","value":"dieu_kien_tot_nghiep"}
+    - [dieu kien de tot nghiep]{"entity":"thongtinchinh","value":"dieu_kien_tot_nghiep"} dai Hoc
+    - [dieu kien de tot nghiep]{"entity":"thongtinchinh","value":"dieu_kien_tot_nghiep"} la gi a
+    - [điều kiện để ra trường]{"entity":"thongtinchinh","value":"dieu_kien_tot_nghiep"}
+    - [điều kiện tôt nghiệp]{"entity":"thongtinchinh","value":"dieu_kien_tot_nghiep"}
+    - cho em hỏi [điều kiện tốt nghiệp]{"entity":"thongtinchinh","value":"dieu_kien_tot_nghiep"} là gì ạ
+    - cho em hỏi [điều kiện tốt nghiệp]{"entity":"thongtinchinh","value":"dieu_kien_tot_nghiep"} ạ
+    - cho em hỏi [điều kiện để tốt nghiệp]{"entity":"thongtinchinh","value":"dieu_kien_tot_nghiep"} là gì ạ
+    - cho em hỏi [điều kiện để tốt nghiệp]{"entity":"thongtinchinh","value":"dieu_kien_tot_nghiep"} ạ
+
+    - [Đại học vừa làm vừa học]{"entity":"thongtinchinh","value":"vhvl"}
+    - [Dai hoc vua lam vua hoc]{"entity":"thongtinchinh","value":"vhvl"}
+    - [Đại học vừa làm vừa học]{"entity":"thongtinchinh","value":"vhvl"} là gì
+    - [Dai hoc vua lam vua hoc]{"entity":"thongtinchinh","value":"vhvl"} la gi
+    - [đại học vừa làm vừa học]{"entity":"thongtinchinh","value":"vhvl"}
+    - [dai hoc vua lam vua hoc]{"entity":"thongtinchinh","value":"vhvl"}
+    - [đại học vừa làm vừa học]{"entity":"thongtinchinh","value":"vhvl"} là gì
+    - [dai hoc vua lam vua hoc]{"entity":"thongtinchinh","value":"vhvl"} la gi
+
+
     - [tổng quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [it]{"entity":"thongtinchinh","value":"cntt"}
     - [tóm tắt]{"entity":"thongtinphu","value":"tong_quan"} ngành [cong nghe thong tin]{"entity":"thongtinchinh","value":"cntt"} cua trường
     - [khái quát]{"entity":"thongtinphu","value":"tong_quan"} ngành [cntt]{"entity":"thongtinchinh","value":"cntt"} của học viện
