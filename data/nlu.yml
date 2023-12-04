@@ -91,8 +91,18 @@ nlu:
     - am I talking to a human?
 
 
-- intent: cntt_tongquan
+- intent: intent_ttchinh_ttphu
   examples: |
+    - Cho em hoi truong co nhung [phuong thuc xet tuyen]{"entity":"thongtinchinh","value":"phuong_thuc_tuyen_sinh"} nao
+    - [Phuong thuc xet tuyen]{"entity":"thongtinchinh","value":"phuong_thuc_tuyen_sinh"}
+    - [Phương thức xét tuyển]{"entity":"thongtinchinh","value":"phuong_thuc_tuyen_sinh"}
+    - Trường có các [phương thức xét tuyển]{"entity":"thongtinchinh","value":"phuong_thuc_tuyen_sinh"} nào
+    - Cac [hinh thuc tuyen sinh]{"entity":"thongtinchinh","value":"phuong_thuc_tuyen_sinh"}
+    - Các [hình thức tuyển sinh]{"entity":"thongtinchinh","value":"phuong_thuc_tuyen_sinh"} của trường
+    - Dạ cho em hỏi về các [phương thức tuyển sinh]{"entity":"thongtinchinh","value":"phuong_thuc_tuyen_sinh"} của trường
+    - Trường mình có các [phương thức tuyển sinh]{"entity":"thongtinchinh","value":"phuong_thuc_tuyen_sinh"} nào ạ
+    - [phuong thuc tuyen sinh]{"entity":"thongtinchinh","value":"phuong_thuc_tuyen_sinh"}
+    - [hinh thuc tuyen sinh]{"entity":"thongtinchinh","value":"phuong_thuc_tuyen_sinh"}
     - [tổng quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [it]{"entity":"thongtinchinh","value":"cntt"}
     - [tóm tắt]{"entity":"thongtinphu","value":"tong_quan"} ngành [cong nghe thong tin]{"entity":"thongtinchinh","value":"cntt"} cua trường
     - [khái quát]{"entity":"thongtinphu","value":"tong_quan"} ngành [cntt]{"entity":"thongtinchinh","value":"cntt"} của học viện
@@ -160,6 +170,13 @@ nlu:
     - [em muon hoi]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [kt]{"entity":"thongtinchinh","value":"kt"}
     - [em muon hoi]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [ke toan]{"entity":"thongtinchinh","value":"kt"}
     - [em muon hoi]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [Ke toan]{"entity":"thongtinchinh","value":"kt"}
+    - [ma nganh]{"entity":"thongtinphu","value":"ma_nganh"} [attt]{"entity":"thongtinchinh","value":"attt"}
+    - [mã ngành]{"entity":"thongtinphu","value":"ma_nganh"} [attt]{"entity":"thongtinchinh","value":"attt"}
+    - [ma nganh]{"entity":"thongtinphu","value":"ma_nganh"} [ATTT]{"entity":"thongtinchinh","value":"attt"}
+    - [ma nganh]{"entity":"thongtinphu","value":"ma_nganh"} [an toan thong tin]{"entity":"thongtinchinh","value":"attt"}
+    - [ma nganh]{"entity":"thongtinphu","value":"ma_nganh"} [an toàn thông tin]{"entity":"thongtinchinh","value":"attt"}
+    - [ma nganh]{"entity":"thongtinphu","value":"ma_nganh"} [AN TOÀN THÔNG TIN]{"entity":"thongtinchinh","value":"attt"}
+    - [ma nganh]{"entity":"thongtinphu","value":"ma_nganh"} [AN TOAN THONG TIN]{"entity":"thongtinchinh","value":"attt"}
 
 - synonym: bac
   examples: |

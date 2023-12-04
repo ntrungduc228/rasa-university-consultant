@@ -15,6 +15,113 @@ from rasa_sdk.types import DomainDict
 from rasa_sdk.events import SlotSet, AllSlotsReset,UserUttered,FollowupAction
 import json
 
+coso_data = ["chung","bac","nam"]
+nganh_data = ["cntt", "ktdtvt", "ktddt", "attt", "ktdkvtdh", "iot", "cndpt", "qtkd", "mkt", "kt"]
+coso_default = "chung"
+namhoc_data = ["2023", "2022", "2021", "2020", "2019"]
+namhoc_default = "chung"
+thongtinphu_default ="chung"
+nganh_tq="tong_quan"
+none_coso_namhoc="chung"
+
+'''
+    slot: thongtinchinh, thongtinphu, coso, namhoc
+          flag
+
+    thongtinchinh-thongtinphu
+    thongtinchinh-thongtinphu-namhoc
+    thongtinchinh-thongtinphu-coso
+    thongtinchinh-thongtinphu-coso-namhoc
+    flag-coso           ex: the con co so phia bac
+    flag-thongtinphu    ex: the con chuyen nganh
+    flag-namhoc         ex: em cung muon hoi them nam 2022
+    flag-coso-namhoc    ex: em cung muon biet co so phia nam nam 2021
+'''
+
+tmp_thongtinchinh = ''
+tmp_thongtinphu = ''
+tmp_coso = ''
+tmp_namhoc = ''
+
+def reset_tmp_val():
+    print('resetting temp val\n')
+    global tmp_thongtinchinh 
+    global tmp_thongtinphu 
+    global tmp_coso 
+    global tmp_namhoc 
+    tmp_thongtinchinh = ''
+    tmp_thongtinphu = ''
+    tmp_coso = ''
+    tmp_namhoc = ''
+
+def set_tmp_val(thongtinchinh, thongtinphu, coso, namhoc):
+    print('setting new temp val\n')
+
+    global tmp_thongtinchinh 
+    global tmp_thongtinphu 
+    global tmp_coso 
+    global tmp_namhoc 
+
+    tmp_thongtinchinh = thongtinchinh
+    tmp_thongtinphu = thongtinphu
+    tmp_coso = coso
+    tmp_namhoc = namhoc
+
+def print_tmp_val():
+    print('======================================================================\n')
+    print(f'thongtin tmp: {tmp_thongtinchinh} - {tmp_thongtinphu} - {tmp_coso} - {tmp_namhoc}')
+
+class ActionTimThongtinchinhThongtinphu(Action):
+    def name(self):
+        return "action_ttchinh_ttphu"
+    def run(self, dispatcher, tracker, domain):
+        thongtinchinh = tracker.get_slot("thongtinchinh")
+        thongtinphu = tracker.get_slot("thongtinphu")
+        isFlag = False
+        isNganh = False
+        print_tmp_val()
+        # [UserUttered(text="/utter_hoi_chuc_nang")]
+        print(f'action_chinh_phu -> thongtinchinh: {thongtinchinh} -  thongtinphu: {thongtinphu} \n')
+        print(f'Flag_IsNganh -> Flag: {isFlag} -  IsNganh: {isNganh} \n')
+
+        if thongtinchinh is None:
+            return [FollowupAction("utter_hoi_chuc_nang")]
+
+        if thongtinphu is None:
+            thongtinphu = thongtinphu_default
+
+        if thongtinchinh in nganh_data:
+            isNganh = True
+
+        if isFlag == True:
+            
+          return [AllSlotsReset()]
+        else:
+            f = open('./data/collections/data_collect.json', encoding="utf8")
+            data = json.load(f)
+
+            
+
+            if isNganh == True:
+                if thongtinphu not in data["nganh"][thongtinchinh]:
+                    dispatcher.utter_message(text=f'bot chua co thong tin')
+                else:
+                    dispatcher.utter_message(text=f'{data["nganh"][thongtinchinh][thongtinphu][none_coso_namhoc]}')
+
+            else:
+                if thongtinphu not in data[thongtinchinh]:
+                    dispatcher.utter_message(text=f'bot chua co thong tin')
+                else:
+                    dispatcher.utter_message(text=f'{data[thongtinchinh][thongtinphu]}')
+
+    
+        set_tmp_val(thongtinchinh, thongtinphu, '', '')
+        print_tmp_val()
+        return [AllSlotsReset()]
+
+
+#### ======================================================== ####
+
 '''
     - [thongtinchinh][coso_default]
     format:

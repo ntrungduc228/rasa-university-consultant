@@ -19,5 +19,5 @@ rules:
 
 - rule: cntt - hoi tong quan
   steps:
-  - intent: cntt_tongquan
-  - action: action_truyvan_nganh_thongtinphu_coso
+  - intent: intent_ttchinh_ttphu
+  - action: action_ttchinh_ttphu
