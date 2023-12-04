@@ -266,8 +266,6 @@ nlu:
     - [tong quan]{"entity":"thongtinphu","value":"tong_quan"} nganh [CNTT]{"entity":"thongtinchinh","value":"cntt"}
     - [tom tat]{"entity":"thongtinphu","value":"tong_quan"} nganh [công nghệ thông tin]{"entity":"thongtinchinh","value":"cntt"} của học viện
     - [khai quat]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [cntt]{"entity":"thongtinchinh","value":"cntt"} duoc khong
-    - [tong quan]{"entity":"thongtinphu","value":"tong_quan"} nganh [CNTT]{"entity":"thongtinchinh","value":"cntt"} o co so phia [bac]{"entity":"coso","value":"bac"}
-    - [tong quan]{"entity":"thongtinphu","value":"tong_quan"} nganh [CNTT]{"entity":"thongtinchinh","value":"cntt"} o co so phia [nam]{"entity":"coso","value":"nam"}
     - [giới thiệu]{"entity":"thongtinphu","value":"tong_quan"} về ngành [it]{"entity":"thongtinchinh","value":"cntt"}
     - [giới thiệu]{"entity":"thongtinphu","value":"tong_quan"} về ngành [công nghệ thông tin]{"entity":"thongtinchinh","value":"cntt"}
     - [cho em hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
@@ -301,8 +299,6 @@ nlu:
     - [tong quan]{"entity":"thongtinphu","value":"tong_quan"} nganh [ke toan]{"entity":"thongtinchinh","value":"kt"}
     - [tom tat]{"entity":"thongtinphu","value":"tong_quan"} nganh [ke toan]{"entity":"thongtinchinh","value":"kt"} của học viện
     - [khai quat]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [kt]{"entity":"thongtinchinh","value":"kt"} duoc khong
-    - [tong quan]{"entity":"thongtinphu","value":"tong_quan"} nganh [kt]{"entity":"thongtinchinh","value":"kt"} o [co so phia bac]{"entity":"coso","value":"bac"}
-    - [tong quan]{"entity":"thongtinphu","value":"tong_quan"} nganh [kt]{"entity":"thongtinchinh","value":"kt"} o [co so phia nam]{"entity":"coso","value":"nam"}
     - [giới thiệu]{"entity":"thongtinphu","value":"tong_quan"} về ngành [kt]{"entity":"thongtinchinh","value":"kt"}
     - [giới thiệu]{"entity":"thongtinphu","value":"tong_quan"} về ngành [kế toán]{"entity":"thongtinchinh","value":"kt"}
     - [giới thiệu]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Kế toán]{"entity":"thongtinchinh","value":"kt"}
