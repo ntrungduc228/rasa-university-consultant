@@ -186,6 +186,69 @@ class ActionThongtinchinhThongtinphuCoso(Action):
         print_tmp_val()
         return [AllSlotsReset()]
 
+
+class ActionThongtinchinhThongtinphuNamhoc(Action):
+    def name(self):
+        return "action_ttchinh_ttphu_namhoc"
+    def run(self, dispatcher, tracker, domain):
+        thongtinchinh = tracker.get_slot("thongtinchinh")
+        thongtinphu = tracker.get_slot("thongtinphu")
+        namhoc = tracker.get_slot("namhoc")
+        isFlag = False
+        isNganh = False
+        print_tmp_val()
+        # [UserUttered(text="/utter_hoi_chuc_nang")]
+
+
+        if thongtinchinh is None:
+            return [FollowupAction("utter_hoi_chuc_nang")]
+
+        if thongtinphu is None:
+            thongtinphu = thongtinphu_default
+
+        if namhoc is None:
+            namhoc = coso_default
+
+        if thongtinchinh in nganh_data:
+            isNganh = True
+
+        print(f'action_ttchinh_ttphu_namhoc -> thongtinchinh: {thongtinchinh} -  thongtinphu: {thongtinphu} - namhoc: {namhoc} \n')
+        print(f'Flag_IsNganh -> Flag: {isFlag} -  IsNganh: {isNganh} \n')
+       
+
+        if isFlag == True:
+            
+            return [AllSlotsReset()]
+        else:
+            f = open('./data/collections/data_collect.json', encoding="utf8")
+            data = json.load(f)
+            
+            '''
+                nganh
+                    data["nganh"][thongtinchinh][thongtinphu][namhoc]
+                ko nganh
+                    data[thongtinchinh][thongtinphu][namhoc]
+            '''
+
+            if isNganh == True:
+                if thongtinphu not in data["nganh"][thongtinchinh]:
+                    dispatcher.utter_message(text=f'bot chua co thong tin')
+                else:
+                    if namhoc not in data["nganh"][thongtinchinh][thongtinphu]:
+                        dispatcher.utter_message(text=f'bot chua co thong tin')
+                    else:
+                        dispatcher.utter_message(text=f'{data["nganh"][thongtinchinh][thongtinphu][namhoc][none_coso_namhoc]}')
+
+            else:
+                if thongtinphu not in data[thongtinchinh]:
+                    dispatcher.utter_message(text=f'bot chua co thong tin')
+                else:
+                    dispatcher.utter_message(text=f'{data[thongtinchinh][thongtinphu]}')
+
+        set_tmp_val(thongtinchinh, thongtinphu, namhoc, '')
+        print_tmp_val()
+        return [AllSlotsReset()]
+
 #### ======================================================== ####
 
 '''

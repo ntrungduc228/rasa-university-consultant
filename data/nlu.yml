@@ -190,6 +190,19 @@ nlu:
       - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [ky thuat dien tu vien thong]{"entity":"thongtinchinh","value":"ktdtvt"} co so phia [bac]{"entity":"coso","value":"bac"}
       - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [ky thuat dien tu vien thong]{"entity":"thongtinchinh","value":"ktdtvt"} co so phia [nam]{"entity":"coso","value":"nam"}
 
+- intent: intent_ttchinh_ttphu_namhoc
+  examples: |
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [công nghệ thông tin]{"entity":"thongtinchinh","value":"cntt"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [công nghệ thông tin]{"entity":"thongtinchinh","value":"cntt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [công nghệ thông tin]{"entity":"thongtinchinh","value":"cntt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [công nghệ thông tin]{"entity":"thongtinchinh","value":"cntt"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [công nghệ thông tin]{"entity":"thongtinchinh","value":"cntt"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [it]{"entity":"thongtinchinh","value":"cntt"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [it]{"entity":"thongtinchinh","value":"cntt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [it]{"entity":"thongtinchinh","value":"cntt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [it]{"entity":"thongtinchinh","value":"cntt"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [it]{"entity":"thongtinchinh","value":"cntt"} nam [2019]{"entity":"namhoc","value":"2019"}
+
 - synonym: bac
   examples: |
     - bac

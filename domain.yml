@@ -10,6 +10,9 @@ intents:
   - bot_challenge
   - cntt_tongquan
   - nlu_fallblack
+  - intent_ttchinh_ttphu
+  - intent_ttchinh_ttphu_coso
+  - intent_ttchinh_ttphu_namhoc
 
 entities:
   - thongtinchinh
@@ -61,6 +64,7 @@ actions:
   ################################################################
   - action_ttchinh_ttphu
   - action_ttchinh_ttphu_coso
+  - action_ttchinh_ttphu_namhoc
 
 
 responses:
