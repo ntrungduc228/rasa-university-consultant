@@ -3,7 +3,7 @@ version: "3.8"
 services:
   wordpress:
     image: wordpress
-    container_name: wp-bot
+    container_name: wp-ruc
     ports:
       - 8080:80
     environment:
@@ -16,7 +16,7 @@ services:
 
   db:
     image: mysql
-    container_name: db-bot
+    container_name: db-ruc
     expose:
       - 3306
     environment:
