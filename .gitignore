@@ -120,6 +120,7 @@ models/
 *.dot
 terms/
 results/
+db/
 
 # Secret & local files
 secret/

@@ -14,6 +14,11 @@ stories:
 #   - intent: mood_great
 #   - action: utter_happy
 
+# - story: utter_check_balance
+#   steps:
+#   - intent: check_balance
+#   - action: utter_check_balance
+
 # - story: sad path 1
 #   steps:
 #   - intent: greet

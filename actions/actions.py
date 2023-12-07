@@ -110,7 +110,10 @@ class ActionTimThongtinchinhThongtinphu(Action):
                 if thongtinphu not in data["nganh"][thongtinchinh]:
                     dispatcher.utter_message(text=f'bot chua co thong tin')
                 else:
-                    dispatcher.utter_message(text=f'{data["nganh"][thongtinchinh][thongtinphu][none_coso_namhoc]}')
+                    if thongtinphu != thongtinphu_default:
+                        dispatcher.utter_message(text=f'{data["nganh"][thongtinchinh][thongtinphu][none_coso_namhoc]}')
+                    else:
+                        dispatcher.utter_message(text=f'{data["nganh"][thongtinchinh][thongtinphu]}')
 
             else:
                 if thongtinphu not in data[thongtinchinh]:

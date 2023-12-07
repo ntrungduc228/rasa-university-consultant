@@ -13,6 +13,7 @@ intents:
   - intent_ttchinh_ttphu
   - intent_ttchinh_ttphu_coso
   - intent_ttchinh_ttphu_namhoc
+  - check_balance
 
 entities:
   - thongtinchinh
@@ -81,6 +82,9 @@ responses:
 
   utter_happy:
   - text: "Great, carry on!"
+
+  utter_check_balance:
+  - text: ok this is your {account}
 
   utter_goodbye:
   - text: "Bye"
