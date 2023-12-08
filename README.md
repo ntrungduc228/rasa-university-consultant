@@ -221,7 +221,7 @@ và tự động hóa
     - ngành
     - nganh
     - Ngành
-    - nganh
+    - Nganh
     - các ngành đào tạo
     - cac nganh dao tao
     - Các ngành đào tạo
