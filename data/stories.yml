@@ -19,6 +19,21 @@ stories:
 #   - intent: check_balance
 #   - action: utter_check_balance
 
+- story: intent_ttchinh_ttphu - intent_ttchinh_ttphu_coso
+  steps:
+  - intent: intent_ttchinh_ttphu
+  - action: action_ttchinh_ttphu
+  - intent: intent_ttchinh_ttphu_coso
+  - action: action_ttchinh_ttphu_coso
+
+- story: intent_ttchinh_ttphu - intent_ttchinh_ttphu_namhoc
+  steps:
+  - intent: intent_ttchinh_ttphu
+  - action: action_ttchinh_ttphu
+  - intent: intent_ttchinh_ttphu_namhoc
+  - action: action_ttchinh_ttphu_namhoc
+
+
 # - story: sad path 1
 #   steps:
 #   - intent: greet

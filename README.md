@@ -125,7 +125,7 @@ và tự động hóa
     - đào tạo bao lâu
     - dao tao bao lau
     - Đào tạo bao lâu
-    - Đao tao bao lau
+    - Dao tao bao lau
     - thời gian học tập
     - thoi gian hoc tap
     - Thời gian học tập
@@ -163,6 +163,8 @@ và tự động hóa
     - So tin chi
     - Tín chỉ
     - tin chi
+    - tín chỉ
+    - Tin chi
 
 - synonym: chuyen_nganh
   examples: |
@@ -284,6 +286,34 @@ và tự động hóa
     - đk ra trường
     - dk de ra truong
     - đk để ra trường
+
+- synonym: tot_nghiep_lam_gi
+  examples: |
+    - tot nghiep lam gi
+    - lam gi
+    - làm gì
+    - tốt nghiệp làm gì
+    - làm công việc gì
+    - lam cong viêc gi
+    - làm vị trí nào
+    - lam vi tri nao
+    - Lam gi
+    - Làm gì
+    - Tốt nghiệp làm gì
+    - Làm công việc gì
+    - Lam cong viec gi
+    - Làm vị trí nào
+    - Lam vi tri nao
+    - Tot nghiep lam gi
+    - Tốt nghiệp làm gì
+    - lam duoc gi
+    - làm được gì
+    - Làm được gì
+    - Lam duoc gi
+    - lam nhung cong viec gi
+    - làm những công việc gì
+    - làm những công việc nào
+    - lam nhung cong viec nao
 
 - synonym: cntt
   examples: |

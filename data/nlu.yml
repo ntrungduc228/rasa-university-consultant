@@ -296,121 +296,245 @@ nlu:
     - [Cn thông tin]{"entity":"thongtinchinh","value":"cntt"}
 
     - [tổng quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [tóm tắt]{"entity":"thongtinphu","value":"tong_quan"} ngành [cntt]{"entity":"thongtinchinh","value":"cntt"} 
-    - [khái quát]{"entity":"thongtinphu","value":"tong_quan"} ngành [cntt]{"entity":"thongtinchinh","value":"cntt"} 
-    - [tong quan]{"entity":"thongtinphu","value":"tong_quan"} nganh [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [tom tat]{"entity":"thongtinphu","value":"tong_quan"} nganh [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [khai quat]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [giới thiệu]{"entity":"thongtinphu","value":"tong_quan"} về ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [giới thiệu]{"entity":"thongtinphu","value":"tong_quan"} về ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [cho em hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [cho em hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [cho em hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [em muốn biết]{"entity":"thongtinphu","value":"tong_quan"} về ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [em muốn biết ]{"entity":"thongtinphu","value":"tong_quan"} về ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [em muốn biết]{"entity":"thongtinphu","value":"tong_quan"} về ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
+    - [Tong quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
+    - [Tổng quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
+    - [tóm tắt]{"entity":"thongtinphu","value":"tong_quan"} ngành [it]{"entity":"thongtinchinh","value":"cntt"} 
+    - [khái quát]{"entity":"thongtinphu","value":"tong_quan"} ngành [CNTT]{"entity":"thongtinchinh","value":"cntt"} 
+    - [Khái quát]{"entity":"thongtinphu","value":"tong_quan"} ngành [CNTT]{"entity":"thongtinchinh","value":"cntt"} 
+    - [Khai quat]{"entity":"thongtinphu","value":"tong_quan"} ngành [CNTT]{"entity":"thongtinchinh","value":"cntt"} 
+    - [tong quan]{"entity":"thongtinphu","value":"tong_quan"} nganh [IT]{"entity":"thongtinchinh","value":"cntt"}
+    - [tom tat]{"entity":"thongtinphu","value":"tong_quan"} nganh [iT]{"entity":"thongtinchinh","value":"cntt"}
+    - [Tom tat]{"entity":"thongtinphu","value":"tong_quan"} nganh [iT]{"entity":"thongtinchinh","value":"cntt"}
+    - [Tóm tắt]{"entity":"thongtinphu","value":"tong_quan"} nganh [iT]{"entity":"thongtinchinh","value":"cntt"}
+    - [khai quat]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [It]{"entity":"thongtinchinh","value":"cntt"}
+    - [giới thiệu]{"entity":"thongtinphu","value":"tong_quan"} về ngành [cong nghe thong tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [Giới thiệu]{"entity":"thongtinphu","value":"tong_quan"} về ngành [cong nghe thong tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [Gioi thieu]{"entity":"thongtinphu","value":"tong_quan"} về ngành [cong nghe tt]{"entity":"thongtinchinh","value":"cntt"}
+    - [cho em hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [công nghệ thông tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [cho em hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Công nghệ thông tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [Cho em hoii]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Công nghệ thông tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [Cho em hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Công nghệ thông tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [cho em hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Cong nghe thong tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [em muốn biết]{"entity":"thongtinphu","value":"tong_quan"} về ngành [công nghệ tt]{"entity":"thongtinchinh","value":"cntt"}
+    - [Em muon biet]{"entity":"thongtinphu","value":"tong_quan"} về ngành [công nghệ tt]{"entity":"thongtinchinh","value":"cntt"}
+    - [Em muốn biết]{"entity":"thongtinphu","value":"tong_quan"} về ngành [công nghệ tt]{"entity":"thongtinchinh","value":"cntt"}
+    - [em muốn biết]{"entity":"thongtinphu","value":"tong_quan"} về ngành [cn thông tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [em muốn biết]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Cn thong tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [em muốn hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [cn thong tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [Em muon hoi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [cn thong tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [Em muốn hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [cn thong tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [em muốn hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Cn thông tin]{"entity":"thongtinchinh","value":"cntt"}
     - [em muốn hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [em muốn hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [em muốn hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [gioi thieu]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [gioi thieu]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [gioi thieu]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [gioi thieu]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [cho em hoi]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [cho em hoi]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [cho em hoi]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [cho em hoi]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [em muon biet]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [em muon biet]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [em muon biet]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [em muon biet]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [em muon hoi]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [em muon hoi]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [em muon hoi]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [cntt]{"entity":"thongtinchinh","value":"cntt"}
+    - [gioi thieu]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [it]{"entity":"thongtinchinh","value":"cntt"}
+    - [gioi thieu]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [CNTT]{"entity":"thongtinchinh","value":"cntt"}
+    - [gioi thieu]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [IT]{"entity":"thongtinchinh","value":"cntt"}
+    - [gioi thieu]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [iT]{"entity":"thongtinchinh","value":"cntt"}
+    - [cho em hoi]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [It]{"entity":"thongtinchinh","value":"cntt"}
+    - [cho em hoi]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [cong nghe thong tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [cho em hoi]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [cong nghe tt]{"entity":"thongtinchinh","value":"cntt"}
+    - [cho em hoi]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [công nghệ thông tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [em muon biet]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [Công nghệ thông tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [em muon biet]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [Cong nghe thong tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [em muon biet]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [công nghệ tt]{"entity":"thongtinchinh","value":"cntt"}
+    - [em muon biet]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [cn thông tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [em muon hoi]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [Cn thong tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [em muon hoi]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [cn thong tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [em muon hoi]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [Cn thông tin]{"entity":"thongtinchinh","value":"cntt"}
     - [em muon hoi]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [cntt]{"entity":"thongtinchinh","value":"cntt"}
 
-    - Em có dự định muốn học ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}, vậy cho em hỏi học ngành này xong thì ra ngoài [có thể làm gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} ạ
-    - Hoc xong [cntt]{"entity":"thongtinchinh","value":"cntt"} co the lam gi a
-    - [cntt]{"entity":"thongtinchinh","value":"cntt"} lam gi khi hoc xong
-    - hoc xong [cntt]{"entity":"thongtinchinh","value":"cntt"} thi [lam duoc]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} gi
-    - học [cntt]{"entity":"thongtinchinh","value":"cntt"} [có thể làm những công việc]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} gì
-    - học [cntt]{"entity":"thongtinchinh","value":"cntt"} [có thể làm những công việc]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} nào
-    - học [cntt]{"entity":"thongtinchinh","value":"cntt"} [có thể làm những công việc]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} gì
+    - Em có dự định muốn học ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}, vậy cho em hỏi học ngành này xong thì ra ngoài có thể [làm gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} ạ
+    - Hoc xong [it]{"entity":"thongtinchinh","value":"cntt"} co the [lam cong viêc gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} a
+    - Học xong [CNTT]{"entity":"thongtinchinh","value":"cntt"} co the [làm công việc gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} a
+    - [IT]{"entity":"thongtinchinh","value":"cntt"} [làm vị trí nào]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
+    - [iT]{"entity":"thongtinchinh","value":"cntt"} [làm gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
+    - [It]{"entity":"thongtinchinh","value":"cntt"} [Làm công việc gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
+    - [cong nghe thong tin]{"entity":"thongtinchinh","value":"cntt"} [làm được gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
+    - [cong nghe tt]{"entity":"thongtinchinh","value":"cntt"} [Làm được gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
+    - [công nghệ thông tin]{"entity":"thongtinchinh","value":"cntt"} [làm những công việc gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
+    - [Công nghệ thông tin]{"entity":"thongtinchinh","value":"cntt"} [làm những công việc nào]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
+    - [Cong nghe thong tin]{"entity":"thongtinchinh","value":"cntt"} [lam vi tri nao]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi hoc xong
+    - [công nghệ tt]{"entity":"thongtinchinh","value":"cntt"} [Lam duoc gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi hoc xong
+    - [cn thông tin]{"entity":"thongtinchinh","value":"cntt"} [lam duoc gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi hoc xong
+    - [Cn thong tin]{"entity":"thongtinchinh","value":"cntt"} [lam nhung cong viec gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi hoc xong
+    - [cn thong tin]{"entity":"thongtinchinh","value":"cntt"} [lam nhung cong viec nao]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi hoc xong
+    - [Cn thông tin]{"entity":"thongtinchinh","value":"cntt"} [lam gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi hoc xong
+    - [cntt]{"entity":"thongtinchinh","value":"cntt"} [Lam cong viec gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi hoc xong
+    - hoc xong [công nghệ thông tin]{"entity":"thongtinchinh","value":"cntt"} thi [lam duoc gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"}
+    - học [Công nghệ thông tin]{"entity":"thongtinchinh","value":"cntt"} có thể [làm những công việc gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} 
+    - học [công nghệ tt]{"entity":"thongtinchinh","value":"cntt"} có thể [làm những công việc nào]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} 
+    - học [cntt]{"entity":"thongtinchinh","value":"cntt"} có thể [làm những công việc gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} 
 
-    - [Mã ngành]{"entity":"thongtinphu","value":"ma_nganh"} [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [mã ngành]{"entity":"thongtinphu","value":"ma_nganh"} [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [Ma nganh]{"entity":"thongtinphu","value":"ma_nganh"} [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [Mã Ngành]{"entity":"thongtinphu","value":"ma_nganh"} [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [ma nganh]{"entity":"thongtinphu","value":"ma_nganh"} [cntt]{"entity":"thongtinchinh","value":"cntt"}
     - cho em hoi [ma nganh]{"entity":"thongtinphu","value":"ma_nganh"} [cntt]{"entity":"thongtinchinh","value":"cntt"}
+    - cho em hỏi [Mã ngành]{"entity":"thongtinphu","value":"ma_nganh"} [it]{"entity":"thongtinchinh","value":"cntt"}
+    - em muốn biết [mã ngành]{"entity":"thongtinphu","value":"ma_nganh"} [IT]{"entity":"thongtinchinh","value":"cntt"}
+    - em muon biet [Ma nganh]{"entity":"thongtinphu","value":"ma_nganh"} [CNTT]{"entity":"thongtinchinh","value":"cntt"}
+    - Cho em hoi [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [cong nghe thong tin]{"entity":"thongtinchinh","value":"cntt"}
+    - Cho em hỏi [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [công nghệ tt]{"entity":"thongtinchinh","value":"cntt"}
+    - Em muon biết [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [cn thong tin]{"entity":"thongtinchinh","value":"cntt"}
+    - Em muon biet [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [cn thong tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [Cn thông tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [Cn thong tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [công nghệ tt]{"entity":"thongtinchinh","value":"cntt"}
+    - [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [cn thông tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [Mã Ngành]{"entity":"thongtinphu","value":"ma_nganh"} [công nghệ thông tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [ma nganh]{"entity":"thongtinphu","value":"ma_nganh"} [CÔNG NGHỆ THÔNG TIN]{"entity":"thongtinchinh","value":"cntt"}
+    - [ma nganh]{"entity":"thongtinphu","value":"ma_nganh"} [it]{"entity":"thongtinchinh","value":"cntt"}
 
     - [chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [Chương trình đào tạo]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - Cho em hỏi về [chương trình đào tạo]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} ngành [cntt]{"entity":"thongtinchinh","value":"cntt"} ạ
-    - cho em hoi [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} nganh [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - em muon biet [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} nganh [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - em muốn biết [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} nganh [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [ctdt]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} [cntt]{"entity":"thongtinchinh","value":"cntt"}
+    - [Chương trình đào tạo]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} [it]{"entity":"thongtinchinh","value":"cntt"}
+    - Cho em hỏi về [chương trình đào tạo]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} ngành [CNTT]{"entity":"thongtinchinh","value":"cntt"} ạ
+    - cho em hoi [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} nganh [IT]{"entity":"thongtinchinh","value":"cntt"}
+    - em muon biet [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} nganh [iT]{"entity":"thongtinchinh","value":"cntt"}
+    - em muốn biết [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} nganh [It]{"entity":"thongtinchinh","value":"cntt"}
+    - [ctdt]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} [cong nghe thong tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} [cong nghe tt]{"entity":"thongtinchinh","value":"cntt"}
+    - [Chương trình đào tạo]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} [công nghệ thông tin]{"entity":"thongtinchinh","value":"cntt"}
+    - Cho em hỏi về [chương trình đào tạo]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} ngành [Công nghệ thông tin]{"entity":"thongtinchinh","value":"cntt"} ạ
+    - cho em hoi [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} nganh [Cong nghe thong tin]{"entity":"thongtinchinh","value":"cntt"}
+    - em muon biet [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} nganh [công nghệ tt]{"entity":"thongtinchinh","value":"cntt"}
+    - em muốn biết [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} nganh [cn thông tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [ctdt]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} [Cn thong tin]{"entity":"thongtinchinh","value":"cntt"}
+    - cho em hoi [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} nganh [Cong nghe thong tin]{"entity":"thongtinchinh","value":"cntt"}
+    - em muon biet [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} nganh [công nghệ tt]{"entity":"thongtinchinh","value":"cntt"}
+    - em muốn biết [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} nganh [cn thong tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [ctdt]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} [Cn thông tin]{"entity":"thongtinchinh","value":"cntt"}
 
     - [thoi gian dao tao]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [thoi gian dao tao]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} nganh [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [thời gian học]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [thoi gian hoc]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - hoc [cntt]{"entity":"thongtinchinh","value":"cntt"} [bao lâu]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} thì ra trường
-    - học [cntt]{"entity":"thongtinchinh","value":"cntt"} mất [bao lâu]
-    - ngành [cntt]{"entity":"thongtinchinh","value":"cntt"} [học mấy năm]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
-    - hoc [cntt]{"entity":"thongtinchinh","value":"cntt"} trong [bao lau]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
-    - [thời gian đào tạo]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} của ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [học mấy năm]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
+    - [Thoi gian dao tao]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} [it]{"entity":"thongtinchinh","value":"cntt"}
+    - [Thời gian đào tạo]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} [CNTT]{"entity":"thongtinchinh","value":"cntt"}
+    - [thoi gian dao tao]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} nganh [IT]{"entity":"thongtinchinh","value":"cntt"}
+    - [thời gian học]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} ngành [iT]{"entity":"thongtinchinh","value":"cntt"}
+    - [thoi gian hoc]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} [It]{"entity":"thongtinchinh","value":"cntt"}
+    - [Thời gian học]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} ngành [cong nghe thong tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [Thoi gian hoc]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} [cong nghe tt]{"entity":"thongtinchinh","value":"cntt"}
+    - [Thời gian]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} ngành [công nghệ thông tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [Thoi gian]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} [Công nghệ thông tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [thời gian]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} ngành [Cong nghe thong tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [thoi gian]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} [công nghệ tt]{"entity":"thongtinchinh","value":"cntt"}
+    - hoc [cn thông tin]{"entity":"thongtinchinh","value":"cntt"} [bao lâu]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} thì ra trường
+    - học [Cn thong tin]{"entity":"thongtinchinh","value":"cntt"} mất [bao lâu]
+    - ngành [cn thong tin]{"entity":"thongtinchinh","value":"cntt"} [học mấy năm]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - ngành [Cn thông tin]{"entity":"thongtinchinh","value":"cntt"} [hoc may nam]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - ngành [cntt]{"entity":"thongtinchinh","value":"cntt"} [đào tạo mấy năm]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - ngành [it]{"entity":"thongtinchinh","value":"cntt"} [dao tao may nam]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - ngành [CNTT]{"entity":"thongtinchinh","value":"cntt"} [đào tạo bao lâu]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - ngành [IT]{"entity":"thongtinchinh","value":"cntt"} [dao tao bao lau]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - ngành [It]{"entity":"thongtinchinh","value":"cntt"} [Đào tạo bao lâu]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - ngành [cntt]{"entity":"thongtinchinh","value":"cntt"} [Dao tao bao lau]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - hoc [cong nghe thong tin]{"entity":"thongtinchinh","value":"cntt"} trong [bao lau]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - [thời gian đào tạo]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} của ngành [cong nghe tt]{"entity":"thongtinchinh","value":"cntt"}
+    - [thoi gian hoc tap]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} của ngành [công nghệ thông tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [thời gian học tập]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} của ngành [Công nghệ thông tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [Thời gian học tập]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} của ngành [Cong nghe thong tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [Thoi gian hoc tap]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} của ngành [công nghệ tt]{"entity":"thongtinchinh","value":"cntt"}
+    - [học mấy năm]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} ngành [Cn thong tin]{"entity":"thongtinchinh","value":"cntt"}
     - học [cntt]{"entity":"thongtinchinh","value":"cntt"} [bao lâu]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} thì xong
 
     - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - Cho em hỏi về [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cntt]{"entity":"thongtinchinh","value":"cntt"} ạ
-    - cho em hoi [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
+    - [Hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [it]{"entity":"thongtinchinh","value":"cntt"}
+    - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [CNTT]{"entity":"thongtinchinh","value":"cntt"}
+    - Cho em hỏi về [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [IT]{"entity":"thongtinchinh","value":"cntt"} ạ
+    - em muốn biết [chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [iT]{"entity":"thongtinchinh","value":"cntt"} ạ
+    - em muốn biết [Chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [It]{"entity":"thongtinchinh","value":"cntt"} ạ
+    - Em muon biet [chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cong nghe thong tin]{"entity":"thongtinchinh","value":"cntt"} ạ
+    - Em muon biet [Chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cong nghe tt]{"entity":"thongtinchinh","value":"cntt"} ạ
+    - Em muon biet [hi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [công nghệ thông tin]{"entity":"thongtinchinh","value":"cntt"} ạ
+    - cho em hoi ve [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Công nghệ thông tin]{"entity":"thongtinchinh","value":"cntt"} ạ
+    - Cho em hoi [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [Cong nghe thong tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [công nghệ tt]{"entity":"thongtinchinh","value":"cntt"}
+    - [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cn thông tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Cn thong tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cn thong tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Cn thông tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [Tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
+    - [Tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [it]{"entity":"thongtinchinh","value":"cntt"}
+    - [số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [CNTT]{"entity":"thongtinchinh","value":"cntt"}
+    - [so tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [IT]{"entity":"thongtinchinh","value":"cntt"}
+    - [Số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [It]{"entity":"thongtinchinh","value":"cntt"}
+    - [So tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cong nghe thong tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cong nghe tt]{"entity":"thongtinchinh","value":"cntt"}
 
-    - [số tín chỉ]{"entity":"thongtinphu","value":"sotc"} ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [số tín chỉ]{"entity":"thongtinphu","value":"sotc"} ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [số tín chỉ]{"entity":"thongtinphu","value":"sotc"} ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [so tin chi]{"entity":"thongtinphu","value":"sotc"} nganh [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [so tin chi]{"entity":"thongtinphu","value":"sotc"} nganh [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [so tin chi]{"entity":"thongtinphu","value":"sotc"} nganh [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - nganh [cntt]{"entity":"thongtinchinh","value":"cntt"} co bn [tin chi]{"entity":"thongtinphu","value":"sotc"}
-    - nganh [cntt]{"entity":"thongtinchinh","value":"cntt"} co bao nhieu [tin chi]{"entity":"thongtinphu","value":"sotc"}
-    - ngành [cntt]{"entity":"thongtinchinh","value":"cntt"} có bao nhiêu [tín chỉ]{"entity":"thongtinphu","value":"sotc"}
-    - ngành [cntt]{"entity":"thongtinchinh","value":"cntt"} có tổng cộng bao nhiêu [tín chỉ]{"entity":"thongtinphu","value":"sotc"} tất cả
-    - [cntt]{"entity":"thongtinchinh","value":"cntt"} co [bao nhieu tin chi]{"entity":"thongtinphu","value":"sotc"}
-    - [cntt]{"entity":"thongtinchinh","value":"cntt"} hoc [bao nhieu tin chi]{"entity":"thongtinphu","value":"sotc"}
-    - [cntt]{"entity":"thongtinchinh","value":"cntt"} tổng cộng [bao nhiêu tín chỉ]{"entity":"thongtinphu","value":"sotc"}
+    - [sotc]{"entity":"thongtinphu","value":"sotc"} ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
+    - [số tín chỉ]{"entity":"thongtinphu","value":"sotc"} ngành [it]{"entity":"thongtinchinh","value":"cntt"}
+    - [Số tín chỉ]{"entity":"thongtinphu","value":"sotc"} ngành [CNTT]{"entity":"thongtinchinh","value":"cntt"}
+    - [so tin chi]{"entity":"thongtinphu","value":"sotc"} nganh [IT]{"entity":"thongtinchinh","value":"cntt"}
+    - [So tin chi]{"entity":"thongtinphu","value":"sotc"} nganh [iT]{"entity":"thongtinchinh","value":"cntt"}
+    - [so tin chi]{"entity":"thongtinphu","value":"sotc"} nganh [It]{"entity":"thongtinchinh","value":"cntt"}
+    - nganh [cong nghe thong tin]{"entity":"thongtinchinh","value":"cntt"} co bn [tin chi]{"entity":"thongtinphu","value":"sotc"}
+    - nganh [cong nghe tt]{"entity":"thongtinchinh","value":"cntt"} co bn [tín chỉ]{"entity":"thongtinphu","value":"sotc"}
+    - nganh [công nghệ thông tin]{"entity":"thongtinchinh","value":"cntt"} co bao nhieu [tin chi]{"entity":"thongtinphu","value":"sotc"}
+    - ngành [Công nghệ thông tin]{"entity":"thongtinchinh","value":"cntt"} có bao nhiêu [Tin chi]{"entity":"thongtinphu","value":"sotc"}
+    - ngành [Cong nghe thong tin]{"entity":"thongtinchinh","value":"cntt"} có tổng cộng bao nhiêu [tín chỉ]{"entity":"thongtinphu","value":"sotc"} tất cả
+    - ngành [công nghệ tt]{"entity":"thongtinchinh","value":"cntt"}  [tín chỉ]{"entity":"thongtinphu","value":"sotc"} tất cả
+    - [cn thông tin]{"entity":"thongtinchinh","value":"cntt"} co [bao nhieu tin chi]{"entity":"thongtinphu","value":"sotc"}
+    - [Cn thong tin]{"entity":"thongtinchinh","value":"cntt"} hoc [bao nhieu tin chi]{"entity":"thongtinphu","value":"sotc"}
+    - [cn thong tin]{"entity":"thongtinchinh","value":"cntt"} tổng cộng [bao nhiêu tín chỉ]{"entity":"thongtinphu","value":"sotc"}
     - nganh [cntt]{"entity":"thongtinchinh","value":"cntt"} co tong cong bao nhieu [tin chi]{"entity":"thongtinphu","value":"sotc"}
+    - nganh [cntt]{"entity":"thongtinchinh","value":"cntt"} co tong cong bao nhieu [tin chi]{"entity":"thongtinphu","value":"sotc"} tat ca
     - ngành [cntt]{"entity":"thongtinchinh","value":"cntt"} có tổng cộng bao nhiêu [tín chỉ]{"entity":"thongtinphu","value":"sotc"}
-    - [cntt]{"entity":"thongtinchinh","value":"cntt"} có [bao nhiêu tín chỉ]{"entity":"thongtinphu","value":"sotc"}
+    - [Cn thông tin]{"entity":"thongtinchinh","value":"cntt"} có [bao nhiêu tín chỉ]{"entity":"thongtinphu","value":"sotc"}
     - [cntt]{"entity":"thongtinchinh","value":"cntt"} có tất cả [bao nhiêu tin chỉ]{"entity":"thongtinphu","value":"sotc"}
     - [cntt]{"entity":"thongtinchinh","value":"cntt"} co tat ca [bao nhieu tin chi]{"entity":"thongtinphu","value":"sotc"}
 
     - nganh [cntt]{"entity":"thongtinchinh","value":"cntt"} co cac [chuyen nganh]{"entity":"thongtinphu","value":"chuyen_nganh"} nao
-    - nganh [cntt]{"entity":"thongtinchinh","value":"cntt"} có các [chuyên ngành]{"entity":"thongtinphu","value":"chuyen_nganh"} nào
-    - [cntt]{"entity":"thongtinchinh","value":"cntt"} được chia mấy [chuyên ngành]{"entity":"thongtinphu","value":"chuyen_nganh"}
-    - ngành [cntt]{"entity":"thongtinchinh","value":"cntt"} có những [chuyên ngành]{"entity":"thongtinphu","value":"chuyen_nganh"} nào
-    - [cntt]{"entity":"thongtinchinh","value":"cntt"} [chuyên ngành]{"entity":"thongtinphu","value":"chuyen_nganh"}
-    - [cntt]{"entity":"thongtinchinh","value":"cntt"} [chuyen nganh]{"entity":"thongtinphu","value":"chuyen_nganh"}
+    - nganh [it]{"entity":"thongtinchinh","value":"cntt"} có các [chuyên ngành]{"entity":"thongtinphu","value":"chuyen_nganh"} nào
+    - [CNTT]{"entity":"thongtinchinh","value":"cntt"} được chia mấy [chuyên ngành]{"entity":"thongtinphu","value":"chuyen_nganh"}
+    - [IT]{"entity":"thongtinchinh","value":"cntt"} được chia mấy [Chuyên ngành]{"entity":"thongtinphu","value":"chuyen_nganh"}
+    - [iT]{"entity":"thongtinchinh","value":"cntt"} được chia mấy [Chuyen nganh]{"entity":"thongtinphu","value":"chuyen_nganh"}
+    - ngành [cong nghe thong tin]{"entity":"thongtinchinh","value":"cntt"} có những [chuyên ngành]{"entity":"thongtinphu","value":"chuyen_nganh"} nào
+    - ngành [cong nghe tt]{"entity":"thongtinchinh","value":"cntt"} có những [chuyên ngành]{"entity":"thongtinphu","value":"chuyen_nganh"} nào
+    - ngành [công nghệ thông tin]{"entity":"thongtinchinh","value":"cntt"} có những [chuyên ngành]{"entity":"thongtinphu","value":"chuyen_nganh"} nào
+    - ngành [cong nghe thong tin]{"entity":"thongtinchinh","value":"cntt"} có những [chuyên ngành]{"entity":"thongtinphu","value":"chuyen_nganh"} nào
+    - [Công nghệ thông tin]{"entity":"thongtinchinh","value":"cntt"} [Chuyen Nganh]{"entity":"thongtinphu","value":"chuyen_nganh"}
+    - [Cong nghe thong tin]{"entity":"thongtinchinh","value":"cntt"} [chuyen nganh]{"entity":"thongtinphu","value":"chuyen_nganh"}
+    - ngành [công nghệ tt]{"entity":"thongtinchinh","value":"cntt"} có những [chuyên ngành]{"entity":"thongtinphu","value":"chuyen_nganh"} nào
+    - ngành [cn thông tin]{"entity":"thongtinchinh","value":"cntt"} có những [chuyên ngành]{"entity":"thongtinphu","value":"chuyen_nganh"} nào
+    - ngành [cn thong tin]{"entity":"thongtinchinh","value":"cntt"} có những [chuyên ngành]{"entity":"thongtinphu","value":"chuyen_nganh"} nào
+    - [cn thong tin]{"entity":"thongtinchinh","value":"cntt"} [chuyên ngành]{"entity":"thongtinphu","value":"chuyen_nganh"}
+    - [Cn thông tin]{"entity":"thongtinchinh","value":"cntt"} [chuyen nganh]{"entity":"thongtinphu","value":"chuyen_nganh"}
+    - [Cn thong tin]{"entity":"thongtinchinh","value":"cntt"} [chuyen nganh]{"entity":"thongtinphu","value":"chuyen_nganh"}
 
     - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cntt]{"entity":"thongtinchinh","value":"cntt"}
+    - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [it]{"entity":"thongtinchinh","value":"cntt"}
+    - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [CNTT]{"entity":"thongtinchinh","value":"cntt"}
+    - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [IT]{"entity":"thongtinchinh","value":"cntt"}
+    - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [iT]{"entity":"thongtinchinh","value":"cntt"}
+    - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [It]{"entity":"thongtinchinh","value":"cntt"}
+    - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cong nghe thong tin]{"entity":"thongtinchinh","value":"cntt"}
+    - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cong nghe tt]{"entity":"thongtinchinh","value":"cntt"}
+    - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [công nghệ thông tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Công nghệ thông tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Cong nghe thong tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [công nghệ tt]{"entity":"thongtinchinh","value":"cntt"}
+    - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cn thông tin]{"entity":"thongtinchinh","value":"cntt"}
+    - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Cn thong tin]{"entity":"thongtinchinh","value":"cntt"}
+    - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cn thong tin]{"entity":"thongtinchinh","value":"cntt"}
+    - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Cn thông tin]{"entity":"thongtinchinh","value":"cntt"}
 
     - [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [khoi]{"entity":"thongtinphu","value":"khoi_thi"} thi nganh [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [khoi thi]{"entity":"thongtinphu","value":"khoi_thi"} nganh [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [khối]{"entity":"thongtinphu","value":"khoi_thi"} thi ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [tổ hợp xét tuyển]{"entity":"thongtinphu","value":"khoi_thi"} ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [to hop xet tuyen]{"entity":"thongtinphu","value":"khoi_thi"} thi nganh [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [to hop xet tuyen]{"entity":"thongtinphu","value":"khoi_thi"} nganh [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [tổ hợp xét tuyển]{"entity":"thongtinphu","value":"khoi_thi"} thi ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [tổ hợp xét tuyển]{"entity":"thongtinphu","value":"khoi_thi"} thi ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
+    - cho em hỏi [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
+    - Cho em hỏi [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
+    - Em muon biet [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
+    - Cho em hoi [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
+    - cho em hoi [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
+    - Em muốn biết [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
+    - em muon biết [khoi thi]{"entity":"thongtinphu","value":"khoi_thi"} nganh [it]{"entity":"thongtinchinh","value":"cntt"}
+    - [khoi thi]{"entity":"thongtinphu","value":"khoi_thi"} nganh [it]{"entity":"thongtinchinh","value":"cntt"}
+    - em muon biet [Khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [CNTT]{"entity":"thongtinchinh","value":"cntt"}
+    - [Khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [CNTT]{"entity":"thongtinchinh","value":"cntt"}
+    - [Khoi thi]{"entity":"thongtinphu","value":"khoi_thi"} nganh [IT]{"entity":"thongtinchinh","value":"cntt"}
+    - [tổ hợp xét tuyển]{"entity":"thongtinphu","value":"khoi_thi"} ngành [iT]{"entity":"thongtinchinh","value":"cntt"}
+    - [to hop xet tuyen]{"entity":"thongtinphu","value":"khoi_thi"} thi nganh [It]{"entity":"thongtinchinh","value":"cntt"}
+    - [Tổ hợp xét tuyển]{"entity":"thongtinphu","value":"khoi_thi"} ngành [cong nghe thong tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [To hop xet tuyen]{"entity":"thongtinphu","value":"khoi_thi"} thi nganh [cong nghe tt]{"entity":"thongtinchinh","value":"cntt"}
+    - [to hop xet tuyen]{"entity":"thongtinphu","value":"khoi_thi"} nganh [công nghệ thông tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [tổ hợp xét tuyển]{"entity":"thongtinphu","value":"khoi_thi"} thi ngành [Công nghệ thông tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [tổ hợp xét tuyển]{"entity":"thongtinphu","value":"khoi_thi"} thi ngành [Cong nghe thong tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [Tổ hợp môn]{"entity":"thongtinphu","value":"khoi_thi"} ngành [công nghệ tt]{"entity":"thongtinchinh","value":"cntt"}
+    - [To hop mon]{"entity":"thongtinphu","value":"khoi_thi"} thi nganh [cn thông tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [to hop mon]{"entity":"thongtinphu","value":"khoi_thi"} nganh [Cn thong tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [tổ hợp môn]{"entity":"thongtinphu","value":"khoi_thi"} thi ngành [cn thong tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [tổ hợp môn]{"entity":"thongtinphu","value":"khoi_thi"} thi ngành [Cn thông tin]{"entity":"thongtinchinh","value":"cntt"}
 
 
 - intent: intent_ttchinh_ttphu_coso
@@ -529,6 +653,8 @@ nlu:
     - So tin chi
     - Tín chỉ
     - tin chi
+    - tín chỉ
+    - Tin chi
 
 - synonym: chuyen_nganh
   examples: |
@@ -650,6 +776,34 @@ nlu:
     - đk ra trường
     - dk de ra truong
     - đk để ra trường
+
+- synonym: tot_nghiep_lam_gi
+  examples: |
+    - tot nghiep lam gi
+    - lam gi
+    - làm gì
+    - tốt nghiệp làm gì
+    - làm công việc gì
+    - lam cong viêc gi
+    - làm vị trí nào
+    - lam vi tri nao
+    - Lam gi
+    - Làm gì
+    - Tốt nghiệp làm gì
+    - Làm công việc gì
+    - Lam cong viec gi
+    - Làm vị trí nào
+    - Lam vi tri nao
+    - Tot nghiep lam gi
+    - Tốt nghiệp làm gì
+    - lam duoc gi
+    - làm được gì
+    - Làm được gì
+    - Lam duoc gi
+    - lam nhung cong viec gi
+    - làm những công việc gì
+    - làm những công việc nào
+    - lam nhung cong viec nao
 
 - synonym: cntt
   examples: |

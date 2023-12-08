@@ -98,8 +98,8 @@ class ActionTimThongtinchinhThongtinphu(Action):
         ### Now handle process    
 
         if isFlag == True:
-            
-          return [AllSlotsReset()]
+            print("flag")
+          
         else:
             f = open('./data/collections/data_collect.json', encoding="utf8")
             data = json.load(f)

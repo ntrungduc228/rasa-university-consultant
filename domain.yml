@@ -20,6 +20,7 @@ entities:
   - coso
   - thongtinphu
   - namhoc
+  - flag
 
 slots:
   thongtinchinh:
@@ -48,6 +49,13 @@ slots:
     mappings:
       - type: from_entity
         entity: namhoc  
+
+  flag:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: flag  
 
 actions:
   - action_reset_all_slots
