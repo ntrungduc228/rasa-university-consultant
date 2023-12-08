@@ -81,29 +81,13 @@ và tự động hóa
   examples: |
     - bac
     - bắc
-    - cơ sở phía bắc
-    - co so phia bac
-    - ở bắc
-    - o bac
     - Bac
     - Bắc
-    - phia bac
-    - phía bắc
-    - Cơ sở phía bắc
-    - Co so phía bắc
 
 - synonym: nam
   examples: |
     - nam
-    - cơ sở phía nam
-    - co so phia nam
-    - ở nam
-    - o nam
-    - phía nam
-    - phia nam
     - Nam
-    - Cơ sở phía nam
-    - Co so phía nam
 
 - synonym: thoi_gian_dao_tao
   examples: |

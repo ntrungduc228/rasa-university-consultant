@@ -537,13 +537,27 @@ nlu:
     - [tổ hợp môn]{"entity":"thongtinphu","value":"khoi_thi"} thi ngành [Cn thông tin]{"entity":"thongtinchinh","value":"cntt"}
 
 
+### hien tai gom: diem chuan
 - intent: intent_ttchinh_ttphu_coso
   examples: |
       - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cntt]{"entity":"thongtinchinh","value":"cntt"} cơ sở phía [bắc]{"entity":"coso","value":"bac"}
-      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cntt]{"entity":"thongtinchinh","value":"cntt"} cơ sở phía [nam]{"entity":"coso","value":"nam"}
-      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cntt]{"entity":"thongtinchinh","value":"cntt"} co so phia [bac]{"entity":"coso","value":"bac"}
-      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cntt]{"entity":"thongtinchinh","value":"cntt"} co so phia [nam]{"entity":"coso","value":"nam"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [it]{"entity":"thongtinchinh","value":"cntt"} co so phia [bac]{"entity":"coso","value":"bac"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [CNTT]{"entity":"thongtinchinh","value":"cntt"} cơ sở phía [Bắc]{"entity":"coso","value":"bac"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [IT]{"entity":"thongtinchinh","value":"cntt"} co so phia [Bac]{"entity":"coso","value":"bac"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [iT]{"entity":"thongtinchinh","value":"cntt"} cơ sở phía [nam]{"entity":"coso","value":"nam"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [It]{"entity":"thongtinchinh","value":"cntt"} cơ sở phía [nam]{"entity":"coso","value":"nam"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cong nghe thong tin]{"entity":"thongtinchinh","value":"cntt"} co so phia [Nam]{"entity":"coso","value":"nam"}
+      - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cong nghe tt]{"entity":"thongtinchinh","value":"cntt"} co so phia [Nam]{"entity":"coso","value":"nam"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [công nghệ thông tin]{"entity":"thongtinchinh","value":"cntt"} ở cơ sở phía [bắc]{"entity":"coso","value":"bac"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Công nghệ thông tin]{"entity":"thongtinchinh","value":"cntt"} ở cơ sở phía [bắc]{"entity":"coso","value":"bac"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Cong nghe thong tin]{"entity":"thongtinchinh","value":"cntt"} o co so phia [Bac]{"entity":"coso","value":"bac"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [công nghệ tt]{"entity":"thongtinchinh","value":"cntt"} o co so phia [Bac]{"entity":"coso","value":"bac"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cn thông tin]{"entity":"thongtinchinh","value":"cntt"}  ở cơ sở phía [nam]{"entity":"coso","value":"nam"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Cn thong tin]{"entity":"thongtinchinh","value":"cntt"} ở cơ sở phía [Nam]{"entity":"coso","value":"nam"}
+      - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cn thong tin]{"entity":"thongtinchinh","value":"cntt"} o co so phia [nam]{"entity":"coso","value":"nam"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Cn thông tin]{"entity":"thongtinchinh","value":"cntt"} o co so phia [Nam]{"entity":"coso","value":"nam"}
 
+### hien tai gom: diem chuan, hoc phi
 - intent: intent_ttchinh_ttphu_namhoc
   examples: |
       - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cntt]{"entity":"thongtinchinh","value":"cntt"} nam [2023]{"entity":"namhoc","value":"2023"}
@@ -571,29 +585,13 @@ nlu:
   examples: |
     - bac
     - bắc
-    - cơ sở phía bắc
-    - co so phia bac
-    - ở bắc
-    - o bac
     - Bac
     - Bắc
-    - phia bac
-    - phía bắc
-    - Cơ sở phía bắc
-    - Co so phía bắc
 
 - synonym: nam
   examples: |
     - nam
-    - cơ sở phía nam
-    - co so phia nam
-    - ở nam
-    - o nam
-    - phía nam
-    - phia nam
     - Nam
-    - Cơ sở phía nam
-    - Co so phía nam
 
 - synonym: thoi_gian_dao_tao
   examples: |
