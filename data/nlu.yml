@@ -625,6 +625,20 @@ nlu:
       - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cong nghe tt]{"entity":"thongtinchinh","value":"cntt"} nam [2020]{"entity":"namhoc","value":"2020"}
 
 
+### tong quan, ma nganh, diem chuan, sotc, thoi gian dao tao, tot nghiep lam gi, hoc phi, chuyen nganh, khoi thi, chuong trinh dao tao
+- intent: intent_flag_ttphu
+  examples: |
+      - em cũng [muốn biết thêm]{"entity":"flag","value":"more"} về [học phí]{"entity":"thongtinphu","value":"hoc_phi"}
+      - em [muon biet them]{"entity":"flag","value":"more"} ve [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"}
+      - em [cũng muốn biết]{"entity":"flag","value":"more"} [học phí]{"entity":"thongtinphu","value":"hoc_phi"}
+      - em [cung muon biet]{"entity":"flag","value":"more"} [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"}
+      - cho em [hỏi thêm]{"entity":"flag","value":"more"} [học phí]{"entity":"thongtinphu","value":"hoc_phi"} bao nhiêu ạ
+      - cho em [hoi them]{"entity":"flag","value":"more"} [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} bao nhieu
+      - [thế còn]{"entity":"flag","value":"more"} [học phí]{"entity":"thongtinphu","value":"hoc_phi"}
+      - [vậy còn]{"entity":"flag","value":"more"} [học phí]{"entity":"thongtinphu","value":"hoc_phi"}
+      - [the con]{"entity":"flag","value":"more"} [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"}
+      - [vay con]{"entity":"flag","value":"more"} [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"}
+
 - intent: check_balance
   examples: |
     - how much do I have on my [credit card account]{"entity": "account", "value": "credit"}
@@ -634,6 +648,19 @@ nlu:
   examples: |
     - credit card account
     - credit account
+
+- synonym: more
+  examples: |
+    - muon biet them
+    - muốn biết thêm
+    - cung muon biet
+    - cũng muốn biết
+    - hoi them
+    - hỏi thêm
+    - the con
+    - thế còn
+    - vay con
+    - vậy còn
 
 - synonym: bac
   examples: |

@@ -13,6 +13,7 @@ intents:
   - intent_ttchinh_ttphu
   - intent_ttchinh_ttphu_coso
   - intent_ttchinh_ttphu_namhoc
+  - intent_flag_ttphu
   - check_balance
 
 entities:
