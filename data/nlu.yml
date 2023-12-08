@@ -510,6 +510,10 @@ nlu:
     - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Cn thong tin]{"entity":"thongtinchinh","value":"cntt"}
     - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cn thong tin]{"entity":"thongtinchinh","value":"cntt"}
     - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Cn thông tin]{"entity":"thongtinchinh","value":"cntt"}
+    - [điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
+    - [diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [it]{"entity":"thongtinchinh","value":"cntt"}
+    - [Điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [CNTT]{"entity":"thongtinchinh","value":"cntt"}
+    - [Diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [IT]{"entity":"thongtinchinh","value":"cntt"}
 
     - [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
     - cho em hỏi [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
@@ -556,6 +560,10 @@ nlu:
       - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Cn thong tin]{"entity":"thongtinchinh","value":"cntt"} ở cơ sở phía [Nam]{"entity":"coso","value":"nam"}
       - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cn thong tin]{"entity":"thongtinchinh","value":"cntt"} o co so phia [nam]{"entity":"coso","value":"nam"}
       - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Cn thông tin]{"entity":"thongtinchinh","value":"cntt"} o co so phia [Nam]{"entity":"coso","value":"nam"}
+      - [điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cntt]{"entity":"thongtinchinh","value":"cntt"} o co so phia [Nam]{"entity":"coso","value":"nam"}
+      - [diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [it]{"entity":"thongtinchinh","value":"cntt"} o co so phia [Bac]{"entity":"coso","value":"bac"}
+      - [Điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [CNTT]{"entity":"thongtinchinh","value":"cntt"} ở cơ sở phía [nam]{"entity":"coso","value":"nam"}
+      - [Diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [IT]{"entity":"thongtinchinh","value":"cntt"} ở cơ sở phía [bắc]{"entity":"coso","value":"bac"}
 
 ### hien tai gom: diem chuan, hoc phi
 - intent: intent_ttchinh_ttphu_namhoc
@@ -587,6 +595,11 @@ nlu:
       - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Cn thong tin]{"entity":"thongtinchinh","value":"cntt"} năm [2019]{"entity":"namhoc","value":"2019"}
       - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cn thong tin]{"entity":"thongtinchinh","value":"cntt"} năm [2022]{"entity":"namhoc","value":"2022"}
       - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Cn thông tin]{"entity":"thongtinchinh","value":"cntt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cntt]{"entity":"thongtinchinh","value":"cntt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [it]{"entity":"thongtinchinh","value":"cntt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [Điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [CNTT]{"entity":"thongtinchinh","value":"cntt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [Diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [IT]{"entity":"thongtinchinh","value":"cntt"} năm [2023]{"entity":"namhoc","value":"2023"}
+
 
 - intent: check_balance
   examples: |
@@ -684,6 +697,10 @@ nlu:
     - điểm chuẩn
     - Điểm chuẩn
     - Diem chuan
+    - điểm trúng tuyển
+    - diem trung tuyen
+    - Điểm trúng tuyển
+    - Diem trung tuyen
 
 - synonym: khoi_thi
   examples: |

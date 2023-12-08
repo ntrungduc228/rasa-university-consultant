@@ -163,6 +163,10 @@ và tự động hóa
     - điểm chuẩn
     - Điểm chuẩn
     - Diem chuan
+    - điểm trúng tuyển
+    - diem trung tuyen
+    - Điểm trúng tuyển
+    - Diem trung tuyen
 
 - synonym: khoi_thi
   examples: |
