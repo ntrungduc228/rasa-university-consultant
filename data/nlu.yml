@@ -600,6 +600,30 @@ nlu:
       - [Điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [CNTT]{"entity":"thongtinchinh","value":"cntt"} nam [2021]{"entity":"namhoc","value":"2021"}
       - [Diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [IT]{"entity":"thongtinchinh","value":"cntt"} năm [2023]{"entity":"namhoc","value":"2023"}
 
+      - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [cntt]{"entity":"thongtinchinh","value":"cntt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [Hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [it]{"entity":"thongtinchinh","value":"cntt"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [CNTT]{"entity":"thongtinchinh","value":"cntt"} năm [2021]{"entity":"namhoc","value":"2021"}
+      - Cho em hỏi về [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [IT]{"entity":"thongtinchinh","value":"cntt"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - em muốn biết [chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [iT]{"entity":"thongtinchinh","value":"cntt"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - em muốn biết [Chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [It]{"entity":"thongtinchinh","value":"cntt"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - Em muon biet [chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cong nghe thong tin]{"entity":"thongtinchinh","value":"cntt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [Chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cong nghe tt]{"entity":"thongtinchinh","value":"cntt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - Em muon biet [hi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [công nghệ thông tin]{"entity":"thongtinchinh","value":"cntt"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - cho em hoi ve [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Công nghệ thông tin]{"entity":"thongtinchinh","value":"cntt"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - Cho em hoi [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [Cong nghe thong tin]{"entity":"thongtinchinh","value":"cntt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [công nghệ tt]{"entity":"thongtinchinh","value":"cntt"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cn thông tin]{"entity":"thongtinchinh","value":"cntt"} năm [2021]{"entity":"namhoc","value":"2021"}
+      - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Cn thong tin]{"entity":"thongtinchinh","value":"cntt"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - [tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cn thong tin]{"entity":"thongtinchinh","value":"cntt"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - [tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Cn thông tin]{"entity":"thongtinchinh","value":"cntt"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - [Tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cntt]{"entity":"thongtinchinh","value":"cntt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [Tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [it]{"entity":"thongtinchinh","value":"cntt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [CNTT]{"entity":"thongtinchinh","value":"cntt"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - [so tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [IT]{"entity":"thongtinchinh","value":"cntt"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [Số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [It]{"entity":"thongtinchinh","value":"cntt"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [So tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cong nghe thong tin]{"entity":"thongtinchinh","value":"cntt"} am [2022]{"entity":"namhoc","value":"2022"}
+      - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cong nghe tt]{"entity":"thongtinchinh","value":"cntt"} nam [2020]{"entity":"namhoc","value":"2020"}
+
 
 - intent: check_balance
   examples: |
