@@ -571,6 +571,23 @@ nlu:
       - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cntt]{"entity":"thongtinchinh","value":"cntt"} nam [2020]{"entity":"namhoc","value":"2020"}
       - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cntt]{"entity":"thongtinchinh","value":"cntt"} nam [2019]{"entity":"namhoc","value":"2019"}
 
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cntt]{"entity":"thongtinchinh","value":"cntt"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [it]{"entity":"thongtinchinh","value":"cntt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [CNTT]{"entity":"thongtinchinh","value":"cntt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [IT]{"entity":"thongtinchinh","value":"cntt"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [iT]{"entity":"thongtinchinh","value":"cntt"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [It]{"entity":"thongtinchinh","value":"cntt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cong nghe thong tin]{"entity":"thongtinchinh","value":"cntt"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cong nghe tt]{"entity":"thongtinchinh","value":"cntt"} năm [2021]{"entity":"namhoc","value":"2021"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [công nghệ thông tin]{"entity":"thongtinchinh","value":"cntt"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Công nghệ thông tin]{"entity":"thongtinchinh","value":"cntt"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Cong nghe thong tin]{"entity":"thongtinchinh","value":"cntt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [công nghệ tt]{"entity":"thongtinchinh","value":"cntt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cn thông tin]{"entity":"thongtinchinh","value":"cntt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Cn thong tin]{"entity":"thongtinchinh","value":"cntt"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cn thong tin]{"entity":"thongtinchinh","value":"cntt"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Cn thông tin]{"entity":"thongtinchinh","value":"cntt"} năm [2023]{"entity":"namhoc","value":"2023"}
+
 - intent: check_balance
   examples: |
     - how much do I have on my [credit card account]{"entity": "account", "value": "credit"}
