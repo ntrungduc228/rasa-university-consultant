@@ -296,11 +296,11 @@ nlu:
     - [Cn thông tin]{"entity":"thongtinchinh","value":"cntt"}
 
     - [tổng quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [tóm tắt]{"entity":"thongtinphu","value":"tong_quan"} ngành [cntt]{"entity":"thongtinchinh","value":"cntt"} cua trường
-    - [khái quát]{"entity":"thongtinphu","value":"tong_quan"} ngành [cntt]{"entity":"thongtinchinh","value":"cntt"} của học viện
+    - [tóm tắt]{"entity":"thongtinphu","value":"tong_quan"} ngành [cntt]{"entity":"thongtinchinh","value":"cntt"} 
+    - [khái quát]{"entity":"thongtinphu","value":"tong_quan"} ngành [cntt]{"entity":"thongtinchinh","value":"cntt"} 
     - [tong quan]{"entity":"thongtinphu","value":"tong_quan"} nganh [cntt]{"entity":"thongtinchinh","value":"cntt"}
-    - [tom tat]{"entity":"thongtinphu","value":"tong_quan"} nganh [cntt]{"entity":"thongtinchinh","value":"cntt"} của học viện
-    - [khai quat]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [cntt]{"entity":"thongtinchinh","value":"cntt"} duoc khong
+    - [tom tat]{"entity":"thongtinphu","value":"tong_quan"} nganh [cntt]{"entity":"thongtinchinh","value":"cntt"}
+    - [khai quat]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [cntt]{"entity":"thongtinchinh","value":"cntt"}
     - [giới thiệu]{"entity":"thongtinphu","value":"tong_quan"} về ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
     - [giới thiệu]{"entity":"thongtinphu","value":"tong_quan"} về ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
     - [cho em hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
