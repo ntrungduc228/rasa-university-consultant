@@ -250,11 +250,20 @@ function generateByOrder(entity){
 // 'An toan tt', 'an toàn thông tin', 'an toàn tt', 'An toàn thông tin', 'An toàn tt']
 
 
-const arrKey = ['iot', 'IOt', 'ioT', 'IOT', 'cong nghe iot','cn iot', 'Cong nghe IOT', 'Cong nghe iot', 'Cong nghe Iot', 'cong nghe iot'
-,'cong nghe Iot', 'cong nghe internet van vat', 'Cong nghe internet van vat', 'cong nghe Internet van vat', 'cn internet van vat','Công nghệ IOT'
-, 'Công nghệ iot', 'Công nghệ Iot', 'công nghệ iot', 'công nghệ Iot'
-,'công nghệ internet vạn vật', 'Công nghệ internet vạn vật', 'công nghệ Internet vạn vật', 'cn internet vạn vật'
-]
+// const arrKey = ['iot', 'IOt', 'ioT', 'IOT', 'cong nghe iot','cn iot', 'Cong nghe IOT', 'Cong nghe iot', 'Cong nghe Iot', 'cong nghe iot'
+// ,'cong nghe Iot', 'cong nghe internet van vat', 'Cong nghe internet van vat', 'cong nghe Internet van vat', 'cn internet van vat','Công nghệ IOT'
+// , 'Công nghệ iot', 'Công nghệ Iot', 'công nghệ iot', 'công nghệ Iot'
+// ,'công nghệ internet vạn vật', 'Công nghệ internet vạn vật', 'công nghệ Internet vạn vật', 'cn internet vạn vật'
+// ]
+
+ const arrKey = ['ktdkvtdh', 'kt dieu khien va tu dong hoa', 'ki thuat dieu khien va tu dong hoa'
+ , 'ky thuat dieu khien va tu dong hoa', 'Ki thuat dieu khien va tu dong hoa'
+ ,'Ky thuat dieu khien va tu dong hoa', 'kt điều khiển và tự động hóa'
+ , 'kĩ thuật điều khiển và tự động hóa', 'kỹ thuật điều khiển và tự động hóa'
+ , 'Kỹ thuật điều khiển và tự động hóa'
+,'Kĩ thuật thuật điều khiển và tự động hóa', 'kt điều khiển tự động'
+, 'ki thuat dieu khiển tự động', 'ky thuat dieu khien tu dong'
+, 'kĩ thuật điều khiển tự động','ky thuat điều khiển tự động']
 
 //  const arrKey = ['aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa','aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa'
 // ,'aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa'
@@ -263,5 +272,5 @@ const arrKey = ['iot', 'IOt', 'ioT', 'IOT', 'cong nghe iot','cn iot', 'Cong nghe
 // ,'aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa'
 // ,'aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa']
 
-// generateTongquan("iot")
-generateByOrder("iot")
+// generateTongquan("ktdkvtdh")
+generateByOrder("ktdkvtdh")

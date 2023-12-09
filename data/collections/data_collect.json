@@ -496,14 +496,7 @@
                 "chung": "Mã ngành Kỹ thuật điều khiển và tự động hoá: 7520216"
             },
             "diem_chuan": {
-                "chung": {
-                    "chung": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá cơ sở phía Bắc:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1\n Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá cơ sở Nam:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1",
-                    "2023": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá năm 2023\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
-                    "2022": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá năm 2022\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
-                    "2021": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá năm 2021\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
-                    "2020": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá năm 2020\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
-                    "2019": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá năm 2019\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59"
-                },
+                "chung": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá cơ sở phía Bắc:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1\n Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá cơ sở Nam:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,",
                 "bac": {
                     "chung": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá cơ sở phía Bắc:\n Năm 2023: 26.59\n Năm 2022: 25,1\n Năm 2021: 24,1\n năm 2020: 23,1\n Năm 2019: 22,1",
                     "2023": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá cơ sở phía Bắc năm 2023: 25,1",
@@ -519,6 +512,31 @@
                     "2021": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá cơ sở phía Nam năm 2021: 25,1",
                     "2020": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá cơ sở phía Nam năm 2020: 25,1",
                     "2019": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá cơ sở phía Nam năm 2019: 25,1"
+                },
+                "2023": {
+                    "chung": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá năm 2023\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "bac": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá cơ sở phía Bắc năm 2023: 25,1",
+                    "nam": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá cơ sở phía Nam năm 2023: 25,1"
+                },
+                "2022": {
+                    "chung": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá năm 2022\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "bac": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá cơ sở phía Bắc năm 2022: 25,1",
+                    "nam": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá cơ sở phía Nam năm 2022: 25,1"
+                },
+                "2021": {
+                    "chung": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá năm 2021\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "bac": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá cơ sở phía Bắc năm 2021: 25,1",
+                    "nam": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá cơ sở phía Nam năm 2021: 25,1"
+                },
+                "2020": {
+                    "chung": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá năm 2020\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "bac": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá cơ sở phía Bắc năm 2020: 25,1",
+                    "nam": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá cơ sở phía Nam năm 2020: 25,1"
+                },
+                "2019": {
+                    "chung": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá năm 2019\n Cơ sở phía Bắc: 26.59 \nCơ sở phía Nam: 25.59",
+                    "bac": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá cơ sở phía Bắc năm 2019: 25,1",
+                    "nam": "Điểm trúng tuyển ngành Kỹ thuật điều khiển và tự động hoá cơ sở phía Nam năm 2019: 25,1"
                 }
             },
             "sotc": {
@@ -535,11 +553,21 @@
             },
             "hoc_phi": {
                 "chung": "Học phí năm 2023\n Khoá 2021 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2022 ngành kĩ thuật 650.000 đông/tín chỉ\n Học phí năm 2022\n Khoá 2020 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2021 ngành kĩ thuật 650.000 đông/tín chỉ\n Học phí năm 2021\n Khoá 2020 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2019 ngành kĩ thuật 650.000 đông/tín chỉ\n Học phí năm 2020\n Khoá 2018 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2019 ngành kĩ thuật 650.000 đông/tín chỉ\n Học phí năm 2019\n Khoá 2017 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2018 ngành kĩ thuật 650.000 đông/tín chỉ",
-                "2023": "Học phí năm 2023\n Khoá 2021 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2022 ngành kĩ thuật 650.000 đông/tín chỉ",
-                "2022": "Học phí năm 2022\n Khoá 2020 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2021 ngành kĩ thuật 650.000 đông/tín chỉ",
-                "2021": "Học phí năm 2021\n Khoá 2019 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2020 ngành kĩ thuật 650.000 đông/tín chỉ",
-                "2020": "Học phí năm 2020\n Khoá 2018 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2019 ngành kĩ thuật 650.000 đông/tín chỉ",
-                "2019": "Học phí năm 2019\n Khoá 2017 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2018 ngành kĩ thuật 650.000 đông/tín chỉ",
+                "2023": {
+                    "chung": "Học phí năm 2023\n Khoá 2021 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2022 ngành kĩ thuật 650.000 đông/tín chỉ"
+                },
+                "2022": {
+                    "chung": "Học phí năm 2022\n Khoá 2020 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2021 ngành kĩ thuật 650.000 đông/tín chỉ"
+                },
+                "2021": {
+                    "chung": "Học phí năm 2021\n Khoá 2019 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2020 ngành kĩ thuật 650.000 đông/tín chỉ"
+                },
+                "2020": {
+                    "chung": "Học phí năm 2020\n Khoá 2018 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2019 ngành kĩ thuật 650.000 đông/tín chỉ"
+                },
+                "2019": {
+                    "chung": "Học phí năm 2019\n Khoá 2017 trở về trước các ngành kĩ thuật: 630.000 đồng/tín chỉ \nKhoá 2018 ngành kĩ thuật 650.000 đông/tín chỉ"
+                },
                 "bac": "",
                 "nam": "123"
             },

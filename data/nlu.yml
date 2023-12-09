@@ -1129,7 +1129,8 @@ nlu:
     - [em muon hoi]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [An toan tt]{"entity":"thongtinchinh","value":"attt"}
     - Em có dự định muốn học ngành [an toàn thông tin]{"entity":"thongtinchinh","value":"attt"}, vậy cho em hỏi học ngành này xong thì ra ngoài có thể [làm gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} ạ
     - Hoc xong [an toàn tt]{"entity":"thongtinchinh","value":"attt"} co the [lam cong viêc gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} a
-    - Học xong [An toàn thông tin]{"entity":"thongtinchinh","value":"attt"} co the [làm công việc gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} a- [An toàn tt]{"entity":"thongtinchinh","value":"attt"} [làm vị trí nào]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
+    - Học xong [An toàn thông tin]{"entity":"thongtinchinh","value":"attt"} co the [làm công việc gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} a
+    - [An toàn tt]{"entity":"thongtinchinh","value":"attt"} [làm vị trí nào]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
     - [attt]{"entity":"thongtinchinh","value":"attt"} [làm gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
     - [ATTT]{"entity":"thongtinchinh","value":"attt"} [Làm công việc gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
     - [Attt]{"entity":"thongtinchinh","value":"attt"} [làm được gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
@@ -1145,7 +1146,8 @@ nlu:
     - [attt]{"entity":"thongtinchinh","value":"attt"} [Lam cong viec gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi hoc xong
     - hoc xong [ATTT]{"entity":"thongtinchinh","value":"attt"} thi [lam duoc gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"}
     - học [Attt]{"entity":"thongtinchinh","value":"attt"} có thể [làm những công việc gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"}
-    - học [an toan thong tin]{"entity":"thongtinchinh","value":"attt"} có thể [làm những công việc nào]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"}- học [an toan tt]{"entity":"thongtinchinh","value":"attt"} có thể [làm những công việc gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"}
+    - học [an toan thong tin]{"entity":"thongtinchinh","value":"attt"} có thể [làm những công việc nào]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"}
+    - học [an toan tt]{"entity":"thongtinchinh","value":"attt"} có thể [làm những công việc gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"}
     - cho em hoi [ma nganh]{"entity":"thongtinphu","value":"ma_nganh"} [bao mat]{"entity":"thongtinchinh","value":"attt"}
     - cho em hỏi [Mã ngành]{"entity":"thongtinphu","value":"ma_nganh"} [An toan thong tin]{"entity":"thongtinchinh","value":"attt"}
     - em muốn biết [mã ngành]{"entity":"thongtinphu","value":"ma_nganh"} [An toan tt]{"entity":"thongtinchinh","value":"attt"}
@@ -1515,6 +1517,222 @@ nlu:
     - [to hop mon]{"entity":"thongtinphu","value":"khoi_thi"} nganh [IOT]{"entity":"thongtinchinh","value":"iot"}
     - [tổ hợp môn]{"entity":"thongtinphu","value":"khoi_thi"} thi ngành [cong nghe iot]{"entity":"thongtinchinh","value":"iot"}
     - [tổ hợp môn]{"entity":"thongtinphu","value":"khoi_thi"} thi ngành [cn iot]{"entity":"thongtinchinh","value":"iot"}
+
+    - [ktdkvtdh]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [kt dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [kt điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [kĩ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [kỹ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Kỹ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Kĩ thuật thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [kt điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [ki thuat dieu khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [ky thuat dieu khien tu dong]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [kĩ thuật điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [ky thuat điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+
+    - [tổng quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [ktdkvtdh]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Tong quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [kt dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Tổng quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [tóm tắt]{"entity":"thongtinphu","value":"tong_quan"} ngành [ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [khái quát]{"entity":"thongtinphu","value":"tong_quan"} ngành [Ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Khái quát]{"entity":"thongtinphu","value":"tong_quan"} ngành [Ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Khai quat]{"entity":"thongtinphu","value":"tong_quan"} ngành [kt điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [tong quan]{"entity":"thongtinphu","value":"tong_quan"} nganh [kĩ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [tom tat]{"entity":"thongtinphu","value":"tong_quan"} nganh [kỹ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Tom tat]{"entity":"thongtinphu","value":"tong_quan"} nganh [Kỹ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Tóm tắt]{"entity":"thongtinphu","value":"tong_quan"} nganh [Kĩ thuật thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [khai quat]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [kt điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [giới thiệu]{"entity":"thongtinphu","value":"tong_quan"} về ngành [ki thuat dieu khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Giới thiệu]{"entity":"thongtinphu","value":"tong_quan"} về ngành [ky thuat dieu khien tu dong]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Gioi thieu]{"entity":"thongtinphu","value":"tong_quan"} về ngành [kĩ thuật điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [cho em hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [ky thuat điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [cho em hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [ktdkvtdh]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Cho em hoi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [kt dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Cho em hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [cho em hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [em muốn biết]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Em muon biet]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Em muốn biết]{"entity":"thongtinphu","value":"tong_quan"} về ngành [kt điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [em muốn biết]{"entity":"thongtinphu","value":"tong_quan"} về ngành [kĩ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [em muốn hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [kỹ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Em muon hoi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Kỹ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Em muốn hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Kĩ thuật thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [em muon hoi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [kt điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [gioi thieu]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [ki thuat dieu khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [cho em hoi]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [ky thuat dieu khien tu dong]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [em muon biet]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [kĩ thuật điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [em muon hoi]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [ky thuat điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - Em có dự định muốn học ngành [ktdkvtdh]{"entity":"thongtinchinh","value":"ktdkvtdh"}, vậy cho em hỏi học ngành này xong thì ra ngoài có thể [làm gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} ạ
+    - Hoc xong [kt dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} co the [lam cong viêc gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} a
+    - Học xong [ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} co the [làm công việc gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} a
+    - [ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} [làm vị trí nào]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
+    - [Ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} [làm gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
+    - [Ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} [Làm công việc gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
+    - [kt điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} [làm được gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
+    - [kĩ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} [Làm được gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
+    - [kỹ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} [làm những công việc gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
+    - [Kỹ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} [làm những công việc nào]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
+    - [Kĩ thuật thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} [lam vi tri nao]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi hoc xong
+    - [kt điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"} [Lam duoc gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi hoc xong
+    - [ki thuat dieu khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"} [lam duoc gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi hoc xong
+    - [ky thuat dieu khien tu dong]{"entity":"thongtinchinh","value":"ktdkvtdh"} [lam nhung cong viec gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi hoc xong
+    - [kĩ thuật điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"} [lam nhung cong viec nao]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi hoc xong
+    - [ky thuat điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"} [lam gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi hoc xong
+    - [ktdkvtdh]{"entity":"thongtinchinh","value":"ktdkvtdh"} [Lam cong viec gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi hoc xong
+    - hoc xong [kt dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} thi [lam duoc gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"}
+    - học [ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} có thể [làm những công việc gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"}
+    - học [ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} có thể [làm những công việc nào]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"}
+    - học [Ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} có thể [làm những công việc gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"}
+    - cho em hoi [ma nganh]{"entity":"thongtinphu","value":"ma_nganh"} [Ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - cho em hỏi [Mã ngành]{"entity":"thongtinphu","value":"ma_nganh"} [kt điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - em muốn biết [mã ngành]{"entity":"thongtinphu","value":"ma_nganh"} [kĩ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - em muon biet [Ma nganh]{"entity":"thongtinphu","value":"ma_nganh"} [kỹ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - Cho em hoi [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [Kỹ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - Cho em hỏi [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [Kĩ thuật thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - Em muon biết [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [kt điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - Em muon biet [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [ki thuat dieu khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [ky thuat dieu khien tu dong]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [kĩ thuật điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [ky thuat điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Mã Ngành]{"entity":"thongtinphu","value":"ma_nganh"} [ktdkvtdh]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [ma nganh]{"entity":"thongtinphu","value":"ma_nganh"} [kt dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} [ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Chương trình đào tạo]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} [ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - Cho em hỏi về [chương trình đào tạo]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} ngành [Ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} ạ
+    - cho em hoi [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} nganh [Ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - em muon biet [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} nganh [kt điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - em muốn biết [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} nganh [kĩ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [ctdt]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} [kỹ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} [Kỹ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Chương trình đào tạo]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} [Kĩ thuật thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - Cho em hỏi về [chương trình đào tạo]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} ngành [kt điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"} ạ
+    - cho em hoi [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} nganh [ki thuat dieu khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - em muon biet [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} nganh [ky thuat dieu khien tu dong]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - em muốn biết [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} nganh [kĩ thuật điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [thoi gian dao tao]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} [ky thuat điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Thoi gian dao tao]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} [ktdkvtdh]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Thời gian đào tạo]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} [kt dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [thoi gian dao tao]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} nganh [ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [thời gian học]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} ngành [ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [thoi gian hoc]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} [Ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Thời gian học]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} ngành [Ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Thoi gian hoc]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} [kt điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Thời gian]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} ngành [kĩ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Thoi gian]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} [kỹ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [thời gian]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} ngành [Kỹ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [thoi gian]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} [Kĩ thuật thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - hoc [kt điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"} [bao lâu]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} thì ra trường
+    - học [ki thuat dieu khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"} mất [bao lâu]
+    - ngành [ky thuat dieu khien tu dong]{"entity":"thongtinchinh","value":"ktdkvtdh"} [học mấy năm]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - ngành [kĩ thuật điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"} [hoc may nam]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - ngành [ky thuat điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"} [đào tạo mấy năm]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - ngành [ktdkvtdh]{"entity":"thongtinchinh","value":"ktdkvtdh"} [dao tao may nam]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - ngành [kt dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} [đào tạo bao lâu]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - ngành [ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} [dao tao bao lau]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - ngành [ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} [Đào tạo bao lâu]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - ngành [Ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} [Dao tao bao lau]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - hoc [Ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} trong [bao lau]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - [thời gian đào tạo]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} của ngành [kt điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [thoi gian hoc tap]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} của ngành [kĩ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [thời gian học tập]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} của ngành [kỹ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Thời gian học tập]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} của ngành [Kỹ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Thoi gian hoc tap]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} của ngành [Kĩ thuật thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [học mấy năm]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} ngành [kt điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - học [ki thuat dieu khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"} [bao lâu]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} thì xong
+    - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [ky thuat dieu khien tu dong]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [kĩ thuật điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [ky thuat điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - Cho em hỏi về [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [ktdkvtdh]{"entity":"thongtinchinh","value":"ktdkvtdh"} ạ
+    - em muốn biết [chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [kt dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} ạ
+    - em muốn biết [Chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} ạ
+    - Em muon biet [chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} ạ
+    - cho em hoi ve [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} ạ
+    - Cho em hoi [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [Ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [kt điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [kĩ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [kỹ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Kỹ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Kĩ thuật thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [kt điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [ki thuat dieu khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [so tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [ky thuat dieu khien tu dong]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [kĩ thuật điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [So tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [ky thuat điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [ktdkvtdh]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [sotc]{"entity":"thongtinphu","value":"sotc"} ngành [kt dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [số tín chỉ]{"entity":"thongtinphu","value":"sotc"} ngành [ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Số tín chỉ]{"entity":"thongtinphu","value":"sotc"} ngành [ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [so tin chi]{"entity":"thongtinphu","value":"sotc"} nganh [Ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [So tin chi]{"entity":"thongtinphu","value":"sotc"} nganh [Ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [so tin chi]{"entity":"thongtinphu","value":"sotc"} nganh [kt điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - nganh [kĩ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} co bn [tin chi]{"entity":"thongtinphu","value":"sotc"}
+    - nganh [kỹ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} co bao nhieu [tin chi]{"entity":"thongtinphu","value":"sotc"}
+    - ngành [Kỹ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} có bao nhiêu [Tin chi]{"entity":"thongtinphu","value":"sotc"}
+    - ngành [Kĩ thuật thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} có tổng cộng bao nhiêu [tín chỉ]{"entity":"thongtinphu","value":"sotc"} tất cả
+    - ngành [kt điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"} có bn [tín chỉ]{"entity":"thongtinphu","value":"sotc"} tất cả
+    - [ki thuat dieu khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"} co [bao nhieu tin chi]{"entity":"thongtinphu","value":"sotc"}
+    - [ky thuat dieu khien tu dong]{"entity":"thongtinchinh","value":"ktdkvtdh"} hoc [bao nhieu tin chi]{"entity":"thongtinphu","value":"sotc"}
+    - [kĩ thuật điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"} tổng cộng [bao nhiêu tín chỉ]{"entity":"thongtinphu","value":"sotc"}
+    - nganh [ky thuat điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"} co tong cong bao nhieu [tin chi]{"entity":"thongtinphu","value":"sotc"}
+    - nganh [ktdkvtdh]{"entity":"thongtinchinh","value":"ktdkvtdh"} co tong cong bao nhieu [tin chi]{"entity":"thongtinphu","value":"sotc"} tat ca
+    - ngành [kt dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} có tổng cộng bao nhiêu [tín chỉ]{"entity":"thongtinphu","value":"sotc"}
+    - [ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} có [bao nhiêu tín chỉ]{"entity":"thongtinphu","value":"sotc"}
+    - [ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} có tất cả [bao nhiêu tin chỉ]{"entity":"thongtinphu","value":"sotc"}
+    - [Ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} co tat ca [bao nhieu tin chi]{"entity":"thongtinphu","value":"sotc"}
+    - nganh [Ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} co cac [chuyen nganh]{"entity":"thongtinphu","value":"chuyen_nganh"} nao
+    - nganh [kt điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} có các [chuyên ngành]{"entity":"thongtinphu","value":"chuyen_nganh"} nào
+    - [kĩ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} được chia mấy [chuyên ngành]{"entity":"thongtinphu","value":"chuyen_nganh"}
+    - ngành [kỹ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} có những [chuyên ngành]{"entity":"thongtinphu","value":"chuyen_nganh"} nào
+    - [Kỹ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} [Chuyen Nganh]{"entity":"thongtinphu","value":"chuyen_nganh"}
+    - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Kĩ thuật thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kt điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [ki thuat dieu khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [ky thuat dieu khien tu dong]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [kĩ thuật điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [ky thuat điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [ktdkvtdh]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kt dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kt điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [kĩ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kỹ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Kỹ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Kĩ thuật thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kt điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [ki thuat dieu khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [ky thuat dieu khien tu dong]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [kĩ thuật điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - cho em hỏi [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [ky thuat điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - Cho em hỏi [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [ktdkvtdh]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - Em muon biet [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [kt dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - Cho em hoi [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - cho em hoi [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - Em muốn biết [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [Ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - em muon biết [khoi thi]{"entity":"thongtinphu","value":"khoi_thi"} nganh [Ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [khoi thi]{"entity":"thongtinphu","value":"khoi_thi"} nganh [kt điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - em muon biet [Khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [kĩ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [kỹ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Khoi thi]{"entity":"thongtinphu","value":"khoi_thi"} nganh [Kỹ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [tổ hợp xét tuyển]{"entity":"thongtinphu","value":"khoi_thi"} ngành [Kĩ thuật thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [to hop xet tuyen]{"entity":"thongtinphu","value":"khoi_thi"} thi nganh [kt điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [Tổ hợp xét tuyển]{"entity":"thongtinphu","value":"khoi_thi"} ngành [ki thuat dieu khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [To hop xet tuyen]{"entity":"thongtinphu","value":"khoi_thi"} thi nganh [ky thuat dieu khien tu dong]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [to hop xet tuyen]{"entity":"thongtinphu","value":"khoi_thi"} nganh [kĩ thuật điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [tổ hợp xét tuyển]{"entity":"thongtinphu","value":"khoi_thi"} thi ngành [ky thuat điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [tổ hợp xét tuyển]{"entity":"thongtinphu","value":"khoi_thi"} thi ngành [ktdkvtdh]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - Tổ hợp môn]{"entity":"thongtinphu","value":"khoi_thi"} ngành [kt dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [To hop mon]{"entity":"thongtinphu","value":"khoi_thi"} thi nganh [ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [to hop mon]{"entity":"thongtinphu","value":"khoi_thi"} nganh [ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [tổ hợp môn]{"entity":"thongtinphu","value":"khoi_thi"} thi ngành [Ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - [tổ hợp môn]{"entity":"thongtinphu","value":"khoi_thi"} thi ngành [Ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
 
 ### hien tai gom: diem chuan
 - intent: intent_ttchinh_ttphu_coso
