@@ -209,38 +209,43 @@ const objEx = [
 
 
 
-const arrKey = ['ktddt', 'KTDDT', 'điện điện tử', 'điện tử', 'ki thuat dien dien tu', 'Ki thuat dien dien tu', 'ky thuat dien dien tu',
- 'Ky thuat dien dien tu', 'kt dien dien tu', 'Kt dien dien tu', 'kt điện điện tử', 'Kt điện điện tử', 'dien tu', 'dien dien tu',
-    'kĩ thuật điện điện tử', 'Kĩ thuật điện điện tử', 'kỹ thuật điện điện tử', 'Kỹ thuật điện điện tử', 
- 'kt điện điện tử', 'Kt điện điện tử']
+// const arrKey = ['ktddt', 'KTDDT', 'điện điện tử', 'điện tử', 'ki thuat dien dien tu', 'Ki thuat dien dien tu', 'ky thuat dien dien tu',
+//  'Ky thuat dien dien tu', 'kt dien dien tu', 'Kt dien dien tu', 'kt điện điện tử', 'Kt điện điện tử', 'dien tu', 'dien dien tu',
+//     'kĩ thuật điện điện tử', 'Kĩ thuật điện điện tử', 'kỹ thuật điện điện tử', 'Kỹ thuật điện điện tử', 
+//  'kt điện điện tử', 'Kt điện điện tử']
 
-function generateTongquan(){
+ 
+const arrKey = ['attt', 'ATTT', 'Attt', 'an toan thong tin', 'an toan tt', 'bao mat', 'An toan thong tin',
+'An toan tt', 'an toàn thông tin', 'an toàn tt', 'An toàn thông tin', 'An toàn tt']
+
+function generateTongquan(entity){
     arrKey.forEach(item => {
-        console.log(`${exTq(item, "ktddt")}`);
+        console.log(`${exTq(item, entity)}`);
     });
 }
 
-function generateThongtinphu(){
+function generateThongtinphu(entity){
     arrKey.forEach(item => {
         objEx.forEach(objItem => {
-            console.log(`- ${objItem(item, "ktddt")}`)
+            console.log(`- ${objItem(item, entity)}`)
         })
     })
 }
 
-function generateByOrder(){
+function generateByOrder(entity){
     let pos = -1;
     objEx.forEach(objItem => {
         if(pos == arrKey.length-1){
             pos = -1;
         }
-        console.log(`- ${objItem(arrKey[++pos], "ktddt")}`)
+        console.log(`- ${objItem(arrKey[++pos], entity)}`)
         // console.log(`- ${objItem(arrKey[++pos], "ktddt")} - ${pos}`)
     })
 }
 
-// generateTongquan()
 
 // generateThongtinphu()
 
-generateByOrder()
+
+// generateTongquan("attt")
+generateByOrder("attt")
