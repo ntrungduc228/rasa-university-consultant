@@ -337,6 +337,10 @@ và tự động hóa
     - Ki thuat dien tu vien thông
     - ki thuat dien tu vien thong
     - Kt dien tu vien thong
+    - điện tử viễn thông
+    - dien tu vien thong
+    - Điện tử viễn thông
+    - Dien tu vien thong
 
 - synonym: ktddt
   examples: |
