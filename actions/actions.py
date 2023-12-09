@@ -68,6 +68,10 @@ def set_tmp_val(thongtinchinh, thongtinphu, coso, namhoc):
     tmp_namhoc = namhoc
 
 def print_tmp_val():
+    global tmp_thongtinchinh 
+    global tmp_thongtinphu 
+    global tmp_coso 
+    global tmp_namhoc 
     print('======================================================================\n')
     print(f'thongtin tmp: {tmp_thongtinchinh} - {tmp_thongtinphu} - {tmp_coso} - {tmp_namhoc}')
 
@@ -189,6 +193,7 @@ class ActionThongtinchinhThongtinphuCoso(Action):
             if tmp_thongtinchinh is None:
                 return [FollowupAction("utter_hoi_chuc_nang")]
 
+            global tmp_thongtinphu
             if tmp_thongtinphu is None:
                 tmp_thongtinphu = thongtinphu_default
 
@@ -215,7 +220,7 @@ class ActionThongtinchinhThongtinphuCoso(Action):
                         dispatcher.utter_message(text=f'{data["nganh"][tmp_thongtinchinh][tmp_thongtinphu][coso][none_coso_namhoc]}')
 
             else:
-                if tmp_thongtinphu not in data[tmp_thongtinchinh]:
+                if data[tmp_thongtinchinh] and tmp_thongtinphu not in data[tmp_thongtinchinh]:
                     dispatcher.utter_message(text=f'bot chua co thong tin')
                 else:
                     dispatcher.utter_message(text=f'{data[tmp_thongtinchinh][tmp_thongtinphu]}')
