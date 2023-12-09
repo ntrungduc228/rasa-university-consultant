@@ -1951,14 +1951,6 @@ nlu:
     - [Qt trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
     - [quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
     - [Quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
-    - [qtkd]{"entity":"thongtinchinh","value":"qtkd"}
-    - [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
-    - [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
-    - [Quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
-    - [Qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
-    - [Qt trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
-    - [quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
-    - [Quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
     - [tổng quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [qtkd]{"entity":"thongtinchinh","value":"qtkd"}
     - [Tong quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
     - [Tổng quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
@@ -2361,6 +2353,213 @@ nlu:
     - [to hop mon]{"entity":"thongtinphu","value":"khoi_thi"} nganh [mkt]{"entity":"thongtinchinh","value":"mkt"}
     - [tổ hợp môn]{"entity":"thongtinphu","value":"khoi_thi"} thi ngành [Mkt]{"entity":"thongtinchinh","value":"mkt"}
     - [tổ hợp môn]{"entity":"thongtinphu","value":"khoi_thi"} thi ngành [MKT]{"entity":"thongtinchinh","value":"mkt"}
+
+    - [kt]{"entity":"thongtinchinh","value":"kt"}
+    - [KT]{"entity":"thongtinchinh","value":"kt"}
+    - [Kt]{"entity":"thongtinchinh","value":"kt"}
+    - [ke toan]{"entity":"thongtinchinh","value":"kt"}
+    - [Ke toan]{"entity":"thongtinchinh","value":"kt"}
+    - [kế toán]{"entity":"thongtinchinh","value":"kt"}
+    - [Kế toán]{"entity":"thongtinchinh","value":"kt"}
+
+    - [tổng quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [kt]{"entity":"thongtinchinh","value":"kt"}
+    - [Tong quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [KT]{"entity":"thongtinchinh","value":"kt"}
+    - [Tổng quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Kt]{"entity":"thongtinchinh","value":"kt"}
+    - [tóm tắt]{"entity":"thongtinphu","value":"tong_quan"} ngành [ke toan]{"entity":"thongtinchinh","value":"kt"}
+    - [khái quát]{"entity":"thongtinphu","value":"tong_quan"} ngành [Ke toan]{"entity":"thongtinchinh","value":"kt"}
+    - [Khái quát]{"entity":"thongtinphu","value":"tong_quan"} ngành [kế toán]{"entity":"thongtinchinh","value":"kt"}
+    - [Khai quat]{"entity":"thongtinphu","value":"tong_quan"} ngành [Kế toán]{"entity":"thongtinchinh","value":"kt"}
+    - [tong quan]{"entity":"thongtinphu","value":"tong_quan"} nganh [kt]{"entity":"thongtinchinh","value":"kt"}
+    - [tom tat]{"entity":"thongtinphu","value":"tong_quan"} nganh [KT]{"entity":"thongtinchinh","value":"kt"}
+    - [Tom tat]{"entity":"thongtinphu","value":"tong_quan"} nganh [Kt]{"entity":"thongtinchinh","value":"kt"}
+    - [Tóm tắt]{"entity":"thongtinphu","value":"tong_quan"} nganh [ke toan]{"entity":"thongtinchinh","value":"kt"}
+    - [khai quat]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [Ke toan]{"entity":"thongtinchinh","value":"kt"}
+    - [giới thiệu]{"entity":"thongtinphu","value":"tong_quan"} về ngành [kế toán]{"entity":"thongtinchinh","value":"kt"}
+    - [Giới thiệu]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Kế toán]{"entity":"thongtinchinh","value":"kt"}
+    - [Gioi thieu]{"entity":"thongtinphu","value":"tong_quan"} về ngành [kt]{"entity":"thongtinchinh","value":"kt"}
+    - [cho em hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [KT]{"entity":"thongtinchinh","value":"kt"}
+    - [cho em hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Kt]{"entity":"thongtinchinh","value":"kt"}
+    - [Cho em hoi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [ke toan]{"entity":"thongtinchinh","value":"kt"}
+    - [Cho em hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Ke toan]{"entity":"thongtinchinh","value":"kt"}
+    - [cho em hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [kế toán]{"entity":"thongtinchinh","value":"kt"}
+    - [em muốn biết]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Kế toán]{"entity":"thongtinchinh","value":"kt"}
+    - [Em muon biet]{"entity":"thongtinphu","value":"tong_quan"} về ngành [kt]{"entity":"thongtinchinh","value":"kt"}
+    - [Em muốn biết]{"entity":"thongtinphu","value":"tong_quan"} về ngành [KT]{"entity":"thongtinchinh","value":"kt"}
+    - [em muốn biết]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Kt]{"entity":"thongtinchinh","value":"kt"}
+    - [em muốn hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [ke toan]{"entity":"thongtinchinh","value":"kt"}
+    - [Em muon hoi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Ke toan]{"entity":"thongtinchinh","value":"kt"}
+    - [Em muốn hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [kế toán]{"entity":"thongtinchinh","value":"kt"}
+    - [em muon hoi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Kế toán]{"entity":"thongtinchinh","value":"kt"}
+    - [gioi thieu]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [kt]{"entity":"thongtinchinh","value":"kt"}
+    - [cho em hoi]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [KT]{"entity":"thongtinchinh","value":"kt"}
+    - [em muon biet]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [Kt]{"entity":"thongtinchinh","value":"kt"}
+    - [em muon hoi]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [ke toan]{"entity":"thongtinchinh","value":"kt"}
+    - Em có dự định muốn học ngành [Ke toan]{"entity":"thongtinchinh","value":"kt"}, vậy cho em hỏi học ngành này xong thì ra ngoài có thể [làm gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} ạ
+    - Hoc xong [kế toán]{"entity":"thongtinchinh","value":"kt"} co the [lam cong viêc gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} a
+    - Học xong [Kế toán]{"entity":"thongtinchinh","value":"kt"} co the [làm công việc gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} a
+    - [kt]{"entity":"thongtinchinh","value":"kt"} [làm vị trí nào]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
+    - [KT]{"entity":"thongtinchinh","value":"kt"} [làm gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
+    - [Kt]{"entity":"thongtinchinh","value":"kt"} [Làm công việc gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
+    - [ke toan]{"entity":"thongtinchinh","value":"kt"} [làm được gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
+    - [Ke toan]{"entity":"thongtinchinh","value":"kt"} [Làm được gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
+    - [kế toán]{"entity":"thongtinchinh","value":"kt"} [làm những công việc gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
+    - [Kế toán]{"entity":"thongtinchinh","value":"kt"} [làm những công việc nào]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
+    - [kt]{"entity":"thongtinchinh","value":"kt"} [lam vi tri nao]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi hoc xong
+    - [KT]{"entity":"thongtinchinh","value":"kt"} [Lam duoc gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi hoc xong
+    - [Kt]{"entity":"thongtinchinh","value":"kt"} [lam duoc gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi hoc xong
+    - [ke toan]{"entity":"thongtinchinh","value":"kt"} [lam nhung cong viec gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi hoc xong
+    - [Ke toan]{"entity":"thongtinchinh","value":"kt"} [lam nhung cong viec nao]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi hoc xong
+    - [kế toán]{"entity":"thongtinchinh","value":"kt"} [lam gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi hoc xong
+    - [Kế toán]{"entity":"thongtinchinh","value":"kt"} [Lam cong viec gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi hoc xong
+    - hoc xong [kt]{"entity":"thongtinchinh","value":"kt"} thi [lam duoc gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"}
+    - học [KT]{"entity":"thongtinchinh","value":"kt"} có thể [làm những công việc gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"}
+    - học [Kt]{"entity":"thongtinchinh","value":"kt"} có thể [làm những công việc nào]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"}
+    - học [ke toan]{"entity":"thongtinchinh","value":"kt"} có thể [làm những công việc gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"}
+    - cho em hoi [ma nganh]{"entity":"thongtinphu","value":"ma_nganh"} [Ke toan]{"entity":"thongtinchinh","value":"kt"}
+    - cho em hỏi [Mã ngành]{"entity":"thongtinphu","value":"ma_nganh"} [kế toán]{"entity":"thongtinchinh","value":"kt"}
+    - em muốn biết [mã ngành]{"entity":"thongtinphu","value":"ma_nganh"} [Kế toán]{"entity":"thongtinchinh","value":"kt"}
+    - em muon biet [Ma nganh]{"entity":"thongtinphu","value":"ma_nganh"} [kt]{"entity":"thongtinchinh","value":"kt"}
+    - Cho em hoi [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [KT]{"entity":"thongtinchinh","value":"kt"}
+    - Cho em hỏi [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [Kt]{"entity":"thongtinchinh","value":"kt"}
+    - Em muon biết [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [ke toan]{"entity":"thongtinchinh","value":"kt"}
+    - Em muon biet [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [Ke toan]{"entity":"thongtinchinh","value":"kt"}
+    - [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [kế toán]{"entity":"thongtinchinh","value":"kt"}
+    - [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [Kế toán]{"entity":"thongtinchinh","value":"kt"}
+    - [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [kt]{"entity":"thongtinchinh","value":"kt"}
+    - [Mã Ngành]{"entity":"thongtinphu","value":"ma_nganh"} [KT]{"entity":"thongtinchinh","value":"kt"}
+    - [ma nganh]{"entity":"thongtinphu","value":"ma_nganh"} [Kt]{"entity":"thongtinchinh","value":"kt"}
+    - [chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} [ke toan]{"entity":"thongtinchinh","value":"kt"}
+    - [Chương trình đào tạo]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} [Ke toan]{"entity":"thongtinchinh","value":"kt"}
+    - Cho em hỏi về [chương trình đào tạo]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} ngành [kế toán]{"entity":"thongtinchinh","value":"kt"} ạ
+    - cho em hoi [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} nganh [Kế toán]{"entity":"thongtinchinh","value":"kt"}
+    - em muon biet [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} nganh [kt]{"entity":"thongtinchinh","value":"kt"}
+    - em muốn biết [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} nganh [KT]{"entity":"thongtinchinh","value":"kt"}
+    - [ctdt]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} [Kt]{"entity":"thongtinchinh","value":"kt"}
+    - [chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} [ke toan]{"entity":"thongtinchinh","value":"kt"}
+    - [Chương trình đào tạo]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} [Ke toan]{"entity":"thongtinchinh","value":"kt"}
+    - Cho em hỏi về [chương trình đào tạo]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} ngành [kế toán]{"entity":"thongtinchinh","value":"kt"} ạ
+    - cho em hoi [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} nganh [Kế toán]{"entity":"thongtinchinh","value":"kt"}
+    - em muon biet [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} nganh [kt]{"entity":"thongtinchinh","value":"kt"}
+    - em muốn biết [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} nganh [KT]{"entity":"thongtinchinh","value":"kt"}
+    - [thoi gian dao tao]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} [Kt]{"entity":"thongtinchinh","value":"kt"}
+    - [Thoi gian dao tao]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} [ke toan]{"entity":"thongtinchinh","value":"kt"}
+    - [Thời gian đào tạo]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} [Ke toan]{"entity":"thongtinchinh","value":"kt"}
+    - [thoi gian dao tao]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} nganh [kế toán]{"entity":"thongtinchinh","value":"kt"}
+    - [thời gian học]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} ngành [Kế toán]{"entity":"thongtinchinh","value":"kt"}
+    - [thoi gian hoc]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} [kt]{"entity":"thongtinchinh","value":"kt"}
+    - [Thời gian học]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} ngành [KT]{"entity":"thongtinchinh","value":"kt"}
+    - [Thoi gian hoc]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} [Kt]{"entity":"thongtinchinh","value":"kt"}
+    - [Thời gian]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} ngành [ke toan]{"entity":"thongtinchinh","value":"kt"}
+    - [Thoi gian]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} [Ke toan]{"entity":"thongtinchinh","value":"kt"}
+    - [thời gian]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} ngành [kế toán]{"entity":"thongtinchinh","value":"kt"}
+    - [thoi gian]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} [Kế toán]{"entity":"thongtinchinh","value":"kt"}
+    - hoc [kt]{"entity":"thongtinchinh","value":"kt"} [bao lâu]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} thì ra trường
+    - học [KT]{"entity":"thongtinchinh","value":"kt"} mất [bao lâu]
+    - ngành [Kt]{"entity":"thongtinchinh","value":"kt"} [học mấy năm]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - ngành [ke toan]{"entity":"thongtinchinh","value":"kt"} [hoc may nam]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - ngành [Ke toan]{"entity":"thongtinchinh","value":"kt"} [đào tạo mấy năm]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - ngành [kế toán]{"entity":"thongtinchinh","value":"kt"} [dao tao may nam]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - ngành [Kế toán]{"entity":"thongtinchinh","value":"kt"} [đào tạo bao lâu]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - ngành [kt]{"entity":"thongtinchinh","value":"kt"} [dao tao bao lau]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - ngành [KT]{"entity":"thongtinchinh","value":"kt"} [Đào tạo bao lâu]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - ngành [Kt]{"entity":"thongtinchinh","value":"kt"} [Dao tao bao lau]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - hoc [ke toan]{"entity":"thongtinchinh","value":"kt"} trong [bao lau]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - [thời gian đào tạo]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} của ngành [Ke toan]{"entity":"thongtinchinh","value":"kt"}
+    - [thoi gian hoc tap]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} của ngành [kế toán]{"entity":"thongtinchinh","value":"kt"}
+    - [thời gian học tập]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} của ngành [Kế toán]{"entity":"thongtinchinh","value":"kt"}
+    - [Thời gian học tập]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} của ngành [kt]{"entity":"thongtinchinh","value":"kt"}
+    - [Thoi gian hoc tap]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} của ngành [KT]{"entity":"thongtinchinh","value":"kt"}
+    - [học mấy năm]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} ngành [Kt]{"entity":"thongtinchinh","value":"kt"}
+    - học [ke toan]{"entity":"thongtinchinh","value":"kt"} [bao lâu]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} thì xong
+    - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [Ke toan]{"entity":"thongtinchinh","value":"kt"}
+    - [Hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [kế toán]{"entity":"thongtinchinh","value":"kt"}
+    - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [Kế toán]{"entity":"thongtinchinh","value":"kt"}
+    - Cho em hỏi về [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [kt]{"entity":"thongtinchinh","value":"kt"} ạ
+    - em muốn biết [chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [KT]{"entity":"thongtinchinh","value":"kt"} ạ
+    - em muốn biết [Chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Kt]{"entity":"thongtinchinh","value":"kt"} ạ
+    - Em muon biet [chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [ke toan]{"entity":"thongtinchinh","value":"kt"} ạ
+    - cho em hoi ve [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Ke toan]{"entity":"thongtinchinh","value":"kt"} ạ
+    - Cho em hoi [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [kế toán]{"entity":"thongtinchinh","value":"kt"}
+    - [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Kế toán]{"entity":"thongtinchinh","value":"kt"}
+    - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [kt]{"entity":"thongtinchinh","value":"kt"}
+    - [tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [KT]{"entity":"thongtinchinh","value":"kt"}
+    - [tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Kt]{"entity":"thongtinchinh","value":"kt"}
+    - [Tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [ke toan]{"entity":"thongtinchinh","value":"kt"}
+    - [Tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Ke toan]{"entity":"thongtinchinh","value":"kt"}
+    - [số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [kế toán]{"entity":"thongtinchinh","value":"kt"}
+    - [so tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Kế toán]{"entity":"thongtinchinh","value":"kt"}
+    - [Số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [kt]{"entity":"thongtinchinh","value":"kt"}
+    - [So tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [KT]{"entity":"thongtinchinh","value":"kt"}
+    - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Kt]{"entity":"thongtinchinh","value":"kt"}
+    - [sotc]{"entity":"thongtinphu","value":"sotc"} ngành [ke toan]{"entity":"thongtinchinh","value":"kt"}
+    - [số tín chỉ]{"entity":"thongtinphu","value":"sotc"} ngành [Ke toan]{"entity":"thongtinchinh","value":"kt"}
+    - [Số tín chỉ]{"entity":"thongtinphu","value":"sotc"} ngành [kế toán]{"entity":"thongtinchinh","value":"kt"}
+    - [so tin chi]{"entity":"thongtinphu","value":"sotc"} nganh [Kế toán]{"entity":"thongtinchinh","value":"kt"}
+    - [So tin chi]{"entity":"thongtinphu","value":"sotc"} nganh [kt]{"entity":"thongtinchinh","value":"kt"}
+    - [so tin chi]{"entity":"thongtinphu","value":"sotc"} nganh [KT]{"entity":"thongtinchinh","value":"kt"}
+    - nganh [Kt]{"entity":"thongtinchinh","value":"kt"} co bn [tin chi]{"entity":"thongtinphu","value":"sotc"}
+    - nganh [ke toan]{"entity":"thongtinchinh","value":"kt"} co bao nhieu [tin chi]{"entity":"thongtinphu","value":"sotc"}
+    - ngành [Ke toan]{"entity":"thongtinchinh","value":"kt"} có bao nhiêu [Tin chi]{"entity":"thongtinphu","value":"sotc"}
+    - ngành [kế toán]{"entity":"thongtinchinh","value":"kt"} có tổng cộng bao nhiêu [tín chỉ]{"entity":"thongtinphu","value":"sotc"} tất cả
+    - ngành [Kế toán]{"entity":"thongtinchinh","value":"kt"} có bn [tín chỉ]{"entity":"thongtinphu","value":"sotc"} tất cả
+    - [kt]{"entity":"thongtinchinh","value":"kt"} co [bao nhieu tin chi]{"entity":"thongtinphu","value":"sotc"}
+    - [KT]{"entity":"thongtinchinh","value":"kt"} hoc [bao nhieu tin chi]{"entity":"thongtinphu","value":"sotc"}
+    - [Kt]{"entity":"thongtinchinh","value":"kt"} tổng cộng [bao nhiêu tín chỉ]{"entity":"thongtinphu","value":"sotc"}
+    - nganh [ke toan]{"entity":"thongtinchinh","value":"kt"} co tong cong bao nhieu [tin chi]{"entity":"thongtinphu","value":"sotc"}
+    - nganh [Ke toan]{"entity":"thongtinchinh","value":"kt"} co tong cong bao nhieu [tin chi]{"entity":"thongtinphu","value":"sotc"} tat ca
+    - ngành [kế toán]{"entity":"thongtinchinh","value":"kt"} có tổng cộng bao nhiêu [tín chỉ]{"entity":"thongtinphu","value":"sotc"}
+    - [Kế toán]{"entity":"thongtinchinh","value":"kt"} có [bao nhiêu tín chỉ]{"entity":"thongtinphu","value":"sotc"}
+    - [kt]{"entity":"thongtinchinh","value":"kt"} có tất cả [bao nhiêu tin chỉ]{"entity":"thongtinphu","value":"sotc"}
+    - [KT]{"entity":"thongtinchinh","value":"kt"} co tat ca [bao nhieu tin chi]{"entity":"thongtinphu","value":"sotc"}
+    - nganh [Kt]{"entity":"thongtinchinh","value":"kt"} co cac [chuyen nganh]{"entity":"thongtinphu","value":"chuyen_nganh"} nao
+    - nganh [ke toan]{"entity":"thongtinchinh","value":"kt"} có các [chuyên ngành]{"entity":"thongtinphu","value":"chuyen_nganh"} nào
+    - [Ke toan]{"entity":"thongtinchinh","value":"kt"} được chia mấy [chuyên ngành]{"entity":"thongtinphu","value":"chuyen_nganh"}
+    - ngành [kế toán]{"entity":"thongtinchinh","value":"kt"} có những [chuyên ngành]{"entity":"thongtinphu","value":"chuyen_nganh"} nào
+    - [Kế toán]{"entity":"thongtinchinh","value":"kt"} [Chuyen Nganh]{"entity":"thongtinphu","value":"chuyen_nganh"}
+    - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [kt]{"entity":"thongtinchinh","value":"kt"}
+    - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [KT]{"entity":"thongtinchinh","value":"kt"}
+    - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Kt]{"entity":"thongtinchinh","value":"kt"}
+    - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [ke toan]{"entity":"thongtinchinh","value":"kt"}
+    - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Ke toan]{"entity":"thongtinchinh","value":"kt"}
+    - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kế toán]{"entity":"thongtinchinh","value":"kt"}
+    - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Kế toán]{"entity":"thongtinchinh","value":"kt"}
+    - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kt]{"entity":"thongtinchinh","value":"kt"}
+    - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [KT]{"entity":"thongtinchinh","value":"kt"}
+    - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Kt]{"entity":"thongtinchinh","value":"kt"}
+    - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [ke toan]{"entity":"thongtinchinh","value":"kt"}
+    - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Ke toan]{"entity":"thongtinchinh","value":"kt"}
+    - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kế toán]{"entity":"thongtinchinh","value":"kt"}
+    - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Kế toán]{"entity":"thongtinchinh","value":"kt"}
+    - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kt]{"entity":"thongtinchinh","value":"kt"}
+    - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [KT]{"entity":"thongtinchinh","value":"kt"}
+    - [điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Kt]{"entity":"thongtinchinh","value":"kt"}
+    - [diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [ke toan]{"entity":"thongtinchinh","value":"kt"}
+    - [Điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Ke toan]{"entity":"thongtinchinh","value":"kt"}
+    - [Diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kế toán]{"entity":"thongtinchinh","value":"kt"}
+    - [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [Kế toán]{"entity":"thongtinchinh","value":"kt"}
+    - cho em hỏi [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [kt]{"entity":"thongtinchinh","value":"kt"}
+    - Cho em hỏi [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [KT]{"entity":"thongtinchinh","value":"kt"}
+    - Em muon biet [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [Kt]{"entity":"thongtinchinh","value":"kt"}
+    - Cho em hoi [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [ke toan]{"entity":"thongtinchinh","value":"kt"}
+    - cho em hoi [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [Ke toan]{"entity":"thongtinchinh","value":"kt"}
+    - Em muốn biết [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [kế toán]{"entity":"thongtinchinh","value":"kt"}
+    - em muon biết [khoi thi]{"entity":"thongtinphu","value":"khoi_thi"} nganh [Kế toán]{"entity":"thongtinchinh","value":"kt"}
+    - [khoi thi]{"entity":"thongtinphu","value":"khoi_thi"} nganh [kt]{"entity":"thongtinchinh","value":"kt"}
+    - em muon biet [Khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [KT]{"entity":"thongtinchinh","value":"kt"}
+    - [Khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [Kt]{"entity":"thongtinchinh","value":"kt"}
+    - [Khoi thi]{"entity":"thongtinphu","value":"khoi_thi"} nganh [ke toan]{"entity":"thongtinchinh","value":"kt"}
+    - [tổ hợp xét tuyển]{"entity":"thongtinphu","value":"khoi_thi"} ngành [Ke toan]{"entity":"thongtinchinh","value":"kt"}
+    - [to hop xet tuyen]{"entity":"thongtinphu","value":"khoi_thi"} thi nganh [kế toán]{"entity":"thongtinchinh","value":"kt"}
+    - [Tổ hợp xét tuyển]{"entity":"thongtinphu","value":"khoi_thi"} ngành [Kế toán]{"entity":"thongtinchinh","value":"kt"}
+    - [To hop xet tuyen]{"entity":"thongtinphu","value":"khoi_thi"} thi nganh [kt]{"entity":"thongtinchinh","value":"kt"}
+    - [to hop xet tuyen]{"entity":"thongtinphu","value":"khoi_thi"} nganh [KT]{"entity":"thongtinchinh","value":"kt"}
+    - [tổ hợp xét tuyển]{"entity":"thongtinphu","value":"khoi_thi"} thi ngành [Kt]{"entity":"thongtinchinh","value":"kt"}
+    - [tổ hợp xét tuyển]{"entity":"thongtinphu","value":"khoi_thi"} thi ngành [ke toan]{"entity":"thongtinchinh","value":"kt"}
+    - Tổ hợp môn]{"entity":"thongtinphu","value":"khoi_thi"} ngành [Ke toan]{"entity":"thongtinchinh","value":"kt"}
+    - [To hop mon]{"entity":"thongtinphu","value":"khoi_thi"} thi nganh [kế toán]{"entity":"thongtinchinh","value":"kt"}
+    - [to hop mon]{"entity":"thongtinphu","value":"khoi_thi"} nganh [Kế toán]{"entity":"thongtinchinh","value":"kt"}
+    - [tổ hợp môn]{"entity":"thongtinphu","value":"khoi_thi"} thi ngành [kt]{"entity":"thongtinchinh","value":"kt"}
+    - [tổ hợp môn]{"entity":"thongtinphu","value":"khoi_thi"} thi ngành [KT]{"entity":"thongtinchinh","value":"kt"}
 
 ### hien tai gom: diem chuan
 - intent: intent_ttchinh_ttphu_coso

@@ -271,7 +271,8 @@ function generateByOrder(entity){
 //  const arrKey = ['qtkd', 'qt kinh doanh', 'quan tri kinh doanh', 'Quan tri kinh doanh', 'Qt kinh doanh'
 //  ,'Qt trị kinh doanh', 'quản trị kinh doanh', 'Quản trị kinh doanh']
 
-  const arrKey = ['mkt', 'Mkt', 'MKT', 'Marketing','marketing']
+//   const arrKey = ['mkt', 'Mkt', 'MKT', 'Marketing','marketing']
+  const arrKey = ['kt', 'KT', 'Kt', 'ke toan','Ke toan','kế toán','Kế toán']
 
 //  const arrKey = ['aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa','aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa'
 // ,'aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa'
@@ -280,5 +281,5 @@ function generateByOrder(entity){
 // ,'aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa'
 // ,'aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa']
 
-// generateTongquan("mkt")
-generateByOrder("mkt")
+// generateTongquan("kt")
+generateByOrder("kt")
