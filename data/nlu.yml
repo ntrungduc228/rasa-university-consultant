@@ -2158,6 +2158,210 @@ nlu:
     - [tổ hợp môn]{"entity":"thongtinphu","value":"khoi_thi"} thi ngành [Qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
     - [tổ hợp môn]{"entity":"thongtinphu","value":"khoi_thi"} thi ngành [Qt trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
 
+    - [mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [Mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [MKT]{"entity":"thongtinchinh","value":"mkt"}
+    - [Marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [tổng quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [Tong quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [Tổng quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [MKT]{"entity":"thongtinchinh","value":"mkt"}
+    - [tóm tắt]{"entity":"thongtinphu","value":"tong_quan"} ngành [Marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [khái quát]{"entity":"thongtinphu","value":"tong_quan"} ngành [marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [Khái quát]{"entity":"thongtinphu","value":"tong_quan"} ngành [mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [Khai quat]{"entity":"thongtinphu","value":"tong_quan"} ngành [Mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [tong quan]{"entity":"thongtinphu","value":"tong_quan"} nganh [MKT]{"entity":"thongtinchinh","value":"mkt"}
+    - [tom tat]{"entity":"thongtinphu","value":"tong_quan"} nganh [Marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [Tom tat]{"entity":"thongtinphu","value":"tong_quan"} nganh [marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [Tóm tắt]{"entity":"thongtinphu","value":"tong_quan"} nganh [mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [khai quat]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [Mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [giới thiệu]{"entity":"thongtinphu","value":"tong_quan"} về ngành [MKT]{"entity":"thongtinchinh","value":"mkt"}
+    - [Giới thiệu]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [Gioi thieu]{"entity":"thongtinphu","value":"tong_quan"} về ngành [marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [cho em hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [cho em hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [Cho em hoi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [MKT]{"entity":"thongtinchinh","value":"mkt"}
+    - [Cho em hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [cho em hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [em muốn biết]{"entity":"thongtinphu","value":"tong_quan"} về ngành [mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [Em muon biet]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [Em muốn biết]{"entity":"thongtinphu","value":"tong_quan"} về ngành [MKT]{"entity":"thongtinchinh","value":"mkt"}
+    - [em muốn biết]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [em muốn hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [Em muon hoi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [Em muốn hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [em muon hoi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [MKT]{"entity":"thongtinchinh","value":"mkt"}
+    - [gioi thieu]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [Marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [cho em hoi]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [em muon biet]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [em muon hoi]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [Mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - Em có dự định muốn học ngành [MKT]{"entity":"thongtinchinh","value":"mkt"}, vậy cho em hỏi học ngành này xong thì ra ngoài có thể [làm gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} ạ
+    - Hoc xong [Marketing]{"entity":"thongtinchinh","value":"mkt"} co the [lam cong viêc gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} a
+    - Học xong [marketing]{"entity":"thongtinchinh","value":"mkt"} co the [làm công việc gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} a
+    - [mkt]{"entity":"thongtinchinh","value":"mkt"} [làm vị trí nào]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
+    - [Mkt]{"entity":"thongtinchinh","value":"mkt"} [làm gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
+    - [MKT]{"entity":"thongtinchinh","value":"mkt"} [Làm công việc gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
+    - [Marketing]{"entity":"thongtinchinh","value":"mkt"} [làm được gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
+    - [marketing]{"entity":"thongtinchinh","value":"mkt"} [Làm được gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
+    - [mkt]{"entity":"thongtinchinh","value":"mkt"} [làm những công việc gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
+    - [Mkt]{"entity":"thongtinchinh","value":"mkt"} [làm những công việc nào]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
+    - [MKT]{"entity":"thongtinchinh","value":"mkt"} [lam vi tri nao]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi hoc xong
+    - [Marketing]{"entity":"thongtinchinh","value":"mkt"} [Lam duoc gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi hoc xong
+    - [marketing]{"entity":"thongtinchinh","value":"mkt"} [lam duoc gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi hoc xong
+    - [mkt]{"entity":"thongtinchinh","value":"mkt"} [lam nhung cong viec gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi hoc xong
+    - [Mkt]{"entity":"thongtinchinh","value":"mkt"} [lam nhung cong viec nao]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi hoc xong
+    - [MKT]{"entity":"thongtinchinh","value":"mkt"} [lam gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi hoc xong
+    - [Marketing]{"entity":"thongtinchinh","value":"mkt"} [Lam cong viec gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi hoc xong
+    - hoc xong [marketing]{"entity":"thongtinchinh","value":"mkt"} thi [lam duoc gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"}
+    - học [mkt]{"entity":"thongtinchinh","value":"mkt"} có thể [làm những công việc gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"}
+    - học [Mkt]{"entity":"thongtinchinh","value":"mkt"} có thể [làm những công việc nào]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"}
+    - học [MKT]{"entity":"thongtinchinh","value":"mkt"} có thể [làm những công việc gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"}
+    - cho em hoi [ma nganh]{"entity":"thongtinphu","value":"ma_nganh"} [Marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - cho em hỏi [Mã ngành]{"entity":"thongtinphu","value":"ma_nganh"} [marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - em muốn biết [mã ngành]{"entity":"thongtinphu","value":"ma_nganh"} [mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - em muon biet [Ma nganh]{"entity":"thongtinphu","value":"ma_nganh"} [Mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - Cho em hoi [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [MKT]{"entity":"thongtinchinh","value":"mkt"}
+    - Cho em hỏi [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [Marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - Em muon biết [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - Em muon biet [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [Mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [MKT]{"entity":"thongtinchinh","value":"mkt"}
+    - [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [Marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [Mã Ngành]{"entity":"thongtinphu","value":"ma_nganh"} [marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [ma nganh]{"entity":"thongtinphu","value":"ma_nganh"} [mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} [Mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [Chương trình đào tạo]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} [MKT]{"entity":"thongtinchinh","value":"mkt"}
+    - Cho em hỏi về [chương trình đào tạo]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} ngành [Marketing]{"entity":"thongtinchinh","value":"mkt"} ạ
+    - cho em hoi [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} nganh [marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - em muon biet [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} nganh [mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - em muốn biết [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} nganh [Mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [ctdt]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} [MKT]{"entity":"thongtinchinh","value":"mkt"}
+    - [chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} [Marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [Chương trình đào tạo]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} [marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - Cho em hỏi về [chương trình đào tạo]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} ngành [mkt]{"entity":"thongtinchinh","value":"mkt"} ạ
+    - cho em hoi [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} nganh [Mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - em muon biet [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} nganh [MKT]{"entity":"thongtinchinh","value":"mkt"}
+    - em muốn biết [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} nganh [Marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [thoi gian dao tao]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} [marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [Thoi gian dao tao]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} [mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [Thời gian đào tạo]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} [Mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [thoi gian dao tao]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} nganh [MKT]{"entity":"thongtinchinh","value":"mkt"}
+    - [thời gian học]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} ngành [Marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [thoi gian hoc]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} [marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [Thời gian học]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} ngành [mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [Thoi gian hoc]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} [Mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [Thời gian]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} ngành [MKT]{"entity":"thongtinchinh","value":"mkt"}
+    - [Thoi gian]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} [Marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [thời gian]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} ngành [marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [thoi gian]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} [mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - hoc [Mkt]{"entity":"thongtinchinh","value":"mkt"} [bao lâu]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} thì ra trường
+    - học [MKT]{"entity":"thongtinchinh","value":"mkt"} mất [bao lâu]
+    - ngành [Marketing]{"entity":"thongtinchinh","value":"mkt"} [học mấy năm]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - ngành [marketing]{"entity":"thongtinchinh","value":"mkt"} [hoc may nam]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - ngành [mkt]{"entity":"thongtinchinh","value":"mkt"} [đào tạo mấy năm]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - ngành [Mkt]{"entity":"thongtinchinh","value":"mkt"} [dao tao may nam]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - ngành [MKT]{"entity":"thongtinchinh","value":"mkt"} [đào tạo bao lâu]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - ngành [Marketing]{"entity":"thongtinchinh","value":"mkt"} [dao tao bao lau]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - ngành [marketing]{"entity":"thongtinchinh","value":"mkt"} [Đào tạo bao lâu]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - ngành [mkt]{"entity":"thongtinchinh","value":"mkt"} [Dao tao bao lau]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - hoc [Mkt]{"entity":"thongtinchinh","value":"mkt"} trong [bao lau]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - [thời gian đào tạo]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} của ngành [MKT]{"entity":"thongtinchinh","value":"mkt"}
+    - [thoi gian hoc tap]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} của ngành [Marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [thời gian học tập]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} của ngành [marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [Thời gian học tập]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} của ngành [mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [Thoi gian hoc tap]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} của ngành [Mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [học mấy năm]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} ngành [MKT]{"entity":"thongtinchinh","value":"mkt"}
+    - học [Marketing]{"entity":"thongtinchinh","value":"mkt"} [bao lâu]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} thì xong
+    - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [Hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [Mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - Cho em hỏi về [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [MKT]{"entity":"thongtinchinh","value":"mkt"} ạ
+    - em muốn biết [chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Marketing]{"entity":"thongtinchinh","value":"mkt"} ạ
+    - em muốn biết [Chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [marketing]{"entity":"thongtinchinh","value":"mkt"} ạ
+    - Em muon biet [chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [mkt]{"entity":"thongtinchinh","value":"mkt"} ạ
+    - cho em hoi ve [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Mkt]{"entity":"thongtinchinh","value":"mkt"} ạ
+    - Cho em hoi [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [MKT]{"entity":"thongtinchinh","value":"mkt"}
+    - [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [Tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [MKT]{"entity":"thongtinchinh","value":"mkt"}
+    - [Tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [so tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [Số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [So tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [MKT]{"entity":"thongtinchinh","value":"mkt"}
+    - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [sotc]{"entity":"thongtinphu","value":"sotc"} ngành [marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [số tín chỉ]{"entity":"thongtinphu","value":"sotc"} ngành [mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [Số tín chỉ]{"entity":"thongtinphu","value":"sotc"} ngành [Mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [so tin chi]{"entity":"thongtinphu","value":"sotc"} nganh [MKT]{"entity":"thongtinchinh","value":"mkt"}
+    - [So tin chi]{"entity":"thongtinphu","value":"sotc"} nganh [Marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [so tin chi]{"entity":"thongtinphu","value":"sotc"} nganh [marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - nganh [mkt]{"entity":"thongtinchinh","value":"mkt"} co bn [tin chi]{"entity":"thongtinphu","value":"sotc"}
+    - nganh [Mkt]{"entity":"thongtinchinh","value":"mkt"} co bao nhieu [tin chi]{"entity":"thongtinphu","value":"sotc"}
+    - ngành [MKT]{"entity":"thongtinchinh","value":"mkt"} có bao nhiêu [Tin chi]{"entity":"thongtinphu","value":"sotc"}
+    - ngành [Marketing]{"entity":"thongtinchinh","value":"mkt"} có tổng cộng bao nhiêu [tín chỉ]{"entity":"thongtinphu","value":"sotc"} tất cả
+    - ngành [marketing]{"entity":"thongtinchinh","value":"mkt"} có bn [tín chỉ]{"entity":"thongtinphu","value":"sotc"} tất cả
+    - [mkt]{"entity":"thongtinchinh","value":"mkt"} co [bao nhieu tin chi]{"entity":"thongtinphu","value":"sotc"}
+    - [Mkt]{"entity":"thongtinchinh","value":"mkt"} hoc [bao nhieu tin chi]{"entity":"thongtinphu","value":"sotc"}
+    - [MKT]{"entity":"thongtinchinh","value":"mkt"} tổng cộng [bao nhiêu tín chỉ]{"entity":"thongtinphu","value":"sotc"}
+    - nganh [Marketing]{"entity":"thongtinchinh","value":"mkt"} co tong cong bao nhieu [tin chi]{"entity":"thongtinphu","value":"sotc"}
+    - nganh [marketing]{"entity":"thongtinchinh","value":"mkt"} co tong cong bao nhieu [tin chi]{"entity":"thongtinphu","value":"sotc"} tat ca
+    - ngành [mkt]{"entity":"thongtinchinh","value":"mkt"} có tổng cộng bao nhiêu [tín chỉ]{"entity":"thongtinphu","value":"sotc"}
+    - [Mkt]{"entity":"thongtinchinh","value":"mkt"} có [bao nhiêu tín chỉ]{"entity":"thongtinphu","value":"sotc"}
+    - [MKT]{"entity":"thongtinchinh","value":"mkt"} có tất cả [bao nhiêu tin chỉ]{"entity":"thongtinphu","value":"sotc"}
+    - [Marketing]{"entity":"thongtinchinh","value":"mkt"} co tat ca [bao nhieu tin chi]{"entity":"thongtinphu","value":"sotc"}
+    - nganh [marketing]{"entity":"thongtinchinh","value":"mkt"} co cac [chuyen nganh]{"entity":"thongtinphu","value":"chuyen_nganh"} nao
+    - nganh [mkt]{"entity":"thongtinchinh","value":"mkt"} có các [chuyên ngành]{"entity":"thongtinphu","value":"chuyen_nganh"} nào
+    - [Mkt]{"entity":"thongtinchinh","value":"mkt"} được chia mấy [chuyên ngành]{"entity":"thongtinphu","value":"chuyen_nganh"}
+    - ngành [MKT]{"entity":"thongtinchinh","value":"mkt"} có những [chuyên ngành]{"entity":"thongtinphu","value":"chuyen_nganh"} nào
+    - [Marketing]{"entity":"thongtinchinh","value":"mkt"} [Chuyen Nganh]{"entity":"thongtinphu","value":"chuyen_nganh"}
+    - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [MKT]{"entity":"thongtinchinh","value":"mkt"}
+    - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [MKT]{"entity":"thongtinchinh","value":"mkt"}
+    - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [MKT]{"entity":"thongtinchinh","value":"mkt"}
+    - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [Điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [MKT]{"entity":"thongtinchinh","value":"mkt"}
+    - [Diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - cho em hỏi [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - Cho em hỏi [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [Mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - Em muon biet [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [MKT]{"entity":"thongtinchinh","value":"mkt"}
+    - Cho em hoi [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [Marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - cho em hoi [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - Em muốn biết [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - em muon biết [khoi thi]{"entity":"thongtinphu","value":"khoi_thi"} nganh [Mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [khoi thi]{"entity":"thongtinphu","value":"khoi_thi"} nganh [MKT]{"entity":"thongtinchinh","value":"mkt"}
+    - em muon biet [Khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [Marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [Khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [Khoi thi]{"entity":"thongtinphu","value":"khoi_thi"} nganh [mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [tổ hợp xét tuyển]{"entity":"thongtinphu","value":"khoi_thi"} ngành [Mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [to hop xet tuyen]{"entity":"thongtinphu","value":"khoi_thi"} thi nganh [MKT]{"entity":"thongtinchinh","value":"mkt"}
+    - [Tổ hợp xét tuyển]{"entity":"thongtinphu","value":"khoi_thi"} ngành [Marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [To hop xet tuyen]{"entity":"thongtinphu","value":"khoi_thi"} thi nganh [marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [to hop xet tuyen]{"entity":"thongtinphu","value":"khoi_thi"} nganh [mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [tổ hợp xét tuyển]{"entity":"thongtinphu","value":"khoi_thi"} thi ngành [Mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [tổ hợp xét tuyển]{"entity":"thongtinphu","value":"khoi_thi"} thi ngành [MKT]{"entity":"thongtinchinh","value":"mkt"}
+    - Tổ hợp môn]{"entity":"thongtinphu","value":"khoi_thi"} ngành [Marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [To hop mon]{"entity":"thongtinphu","value":"khoi_thi"} thi nganh [marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - [to hop mon]{"entity":"thongtinphu","value":"khoi_thi"} nganh [mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [tổ hợp môn]{"entity":"thongtinphu","value":"khoi_thi"} thi ngành [Mkt]{"entity":"thongtinchinh","value":"mkt"}
+    - [tổ hợp môn]{"entity":"thongtinphu","value":"khoi_thi"} thi ngành [MKT]{"entity":"thongtinchinh","value":"mkt"}
+
 ### hien tai gom: diem chuan
 - intent: intent_ttchinh_ttphu_coso
   examples: |
