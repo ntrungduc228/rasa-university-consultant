@@ -1943,6 +1943,221 @@ nlu:
     - [tổ hợp môn]{"entity":"thongtinphu","value":"khoi_thi"} thi ngành [Cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
     - [tổ hợp môn]{"entity":"thongtinphu","value":"khoi_thi"} thi ngành [cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
 
+    - [qtkd]{"entity":"thongtinchinh","value":"qtkd"}
+    - [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Qt trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [qtkd]{"entity":"thongtinchinh","value":"qtkd"}
+    - [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Qt trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [tổng quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [qtkd]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Tong quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Tổng quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [tóm tắt]{"entity":"thongtinphu","value":"tong_quan"} ngành [Quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [khái quát]{"entity":"thongtinphu","value":"tong_quan"} ngành [Qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Khái quát]{"entity":"thongtinphu","value":"tong_quan"} ngành [Qt trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Khai quat]{"entity":"thongtinphu","value":"tong_quan"} ngành [quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [tong quan]{"entity":"thongtinphu","value":"tong_quan"} nganh [Quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [tom tat]{"entity":"thongtinphu","value":"tong_quan"} nganh [qtkd]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Tom tat]{"entity":"thongtinphu","value":"tong_quan"} nganh [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Tóm tắt]{"entity":"thongtinphu","value":"tong_quan"} nganh [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [khai quat]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [Quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [giới thiệu]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Giới thiệu]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Qt trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Gioi thieu]{"entity":"thongtinphu","value":"tong_quan"} về ngành [quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [cho em hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [cho em hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [qtkd]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Cho em hoi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Cho em hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [cho em hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [em muốn biết]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Em muon biet]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Qt trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Em muốn biết]{"entity":"thongtinphu","value":"tong_quan"} về ngành [quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [em muốn biết]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [em muốn hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [qtkd]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Em muon hoi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Em muốn hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [em muon hoi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [gioi thieu]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [Qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [cho em hoi]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [Qt trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [em muon biet]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [em muon hoi]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [Quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - Em có dự định muốn học ngành [qtkd]{"entity":"thongtinchinh","value":"qtkd"}, vậy cho em hỏi học ngành này xong thì ra ngoài có thể [làm gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} ạ
+    - Hoc xong [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} co the [lam cong viêc gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} a
+    - Học xong [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} co the [làm công việc gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} a
+    - [Quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} [làm vị trí nào]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
+    - [Qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} [làm gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
+    - [Qt trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} [Làm công việc gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
+    - [quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} [làm được gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
+    - [Quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} [Làm được gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
+    - [qtkd]{"entity":"thongtinchinh","value":"qtkd"} [làm những công việc gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
+    - [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} [làm những công việc nào]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
+    - [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} [lam vi tri nao]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi hoc xong
+    - [Quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} [Lam duoc gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi hoc xong
+    - [Qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} [lam duoc gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi hoc xong
+    - [Qt trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} [lam nhung cong viec gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi hoc xong
+    - [quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} [lam nhung cong viec nao]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi hoc xong
+    - [Quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} [lam gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi hoc xong
+    - [qtkd]{"entity":"thongtinchinh","value":"qtkd"} [Lam cong viec gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi hoc xong
+    - hoc xong [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} thi [lam duoc gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"}
+    - học [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} có thể [làm những công việc gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"}
+    - học [Quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} có thể [làm những công việc nào]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"}
+    - học [Qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} có thể [làm những công việc gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"}
+    - cho em hoi [ma nganh]{"entity":"thongtinphu","value":"ma_nganh"} [Qt trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - cho em hỏi [Mã ngành]{"entity":"thongtinphu","value":"ma_nganh"} [quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - em muốn biết [mã ngành]{"entity":"thongtinphu","value":"ma_nganh"} [Quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - em muon biet [Ma nganh]{"entity":"thongtinphu","value":"ma_nganh"} [qtkd]{"entity":"thongtinchinh","value":"qtkd"}
+    - Cho em hoi [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - Cho em hỏi [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - Em muon biết [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [Quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - Em muon biet [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [Qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [Qt trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [Quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Mã Ngành]{"entity":"thongtinphu","value":"ma_nganh"} [qtkd]{"entity":"thongtinchinh","value":"qtkd"}
+    - [ma nganh]{"entity":"thongtinphu","value":"ma_nganh"} [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Chương trình đào tạo]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} [Quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - Cho em hỏi về [chương trình đào tạo]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} ngành [Qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} ạ
+    - cho em hoi [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} nganh [Qt trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - em muon biet [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} nganh [quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - em muốn biết [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} nganh [Quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [ctdt]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} [qtkd]{"entity":"thongtinchinh","value":"qtkd"}
+    - [chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Chương trình đào tạo]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - Cho em hỏi về [chương trình đào tạo]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} ngành [Quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} ạ
+    - cho em hoi [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} nganh [Qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - em muon biet [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} nganh [Qt trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - em muốn biết [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} nganh [quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [thoi gian dao tao]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} [Quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Thoi gian dao tao]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} [qtkd]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Thời gian đào tạo]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [thoi gian dao tao]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} nganh [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [thời gian học]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} ngành [Quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [thoi gian hoc]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} [Qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Thời gian học]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} ngành [Qt trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Thoi gian hoc]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} [quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Thời gian]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} ngành [Quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Thoi gian]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} [qtkd]{"entity":"thongtinchinh","value":"qtkd"}
+    - [thời gian]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} ngành [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [thoi gian]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - hoc [Quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} [bao lâu]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} thì ra trường
+    - học [Qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} mất [bao lâu]
+    - ngành [Qt trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} [học mấy năm]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - ngành [quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} [hoc may nam]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - ngành [Quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} [đào tạo mấy năm]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - ngành [qtkd]{"entity":"thongtinchinh","value":"qtkd"} [dao tao may nam]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - ngành [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} [đào tạo bao lâu]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - ngành [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} [dao tao bao lau]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - ngành [Quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} [Đào tạo bao lâu]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - ngành [Qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} [Dao tao bao lau]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - hoc [Qt trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} trong [bao lau]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - [thời gian đào tạo]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} của ngành [quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [thoi gian hoc tap]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} của ngành [Quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [thời gian học tập]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} của ngành [qtkd]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Thời gian học tập]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} của ngành [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Thoi gian hoc tap]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} của ngành [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [học mấy năm]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} ngành [Quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - học [Qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} [bao lâu]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} thì xong
+    - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [Qt trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [Quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - Cho em hỏi về [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [qtkd]{"entity":"thongtinchinh","value":"qtkd"} ạ
+    - em muốn biết [chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} ạ
+    - em muốn biết [Chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} ạ
+    - Em muon biet [chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} ạ
+    - cho em hoi ve [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} ạ
+    - Cho em hoi [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [Qt trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [qtkd]{"entity":"thongtinchinh","value":"qtkd"}
+    - [tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [so tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Qt trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [So tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [qtkd]{"entity":"thongtinchinh","value":"qtkd"}
+    - [sotc]{"entity":"thongtinphu","value":"sotc"} ngành [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [số tín chỉ]{"entity":"thongtinphu","value":"sotc"} ngành [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Số tín chỉ]{"entity":"thongtinphu","value":"sotc"} ngành [Quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [so tin chi]{"entity":"thongtinphu","value":"sotc"} nganh [Qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [So tin chi]{"entity":"thongtinphu","value":"sotc"} nganh [Qt trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [so tin chi]{"entity":"thongtinphu","value":"sotc"} nganh [quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - nganh [Quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} co bn [tin chi]{"entity":"thongtinphu","value":"sotc"}
+    - nganh [qtkd]{"entity":"thongtinchinh","value":"qtkd"} co bao nhieu [tin chi]{"entity":"thongtinphu","value":"sotc"}
+    - ngành [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} có bao nhiêu [Tin chi]{"entity":"thongtinphu","value":"sotc"}
+    - ngành [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} có tổng cộng bao nhiêu [tín chỉ]{"entity":"thongtinphu","value":"sotc"} tất cả
+    - ngành [Quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} có bn [tín chỉ]{"entity":"thongtinphu","value":"sotc"} tất cả
+    - [Qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} co [bao nhieu tin chi]{"entity":"thongtinphu","value":"sotc"}
+    - [Qt trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} hoc [bao nhieu tin chi]{"entity":"thongtinphu","value":"sotc"}
+    - [quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} tổng cộng [bao nhiêu tín chỉ]{"entity":"thongtinphu","value":"sotc"}
+    - nganh [Quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} co tong cong bao nhieu [tin chi]{"entity":"thongtinphu","value":"sotc"}
+    - nganh [qtkd]{"entity":"thongtinchinh","value":"qtkd"} co tong cong bao nhieu [tin chi]{"entity":"thongtinphu","value":"sotc"} tat ca
+    - ngành [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} có tổng cộng bao nhiêu [tín chỉ]{"entity":"thongtinphu","value":"sotc"}
+    - [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} có [bao nhiêu tín chỉ]{"entity":"thongtinphu","value":"sotc"}
+    - [Quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} có tất cả [bao nhiêu tin chỉ]{"entity":"thongtinphu","value":"sotc"}
+    - [Qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} co tat ca [bao nhieu tin chi]{"entity":"thongtinphu","value":"sotc"}
+    - nganh [Qt trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} co cac [chuyen nganh]{"entity":"thongtinphu","value":"chuyen_nganh"} nao
+    - nganh [quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} có các [chuyên ngành]{"entity":"thongtinphu","value":"chuyen_nganh"} nào
+    - [Quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} được chia mấy [chuyên ngành]{"entity":"thongtinphu","value":"chuyen_nganh"}
+    - ngành [qtkd]{"entity":"thongtinchinh","value":"qtkd"} có những [chuyên ngành]{"entity":"thongtinphu","value":"chuyen_nganh"} nào
+    - [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} [Chuyen Nganh]{"entity":"thongtinphu","value":"chuyen_nganh"}
+    - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Qt trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [qtkd]{"entity":"thongtinchinh","value":"qtkd"}
+    - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Qt trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [qtkd]{"entity":"thongtinchinh","value":"qtkd"}
+    - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Qt trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - cho em hỏi [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [Quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - Cho em hỏi [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [qtkd]{"entity":"thongtinchinh","value":"qtkd"}
+    - Em muon biet [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - Cho em hoi [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - cho em hoi [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [Quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - Em muốn biết [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [Qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - em muon biết [khoi thi]{"entity":"thongtinphu","value":"khoi_thi"} nganh [Qt trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [khoi thi]{"entity":"thongtinphu","value":"khoi_thi"} nganh [quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - em muon biet [Khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [Quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [qtkd]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Khoi thi]{"entity":"thongtinphu","value":"khoi_thi"} nganh [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [tổ hợp xét tuyển]{"entity":"thongtinphu","value":"khoi_thi"} ngành [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [to hop xet tuyen]{"entity":"thongtinphu","value":"khoi_thi"} thi nganh [Quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [Tổ hợp xét tuyển]{"entity":"thongtinphu","value":"khoi_thi"} ngành [Qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [To hop xet tuyen]{"entity":"thongtinphu","value":"khoi_thi"} thi nganh [Qt trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [to hop xet tuyen]{"entity":"thongtinphu","value":"khoi_thi"} nganh [quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [tổ hợp xét tuyển]{"entity":"thongtinphu","value":"khoi_thi"} thi ngành [Quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [tổ hợp xét tuyển]{"entity":"thongtinphu","value":"khoi_thi"} thi ngành [qtkd]{"entity":"thongtinchinh","value":"qtkd"}
+    - Tổ hợp môn]{"entity":"thongtinphu","value":"khoi_thi"} ngành [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [To hop mon]{"entity":"thongtinphu","value":"khoi_thi"} thi nganh [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [to hop mon]{"entity":"thongtinphu","value":"khoi_thi"} nganh [Quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [tổ hợp môn]{"entity":"thongtinphu","value":"khoi_thi"} thi ngành [Qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - [tổ hợp môn]{"entity":"thongtinphu","value":"khoi_thi"} thi ngành [Qt trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+
 ### hien tai gom: diem chuan
 - intent: intent_ttchinh_ttphu_coso
   examples: |

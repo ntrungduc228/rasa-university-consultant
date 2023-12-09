@@ -265,8 +265,11 @@ function generateByOrder(entity){
 // , 'ki thuat dieu khiển tự động', 'ky thuat dieu khien tu dong'
 // , 'kĩ thuật điều khiển tự động','ky thuat điều khiển tự động']
 
- const arrKey = ['cndpt', 'cn da phuong tien', 'Cn da phuong tien', 'cong nghe da phuong tien', 'Cong nghe da phuong tien',
- 'công nghệ đa phương tiện', 'Công nghệ đa phương tiện', 'Cn đa phương tiện', 'cn đa phương tiện']
+//  const arrKey = ['cndpt', 'cn da phuong tien', 'Cn da phuong tien', 'cong nghe da phuong tien', 'Cong nghe da phuong tien',
+//  'công nghệ đa phương tiện', 'Công nghệ đa phương tiện', 'Cn đa phương tiện', 'cn đa phương tiện']
+
+ const arrKey = ['qtkd', 'qt kinh doanh', 'quan tri kinh doanh', 'Quan tri kinh doanh', 'Qt kinh doanh'
+ ,'Qt trị kinh doanh', 'quản trị kinh doanh', 'Quản trị kinh doanh']
 
 //  const arrKey = ['aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa','aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa'
 // ,'aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa'
@@ -275,5 +278,5 @@ function generateByOrder(entity){
 // ,'aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa'
 // ,'aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa']
 
-// generateTongquan("cndpt")
-generateByOrder("cndpt")
+// generateTongquan("qtkd")
+generateByOrder("qtkd")
