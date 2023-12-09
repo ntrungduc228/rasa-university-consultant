@@ -209,14 +209,7 @@ const objEx = [
 
 
 
-// const arrKey = ['ktddt', 'KTDDT', 'điện điện tử', 'điện tử', 'ki thuat dien dien tu', 'Ki thuat dien dien tu', 'ky thuat dien dien tu',
-//  'Ky thuat dien dien tu', 'kt dien dien tu', 'Kt dien dien tu', 'kt điện điện tử', 'Kt điện điện tử', 'dien tu', 'dien dien tu',
-//     'kĩ thuật điện điện tử', 'Kĩ thuật điện điện tử', 'kỹ thuật điện điện tử', 'Kỹ thuật điện điện tử', 
-//  'kt điện điện tử', 'Kt điện điện tử']
 
- 
-const arrKey = ['attt', 'ATTT', 'Attt', 'an toan thong tin', 'an toan tt', 'bao mat', 'An toan thong tin',
-'An toan tt', 'an toàn thông tin', 'an toàn tt', 'An toàn thông tin', 'An toàn tt']
 
 function generateTongquan(entity){
     arrKey.forEach(item => {
@@ -247,5 +240,28 @@ function generateByOrder(entity){
 // generateThongtinphu()
 
 
-// generateTongquan("attt")
-generateByOrder("attt")
+// const arrKey = ['ktddt', 'KTDDT', 'điện điện tử', 'điện tử', 'ki thuat dien dien tu', 'Ki thuat dien dien tu', 'ky thuat dien dien tu',
+//  'Ky thuat dien dien tu', 'kt dien dien tu', 'Kt dien dien tu', 'kt điện điện tử', 'Kt điện điện tử', 'dien tu', 'dien dien tu',
+//     'kĩ thuật điện điện tử', 'Kĩ thuật điện điện tử', 'kỹ thuật điện điện tử', 'Kỹ thuật điện điện tử', 
+//  'kt điện điện tử', 'Kt điện điện tử']
+
+ 
+// const arrKey = ['attt', 'ATTT', 'Attt', 'an toan thong tin', 'an toan tt', 'bao mat', 'An toan thong tin',
+// 'An toan tt', 'an toàn thông tin', 'an toàn tt', 'An toàn thông tin', 'An toàn tt']
+
+
+const arrKey = ['iot', 'IOt', 'ioT', 'IOT', 'cong nghe iot','cn iot', 'Cong nghe IOT', 'Cong nghe iot', 'Cong nghe Iot', 'cong nghe iot'
+,'cong nghe Iot', 'cong nghe internet van vat', 'Cong nghe internet van vat', 'cong nghe Internet van vat', 'cn internet van vat','Công nghệ IOT'
+, 'Công nghệ iot', 'Công nghệ Iot', 'công nghệ iot', 'công nghệ Iot'
+,'công nghệ internet vạn vật', 'Công nghệ internet vạn vật', 'công nghệ Internet vạn vật', 'cn internet vạn vật'
+]
+
+//  const arrKey = ['aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa','aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa'
+// ,'aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa'
+//, 'aaaaaaa','aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa'
+// ,'aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa'
+// ,'aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa'
+// ,'aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa']
+
+// generateTongquan("iot")
+generateByOrder("iot")

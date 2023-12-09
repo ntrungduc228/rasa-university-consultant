@@ -397,8 +397,8 @@ và tự động hóa
     - cong nghe Internet van vat
     - cn internet van vat
     - Công nghệ IOT
-    - Cộng nghệ iot
-    - Cộng nghệ Iot
+    - Công nghệ iot
+    - Công nghệ Iot
     - công nghệ iot
     - công nghệ Iot
     - công nghệ internet vạn vật
