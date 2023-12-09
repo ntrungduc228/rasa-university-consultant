@@ -315,14 +315,14 @@ class ActionThongtinchinhThongtinphuNamhoc(Action):
             if isNganh == True:
                 if tmp_thongtinphu not in data["nganh"][tmp_thongtinchinh]:
                     dispatcher.utter_message(text=f'bot chua co thong tin')
-            else:
-                if namhoc not in data["nganh"][tmp_thongtinchinh][tmp_thongtinphu]:
-                    dispatcher.utter_message(text=f'bot chua co thong tin')
                 else:
-                    dispatcher.utter_message(text=f'{data["nganh"][tmp_thongtinchinh][tmp_thongtinphu][namhoc][none_coso_namhoc]}')
+                    if namhoc not in data["nganh"][tmp_thongtinchinh][tmp_thongtinphu]:
+                        dispatcher.utter_message(text=f'bot chua co thong tin')
+                    else:
+                        dispatcher.utter_message(text=f'{data["nganh"][tmp_thongtinchinh][tmp_thongtinphu][namhoc][none_coso_namhoc]}')
 
             else:
-                if tmp_thongtinphu not in data[tmp_thongtinchinh]:
+                if data[tmp_thongtinchinh] and tmp_thongtinphu not in data[tmp_thongtinchinh]:
                     dispatcher.utter_message(text=f'bot chua co thong tin')
                 else:
                     dispatcher.utter_message(text=f'{data[tmp_thongtinchinh][tmp_thongtinphu]}')
