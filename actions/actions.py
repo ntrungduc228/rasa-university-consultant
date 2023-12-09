@@ -182,7 +182,6 @@ class ActionThongtinchinhThongtinphuCoso(Action):
         
 
         print(f'action_ttchinh_ttphu_coso -> thongtinchinh: {thongtinchinh} -  thongtinphu: {thongtinphu} - coso: {coso} - flag: {flag}  \n')
-        print(f'Flag_IsNganh -> Flag: {isFlag} -  IsNganh: {isNganh} \n')
        
 
         if isFlag == True:
@@ -203,6 +202,7 @@ class ActionThongtinchinhThongtinphuCoso(Action):
             if tmp_thongtinchinh in nganh_data:
                 isNganh = True
 
+            print(f'Flag_IsNganh -> Flag: {isFlag} -  IsNganh: {isNganh} \n')
             '''
                 nganh
                     data["nganh"][thongtinchinh][thongtinphu][coso]
@@ -244,6 +244,7 @@ class ActionThongtinchinhThongtinphuCoso(Action):
             if thongtinchinh in nganh_data:
                 isNganh = True
             
+            print(f'Flag_IsNganh -> Flag: {isFlag} -  IsNganh: {isNganh} \n')
             '''
                 nganh
                     data["nganh"][thongtinchinh][thongtinphu][coso]
@@ -284,31 +285,70 @@ class ActionThongtinchinhThongtinphuNamhoc(Action):
         isNganh = False
         print_tmp_val()
         # [UserUttered(text="/utter_hoi_chuc_nang")]
+        if flag is not None:
+            isFlag = True
 
-
-        if thongtinchinh is None:
-            return [FollowupAction("utter_hoi_chuc_nang")]
-
-        if thongtinphu is None:
-            thongtinphu = thongtinphu_default
-
-        if namhoc is None:
-            namhoc = coso_default
-
-        if thongtinchinh in nganh_data:
-            isNganh = True
+       
 
         print(f'action_ttchinh_ttphu_namhoc -> thongtinchinh: {thongtinchinh} -  thongtinphu: {thongtinphu} - namhoc: {namhoc} - flag: {flag}  \n')
-        print(f'Flag_IsNganh -> Flag: {isFlag} -  IsNganh: {isNganh} \n')
        
 
         if isFlag == True:
+            f = open('./data/collections/data_collect.json', encoding="utf8")
+            data = json.load(f)
+
+            if tmp_thongtinchinh is None:
+                return [FollowupAction("utter_hoi_chuc_nang")]
+
+            global tmp_thongtinphu
+            if tmp_thongtinphu is None:
+                tmp_thongtinphu = thongtinphu_default
+
+            if namhoc is None:
+                namhoc = coso_default
+
+            if tmp_thongtinchinh in nganh_data:
+                isNganh = True
+             
+            print(f'Flag_IsNganh -> Flag: {isFlag} -  IsNganh: {isNganh} \n')
+
+            if isNganh == True:
+                if tmp_thongtinphu not in data["nganh"][tmp_thongtinchinh]:
+                    dispatcher.utter_message(text=f'bot chua co thong tin')
+            else:
+                if namhoc not in data["nganh"][tmp_thongtinchinh][tmp_thongtinphu]:
+                    dispatcher.utter_message(text=f'bot chua co thong tin')
+                else:
+                    dispatcher.utter_message(text=f'{data["nganh"][tmp_thongtinchinh][tmp_thongtinphu][namhoc][none_coso_namhoc]}')
+
+            else:
+                if tmp_thongtinphu not in data[tmp_thongtinchinh]:
+                    dispatcher.utter_message(text=f'bot chua co thong tin')
+                else:
+                    dispatcher.utter_message(text=f'{data[tmp_thongtinchinh][tmp_thongtinphu]}')
             
+            set_tmp_val(tmp_thongtinchinh, tmp_thongtinphu, '', namhoc)
+            print_tmp_val()
             return [AllSlotsReset()]
         else:
             f = open('./data/collections/data_collect.json', encoding="utf8")
             data = json.load(f)
+
+            if thongtinchinh is None:
+                return [FollowupAction("utter_hoi_chuc_nang")]
+
+            if thongtinphu is None:
+                thongtinphu = thongtinphu_default
+
+            if namhoc is None:
+                namhoc = coso_default
+
+            if thongtinchinh in nganh_data:
+                isNganh = True
+
             
+            print(f'Flag_IsNganh -> Flag: {isFlag} -  IsNganh: {isNganh} \n')
+
             '''
                 nganh
                     data["nganh"][thongtinchinh][thongtinphu][namhoc]

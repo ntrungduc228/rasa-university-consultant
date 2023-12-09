@@ -15,6 +15,7 @@ intents:
   - intent_ttchinh_ttphu_namhoc
   - intent_flag_ttphu
   - intent_flag_coso
+  - intent_flag_namhoc
   - check_balance
 
 entities:

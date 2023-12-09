@@ -682,7 +682,58 @@ nlu:
       - [vay con]{"entity":"flag","value":"more"} co so phia [bac]{"entity":"coso","value":"bac"}
       - [vay con]{"entity":"flag","value":"more"} co so phia [nam]{"entity":"coso","value":"nam"}
 
-
+- intent: intent_flag_namhoc
+  examples: |
+      - em cũng [muốn biết thêm]{"entity":"flag","value":"more"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - em cũng [muốn biết thêm]{"entity":"flag","value":"more"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - em cũng [muốn biết thêm]{"entity":"flag","value":"more"} năm [2021]{"entity":"namhoc","value":"2021"}
+      - em cũng [muốn biết thêm]{"entity":"flag","value":"more"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - em cũng [muốn biết thêm]{"entity":"flag","value":"more"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - em [muon biet them]{"entity":"flag","value":"more"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - em [muon biet them]{"entity":"flag","value":"more"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - em [muon biet them]{"entity":"flag","value":"more"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - em [muon biet them]{"entity":"flag","value":"more"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - em [muon biet them]{"entity":"flag","value":"more"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - em [cũng muốn biết]{"entity":"flag","value":"more"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - em [cũng muốn biết]{"entity":"flag","value":"more"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - em [cũng muốn biết]{"entity":"flag","value":"more"} năm [2021]{"entity":"namhoc","value":"2021"}
+      - em [cũng muốn biết]{"entity":"flag","value":"more"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - em [cũng muốn biết]{"entity":"flag","value":"more"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - em [cung muon biet]{"entity":"flag","value":"more"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - em [cung muon biet]{"entity":"flag","value":"more"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - em [cung muon biet]{"entity":"flag","value":"more"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - em [cung muon biet]{"entity":"flag","value":"more"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - em [cung muon biet]{"entity":"flag","value":"more"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - cho em [hỏi thêm]{"entity":"flag","value":"more"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - cho em [hỏi thêm]{"entity":"flag","value":"more"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - cho em [hỏi thêm]{"entity":"flag","value":"more"} năm [2021]{"entity":"namhoc","value":"2021"} 
+      - cho em [hỏi thêm]{"entity":"flag","value":"more"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - cho em [hỏi thêm]{"entity":"flag","value":"more"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - cho em [hoi them]{"entity":"flag","value":"more"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - cho em [hoi them]{"entity":"flag","value":"more"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - cho em [hoi them]{"entity":"flag","value":"more"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - cho em [hoi them]{"entity":"flag","value":"more"} nam [2020]{"entity":"namhoc","value":"2020"}  
+      - cho em [hoi them]{"entity":"flag","value":"more"} nam [2019]{"entity":"namhoc","value":"2019"} 
+      - [thế còn]{"entity":"flag","value":"more"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [thế còn]{"entity":"flag","value":"more"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - [thế còn]{"entity":"flag","value":"more"} năm [2021]{"entity":"namhoc","value":"2021"}
+      - [thế còn]{"entity":"flag","value":"more"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - [thế còn]{"entity":"flag","value":"more"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - [vậy còn]{"entity":"flag","value":"more"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [vậy còn]{"entity":"flag","value":"more"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - [vậy còn]{"entity":"flag","value":"more"} năm [2021]{"entity":"namhoc","value":"2021"}
+      - [vậy còn]{"entity":"flag","value":"more"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - [vậy còn]{"entity":"flag","value":"more"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - [the con]{"entity":"flag","value":"more"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - [the con]{"entity":"flag","value":"more"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [the con]{"entity":"flag","value":"more"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [the con]{"entity":"flag","value":"more"} nam [2020]{"entity":"namhoc","value":"2020"} 
+      - [the con]{"entity":"flag","value":"more"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [vay con]{"entity":"flag","value":"more"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - [vay con]{"entity":"flag","value":"more"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [vay con]{"entity":"flag","value":"more"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [vay con]{"entity":"flag","value":"more"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - [vay con]{"entity":"flag","value":"more"} nam [2019]{"entity":"namhoc","value":"2019"}
 
 - intent: check_balance
   examples: |

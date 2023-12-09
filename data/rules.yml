@@ -42,6 +42,11 @@ rules:
   - intent: intent_ttchinh_ttphu_namhoc
   - action: action_ttchinh_ttphu_namhoc
 
+- rule: cntt - intent_flag_namhoc
+  steps:
+  - intent: intent_flag_namhoc
+  - action: action_ttchinh_ttphu_namhoc
+
 - rule: check account
   steps:
   - intent: check_balance
