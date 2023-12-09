@@ -230,6 +230,53 @@ const objFlagCoso = [
     (ex, entity) => `[Diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [${ex}]{"entity":"thongtinchinh","value":"${entity}"} ở cơ sở phía [bắc]{"entity":"coso","value":"bac"}`,
 ]
 
+const objFlagNamhoc = [
+    (ex, entity) => `[điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [${ex}]{"entity":"thongtinchinh","value":"${entity}"} nam [2023]{"entity":"namhoc","value":"2023"}`,
+    (ex, entity) => `[diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [${ex}]{"entity":"thongtinchinh","value":"${entity}"} nam [2022]{"entity":"namhoc","value":"2022"}`,
+    (ex, entity) => `[điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [${ex}]{"entity":"thongtinchinh","value":"${entity}"} nam [2021]{"entity":"namhoc","value":"2021"}`,
+    (ex, entity) => `[diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [${ex}]{"entity":"thongtinchinh","value":"${entity}"} nam [2020]{"entity":"namhoc","value":"2020"}`,
+    (ex, entity) => `[Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [${ex}]{"entity":"thongtinchinh","value":"${entity}"} nam [2019]{"entity":"namhoc","value":"2019"}`,
+    (ex, entity) => `[Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [${ex}]{"entity":"thongtinchinh","value":"${entity}"} năm [2023]{"entity":"namhoc","value":"2023"}`,
+    (ex, entity) => `Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [${ex}]{"entity":"thongtinchinh","value":"${entity}"} năm [2022]{"entity":"namhoc","value":"2022"}`,
+    (ex, entity) => `Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [${ex}]{"entity":"thongtinchinh","value":"${entity}"} năm [2020]{"entity":"namhoc","value":"2020"}`,
+    (ex, entity) => `[điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [${ex}]{"entity":"thongtinchinh","value":"${entity}"} năm [2019]{"entity":"namhoc","value":"2019"}`,
+    (ex, entity) => `[diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [${ex}]{"entity":"thongtinchinh","value":"${entity}"} năm [2023]{"entity":"namhoc","value":"2023"}`,
+    (ex, entity) => `[Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [${ex}]{"entity":"thongtinchinh","value":"${entity}"} nam [2021]{"entity":"namhoc","value":"2021"}`,
+    (ex, entity) => `[Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [${ex}]{"entity":"thongtinchinh","value":"${entity}"} nam [2022]{"entity":"namhoc","value":"2022"}`,
+    (ex, entity) => `Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [${ex}]{"entity":"thongtinchinh","value":"${entity}"} năm [2019]{"entity":"namhoc","value":"2019"}`,
+    (ex, entity) => `Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [${ex}]{"entity":"thongtinchinh","value":"${entity}"} năm [2022]{"entity":"namhoc","value":"2022"}`,
+    (ex, entity) => `Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [${ex}]{"entity":"thongtinchinh","value":"${entity}"} năm [2023]{"entity":"namhoc","value":"2023"}`,
+    (ex, entity) => `[điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [${ex}]{"entity":"thongtinchinh","value":"${entity}"} năm [2023]{"entity":"namhoc","value":"2023"}`,
+    (ex, entity) => `[diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [${ex}]{"entity":"thongtinchinh","value":"${entity}"} nam [2022]{"entity":"namhoc","value":"2022"}`,
+    (ex, entity) => `[Điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [${ex}]{"entity":"thongtinchinh","value":"${entity}"} nam [2021]{"entity":"namhoc","value":"2021"}`,
+    (ex, entity) => `[Diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [${ex}]{"entity":"thongtinchinh","value":"${entity}"} năm [2023]{"entity":"namhoc","value":"2023"}`,
+    (ex, entity) => `[hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [${ex}]{"entity":"thongtinchinh","value":"${entity}"} năm [2023]{"entity":"namhoc","value":"2023"}`,
+    (ex, entity) => `[Hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [${ex}]{"entity":"thongtinchinh","value":"${entity}"} năm [2022]{"entity":"namhoc","value":"2022"}`,
+    (ex, entity) => `[hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [${ex}]{"entity":"thongtinchinh","value":"${entity}"} năm [2021]{"entity":"namhoc","value":"2021"}`,
+    (ex, entity) => `Cho em hỏi về [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [${ex}]{"entity":"thongtinchinh","value":"${entity}"} năm [2019]{"entity":"namhoc","value":"2019"}`,
+    (ex, entity) => `em muốn biết [chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [${ex}]{"entity":"thongtinchinh","value":"${entity}"} năm [2020]{"entity":"namhoc","value":"2020"}`,
+    (ex, entity) => `em muốn biết [Chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [${ex}]{"entity":"thongtinchinh","value":"${entity}"} nam [2023]{"entity":"namhoc","value":"2023"}`,
+    (ex, entity) => `Em muon biet [chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [${ex}]{"entity":"thongtinchinh","value":"${entity}"} nam [2022]{"entity":"namhoc","value":"2022"}`,
+    (ex, entity) => `Em muon biet [Chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [${ex}]{"entity":"thongtinchinh","value":"${entity}"} nam [2021]{"entity":"namhoc","value":"2021"}`,
+    (ex, entity) => `Em muon biet [chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [${ex}]{"entity":"thongtinchinh","value":"${entity}"} nam [2020]{"entity":"namhoc","value":"2020"}`,
+    (ex, entity) => `cho em hoi ve [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [${ex}]{"entity":"thongtinchinh","value":"${entity}"} nam [2019]{"entity":"namhoc","value":"2019"}`,
+    (ex, entity) => `Cho em hoi [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [${ex}]{"entity":"thongtinchinh","value":"${entity}"} năm [2023]{"entity":"namhoc","value":"2023"}`,
+    (ex, entity) => `[học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [${ex}]{"entity":"thongtinchinh","value":"${entity}"} năm [2022]{"entity":"namhoc","value":"2022"}`,
+    (ex, entity) => `[học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [${ex}]{"entity":"thongtinchinh","value":"${entity}"} năm [2021]{"entity":"namhoc","value":"2021"}`,
+    (ex, entity) => `[Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [${ex}]{"entity":"thongtinchinh","value":"${entity}"} năm [2019]{"entity":"namhoc","value":"2019"}`,
+    (ex, entity) => `[tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [${ex}]{"entity":"thongtinchinh","value":"${entity}"} năm [2020]{"entity":"namhoc","value":"2020"}`,
+    (ex, entity) => `[tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [${ex}]{"entity":"thongtinchinh","value":"${entity}"} nam [2023]{"entity":"namhoc","value":"2023"}`,
+    (ex, entity) => `[Tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [${ex}]{"entity":"thongtinchinh","value":"${entity}"} nam [2022]{"entity":"namhoc","value":"2022"}`,
+    (ex, entity) => `[Tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [${ex}]{"entity":"thongtinchinh","value":"${entity}"} nam [2021]{"entity":"namhoc","value":"2021"}`,
+    (ex, entity) => `[số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [${ex}]{"entity":"thongtinchinh","value":"${entity}"} nam [2020]{"entity":"namhoc","value":"2020"}`,
+    (ex, entity) => `[so tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [${ex}]{"entity":"thongtinchinh","value":"${entity}"} nam [2019]{"entity":"namhoc","value":"2019"}`,
+    (ex, entity) => `[Số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [${ex}]{"entity":"thongtinchinh","value":"${entity}"} nam [2019]{"entity":"namhoc","value":"2019"}`,
+    (ex, entity) => `[So tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [${ex}]{"entity":"thongtinchinh","value":"${entity}"} am [2022]{"entity":"namhoc","value":"2022"}`,
+    (ex, entity) => `[Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [${ex}]{"entity":"thongtinchinh","value":"${entity}"} nam [2020]{"entity":"namhoc","value":"2020"}`,
+]
+
+
+
 
 function generateTongquan(entity){
     arrKey.forEach(item => {
@@ -267,8 +314,23 @@ function generateBySelect(entity, objItems){
     })
 }
 
+function generateBySelectObj(entity, objEntity, objItems){
+    let pos = -1;
+    objItems.forEach(objItem => {
+        if(pos == objEntity.length-1){
+            pos = -1;
+        }
+        console.log(`- ${objItem(objEntity[++pos], entity)}`)
+        // console.log(`- ${objItem(arrKey[++pos], "ktddt")} - ${pos}`)
+    })
+}
 
-// generateThongtinphu()
+function multipleGenerateBySelect(obj, objItems){
+    Object.keys(obj).forEach(function(key){
+        generateBySelectObj(key, obj[key], objItems);
+        console.log("\n")
+    })    
+}
 
 
 // const arrKey = ['ktddt', 'KTDDT', 'điện điện tử', 'điện tử', 'ki thuat dien dien tu', 'Ki thuat dien dien tu', 'ky thuat dien dien tu',
@@ -303,7 +365,7 @@ function generateBySelect(entity, objItems){
 //  ,'Qt trị kinh doanh', 'quản trị kinh doanh', 'Quản trị kinh doanh']
 
 //   const arrKey = ['mkt', 'Mkt', 'MKT', 'Marketing','marketing']
-  const arrKey = ['kt', 'KT' ,'Kt', 'ke toan','Ke toan','kế toán','Kế toán']
+//   const arrKey = ['kt', 'KT' ,'Kt', 'ke toan','Ke toan','kế toán','Kế toán']
 
 //  const arrKey = ['ktdtvt', 'KTDTVT', 'ky thuat dien tu vien thong', 'kỹ thuật điện tử viễn thông'
 //  , 'kt dien tu vien thong','kt điện tử viễn thông', 'ki thuat dien tu vien thong', 'kĩ thuật điện tử viễn thông'
@@ -321,4 +383,35 @@ function generateBySelect(entity, objItems){
 // generateTongquan("kt")
 // generateByOrder("kt")
 
-generateBySelect("kt", objFlagCoso)
+// generateBySelect("kt", objFlagCoso)
+
+const multObj = {
+    "ktddt": ['ktddt', 'KTDDT', 'điện điện tử', 'điện tử', 'ki thuat dien dien tu', 'Ki thuat dien dien tu', 'ky thuat dien dien tu',
+     'Ky thuat dien dien tu', 'kt dien dien tu', 'Kt dien dien tu', 'kt điện điện tử', 'Kt điện điện tử', 'dien tu', 'dien dien tu',
+        'kĩ thuật điện điện tử', 'Kĩ thuật điện điện tử', 'kỹ thuật điện điện tử', 'Kỹ thuật điện điện tử', 
+     'kt điện điện tử', 'Kt điện điện tử'],
+     "attt": ['attt', 'ATTT', 'Attt', 'an toan thong tin', 'an toan tt', 'bao mat', 'An toan thong tin',
+     'An toan tt', 'an toàn thông tin', 'an toàn tt', 'An toàn thông tin', 'An toàn tt'],
+    "iot": ['iot', 'IOt', 'ioT', 'IOT', 'cong nghe iot','cn iot', 'Cong nghe IOT', 'Cong nghe iot', 'Cong nghe Iot', 'cong nghe iot'
+    ,'cong nghe Iot', 'cong nghe internet van vat', 'Cong nghe internet van vat', 'cong nghe Internet van vat', 'cn internet van vat','Công nghệ IOT'
+    , 'Công nghệ iot', 'Công nghệ Iot', 'công nghệ iot', 'công nghệ Iot'
+    ,'công nghệ internet vạn vật', 'Công nghệ internet vạn vật', 'công nghệ Internet vạn vật', 'cn internet vạn vật'
+    ],
+    "ktdkvtdh": ['ktdkvtdh', 'kt dieu khien va tu dong hoa', 'ki thuat dieu khien va tu dong hoa'
+     , 'ky thuat dieu khien va tu dong hoa', 'Ki thuat dieu khien va tu dong hoa'
+     ,'Ky thuat dieu khien va tu dong hoa', 'kt điều khiển và tự động hóa'
+     , 'kĩ thuật điều khiển và tự động hóa', 'kỹ thuật điều khiển và tự động hóa'
+     , 'Kỹ thuật điều khiển và tự động hóa'
+    ,'Kĩ thuật thuật điều khiển và tự động hóa', 'kt điều khiển tự động'
+    , 'ki thuat dieu khiển tự động', 'ky thuat dieu khien tu dong'
+    , 'kĩ thuật điều khiển tự động','ky thuat điều khiển tự động'],
+    "cndpt": ['cndpt', 'cn da phuong tien', 'Cn da phuong tien', 'cong nghe da phuong tien', 'Cong nghe da phuong tien',
+     'công nghệ đa phương tiện', 'Công nghệ đa phương tiện', 'Cn đa phương tiện', 'cn đa phương tiện'],
+     "qtkd": ['qtkd', 'qt kinh doanh', 'quan tri kinh doanh', 'Quan tri kinh doanh', 'Qt kinh doanh'
+      ,'Qt trị kinh doanh', 'quản trị kinh doanh', 'Quản trị kinh doanh'],
+      "mkt":['mkt', 'Mkt', 'MKT', 'Marketing','marketing'],
+      "kt": ['kt', 'KT' ,'Kt', 'ke toan','Ke toan','kế toán','Kế toán']
+
+}
+
+multipleGenerateBySelect(multObj, objFlagNamhoc);

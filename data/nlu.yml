@@ -2833,6 +2833,691 @@ nlu:
       - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cong nghe tt]{"entity":"thongtinchinh","value":"cntt"} nam [2020]{"entity":"namhoc","value":"2020"}
 
 
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [ktddt]{"entity":"thongtinchinh","value":"ktddt"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [KTDDT]{"entity":"thongtinchinh","value":"ktddt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [điện tử]{"entity":"thongtinchinh","value":"ktddt"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [ki thuat dien dien tu]{"entity":"thongtinchinh","value":"ktddt"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Ki thuat dien dien tu]{"entity":"thongtinchinh","value":"ktddt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [ky thuat dien dien tu]{"entity":"thongtinchinh","value":"ktddt"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Ky thuat dien dien tu]{"entity":"thongtinchinh","value":"ktddt"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [kt dien dien tu]{"entity":"thongtinchinh","value":"ktddt"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Kt dien dien tu]{"entity":"thongtinchinh","value":"ktddt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [kt điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Kt điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [dien tu]{"entity":"thongtinchinh","value":"ktddt"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [dien dien tu]{"entity":"thongtinchinh","value":"ktddt"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kĩ thuật điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Kĩ thuật điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kỹ thuật điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [Điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Kỹ thuật điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [Diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kt điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [Kt điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [Hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [ktddt]{"entity":"thongtinchinh","value":"ktddt"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [KTDDT]{"entity":"thongtinchinh","value":"ktddt"} năm [2021]{"entity":"namhoc","value":"2021"}
+      - Cho em hỏi về [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - em muốn biết [chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [điện tử]{"entity":"thongtinchinh","value":"ktddt"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - em muốn biết [Chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [ki thuat dien dien tu]{"entity":"thongtinchinh","value":"ktddt"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - Em muon biet [chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Ki thuat dien dien tu]{"entity":"thongtinchinh","value":"ktddt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [Chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [ky thuat dien dien tu]{"entity":"thongtinchinh","value":"ktddt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - Em muon biet [chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Ky thuat dien dien tu]{"entity":"thongtinchinh","value":"ktddt"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - cho em hoi ve [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [kt dien dien tu]{"entity":"thongtinchinh","value":"ktddt"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - Cho em hoi [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [Kt dien dien tu]{"entity":"thongtinchinh","value":"ktddt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [kt điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Kt điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} năm [2021]{"entity":"namhoc","value":"2021"}
+      - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [dien tu]{"entity":"thongtinchinh","value":"ktddt"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - [tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [dien dien tu]{"entity":"thongtinchinh","value":"ktddt"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - [tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [kĩ thuật điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - [Tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Kĩ thuật điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [Tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [kỹ thuật điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Kỹ thuật điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - [so tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [kt điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [Số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Kt điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [So tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [ktddt]{"entity":"thongtinchinh","value":"ktddt"} am [2022]{"entity":"namhoc","value":"2022"}
+      - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [KTDDT]{"entity":"thongtinchinh","value":"ktddt"} nam [2020]{"entity":"namhoc","value":"2020"}
+
+
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [attt]{"entity":"thongtinchinh","value":"attt"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [ATTT]{"entity":"thongtinchinh","value":"attt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Attt]{"entity":"thongtinchinh","value":"attt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [an toan thong tin]{"entity":"thongtinchinh","value":"attt"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [an toan tt]{"entity":"thongtinchinh","value":"attt"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [bao mat]{"entity":"thongtinchinh","value":"attt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [An toan thong tin]{"entity":"thongtinchinh","value":"attt"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [An toan tt]{"entity":"thongtinchinh","value":"attt"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [an toàn thông tin]{"entity":"thongtinchinh","value":"attt"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [an toàn tt]{"entity":"thongtinchinh","value":"attt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [An toàn thông tin]{"entity":"thongtinchinh","value":"attt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [An toàn tt]{"entity":"thongtinchinh","value":"attt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [attt]{"entity":"thongtinchinh","value":"attt"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [ATTT]{"entity":"thongtinchinh","value":"attt"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Attt]{"entity":"thongtinchinh","value":"attt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [an toan thong tin]{"entity":"thongtinchinh","value":"attt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [an toan tt]{"entity":"thongtinchinh","value":"attt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [Điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [bao mat]{"entity":"thongtinchinh","value":"attt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [Diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [An toan thong tin]{"entity":"thongtinchinh","value":"attt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [An toan tt]{"entity":"thongtinchinh","value":"attt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [Hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [an toàn thông tin]{"entity":"thongtinchinh","value":"attt"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [an toàn tt]{"entity":"thongtinchinh","value":"attt"} năm [2021]{"entity":"namhoc","value":"2021"}
+      - Cho em hỏi về [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [An toàn thông tin]{"entity":"thongtinchinh","value":"attt"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - em muốn biết [chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [An toàn tt]{"entity":"thongtinchinh","value":"attt"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - em muốn biết [Chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [attt]{"entity":"thongtinchinh","value":"attt"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - Em muon biet [chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [ATTT]{"entity":"thongtinchinh","value":"attt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [Chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Attt]{"entity":"thongtinchinh","value":"attt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - Em muon biet [chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [an toan thong tin]{"entity":"thongtinchinh","value":"attt"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - cho em hoi ve [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [an toan tt]{"entity":"thongtinchinh","value":"attt"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - Cho em hoi [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [bao mat]{"entity":"thongtinchinh","value":"attt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [An toan thong tin]{"entity":"thongtinchinh","value":"attt"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [An toan tt]{"entity":"thongtinchinh","value":"attt"} năm [2021]{"entity":"namhoc","value":"2021"}
+      - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [an toàn thông tin]{"entity":"thongtinchinh","value":"attt"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - [tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [an toàn tt]{"entity":"thongtinchinh","value":"attt"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - [tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [An toàn thông tin]{"entity":"thongtinchinh","value":"attt"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - [Tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [An toàn tt]{"entity":"thongtinchinh","value":"attt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [Tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [attt]{"entity":"thongtinchinh","value":"attt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [ATTT]{"entity":"thongtinchinh","value":"attt"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - [so tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Attt]{"entity":"thongtinchinh","value":"attt"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [Số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [an toan thong tin]{"entity":"thongtinchinh","value":"attt"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [So tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [an toan tt]{"entity":"thongtinchinh","value":"attt"} am [2022]{"entity":"namhoc","value":"2022"}
+      - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [bao mat]{"entity":"thongtinchinh","value":"attt"} nam [2020]{"entity":"namhoc","value":"2020"}
+
+
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [iot]{"entity":"thongtinchinh","value":"iot"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [IOt]{"entity":"thongtinchinh","value":"iot"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [ioT]{"entity":"thongtinchinh","value":"iot"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [IOT]{"entity":"thongtinchinh","value":"iot"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cong nghe iot]{"entity":"thongtinchinh","value":"iot"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cn iot]{"entity":"thongtinchinh","value":"iot"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Cong nghe IOT]{"entity":"thongtinchinh","value":"iot"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Cong nghe iot]{"entity":"thongtinchinh","value":"iot"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Cong nghe Iot]{"entity":"thongtinchinh","value":"iot"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cong nghe iot]{"entity":"thongtinchinh","value":"iot"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cong nghe Iot]{"entity":"thongtinchinh","value":"iot"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cong nghe internet van vat]{"entity":"thongtinchinh","value":"iot"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Cong nghe internet van vat]{"entity":"thongtinchinh","value":"iot"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cong nghe Internet van vat]{"entity":"thongtinchinh","value":"iot"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cn internet van vat]{"entity":"thongtinchinh","value":"iot"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Công nghệ IOT]{"entity":"thongtinchinh","value":"iot"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Công nghệ iot]{"entity":"thongtinchinh","value":"iot"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [Điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Công nghệ Iot]{"entity":"thongtinchinh","value":"iot"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [Diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [công nghệ iot]{"entity":"thongtinchinh","value":"iot"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [công nghệ Iot]{"entity":"thongtinchinh","value":"iot"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [Hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [công nghệ internet vạn vật]{"entity":"thongtinchinh","value":"iot"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [Công nghệ internet vạn vật]{"entity":"thongtinchinh","value":"iot"} năm [2021]{"entity":"namhoc","value":"2021"}
+      - Cho em hỏi về [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [công nghệ Internet vạn vật]{"entity":"thongtinchinh","value":"iot"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - em muốn biết [chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cn internet vạn vật]{"entity":"thongtinchinh","value":"iot"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - em muốn biết [Chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [iot]{"entity":"thongtinchinh","value":"iot"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - Em muon biet [chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [IOt]{"entity":"thongtinchinh","value":"iot"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [Chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [ioT]{"entity":"thongtinchinh","value":"iot"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - Em muon biet [chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [IOT]{"entity":"thongtinchinh","value":"iot"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - cho em hoi ve [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cong nghe iot]{"entity":"thongtinchinh","value":"iot"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - Cho em hoi [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [cn iot]{"entity":"thongtinchinh","value":"iot"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Cong nghe IOT]{"entity":"thongtinchinh","value":"iot"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Cong nghe iot]{"entity":"thongtinchinh","value":"iot"} năm [2021]{"entity":"namhoc","value":"2021"}
+      - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Cong nghe Iot]{"entity":"thongtinchinh","value":"iot"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - [tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cong nghe iot]{"entity":"thongtinchinh","value":"iot"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - [tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cong nghe Iot]{"entity":"thongtinchinh","value":"iot"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - [Tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cong nghe internet van vat]{"entity":"thongtinchinh","value":"iot"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [Tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Cong nghe internet van vat]{"entity":"thongtinchinh","value":"iot"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cong nghe Internet van vat]{"entity":"thongtinchinh","value":"iot"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - [so tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cn internet van vat]{"entity":"thongtinchinh","value":"iot"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [Số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Công nghệ IOT]{"entity":"thongtinchinh","value":"iot"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [So tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Công nghệ iot]{"entity":"thongtinchinh","value":"iot"} am [2022]{"entity":"namhoc","value":"2022"}
+      - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Công nghệ Iot]{"entity":"thongtinchinh","value":"iot"} nam [2020]{"entity":"namhoc","value":"2020"}
+
+
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [ktdkvtdh]{"entity":"thongtinchinh","value":"ktdkvtdh"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kt dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [kt điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kĩ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [kỹ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Kỹ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Kĩ thuật thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kt điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [ki thuat dieu khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [ky thuat dieu khien tu dong]{"entity":"thongtinchinh","value":"ktdkvtdh"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kĩ thuật điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [ky thuat điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [ktdkvtdh]{"entity":"thongtinchinh","value":"ktdkvtdh"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [Điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [kt dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [Diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [Hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [Ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [Ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} năm [2021]{"entity":"namhoc","value":"2021"}
+      - Cho em hỏi về [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [kt điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - em muốn biết [chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [kĩ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - em muốn biết [Chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [kỹ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - Em muon biet [chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Kỹ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [Chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Kĩ thuật thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - Em muon biet [chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [kt điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - cho em hoi ve [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [ki thuat dieu khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - Cho em hoi [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [ky thuat dieu khien tu dong]{"entity":"thongtinchinh","value":"ktdkvtdh"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [kĩ thuật điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [ky thuat điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"} năm [2021]{"entity":"namhoc","value":"2021"}
+      - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [ktdkvtdh]{"entity":"thongtinchinh","value":"ktdkvtdh"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - [tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [kt dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - [tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - [Tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [Tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - [so tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [kt điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [Số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [kĩ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [So tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [kỹ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} am [2022]{"entity":"namhoc","value":"2022"}
+      - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Kỹ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} nam [2020]{"entity":"namhoc","value":"2020"}
+
+
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cndpt]{"entity":"thongtinchinh","value":"cndpt"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cndpt]{"entity":"thongtinchinh","value":"cndpt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [Điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [Diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cndpt]{"entity":"thongtinchinh","value":"cndpt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [Hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [Cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} năm [2021]{"entity":"namhoc","value":"2021"}
+      - Cho em hỏi về [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - em muốn biết [chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - em muốn biết [Chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - Em muon biet [chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [Chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - Em muon biet [chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cndpt]{"entity":"thongtinchinh","value":"cndpt"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - cho em hoi ve [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - Cho em hoi [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [Cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} năm [2021]{"entity":"namhoc","value":"2021"}
+      - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - [tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - [tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - [Tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [Tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cndpt]{"entity":"thongtinchinh","value":"cndpt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - [so tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [Số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [So tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} am [2022]{"entity":"namhoc","value":"2022"}
+      - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} nam [2020]{"entity":"namhoc","value":"2020"}
+
+
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [qtkd]{"entity":"thongtinchinh","value":"qtkd"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Qt trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [qtkd]{"entity":"thongtinchinh","value":"qtkd"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Qt trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [qtkd]{"entity":"thongtinchinh","value":"qtkd"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [Điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [Diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [Quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [Hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [Qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [Qt trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} năm [2021]{"entity":"namhoc","value":"2021"}
+      - Cho em hỏi về [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - em muốn biết [chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - em muốn biết [Chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [qtkd]{"entity":"thongtinchinh","value":"qtkd"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - Em muon biet [chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [Chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - Em muon biet [chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - cho em hoi ve [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - Cho em hoi [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [Qt trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} năm [2021]{"entity":"namhoc","value":"2021"}
+      - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [qtkd]{"entity":"thongtinchinh","value":"qtkd"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - [tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - [tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - [Tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [Tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Qt trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - [so tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [Số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [So tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [qtkd]{"entity":"thongtinchinh","value":"qtkd"} am [2022]{"entity":"namhoc","value":"2022"}
+      - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} nam [2020]{"entity":"namhoc","value":"2020"}
+
+
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [mkt]{"entity":"thongtinchinh","value":"mkt"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Mkt]{"entity":"thongtinchinh","value":"mkt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [MKT]{"entity":"thongtinchinh","value":"mkt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Marketing]{"entity":"thongtinchinh","value":"mkt"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [marketing]{"entity":"thongtinchinh","value":"mkt"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [mkt]{"entity":"thongtinchinh","value":"mkt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Mkt]{"entity":"thongtinchinh","value":"mkt"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [MKT]{"entity":"thongtinchinh","value":"mkt"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Marketing]{"entity":"thongtinchinh","value":"mkt"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [marketing]{"entity":"thongtinchinh","value":"mkt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [mkt]{"entity":"thongtinchinh","value":"mkt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Mkt]{"entity":"thongtinchinh","value":"mkt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [MKT]{"entity":"thongtinchinh","value":"mkt"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Marketing]{"entity":"thongtinchinh","value":"mkt"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [marketing]{"entity":"thongtinchinh","value":"mkt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [mkt]{"entity":"thongtinchinh","value":"mkt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Mkt]{"entity":"thongtinchinh","value":"mkt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [Điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [MKT]{"entity":"thongtinchinh","value":"mkt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [Diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Marketing]{"entity":"thongtinchinh","value":"mkt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [marketing]{"entity":"thongtinchinh","value":"mkt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [Hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [mkt]{"entity":"thongtinchinh","value":"mkt"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [Mkt]{"entity":"thongtinchinh","value":"mkt"} năm [2021]{"entity":"namhoc","value":"2021"}
+      - Cho em hỏi về [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [MKT]{"entity":"thongtinchinh","value":"mkt"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - em muốn biết [chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Marketing]{"entity":"thongtinchinh","value":"mkt"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - em muốn biết [Chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [marketing]{"entity":"thongtinchinh","value":"mkt"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - Em muon biet [chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [mkt]{"entity":"thongtinchinh","value":"mkt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [Chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Mkt]{"entity":"thongtinchinh","value":"mkt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - Em muon biet [chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [MKT]{"entity":"thongtinchinh","value":"mkt"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - cho em hoi ve [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Marketing]{"entity":"thongtinchinh","value":"mkt"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - Cho em hoi [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [marketing]{"entity":"thongtinchinh","value":"mkt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [mkt]{"entity":"thongtinchinh","value":"mkt"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Mkt]{"entity":"thongtinchinh","value":"mkt"} năm [2021]{"entity":"namhoc","value":"2021"}
+      - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [MKT]{"entity":"thongtinchinh","value":"mkt"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - [tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Marketing]{"entity":"thongtinchinh","value":"mkt"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - [tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [marketing]{"entity":"thongtinchinh","value":"mkt"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - [Tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [mkt]{"entity":"thongtinchinh","value":"mkt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [Tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Mkt]{"entity":"thongtinchinh","value":"mkt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [MKT]{"entity":"thongtinchinh","value":"mkt"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - [so tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Marketing]{"entity":"thongtinchinh","value":"mkt"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [Số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [marketing]{"entity":"thongtinchinh","value":"mkt"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [So tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [mkt]{"entity":"thongtinchinh","value":"mkt"} am [2022]{"entity":"namhoc","value":"2022"}
+      - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Mkt]{"entity":"thongtinchinh","value":"mkt"} nam [2020]{"entity":"namhoc","value":"2020"}
+
+
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [kt]{"entity":"thongtinchinh","value":"kt"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [KT]{"entity":"thongtinchinh","value":"kt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Kt]{"entity":"thongtinchinh","value":"kt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [ke toan]{"entity":"thongtinchinh","value":"kt"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Ke toan]{"entity":"thongtinchinh","value":"kt"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kế toán]{"entity":"thongtinchinh","value":"kt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Kế toán]{"entity":"thongtinchinh","value":"kt"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kt]{"entity":"thongtinchinh","value":"kt"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [KT]{"entity":"thongtinchinh","value":"kt"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Kt]{"entity":"thongtinchinh","value":"kt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [ke toan]{"entity":"thongtinchinh","value":"kt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Ke toan]{"entity":"thongtinchinh","value":"kt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [kế toán]{"entity":"thongtinchinh","value":"kt"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Kế toán]{"entity":"thongtinchinh","value":"kt"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kt]{"entity":"thongtinchinh","value":"kt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [KT]{"entity":"thongtinchinh","value":"kt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Kt]{"entity":"thongtinchinh","value":"kt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [Điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [ke toan]{"entity":"thongtinchinh","value":"kt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [Diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Ke toan]{"entity":"thongtinchinh","value":"kt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [kế toán]{"entity":"thongtinchinh","value":"kt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [Hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [Kế toán]{"entity":"thongtinchinh","value":"kt"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [kt]{"entity":"thongtinchinh","value":"kt"} năm [2021]{"entity":"namhoc","value":"2021"}
+      - Cho em hỏi về [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [KT]{"entity":"thongtinchinh","value":"kt"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - em muốn biết [chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Kt]{"entity":"thongtinchinh","value":"kt"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - em muốn biết [Chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [ke toan]{"entity":"thongtinchinh","value":"kt"} nam [2023]{"entity":"namhoc","value":"2023"}
+      PS C:\Users\anony\OneDrive\Desktop\Workspace\Python\rasa-university-consultant> node gejs.js
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [ktddt]{"entity":"thongtinchinh","value":"ktddt"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [KTDDT]{"entity":"thongtinchinh","value":"ktddt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [điện tử]{"entity":"thongtinchinh","value":"ktddt"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [ki thuat dien dien tu]{"entity":"thongtinchinh","value":"ktddt"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Ki thuat dien dien tu]{"entity":"thongtinchinh","value":"ktddt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [ky thuat dien dien tu]{"entity":"thongtinchinh","value":"ktddt"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Ky thuat dien dien tu]{"entity":"thongtinchinh","value":"ktddt"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [kt dien dien tu]{"entity":"thongtinchinh","value":"ktddt"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Kt dien dien tu]{"entity":"thongtinchinh","value":"ktddt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [kt điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Kt điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [dien tu]{"entity":"thongtinchinh","value":"ktddt"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [dien dien tu]{"entity":"thongtinchinh","value":"ktddt"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kĩ thuật điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Kĩ thuật điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kỹ thuật điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [Điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Kỹ thuật điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [Diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kt điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [Kt điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [Hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [ktddt]{"entity":"thongtinchinh","value":"ktddt"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [KTDDT]{"entity":"thongtinchinh","value":"ktddt"} năm [2021]{"entity":"namhoc","value":"2021"}
+      - Cho em hỏi về [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - em muốn biết [chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [điện tử]{"entity":"thongtinchinh","value":"ktddt"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - em muốn biết [Chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [ki thuat dien dien tu]{"entity":"thongtinchinh","value":"ktddt"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - Em muon biet [chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Ki thuat dien dien tu]{"entity":"thongtinchinh","value":"ktddt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [Chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [ky thuat dien dien tu]{"entity":"thongtinchinh","value":"ktddt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - Em muon biet [chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Ky thuat dien dien tu]{"entity":"thongtinchinh","value":"ktddt"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - cho em hoi ve [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [kt dien dien tu]{"entity":"thongtinchinh","value":"ktddt"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - Cho em hoi [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [Kt dien dien tu]{"entity":"thongtinchinh","value":"ktddt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [kt điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Kt điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} năm [2021]{"entity":"namhoc","value":"2021"}
+      - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [dien tu]{"entity":"thongtinchinh","value":"ktddt"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - [tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [dien dien tu]{"entity":"thongtinchinh","value":"ktddt"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - [tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [kĩ thuật điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - [Tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Kĩ thuật điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [Tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [kỹ thuật điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Kỹ thuật điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - [so tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [kt điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [Số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Kt điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [So tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [ktddt]{"entity":"thongtinchinh","value":"ktddt"} am [2022]{"entity":"namhoc","value":"2022"}
+      - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [KTDDT]{"entity":"thongtinchinh","value":"ktddt"} nam [2020]{"entity":"namhoc","value":"2020"}
+
+
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [attt]{"entity":"thongtinchinh","value":"attt"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [ATTT]{"entity":"thongtinchinh","value":"attt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Attt]{"entity":"thongtinchinh","value":"attt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [an toan thong tin]{"entity":"thongtinchinh","value":"attt"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [an toan tt]{"entity":"thongtinchinh","value":"attt"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [bao mat]{"entity":"thongtinchinh","value":"attt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [An toan thong tin]{"entity":"thongtinchinh","value":"attt"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [An toan tt]{"entity":"thongtinchinh","value":"attt"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [an toàn thông tin]{"entity":"thongtinchinh","value":"attt"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [an toàn tt]{"entity":"thongtinchinh","value":"attt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [An toàn thông tin]{"entity":"thongtinchinh","value":"attt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [An toàn tt]{"entity":"thongtinchinh","value":"attt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [attt]{"entity":"thongtinchinh","value":"attt"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [ATTT]{"entity":"thongtinchinh","value":"attt"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Attt]{"entity":"thongtinchinh","value":"attt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [an toan thong tin]{"entity":"thongtinchinh","value":"attt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [an toan tt]{"entity":"thongtinchinh","value":"attt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [Điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [bao mat]{"entity":"thongtinchinh","value":"attt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [Diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [An toan thong tin]{"entity":"thongtinchinh","value":"attt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [An toan tt]{"entity":"thongtinchinh","value":"attt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [Hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [an toàn thông tin]{"entity":"thongtinchinh","value":"attt"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [an toàn tt]{"entity":"thongtinchinh","value":"attt"} năm [2021]{"entity":"namhoc","value":"2021"}
+      - Cho em hỏi về [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [An toàn thông tin]{"entity":"thongtinchinh","value":"attt"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - em muốn biết [chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [An toàn tt]{"entity":"thongtinchinh","value":"attt"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - em muốn biết [Chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [attt]{"entity":"thongtinchinh","value":"attt"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - Em muon biet [chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [ATTT]{"entity":"thongtinchinh","value":"attt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [Chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Attt]{"entity":"thongtinchinh","value":"attt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - Em muon biet [chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [an toan thong tin]{"entity":"thongtinchinh","value":"attt"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - cho em hoi ve [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [an toan tt]{"entity":"thongtinchinh","value":"attt"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - Cho em hoi [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [bao mat]{"entity":"thongtinchinh","value":"attt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [An toan thong tin]{"entity":"thongtinchinh","value":"attt"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [An toan tt]{"entity":"thongtinchinh","value":"attt"} năm [2021]{"entity":"namhoc","value":"2021"}
+      - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [an toàn thông tin]{"entity":"thongtinchinh","value":"attt"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - [tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [an toàn tt]{"entity":"thongtinchinh","value":"attt"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - [tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [An toàn thông tin]{"entity":"thongtinchinh","value":"attt"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - [Tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [An toàn tt]{"entity":"thongtinchinh","value":"attt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [Tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [attt]{"entity":"thongtinchinh","value":"attt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [ATTT]{"entity":"thongtinchinh","value":"attt"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - [so tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Attt]{"entity":"thongtinchinh","value":"attt"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [Số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [an toan thong tin]{"entity":"thongtinchinh","value":"attt"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [So tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [an toan tt]{"entity":"thongtinchinh","value":"attt"} am [2022]{"entity":"namhoc","value":"2022"}
+      - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [bao mat]{"entity":"thongtinchinh","value":"attt"} nam [2020]{"entity":"namhoc","value":"2020"}
+
+
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [iot]{"entity":"thongtinchinh","value":"iot"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [IOt]{"entity":"thongtinchinh","value":"iot"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [ioT]{"entity":"thongtinchinh","value":"iot"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [IOT]{"entity":"thongtinchinh","value":"iot"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cong nghe iot]{"entity":"thongtinchinh","value":"iot"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cn iot]{"entity":"thongtinchinh","value":"iot"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Cong nghe IOT]{"entity":"thongtinchinh","value":"iot"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Cong nghe iot]{"entity":"thongtinchinh","value":"iot"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Cong nghe Iot]{"entity":"thongtinchinh","value":"iot"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cong nghe iot]{"entity":"thongtinchinh","value":"iot"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cong nghe Iot]{"entity":"thongtinchinh","value":"iot"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cong nghe internet van vat]{"entity":"thongtinchinh","value":"iot"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Cong nghe internet van vat]{"entity":"thongtinchinh","value":"iot"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cong nghe Internet van vat]{"entity":"thongtinchinh","value":"iot"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cn internet van vat]{"entity":"thongtinchinh","value":"iot"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Công nghệ IOT]{"entity":"thongtinchinh","value":"iot"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Công nghệ iot]{"entity":"thongtinchinh","value":"iot"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [Điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Công nghệ Iot]{"entity":"thongtinchinh","value":"iot"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [Diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [công nghệ iot]{"entity":"thongtinchinh","value":"iot"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [công nghệ Iot]{"entity":"thongtinchinh","value":"iot"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [Hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [công nghệ internet vạn vật]{"entity":"thongtinchinh","value":"iot"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [Công nghệ internet vạn vật]{"entity":"thongtinchinh","value":"iot"} năm [2021]{"entity":"namhoc","value":"2021"}
+      - Cho em hỏi về [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [công nghệ Internet vạn vật]{"entity":"thongtinchinh","value":"iot"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - em muốn biết [chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cn internet vạn vật]{"entity":"thongtinchinh","value":"iot"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - em muốn biết [Chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [iot]{"entity":"thongtinchinh","value":"iot"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - Em muon biet [chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [IOt]{"entity":"thongtinchinh","value":"iot"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [Chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [ioT]{"entity":"thongtinchinh","value":"iot"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - Em muon biet [chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [IOT]{"entity":"thongtinchinh","value":"iot"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - cho em hoi ve [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cong nghe iot]{"entity":"thongtinchinh","value":"iot"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - Cho em hoi [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [cn iot]{"entity":"thongtinchinh","value":"iot"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Cong nghe IOT]{"entity":"thongtinchinh","value":"iot"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Cong nghe iot]{"entity":"thongtinchinh","value":"iot"} năm [2021]{"entity":"namhoc","value":"2021"}
+      - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Cong nghe Iot]{"entity":"thongtinchinh","value":"iot"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - [tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cong nghe iot]{"entity":"thongtinchinh","value":"iot"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - [tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cong nghe Iot]{"entity":"thongtinchinh","value":"iot"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - [Tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cong nghe internet van vat]{"entity":"thongtinchinh","value":"iot"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [Tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Cong nghe internet van vat]{"entity":"thongtinchinh","value":"iot"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cong nghe Internet van vat]{"entity":"thongtinchinh","value":"iot"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - [so tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cn internet van vat]{"entity":"thongtinchinh","value":"iot"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [Số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Công nghệ IOT]{"entity":"thongtinchinh","value":"iot"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [So tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Công nghệ iot]{"entity":"thongtinchinh","value":"iot"} am [2022]{"entity":"namhoc","value":"2022"}
+      - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Công nghệ Iot]{"entity":"thongtinchinh","value":"iot"} nam [2020]{"entity":"namhoc","value":"2020"}
+
+
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [ktdkvtdh]{"entity":"thongtinchinh","value":"ktdkvtdh"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kt dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [kt điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kĩ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [kỹ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Kỹ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Kĩ thuật thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kt điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [ki thuat dieu khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [ky thuat dieu khien tu dong]{"entity":"thongtinchinh","value":"ktdkvtdh"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kĩ thuật điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [ky thuat điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [ktdkvtdh]{"entity":"thongtinchinh","value":"ktdkvtdh"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [Điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [kt dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [Diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [Hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [Ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [Ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} năm [2021]{"entity":"namhoc","value":"2021"}
+      - Cho em hỏi về [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [kt điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - em muốn biết [chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [kĩ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - em muốn biết [Chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [kỹ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - Em muon biet [chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Kỹ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [Chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Kĩ thuật thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - Em muon biet [chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [kt điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - cho em hoi ve [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [ki thuat dieu khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - Cho em hoi [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [ky thuat dieu khien tu dong]{"entity":"thongtinchinh","value":"ktdkvtdh"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [kĩ thuật điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [ky thuat điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"} năm [2021]{"entity":"namhoc","value":"2021"}
+      - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [ktdkvtdh]{"entity":"thongtinchinh","value":"ktdkvtdh"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - [tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [kt dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - [tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - [Tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [Tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - [so tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [kt điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [Số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [kĩ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [So tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [kỹ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} am [2022]{"entity":"namhoc","value":"2022"}
+      - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Kỹ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} nam [2020]{"entity":"namhoc","value":"2020"}
+
+
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cndpt]{"entity":"thongtinchinh","value":"cndpt"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cndpt]{"entity":"thongtinchinh","value":"cndpt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [Điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [Diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cndpt]{"entity":"thongtinchinh","value":"cndpt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [Hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [Cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} năm [2021]{"entity":"namhoc","value":"2021"}
+      - Cho em hỏi về [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - em muốn biết [chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - em muốn biết [Chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - Em muon biet [chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [Chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - Em muon biet [chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cndpt]{"entity":"thongtinchinh","value":"cndpt"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - cho em hoi ve [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - Cho em hoi [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [Cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} năm [2021]{"entity":"namhoc","value":"2021"}
+      - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - [tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - [tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - [Tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [Tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cndpt]{"entity":"thongtinchinh","value":"cndpt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - [so tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [Số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [So tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} am [2022]{"entity":"namhoc","value":"2022"}
+      - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} nam [2020]{"entity":"namhoc","value":"2020"}
+
+
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [qtkd]{"entity":"thongtinchinh","value":"qtkd"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Qt trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [qtkd]{"entity":"thongtinchinh","value":"qtkd"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Qt trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [qtkd]{"entity":"thongtinchinh","value":"qtkd"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [Điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [Diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [Quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [Hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [Qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [Qt trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} năm [2021]{"entity":"namhoc","value":"2021"}
+      - Cho em hỏi về [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - em muốn biết [chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - em muốn biết [Chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [qtkd]{"entity":"thongtinchinh","value":"qtkd"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - Em muon biet [chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [Chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - Em muon biet [chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - cho em hoi ve [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - Cho em hoi [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [Qt trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} năm [2021]{"entity":"namhoc","value":"2021"}
+      - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [qtkd]{"entity":"thongtinchinh","value":"qtkd"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - [tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - [tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - [Tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [Tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Qt trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - [so tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [Số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [So tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [qtkd]{"entity":"thongtinchinh","value":"qtkd"} am [2022]{"entity":"namhoc","value":"2022"}
+      - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} nam [2020]{"entity":"namhoc","value":"2020"}
+
+
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [mkt]{"entity":"thongtinchinh","value":"mkt"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Mkt]{"entity":"thongtinchinh","value":"mkt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [MKT]{"entity":"thongtinchinh","value":"mkt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Marketing]{"entity":"thongtinchinh","value":"mkt"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [marketing]{"entity":"thongtinchinh","value":"mkt"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [mkt]{"entity":"thongtinchinh","value":"mkt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Mkt]{"entity":"thongtinchinh","value":"mkt"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [MKT]{"entity":"thongtinchinh","value":"mkt"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Marketing]{"entity":"thongtinchinh","value":"mkt"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [marketing]{"entity":"thongtinchinh","value":"mkt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [mkt]{"entity":"thongtinchinh","value":"mkt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Mkt]{"entity":"thongtinchinh","value":"mkt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [MKT]{"entity":"thongtinchinh","value":"mkt"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Marketing]{"entity":"thongtinchinh","value":"mkt"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [marketing]{"entity":"thongtinchinh","value":"mkt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [mkt]{"entity":"thongtinchinh","value":"mkt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Mkt]{"entity":"thongtinchinh","value":"mkt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [Điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [MKT]{"entity":"thongtinchinh","value":"mkt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [Diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Marketing]{"entity":"thongtinchinh","value":"mkt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [marketing]{"entity":"thongtinchinh","value":"mkt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [Hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [mkt]{"entity":"thongtinchinh","value":"mkt"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [Mkt]{"entity":"thongtinchinh","value":"mkt"} năm [2021]{"entity":"namhoc","value":"2021"}
+      - Cho em hỏi về [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [MKT]{"entity":"thongtinchinh","value":"mkt"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - em muốn biết [chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Marketing]{"entity":"thongtinchinh","value":"mkt"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - em muốn biết [Chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [marketing]{"entity":"thongtinchinh","value":"mkt"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - Em muon biet [chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [mkt]{"entity":"thongtinchinh","value":"mkt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [Chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Mkt]{"entity":"thongtinchinh","value":"mkt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - Em muon biet [chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [MKT]{"entity":"thongtinchinh","value":"mkt"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - cho em hoi ve [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Marketing]{"entity":"thongtinchinh","value":"mkt"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - Cho em hoi [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [marketing]{"entity":"thongtinchinh","value":"mkt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [mkt]{"entity":"thongtinchinh","value":"mkt"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Mkt]{"entity":"thongtinchinh","value":"mkt"} năm [2021]{"entity":"namhoc","value":"2021"}
+      - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [MKT]{"entity":"thongtinchinh","value":"mkt"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - [tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Marketing]{"entity":"thongtinchinh","value":"mkt"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - [tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [marketing]{"entity":"thongtinchinh","value":"mkt"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - [Tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [mkt]{"entity":"thongtinchinh","value":"mkt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [Tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Mkt]{"entity":"thongtinchinh","value":"mkt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [MKT]{"entity":"thongtinchinh","value":"mkt"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - [so tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Marketing]{"entity":"thongtinchinh","value":"mkt"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [Số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [marketing]{"entity":"thongtinchinh","value":"mkt"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [So tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [mkt]{"entity":"thongtinchinh","value":"mkt"} am [2022]{"entity":"namhoc","value":"2022"}
+      - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Mkt]{"entity":"thongtinchinh","value":"mkt"} nam [2020]{"entity":"namhoc","value":"2020"}
+
+
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [kt]{"entity":"thongtinchinh","value":"kt"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [KT]{"entity":"thongtinchinh","value":"kt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Kt]{"entity":"thongtinchinh","value":"kt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [ke toan]{"entity":"thongtinchinh","value":"kt"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Ke toan]{"entity":"thongtinchinh","value":"kt"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kế toán]{"entity":"thongtinchinh","value":"kt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Kế toán]{"entity":"thongtinchinh","value":"kt"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kt]{"entity":"thongtinchinh","value":"kt"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [KT]{"entity":"thongtinchinh","value":"kt"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Kt]{"entity":"thongtinchinh","value":"kt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [ke toan]{"entity":"thongtinchinh","value":"kt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Ke toan]{"entity":"thongtinchinh","value":"kt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [kế toán]{"entity":"thongtinchinh","value":"kt"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Kế toán]{"entity":"thongtinchinh","value":"kt"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kt]{"entity":"thongtinchinh","value":"kt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [KT]{"entity":"thongtinchinh","value":"kt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Kt]{"entity":"thongtinchinh","value":"kt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [Điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [ke toan]{"entity":"thongtinchinh","value":"kt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [Diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Ke toan]{"entity":"thongtinchinh","value":"kt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [kế toán]{"entity":"thongtinchinh","value":"kt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [Hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [Kế toán]{"entity":"thongtinchinh","value":"kt"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [kt]{"entity":"thongtinchinh","value":"kt"} năm [2021]{"entity":"namhoc","value":"2021"}
+      - Cho em hỏi về [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [KT]{"entity":"thongtinchinh","value":"kt"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - em muốn biết [chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Kt]{"entity":"thongtinchinh","value":"kt"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - em muốn biết [Chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [ke toan]{"entity":"thongtinchinh","value":"kt"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - Em muon biet [chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Ke toan]{"entity":"thongtinchinh","value":"kt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - Em muon biet [Chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [kế toán]{"entity":"thongtinchinh","value":"kt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - Em muon biet [chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Kế toán]{"entity":"thongtinchinh","value":"kt"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - cho em hoi ve [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [kt]{"entity":"thongtinchinh","value":"kt"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - Cho em hoi [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [KT]{"entity":"thongtinchinh","value":"kt"} năm [2023]{"entity":"namhoc","value":"2023"}
+      - [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Kt]{"entity":"thongtinchinh","value":"kt"} năm [2022]{"entity":"namhoc","value":"2022"}
+      - [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [ke toan]{"entity":"thongtinchinh","value":"kt"} năm [2021]{"entity":"namhoc","value":"2021"}
+      - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Ke toan]{"entity":"thongtinchinh","value":"kt"} năm [2019]{"entity":"namhoc","value":"2019"}
+      - [tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [kế toán]{"entity":"thongtinchinh","value":"kt"} năm [2020]{"entity":"namhoc","value":"2020"}
+      - [tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Kế toán]{"entity":"thongtinchinh","value":"kt"} nam [2023]{"entity":"namhoc","value":"2023"}
+      - [Tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [kt]{"entity":"thongtinchinh","value":"kt"} nam [2022]{"entity":"namhoc","value":"2022"}
+      - [Tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [KT]{"entity":"thongtinchinh","value":"kt"} nam [2021]{"entity":"namhoc","value":"2021"}
+      - [số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Kt]{"entity":"thongtinchinh","value":"kt"} nam [2020]{"entity":"namhoc","value":"2020"}
+      - [so tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [ke toan]{"entity":"thongtinchinh","value":"kt"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [Số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Ke toan]{"entity":"thongtinchinh","value":"kt"} nam [2019]{"entity":"namhoc","value":"2019"}
+      - [So tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [kế toán]{"entity":"thongtinchinh","value":"kt"} am [2022]{"entity":"namhoc","value":"2022"}
+      - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Kế toán]{"entity":"thongtinchinh","value":"kt"} nam [2020]{"entity":"namhoc","value":"2020"}
+
 ### tong quan, ma nganh, diem chuan, sotc, thoi gian dao tao, tot nghiep lam gi, hoc phi, chuyen nganh, khoi thi, chuong trinh dao tao
 - intent: intent_flag_ttphu
   examples: |
