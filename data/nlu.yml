@@ -1734,6 +1734,215 @@ nlu:
     - [tổ hợp môn]{"entity":"thongtinphu","value":"khoi_thi"} thi ngành [Ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
     - [tổ hợp môn]{"entity":"thongtinphu","value":"khoi_thi"} thi ngành [Ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
 
+
+    - [cndpt]{"entity":"thongtinchinh","value":"cndpt"}
+    - [cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [tổng quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [cndpt]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Tong quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Tổng quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [tóm tắt]{"entity":"thongtinphu","value":"tong_quan"} ngành [cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [khái quát]{"entity":"thongtinphu","value":"tong_quan"} ngành [Cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Khái quát]{"entity":"thongtinphu","value":"tong_quan"} ngành [công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Khai quat]{"entity":"thongtinphu","value":"tong_quan"} ngành [Công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [tong quan]{"entity":"thongtinphu","value":"tong_quan"} nganh [Cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [tom tat]{"entity":"thongtinphu","value":"tong_quan"} nganh [cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Tom tat]{"entity":"thongtinphu","value":"tong_quan"} nganh [cndpt]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Tóm tắt]{"entity":"thongtinphu","value":"tong_quan"} nganh [cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [khai quat]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [Cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [giới thiệu]{"entity":"thongtinphu","value":"tong_quan"} về ngành [cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Giới thiệu]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Gioi thieu]{"entity":"thongtinphu","value":"tong_quan"} về ngành [công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [cho em hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [cho em hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Cho em hoi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Cho em hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [cndpt]{"entity":"thongtinchinh","value":"cndpt"}
+    - [cho em hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [em muốn biết]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Em muon biet]{"entity":"thongtinphu","value":"tong_quan"} về ngành [cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Em muốn biết]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [em muốn biết]{"entity":"thongtinphu","value":"tong_quan"} về ngành [công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [em muốn hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Em muon hoi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Em muốn hỏi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [em muon hoi]{"entity":"thongtinphu","value":"tong_quan"} về ngành [cndpt]{"entity":"thongtinchinh","value":"cndpt"}
+    - [gioi thieu]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [cho em hoi]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [Cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [em muon biet]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [em muon hoi]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [Cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - Em có dự định muốn học ngành [công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}, vậy cho em hỏi học ngành này xong thì ra ngoài có thể [làm gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} ạ
+    - Hoc xong [Công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} co the [lam cong viêc gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} a
+    - Học xong [Cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} co the [làm công việc gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} a
+    - [cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} [làm vị trí nào]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
+    - [cndpt]{"entity":"thongtinchinh","value":"cndpt"} [làm gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
+    - [cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} [Làm công việc gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
+    - [Cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} [làm được gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
+    - [cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} [Làm được gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
+    - [Cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} [làm những công việc gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
+    - [công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} [làm những công việc nào]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
+    - [Công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} [lam vi tri nao]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi hoc xong
+    - [Cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} [Lam duoc gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi hoc xong
+    - [cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} [lam duoc gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi hoc xong
+    - [cndpt]{"entity":"thongtinchinh","value":"cndpt"} [lam nhung cong viec gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi hoc xong
+    - [cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} [lam nhung cong viec nao]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi hoc xong
+    - [Cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} [lam gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi hoc xong
+    - [cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} [Lam cong viec gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi hoc xong
+    - hoc xong [Cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} thi [lam duoc gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"}
+    - học [công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} có thể [làm những công việc gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"}
+    - học [Công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} có thể [làm những công việc nào]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"}
+    - học [Cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} có thể [làm những công việc gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"}
+    - cho em hoi [ma nganh]{"entity":"thongtinphu","value":"ma_nganh"} [cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - cho em hỏi [Mã ngành]{"entity":"thongtinphu","value":"ma_nganh"} [cndpt]{"entity":"thongtinchinh","value":"cndpt"}
+    - em muốn biết [mã ngành]{"entity":"thongtinphu","value":"ma_nganh"} [cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - em muon biet [Ma nganh]{"entity":"thongtinphu","value":"ma_nganh"} [Cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - Cho em hoi [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - Cho em hỏi [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [Cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - Em muon biết [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - Em muon biet [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [Công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [Cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"} [cndpt]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Mã Ngành]{"entity":"thongtinphu","value":"ma_nganh"} [cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [ma nganh]{"entity":"thongtinphu","value":"ma_nganh"} [Cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} [cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Chương trình đào tạo]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} [Cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - Cho em hỏi về [chương trình đào tạo]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} ngành [công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} ạ
+    - cho em hoi [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} nganh [Công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - em muon biet [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} nganh [Cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - em muốn biết [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} nganh [cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [ctdt]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} [cndpt]{"entity":"thongtinchinh","value":"cndpt"}
+    - [chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} [cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Chương trình đào tạo]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} [Cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - Cho em hỏi về [chương trình đào tạo]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} ngành [cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} ạ
+    - cho em hoi [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} nganh [Cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - em muon biet [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} nganh [công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - em muốn biết [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} nganh [Công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [thoi gian dao tao]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} [Cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Thoi gian dao tao]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} [cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Thời gian đào tạo]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} [cndpt]{"entity":"thongtinchinh","value":"cndpt"}
+    - [thoi gian dao tao]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} nganh [cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [thời gian học]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} ngành [Cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [thoi gian hoc]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} [cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Thời gian học]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} ngành [Cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Thoi gian hoc]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} [công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Thời gian]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} ngành [Công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Thoi gian]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} [Cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [thời gian]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} ngành [cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [thoi gian]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} [cndpt]{"entity":"thongtinchinh","value":"cndpt"}
+    - hoc [cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} [bao lâu]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} thì ra trường
+    - học [Cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} mất [bao lâu]
+    - ngành [cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} [học mấy năm]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - ngành [Cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} [hoc may nam]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - ngành [công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} [đào tạo mấy năm]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - ngành [Công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} [dao tao may nam]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - ngành [Cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} [đào tạo bao lâu]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - ngành [cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} [dao tao bao lau]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - ngành [cndpt]{"entity":"thongtinchinh","value":"cndpt"} [Đào tạo bao lâu]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - ngành [cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} [Dao tao bao lau]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - hoc [Cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} trong [bao lau]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+    - [thời gian đào tạo]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} của ngành [cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [thoi gian hoc tap]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} của ngành [Cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [thời gian học tập]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} của ngành [công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Thời gian học tập]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} của ngành [Công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Thoi gian hoc tap]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} của ngành [Cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [học mấy năm]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} ngành [cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - học [cndpt]{"entity":"thongtinchinh","value":"cndpt"} [bao lâu]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} thì xong
+    - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [Cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - Cho em hỏi về [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} ạ
+    - em muốn biết [chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} ạ
+    - em muốn biết [Chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} ạ
+    - Em muon biet [chi phi]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} ạ
+    - cho em hoi ve [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} ạ
+    - Cho em hoi [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"} [cndpt]{"entity":"thongtinchinh","value":"cndpt"}
+    - [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Tong tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Tổng tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [so tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Số tiền]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cndpt]{"entity":"thongtinchinh","value":"cndpt"}
+    - [So tien]{"entity":"thongtinphu","value":"hoc_phi"} ngành [cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [sotc]{"entity":"thongtinphu","value":"sotc"} ngành [cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [số tín chỉ]{"entity":"thongtinphu","value":"sotc"} ngành [Cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Số tín chỉ]{"entity":"thongtinphu","value":"sotc"} ngành [công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [so tin chi]{"entity":"thongtinphu","value":"sotc"} nganh [Công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [So tin chi]{"entity":"thongtinphu","value":"sotc"} nganh [Cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [so tin chi]{"entity":"thongtinphu","value":"sotc"} nganh [cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - nganh [cndpt]{"entity":"thongtinchinh","value":"cndpt"} co bn [tin chi]{"entity":"thongtinphu","value":"sotc"}
+    - nganh [cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} co bao nhieu [tin chi]{"entity":"thongtinphu","value":"sotc"}
+    - ngành [Cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} có bao nhiêu [Tin chi]{"entity":"thongtinphu","value":"sotc"}
+    - ngành [cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} có tổng cộng bao nhiêu [tín chỉ]{"entity":"thongtinphu","value":"sotc"} tất cả
+    - ngành [Cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} có bn [tín chỉ]{"entity":"thongtinphu","value":"sotc"} tất cả
+    - [công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} co [bao nhieu tin chi]{"entity":"thongtinphu","value":"sotc"}
+    - [Công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} hoc [bao nhieu tin chi]{"entity":"thongtinphu","value":"sotc"}
+    - [Cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} tổng cộng [bao nhiêu tín chỉ]{"entity":"thongtinphu","value":"sotc"}
+    - nganh [cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} co tong cong bao nhieu [tin chi]{"entity":"thongtinphu","value":"sotc"}
+    - nganh [cndpt]{"entity":"thongtinchinh","value":"cndpt"} co tong cong bao nhieu [tin chi]{"entity":"thongtinphu","value":"sotc"} tat ca
+    - ngành [cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} có tổng cộng bao nhiêu [tín chỉ]{"entity":"thongtinphu","value":"sotc"}
+    - [Cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} có [bao nhiêu tín chỉ]{"entity":"thongtinphu","value":"sotc"}
+    - [cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} có tất cả [bao nhiêu tin chỉ]{"entity":"thongtinphu","value":"sotc"}
+    - [Cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} co tat ca [bao nhieu tin chi]{"entity":"thongtinphu","value":"sotc"}
+    - nganh [công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} co cac [chuyen nganh]{"entity":"thongtinphu","value":"chuyen_nganh"} nao
+    - nganh [Công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} có các [chuyên ngành]{"entity":"thongtinphu","value":"chuyen_nganh"} nào
+    - [Cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} được chia mấy [chuyên ngành]{"entity":"thongtinphu","value":"chuyen_nganh"}
+    - ngành [cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} có những [chuyên ngành]{"entity":"thongtinphu","value":"chuyen_nganh"} nào
+    - [cndpt]{"entity":"thongtinchinh","value":"cndpt"} [Chuyen Nganh]{"entity":"thongtinphu","value":"chuyen_nganh"}
+    - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cndpt]{"entity":"thongtinchinh","value":"cndpt"}
+    - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cndpt]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - cho em hỏi [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [Cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - Cho em hỏi [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - Em muon biet [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [Công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - Cho em hoi [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [Cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - cho em hoi [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - Em muốn biết [khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [cndpt]{"entity":"thongtinchinh","value":"cndpt"}
+    - em muon biết [khoi thi]{"entity":"thongtinphu","value":"khoi_thi"} nganh [cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [khoi thi]{"entity":"thongtinphu","value":"khoi_thi"} nganh [Cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - em muon biet [Khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Khối thi]{"entity":"thongtinphu","value":"khoi_thi"} ngành [Cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Khoi thi]{"entity":"thongtinphu","value":"khoi_thi"} nganh [công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [tổ hợp xét tuyển]{"entity":"thongtinphu","value":"khoi_thi"} ngành [Công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [to hop xet tuyen]{"entity":"thongtinphu","value":"khoi_thi"} thi nganh [Cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [Tổ hợp xét tuyển]{"entity":"thongtinphu","value":"khoi_thi"} ngành [cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [To hop xet tuyen]{"entity":"thongtinphu","value":"khoi_thi"} thi nganh [cndpt]{"entity":"thongtinchinh","value":"cndpt"}
+    - [to hop xet tuyen]{"entity":"thongtinphu","value":"khoi_thi"} nganh [cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [tổ hợp xét tuyển]{"entity":"thongtinphu","value":"khoi_thi"} thi ngành [Cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [tổ hợp xét tuyển]{"entity":"thongtinphu","value":"khoi_thi"} thi ngành [cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - Tổ hợp môn]{"entity":"thongtinphu","value":"khoi_thi"} ngành [Cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - [To hop mon]{"entity":"thongtinphu","value":"khoi_thi"} thi nganh [công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [to hop mon]{"entity":"thongtinphu","value":"khoi_thi"} nganh [Công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [tổ hợp môn]{"entity":"thongtinphu","value":"khoi_thi"} thi ngành [Cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - [tổ hợp môn]{"entity":"thongtinphu","value":"khoi_thi"} thi ngành [cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+
 ### hien tai gom: diem chuan
 - intent: intent_ttchinh_ttphu_coso
   examples: |

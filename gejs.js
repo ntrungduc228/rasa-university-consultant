@@ -256,14 +256,17 @@ function generateByOrder(entity){
 // ,'công nghệ internet vạn vật', 'Công nghệ internet vạn vật', 'công nghệ Internet vạn vật', 'cn internet vạn vật'
 // ]
 
- const arrKey = ['ktdkvtdh', 'kt dieu khien va tu dong hoa', 'ki thuat dieu khien va tu dong hoa'
- , 'ky thuat dieu khien va tu dong hoa', 'Ki thuat dieu khien va tu dong hoa'
- ,'Ky thuat dieu khien va tu dong hoa', 'kt điều khiển và tự động hóa'
- , 'kĩ thuật điều khiển và tự động hóa', 'kỹ thuật điều khiển và tự động hóa'
- , 'Kỹ thuật điều khiển và tự động hóa'
-,'Kĩ thuật thuật điều khiển và tự động hóa', 'kt điều khiển tự động'
-, 'ki thuat dieu khiển tự động', 'ky thuat dieu khien tu dong'
-, 'kĩ thuật điều khiển tự động','ky thuat điều khiển tự động']
+//  const arrKey = ['ktdkvtdh', 'kt dieu khien va tu dong hoa', 'ki thuat dieu khien va tu dong hoa'
+//  , 'ky thuat dieu khien va tu dong hoa', 'Ki thuat dieu khien va tu dong hoa'
+//  ,'Ky thuat dieu khien va tu dong hoa', 'kt điều khiển và tự động hóa'
+//  , 'kĩ thuật điều khiển và tự động hóa', 'kỹ thuật điều khiển và tự động hóa'
+//  , 'Kỹ thuật điều khiển và tự động hóa'
+// ,'Kĩ thuật thuật điều khiển và tự động hóa', 'kt điều khiển tự động'
+// , 'ki thuat dieu khiển tự động', 'ky thuat dieu khien tu dong'
+// , 'kĩ thuật điều khiển tự động','ky thuat điều khiển tự động']
+
+ const arrKey = ['cndpt', 'cn da phuong tien', 'Cn da phuong tien', 'cong nghe da phuong tien', 'Cong nghe da phuong tien',
+ 'công nghệ đa phương tiện', 'Công nghệ đa phương tiện', 'Cn đa phương tiện', 'cn đa phương tiện']
 
 //  const arrKey = ['aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa','aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa'
 // ,'aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa'
@@ -272,5 +275,5 @@ function generateByOrder(entity){
 // ,'aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa'
 // ,'aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa']
 
-// generateTongquan("ktdkvtdh")
-generateByOrder("ktdkvtdh")
+// generateTongquan("cndpt")
+generateByOrder("cndpt")
