@@ -277,8 +277,8 @@ function generateBySelect(entity, objItems){
 //  'kt điện điện tử', 'Kt điện điện tử']
 
  
-const arrKey = ['attt', 'ATTT', 'Attt', 'an toan thong tin', 'an toan tt', 'bao mat', 'An toan thong tin',
-'An toan tt', 'an toàn thông tin', 'an toàn tt', 'An toàn thông tin', 'An toàn tt']
+// const arrKey = ['attt', 'ATTT', 'Attt', 'an toan thong tin', 'an toan tt', 'bao mat', 'An toan thong tin',
+// 'An toan tt', 'an toàn thông tin', 'an toàn tt', 'An toàn thông tin', 'An toàn tt']
 
 
 // const arrKey = ['iot', 'IOt', 'ioT', 'IOT', 'cong nghe iot','cn iot', 'Cong nghe IOT', 'Cong nghe iot', 'Cong nghe Iot', 'cong nghe iot'
@@ -303,7 +303,13 @@ const arrKey = ['attt', 'ATTT', 'Attt', 'an toan thong tin', 'an toan tt', 'bao 
 //  ,'Qt trị kinh doanh', 'quản trị kinh doanh', 'Quản trị kinh doanh']
 
 //   const arrKey = ['mkt', 'Mkt', 'MKT', 'Marketing','marketing']
-//   const arrKey = ['kt', 'KT', 'Kt', 'ke toan','Ke toan','kế toán','Kế toán']
+  const arrKey = ['kt', 'KT' ,'Kt', 'ke toan','Ke toan','kế toán','Kế toán']
+
+//  const arrKey = ['ktdtvt', 'KTDTVT', 'ky thuat dien tu vien thong', 'kỹ thuật điện tử viễn thông'
+//  , 'kt dien tu vien thong','kt điện tử viễn thông', 'ki thuat dien tu vien thong', 'kĩ thuật điện tử viễn thông'
+//  , 'Kỹ thuật điện tử viễn thông', 'Ky thuat dien tu vien thong'
+// ,'Ki thuat dien tu vien thông', 'ki thuat dien tu vien thong', 'Kt dien tu vien thong', 'điện tử viễn thông'
+// , 'dien tu vien thong','Điện tử viễn thông', 'Dien tu vien thong']
 
 //  const arrKey = ['aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa','aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa'
 // ,'aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa'
@@ -315,4 +321,4 @@ const arrKey = ['attt', 'ATTT', 'Attt', 'an toan thong tin', 'an toan tt', 'bao 
 // generateTongquan("kt")
 // generateByOrder("kt")
 
-generateBySelect("attt", objFlagCoso)
+generateBySelect("kt", objFlagCoso)
