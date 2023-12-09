@@ -275,6 +275,19 @@ const objFlagNamhoc = [
     (ex, entity) => `[Học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [${ex}]{"entity":"thongtinchinh","value":"${entity}"} nam [2020]{"entity":"namhoc","value":"2020"}`,
 ]
 
+const objFlagPhu = [
+    (ex, entity) => `em cũng [muốn biết thêm]{"entity":"flag","value":"more"} về [${ex}]{"entity":"thongtinphu","value":"${entity}"}`,
+    (ex, entity) => `em [muon biet them]{"entity":"flag","value":"more"} ve [${ex}]{"entity":"thongtinphu","value":"${entity}"}`,
+    (ex, entity) => `em [cũng muốn biết]{"entity":"flag","value":"more"} [${ex}]{"entity":"thongtinphu","value":"${entity}"}`,
+    (ex, entity) => `em [cung muon biet]{"entity":"flag","value":"more"} [${ex}]{"entity":"thongtinphu","value":"${entity}"}`,
+    (ex, entity) => `cho em [hỏi thêm]{"entity":"flag","value":"more"} [${ex}]{"entity":"thongtinphu","value":"${entity}"} ạ`,
+    (ex, entity) => `cho em [hoi them]{"entity":"flag","value":"more"} [${ex}]{"entity":"thongtinphu","value":"${entity}"}`,
+    (ex, entity) => `cho em [hoi them]{"entity":"flag","value":"more"} [${ex}]{"entity":"thongtinphu","value":"${entity}"}`,
+    (ex, entity) => `[thế còn]{"entity":"flag","value":"more"} [${ex}]{"entity":"thongtinphu","value":"${entity}"}`,
+    (ex, entity) => `[vậy còn]{"entity":"flag","value":"more"} [${ex}]{"entity":"thongtinphu","value":"${entity}"}`,
+    (ex, entity) => `[the con]{"entity":"flag","value":"more"} [${ex}]{"entity":"thongtinphu","value":"${entity}"}`,
+    (ex, entity) => `[vay con]{"entity":"flag","value":"more"} [${ex}]{"entity":"thongtinphu","value":"${entity}"}`,
+]
 
 
 
@@ -414,4 +427,38 @@ const multObj = {
 
 }
 
-multipleGenerateBySelect(multObj, objFlagNamhoc);
+const multObjPhu = {
+    "thoi_gian_dao_tao": ['thoi gian dao tao', 'thời gian đào tạo', 'Thời gian đào tạo', 'Thoi gian dao tao', 'thời gian học'
+                            ,'thoi gian hoc', 'Thời gian học', 'Thoi gian hoc', 'thời gian', 'Thoi gian'
+                            ,'Thời gian', 'học mấy năm', 'hoc may nam', 'đào tạo mấy năm',
+                            ,'dao tao may nam', 'đào tạo bao lâu', 'dao tao bao lau', 'Đào tạo bao lâu',
+                            ,'Dao tao bao lau', 'thời gian học tập', 'thoi gian hoc tap', 'Thời gian học tập',
+                            ,'Thoi gian hoc tap',
+                         ],
+    "hoc_phi": ['hoc phi', 'học phí', 'Học phí', 'tiền', 'Tiền','Hoc phi', 'tien', 'Tien', 'chi phí', 'Chi phí'
+                        ,'chi phi', 'Chi phi', 'tổng tiền', 'tong tien'
+                        , 'Tong tien','Tổng tiền', 'số tiền', 'so tien', 'Số tiền', 'So tien'
+                    ],
+    "sotc": ["sotc", "số tín chỉ", "Số tín chỉ", "so tin chi", "So tin chi", "Tín chỉ", "tin chi", "tín chỉ", "Tin chi"],
+    "chuyen_nganh": ["chuyên ngành", "chuyen nganh", "chuyên ngành", "Chuyen nganh"],
+    "diem_chuan": ["diem_chuan", "diem chuan", "điểm chuẩn", "Điểm chuẩn", "Diem chuan", "điểm trúng tuyển", "diem trung tuyen", "Điểm trúng tuyển", "Diem trung tuyen"],
+    "khoi_thi": ["khoi thi", "khối thi", "Khoi thi", "Khối thi", "to hop xet tuyen", "tổ hợp xét tuyển", "To hop xet tuyen", "Tổ hợp xét tuyển"
+    , "To hop mon", "tổ hợp môn", "to hop mon", "khoi_thi", "khoi_thi"],
+    "chuong_trinh_dao_tao": ["chuong trinh dao tao", "chương trình đào tạo","Chuong trinh dao tao","Chương trình đào tạo"],
+    "tong_quan":[
+     "tong quan", "tổng quan", "Tong quan", "Tổng quan", "khái quát", "khai quat", "Khái quát", "Khai quat"
+    , "gioi thieu", "giới thiệu", "Giới thiệu", "Gioi thieu", "tom tat", "tóm tắt", "Tom tat", "Tóm tắt"
+
+    ],
+    "ma_nganh":[
+        "ma nganh", "Mã ngành", "mã ngành", "Mã Ngành", "Ma nganh", "Ma Nganh"
+    ],
+    "tot_nghiep_lam_gi": ["tot nghiep lam gi", "lam gi", "làm gì", "tốt nghiệp làm gì", "làm công việc gì"
+    , "lam cong viêc gi", "làm vị trí nào", "lam vi tri nao", "Lam gi", "Làm gì", "Tốt nghiệp làm gì", "Làm công việc gì"
+    , "Lam cong viec gi", "Làm vị trí nào", "Lam vi tri nao", "Tot nghiep lam gi", "Tốt nghiệp làm gì", "lam duoc gi", "làm được gì"
+    , "Làm được gì", "Lam duoc gi", "lam nhung cong viec gi", "làm những công việc gì", "làm những công việc nào", "lam nhung cong viec nao"
+    , "sdfsdfsdf", "sdfsdfsdf", "sdfsdfsdf", "sdfsdfsdf", "sdfsdfsdf", "sdfsdfsdf", "sdfsdfsdf", "sdfsdfsdf"
+    ]
+}
+
+multipleGenerateBySelect(multObjPhu, objFlagPhu);

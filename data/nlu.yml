@@ -3532,6 +3532,135 @@ nlu:
       - [the con]{"entity":"flag","value":"more"} [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"}
       - [vay con]{"entity":"flag","value":"more"} [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"}
 
+      - em cũng [muốn biết thêm]{"entity":"flag","value":"more"} về [thoi gian dao tao]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+      - em [muon biet them]{"entity":"flag","value":"more"} ve [thời gian đào tạo]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+      - em [cũng muốn biết]{"entity":"flag","value":"more"} [Thời gian đào tạo]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+      - em [cung muon biet]{"entity":"flag","value":"more"} [Thoi gian dao tao]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+      - cho em [hỏi thêm]{"entity":"flag","value":"more"} [thời gian học]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"} ạ
+      - cho em [hoi them]{"entity":"flag","value":"more"} [thoi gian hoc]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+      - cho em [hoi them]{"entity":"flag","value":"more"} [Thời gian học]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+      - [thế còn]{"entity":"flag","value":"more"} [Thoi gian hoc]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+      - [vậy còn]{"entity":"flag","value":"more"} [thời gian]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+      - [the con]{"entity":"flag","value":"more"} [Thoi gian]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+      - [vay con]{"entity":"flag","value":"more"} [Thời gian]{"entity":"thongtinphu","value":"thoi_gian_dao_tao"}
+
+
+      - em cũng [muốn biết thêm]{"entity":"flag","value":"more"} về [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"}
+      - em [muon biet them]{"entity":"flag","value":"more"} ve [học phí]{"entity":"thongtinphu","value":"hoc_phi"}
+      - em [cũng muốn biết]{"entity":"flag","value":"more"} [Học phí]{"entity":"thongtinphu","value":"hoc_phi"}
+      - em [cung muon biet]{"entity":"flag","value":"more"} [tiền]{"entity":"thongtinphu","value":"hoc_phi"}
+      - cho em [hỏi thêm]{"entity":"flag","value":"more"} [Tiền]{"entity":"thongtinphu","value":"hoc_phi"} ạ
+      - cho em [hoi them]{"entity":"flag","value":"more"} [Hoc phi]{"entity":"thongtinphu","value":"hoc_phi"}
+      - cho em [hoi them]{"entity":"flag","value":"more"} [tien]{"entity":"thongtinphu","value":"hoc_phi"}
+      - [thế còn]{"entity":"flag","value":"more"} [Tien]{"entity":"thongtinphu","value":"hoc_phi"}
+      - [vậy còn]{"entity":"flag","value":"more"} [chi phí]{"entity":"thongtinphu","value":"hoc_phi"}
+      - [the con]{"entity":"flag","value":"more"} [Chi phí]{"entity":"thongtinphu","value":"hoc_phi"}
+      - [vay con]{"entity":"flag","value":"more"} [chi phi]{"entity":"thongtinphu","value":"hoc_phi"}
+
+
+      - em cũng [muốn biết thêm]{"entity":"flag","value":"more"} về [sotc]{"entity":"thongtinphu","value":"sotc"}
+      - em [muon biet them]{"entity":"flag","value":"more"} ve [số tín chỉ]{"entity":"thongtinphu","value":"sotc"}
+      - em [cũng muốn biết]{"entity":"flag","value":"more"} [Số tín chỉ]{"entity":"thongtinphu","value":"sotc"}
+      - em [cung muon biet]{"entity":"flag","value":"more"} [so tin chi]{"entity":"thongtinphu","value":"sotc"}
+      - cho em [hỏi thêm]{"entity":"flag","value":"more"} [So tin chi]{"entity":"thongtinphu","value":"sotc"} ạ
+      - cho em [hoi them]{"entity":"flag","value":"more"} [Tín chỉ]{"entity":"thongtinphu","value":"sotc"}
+      - cho em [hoi them]{"entity":"flag","value":"more"} [tin chi]{"entity":"thongtinphu","value":"sotc"}
+      - [thế còn]{"entity":"flag","value":"more"} [tín chỉ]{"entity":"thongtinphu","value":"sotc"}
+      - [vậy còn]{"entity":"flag","value":"more"} [Tin chi]{"entity":"thongtinphu","value":"sotc"}
+      - [the con]{"entity":"flag","value":"more"} [sotc]{"entity":"thongtinphu","value":"sotc"}
+      - [vay con]{"entity":"flag","value":"more"} [số tín chỉ]{"entity":"thongtinphu","value":"sotc"}
+
+
+      - em cũng [muốn biết thêm]{"entity":"flag","value":"more"} về [chuyên ngành]{"entity":"thongtinphu","value":"chuyen_nganh"}
+      - em [muon biet them]{"entity":"flag","value":"more"} ve [chuyen nganh]{"entity":"thongtinphu","value":"chuyen_nganh"}
+      - em [cũng muốn biết]{"entity":"flag","value":"more"} [chuyên ngành]{"entity":"thongtinphu","value":"chuyen_nganh"}
+      - em [cung muon biet]{"entity":"flag","value":"more"} [Chuyen nganh]{"entity":"thongtinphu","value":"chuyen_nganh"}
+      - cho em [hỏi thêm]{"entity":"flag","value":"more"} [chuyên ngành]{"entity":"thongtinphu","value":"chuyen_nganh"} ạ
+      - cho em [hoi them]{"entity":"flag","value":"more"} [chuyen nganh]{"entity":"thongtinphu","value":"chuyen_nganh"}
+      - cho em [hoi them]{"entity":"flag","value":"more"} [chuyên ngành]{"entity":"thongtinphu","value":"chuyen_nganh"}
+      - [thế còn]{"entity":"flag","value":"more"} [Chuyen nganh]{"entity":"thongtinphu","value":"chuyen_nganh"}
+      - [vậy còn]{"entity":"flag","value":"more"} [chuyên ngành]{"entity":"thongtinphu","value":"chuyen_nganh"}
+      - [the con]{"entity":"flag","value":"more"} [chuyen nganh]{"entity":"thongtinphu","value":"chuyen_nganh"}
+      - [vay con]{"entity":"flag","value":"more"} [chuyên ngành]{"entity":"thongtinphu","value":"chuyen_nganh"}
+
+
+      - em cũng [muốn biết thêm]{"entity":"flag","value":"more"} về [diem_chuan]{"entity":"thongtinphu","value":"diem_chuan"}
+      - em [muon biet them]{"entity":"flag","value":"more"} ve [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"}
+      - em [cũng muốn biết]{"entity":"flag","value":"more"} [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"}
+      - em [cung muon biet]{"entity":"flag","value":"more"} [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"}
+      - cho em [hỏi thêm]{"entity":"flag","value":"more"} [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} ạ
+      - cho em [hoi them]{"entity":"flag","value":"more"} [điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"}
+      - cho em [hoi them]{"entity":"flag","value":"more"} [diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"}
+      - [thế còn]{"entity":"flag","value":"more"} [Điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"}
+      - [vậy còn]{"entity":"flag","value":"more"} [Diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"}
+      - [the con]{"entity":"flag","value":"more"} [diem_chuan]{"entity":"thongtinphu","value":"diem_chuan"}
+      - [vay con]{"entity":"flag","value":"more"} [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"}
+
+
+      - em cũng [muốn biết thêm]{"entity":"flag","value":"more"} về [khoi thi]{"entity":"thongtinphu","value":"khoi_thi"}
+      - em [muon biet them]{"entity":"flag","value":"more"} ve [khối thi]{"entity":"thongtinphu","value":"khoi_thi"}
+      - em [cũng muốn biết]{"entity":"flag","value":"more"} [Khoi thi]{"entity":"thongtinphu","value":"khoi_thi"}
+      - em [cung muon biet]{"entity":"flag","value":"more"} [Khối thi]{"entity":"thongtinphu","value":"khoi_thi"}
+      - cho em [hỏi thêm]{"entity":"flag","value":"more"} [to hop xet tuyen]{"entity":"thongtinphu","value":"khoi_thi"} ạ
+      - cho em [hoi them]{"entity":"flag","value":"more"} [tổ hợp xét tuyển]{"entity":"thongtinphu","value":"khoi_thi"}
+      - cho em [hoi them]{"entity":"flag","value":"more"} [To hop xet tuyen]{"entity":"thongtinphu","value":"khoi_thi"}
+      - [thế còn]{"entity":"flag","value":"more"} [Tổ hợp xét tuyển]{"entity":"thongtinphu","value":"khoi_thi"}
+      - [vậy còn]{"entity":"flag","value":"more"} [To hop mon]{"entity":"thongtinphu","value":"khoi_thi"}
+      - [the con]{"entity":"flag","value":"more"} [tổ hợp môn]{"entity":"thongtinphu","value":"khoi_thi"}
+      - [vay con]{"entity":"flag","value":"more"} [to hop mon]{"entity":"thongtinphu","value":"khoi_thi"}
+
+
+      - em cũng [muốn biết thêm]{"entity":"flag","value":"more"} về [chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"}
+      - em [muon biet them]{"entity":"flag","value":"more"} ve [chương trình đào tạo]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"}
+      - em [cũng muốn biết]{"entity":"flag","value":"more"} [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"}
+      - em [cung muon biet]{"entity":"flag","value":"more"} [Chương trình đào tạo]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"}
+      - cho em [hỏi thêm]{"entity":"flag","value":"more"} [chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"} ạ
+      - cho em [hoi them]{"entity":"flag","value":"more"} [chương trình đào tạo]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"}
+      - cho em [hoi them]{"entity":"flag","value":"more"} [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"}
+      - [thế còn]{"entity":"flag","value":"more"} [Chương trình đào tạo]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"}
+      - [vậy còn]{"entity":"flag","value":"more"} [chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"}
+      - [the con]{"entity":"flag","value":"more"} [chương trình đào tạo]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"}
+      - [vay con]{"entity":"flag","value":"more"} [Chuong trinh dao tao]{"entity":"thongtinphu","value":"chuong_trinh_dao_tao"}
+
+
+      - em cũng [muốn biết thêm]{"entity":"flag","value":"more"} về [tong quan]{"entity":"thongtinphu","value":"tong_quan"}
+      - em [muon biet them]{"entity":"flag","value":"more"} ve [tổng quan]{"entity":"thongtinphu","value":"tong_quan"}
+      - em [cũng muốn biết]{"entity":"flag","value":"more"} [Tong quan]{"entity":"thongtinphu","value":"tong_quan"}
+      - em [cung muon biet]{"entity":"flag","value":"more"} [Tổng quan]{"entity":"thongtinphu","value":"tong_quan"}
+      - cho em [hỏi thêm]{"entity":"flag","value":"more"} [khái quát]{"entity":"thongtinphu","value":"tong_quan"} ạ
+      - cho em [hoi them]{"entity":"flag","value":"more"} [khai quat]{"entity":"thongtinphu","value":"tong_quan"}
+      - cho em [hoi them]{"entity":"flag","value":"more"} [Khái quát]{"entity":"thongtinphu","value":"tong_quan"}
+      - [thế còn]{"entity":"flag","value":"more"} [Khai quat]{"entity":"thongtinphu","value":"tong_quan"}
+      - [vậy còn]{"entity":"flag","value":"more"} [gioi thieu]{"entity":"thongtinphu","value":"tong_quan"}
+      - [the con]{"entity":"flag","value":"more"} [giới thiệu]{"entity":"thongtinphu","value":"tong_quan"}
+      - [vay con]{"entity":"flag","value":"more"} [Giới thiệu]{"entity":"thongtinphu","value":"tong_quan"}
+
+
+      - em cũng [muốn biết thêm]{"entity":"flag","value":"more"} về [ma nganh]{"entity":"thongtinphu","value":"ma_nganh"}
+      - em [muon biet them]{"entity":"flag","value":"more"} ve [Mã ngành]{"entity":"thongtinphu","value":"ma_nganh"}
+      - em [cũng muốn biết]{"entity":"flag","value":"more"} [mã ngành]{"entity":"thongtinphu","value":"ma_nganh"}
+      - em [cung muon biet]{"entity":"flag","value":"more"} [Mã Ngành]{"entity":"thongtinphu","value":"ma_nganh"}
+      - cho em [hỏi thêm]{"entity":"flag","value":"more"} [Ma nganh]{"entity":"thongtinphu","value":"ma_nganh"} ạ
+      - cho em [hoi them]{"entity":"flag","value":"more"} [Ma Nganh]{"entity":"thongtinphu","value":"ma_nganh"}
+      - cho em [hoi them]{"entity":"flag","value":"more"} [ma nganh]{"entity":"thongtinphu","value":"ma_nganh"}
+      - [thế còn]{"entity":"flag","value":"more"} [Mã ngành]{"entity":"thongtinphu","value":"ma_nganh"}
+      - [vậy còn]{"entity":"flag","value":"more"} [mã ngành]{"entity":"thongtinphu","value":"ma_nganh"}
+      - [the con]{"entity":"flag","value":"more"} [Mã Ngành]{"entity":"thongtinphu","value":"ma_nganh"}
+      - [vay con]{"entity":"flag","value":"more"} [Ma nganh]{"entity":"thongtinphu","value":"ma_nganh"}
+
+
+      - em cũng [muốn biết thêm]{"entity":"flag","value":"more"} về [tot nghiep lam gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"}
+      - em [muon biet them]{"entity":"flag","value":"more"} ve [lam gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"}
+      - em [cũng muốn biết]{"entity":"flag","value":"more"} [làm gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"}
+      - em [cung muon biet]{"entity":"flag","value":"more"} [tốt nghiệp làm gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"}
+      - cho em [hỏi thêm]{"entity":"flag","value":"more"} [làm công việc gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} ạ
+      - cho em [hoi them]{"entity":"flag","value":"more"} [lam cong viêc gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"}
+      - cho em [hoi them]{"entity":"flag","value":"more"} [làm vị trí nào]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"}
+      - [thế còn]{"entity":"flag","value":"more"} [lam vi tri nao]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"}
+      - [vậy còn]{"entity":"flag","value":"more"} [Lam gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"}
+      - [the con]{"entity":"flag","value":"more"} [Làm gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"}
+      - [vay con]{"entity":"flag","value":"more"} [Tốt nghiệp làm gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"}
+
 
 ### [bac, nam]
 - intent: intent_flag_coso
