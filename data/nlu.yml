@@ -639,6 +639,50 @@ nlu:
       - [the con]{"entity":"flag","value":"more"} [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"}
       - [vay con]{"entity":"flag","value":"more"} [hoc phi]{"entity":"thongtinphu","value":"hoc_phi"}
 
+- intent: intent_flag_coso
+  examples: | 
+      - em cũng [muốn biết thêm]{"entity":"flag","value":"more"} về cơ sở phía [bắc]{"entity":"coso","value":"bac"}
+      - em cũng [muốn biết thêm]{"entity":"flag","value":"more"} về cơ sở phía [nam]{"entity":"coso","value":"nam"}
+      - em cũng [muốn biết thêm]{"entity":"flag","value":"more"} về cơ sở phía [Bắc]{"entity":"coso","value":"bac"}
+      - em cũng [muốn biết thêm]{"entity":"flag","value":"more"} về cơ sở phía [Nam]{"entity":"coso","value":"nam"}
+      - em [muon biet them]{"entity":"flag","value":"more"} ve co so phia [bac]{"entity":"coso","value":"bac"}
+      - em [muon biet them]{"entity":"flag","value":"more"} ve co so phia [Bac]{"entity":"coso","value":"bac"}
+      - em [muon biet them]{"entity":"flag","value":"more"} ve co so phia [nam]{"entity":"coso","value":"nam"}
+      - em [muon biet them]{"entity":"flag","value":"more"} ve co so phia [Nam]{"entity":"coso","value":"nam"}
+      - em [cũng muốn biết]{"entity":"flag","value":"more"} về cơ sở phía [bắc]{"entity":"coso","value":"bac"}
+      - em [cũng muốn biết]{"entity":"flag","value":"more"} ve co so phia [bac]{"entity":"coso","value":"bac"}
+      - em [cũng muốn biết]{"entity":"flag","value":"more"} về cơ sở phía [nam]{"entity":"coso","value":"nam"}
+      - em [cũng muốn biết]{"entity":"flag","value":"more"} ve co so phia [nam]{"entity":"coso","value":"nam"}
+      - em [cung muon biet]{"entity":"flag","value":"more"} ve co so phia [bac]{"entity":"coso","value":"bac"}
+      - em [cung muon biet]{"entity":"flag","value":"more"} ve co so phia [nam]{"entity":"coso","value":"nam"}
+      - em [cung muon biet]{"entity":"flag","value":"more"} về cơ sở phía [bắc]{"entity":"coso","value":"bac"}
+      - em [cung muon biet]{"entity":"flag","value":"more"} về cơ sở phía [nam]{"entity":"coso","value":"nam"}
+      - cho em [hỏi thêm]{"entity":"flag","value":"more"} về cơ sở phía [bắc]{"entity":"coso","value":"bac"}
+      - cho em [hỏi thêm]{"entity":"flag","value":"more"} về cơ sở phía [nam]{"entity":"coso","value":"nam"}
+      - cho em [hỏi thêm]{"entity":"flag","value":"more"} ve co so phia [bac]{"entity":"coso","value":"bac"} 
+      - cho em [hỏi thêm]{"entity":"flag","value":"more"} ve co so phia [nam]{"entity":"coso","value":"nam"}
+      - cho em [hoi them]{"entity":"flag","value":"more"} về cơ sở phía [bắc]{"entity":"coso","value":"bac"}
+      - cho em [hoi them]{"entity":"flag","value":"more"} về cơ sở phía [nam]{"entity":"coso","value":"nam"}
+      - cho em [hoi them]{"entity":"flag","value":"more"} ve co so phia [bac]{"entity":"coso","value":"bac"}  
+      - cho em [hoi them]{"entity":"flag","value":"more"} ve co so phia [nam]{"entity":"coso","value":"nam"} 
+      - [thế còn]{"entity":"flag","value":"more"} về cơ sở phía [bắc]{"entity":"coso","value":"bac"}
+      - [thế còn]{"entity":"flag","value":"more"} về cơ sở phía [nam]{"entity":"coso","value":"nam"}
+      - [thế còn]{"entity":"flag","value":"more"} ve co so phia [bac]{"entity":"coso","value":"bac"}
+      - [thế còn]{"entity":"flag","value":"more"} ve co so phia [nam]{"entity":"coso","value":"nam"}
+      - [vậy còn]{"entity":"flag","value":"more"} về cơ sở phía [bắc]{"entity":"coso","value":"bac"}
+      - [vậy còn]{"entity":"flag","value":"more"} về cơ sở phía [nam]{"entity":"coso","value":"nam"}
+      - [vậy còn]{"entity":"flag","value":"more"} ve co so phia [bac]{"entity":"coso","value":"bac"}
+      - [vậy còn]{"entity":"flag","value":"more"} ve co so phia [nam]{"entity":"coso","value":"nam"}
+      - [the con]{"entity":"flag","value":"more"} về cơ sở phía [bắc]{"entity":"coso","value":"bac"}
+      - [the con]{"entity":"flag","value":"more"} về cơ sở phía [nam]{"entity":"coso","value":"nam"}
+      - [the con]{"entity":"flag","value":"more"} ve co so phia [bac]{"entity":"coso","value":"bac"} 
+      - [the con]{"entity":"flag","value":"more"} ve co so phia [nam]{"entity":"coso","value":"nam"}
+      - [vay con]{"entity":"flag","value":"more"} về cơ sở phía [bắc]{"entity":"coso","value":"bac"}
+      - [vay con]{"entity":"flag","value":"more"} về cơ sở phía [nam]{"entity":"coso","value":"nam"}
+      - [vay con]{"entity":"flag","value":"more"} ve co so phia [bac]{"entity":"coso","value":"bac"}
+      - [vay con]{"entity":"flag","value":"more"} ve co so phia [nam]{"entity":"coso","value":"nam"}
+
+
 - intent: check_balance
   examples: |
     - how much do I have on my [credit card account]{"entity": "account", "value": "credit"}

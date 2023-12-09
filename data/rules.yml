@@ -32,6 +32,11 @@ rules:
   - intent: intent_ttchinh_ttphu_coso
   - action: action_ttchinh_ttphu_coso
 
+- rule: cntt - intent_flag_coso
+  steps:
+  - intent: intent_flag_coso
+  - action: action_ttchinh_ttphu_coso
+
 - rule: cntt - intent_ttchinh_ttphu_namhoc
   steps:
   - intent: intent_ttchinh_ttphu_namhoc
