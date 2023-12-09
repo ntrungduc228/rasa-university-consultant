@@ -2585,6 +2585,48 @@ nlu:
       - [Điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [CNTT]{"entity":"thongtinchinh","value":"cntt"} ở cơ sở phía [nam]{"entity":"coso","value":"nam"}
       - [Diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [IT]{"entity":"thongtinchinh","value":"cntt"} ở cơ sở phía [bắc]{"entity":"coso","value":"bac"}
 
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [ktddt]{"entity":"thongtinchinh","value":"ktddt"} cơ sở phía [bắc]{"entity":"coso","value":"bac"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [KTDDT]{"entity":"thongtinchinh","value":"ktddt"} co so phia [bac]{"entity":"coso","value":"bac"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} cơ sở phía [Bắc]{"entity":"coso","value":"bac"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [điện tử]{"entity":"thongtinchinh","value":"ktddt"} co so phia [Bac]{"entity":"coso","value":"bac"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [ki thuat dien dien tu]{"entity":"thongtinchinh","value":"ktddt"} cơ sở phía [nam]{"entity":"coso","value":"nam"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Ki thuat dien dien tu]{"entity":"thongtinchinh","value":"ktddt"} cơ sở phía [nam]{"entity":"coso","value":"nam"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [ky thuat dien dien tu]{"entity":"thongtinchinh","value":"ktddt"} co so phia [Nam]{"entity":"coso","value":"nam"}
+      - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Ky thuat dien dien tu]{"entity":"thongtinchinh","value":"ktddt"} co so phia [Nam]{"entity":"coso","value":"nam"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kt dien dien tu]{"entity":"thongtinchinh","value":"ktddt"} ở cơ sở phía [bắc]{"entity":"coso","value":"bac"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Kt dien dien tu]{"entity":"thongtinchinh","value":"ktddt"} ở cơ sở phía [bắc]{"entity":"coso","value":"bac"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kt điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} o co so phia [Bac]{"entity":"coso","value":"bac"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Kt điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} o co so phia [Bac]{"entity":"coso","value":"bac"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [dien tu]{"entity":"thongtinchinh","value":"ktddt"}  ở cơ sở phía [nam]{"entity":"coso","value":"nam"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [dien dien tu]{"entity":"thongtinchinh","value":"ktddt"} ở cơ sở phía [Nam]{"entity":"coso","value":"nam"}
+      - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kĩ thuật điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} o co so phia [nam]{"entity":"coso","value":"nam"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Kĩ thuật điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} o co so phia [Nam]{"entity":"coso","value":"nam"}
+      - [điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [kỹ thuật điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} o co so phia [Nam]{"entity":"coso","value":"nam"}
+      - [diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Kỹ thuật điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} o co so phia [Bac]{"entity":"coso","value":"bac"}
+      - [Điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [kt điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} ở cơ sở phía [nam]{"entity":"coso","value":"nam"}
+      - [Diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Kt điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} ở cơ sở phía [bắc]{"entity":"coso","value":"bac"}
+
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [attt]{"entity":"thongtinchinh","value":"attt"} cơ sở phía [bắc]{"entity":"coso","value":"bac"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [ATTT]{"entity":"thongtinchinh","value":"attt"} co so phia [bac]{"entity":"coso","value":"bac"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Attt]{"entity":"thongtinchinh","value":"attt"} cơ sở phía [Bắc]{"entity":"coso","value":"bac"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [an toan thong tin]{"entity":"thongtinchinh","value":"attt"} co so phia [Bac]{"entity":"coso","value":"bac"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [an toan tt]{"entity":"thongtinchinh","value":"attt"} cơ sở phía [nam]{"entity":"coso","value":"nam"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [bao mat]{"entity":"thongtinchinh","value":"attt"} cơ sở phía [nam]{"entity":"coso","value":"nam"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [An toan thong tin]{"entity":"thongtinchinh","value":"attt"} co so phia [Nam]{"entity":"coso","value":"nam"}
+      - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [An toan tt]{"entity":"thongtinchinh","value":"attt"} co so phia [Nam]{"entity":"coso","value":"nam"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [an toàn thông tin]{"entity":"thongtinchinh","value":"attt"} ở cơ sở phía [bắc]{"entity":"coso","value":"bac"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [an toàn tt]{"entity":"thongtinchinh","value":"attt"} ở cơ sở phía [bắc]{"entity":"coso","value":"bac"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [An toàn thông tin]{"entity":"thongtinchinh","value":"attt"} o co so phia [Bac]{"entity":"coso","value":"bac"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [An toàn tt]{"entity":"thongtinchinh","value":"attt"} o co so phia [Bac]{"entity":"coso","value":"bac"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [attt]{"entity":"thongtinchinh","value":"attt"}  ở cơ sở phía [nam]{"entity":"coso","value":"nam"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [ATTT]{"entity":"thongtinchinh","value":"attt"} ở cơ sở phía [Nam]{"entity":"coso","value":"nam"}
+      - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Attt]{"entity":"thongtinchinh","value":"attt"} o co so phia [nam]{"entity":"coso","value":"nam"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [an toan thong tin]{"entity":"thongtinchinh","value":"attt"} o co so phia [Nam]{"entity":"coso","value":"nam"}
+      - [điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [an toan tt]{"entity":"thongtinchinh","value":"attt"} o co so phia [Nam]{"entity":"coso","value":"nam"}
+      - [diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [bao mat]{"entity":"thongtinchinh","value":"attt"} o co so phia [Bac]{"entity":"coso","value":"bac"}
+      - [Điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [An toan thong tin]{"entity":"thongtinchinh","value":"attt"} ở cơ sở phía [nam]{"entity":"coso","value":"nam"}
+      - [Diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [An toan tt]{"entity":"thongtinchinh","value":"attt"} ở cơ sở phía [bắc]{"entity":"coso","value":"bac"}
+
 ### hien tai gom: diem chuan, hoc phi
 - intent: intent_ttchinh_ttphu_namhoc
   examples: |

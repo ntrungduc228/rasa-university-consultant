@@ -207,8 +207,28 @@ const objEx = [
 
 ]
 
-
-
+const objFlagCoso = [
+    (ex, entity) => `[điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [${ex}]{"entity":"thongtinchinh","value":"${entity}"} cơ sở phía [bắc]{"entity":"coso","value":"bac"}`,
+    (ex, entity) => `[diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [${ex}]{"entity":"thongtinchinh","value":"${entity}"} co so phia [bac]{"entity":"coso","value":"bac"}`,
+    (ex, entity) => `[điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [${ex}]{"entity":"thongtinchinh","value":"${entity}"} cơ sở phía [Bắc]{"entity":"coso","value":"bac"}`,
+    (ex, entity) => `[diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [${ex}]{"entity":"thongtinchinh","value":"${entity}"} co so phia [Bac]{"entity":"coso","value":"bac"}`,
+    (ex, entity) => `[Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [${ex}]{"entity":"thongtinchinh","value":"${entity}"} cơ sở phía [nam]{"entity":"coso","value":"nam"}`,
+    (ex, entity) => `[Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [${ex}]{"entity":"thongtinchinh","value":"${entity}"} cơ sở phía [nam]{"entity":"coso","value":"nam"}`,
+    (ex, entity) => `Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [${ex}]{"entity":"thongtinchinh","value":"${entity}"} co so phia [Nam]{"entity":"coso","value":"nam"}`,
+    (ex, entity) => `Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [${ex}]{"entity":"thongtinchinh","value":"${entity}"} co so phia [Nam]{"entity":"coso","value":"nam"}`,
+    (ex, entity) => `Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [${ex}]{"entity":"thongtinchinh","value":"${entity}"} ở cơ sở phía [bắc]{"entity":"coso","value":"bac"}`,
+    (ex, entity) => `[điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [${ex}]{"entity":"thongtinchinh","value":"${entity}"} ở cơ sở phía [bắc]{"entity":"coso","value":"bac"}`,
+    (ex, entity) => `[diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [${ex}]{"entity":"thongtinchinh","value":"${entity}"} o co so phia [Bac]{"entity":"coso","value":"bac"}`,
+    (ex, entity) => `[Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [${ex}]{"entity":"thongtinchinh","value":"${entity}"} o co so phia [Bac]{"entity":"coso","value":"bac"}`,
+    (ex, entity) => `[Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [${ex}]{"entity":"thongtinchinh","value":"${entity}"}  ở cơ sở phía [nam]{"entity":"coso","value":"nam"}`,
+    (ex, entity) => `Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [${ex}]{"entity":"thongtinchinh","value":"${entity}"} ở cơ sở phía [Nam]{"entity":"coso","value":"nam"}`,
+    (ex, entity) => `Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [${ex}]{"entity":"thongtinchinh","value":"${entity}"} o co so phia [nam]{"entity":"coso","value":"nam"}`,
+    (ex, entity) => `Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [${ex}]{"entity":"thongtinchinh","value":"${entity}"} o co so phia [Nam]{"entity":"coso","value":"nam"}`,
+    (ex, entity) => `[điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [${ex}]{"entity":"thongtinchinh","value":"${entity}"} o co so phia [Nam]{"entity":"coso","value":"nam"}`,
+    (ex, entity) => `[diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [${ex}]{"entity":"thongtinchinh","value":"${entity}"} o co so phia [Bac]{"entity":"coso","value":"bac"}`,
+    (ex, entity) => `[Điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [${ex}]{"entity":"thongtinchinh","value":"${entity}"} ở cơ sở phía [nam]{"entity":"coso","value":"nam"}`,
+    (ex, entity) => `[Diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [${ex}]{"entity":"thongtinchinh","value":"${entity}"} ở cơ sở phía [bắc]{"entity":"coso","value":"bac"}`,
+]
 
 
 function generateTongquan(entity){
@@ -236,6 +256,17 @@ function generateByOrder(entity){
     })
 }
 
+function generateBySelect(entity, objItems){
+    let pos = -1;
+    objItems.forEach(objItem => {
+        if(pos == arrKey.length-1){
+            pos = -1;
+        }
+        console.log(`- ${objItem(arrKey[++pos], entity)}`)
+        // console.log(`- ${objItem(arrKey[++pos], "ktddt")} - ${pos}`)
+    })
+}
+
 
 // generateThongtinphu()
 
@@ -246,8 +277,8 @@ function generateByOrder(entity){
 //  'kt điện điện tử', 'Kt điện điện tử']
 
  
-// const arrKey = ['attt', 'ATTT', 'Attt', 'an toan thong tin', 'an toan tt', 'bao mat', 'An toan thong tin',
-// 'An toan tt', 'an toàn thông tin', 'an toàn tt', 'An toàn thông tin', 'An toàn tt']
+const arrKey = ['attt', 'ATTT', 'Attt', 'an toan thong tin', 'an toan tt', 'bao mat', 'An toan thong tin',
+'An toan tt', 'an toàn thông tin', 'an toàn tt', 'An toàn thông tin', 'An toàn tt']
 
 
 // const arrKey = ['iot', 'IOt', 'ioT', 'IOT', 'cong nghe iot','cn iot', 'Cong nghe IOT', 'Cong nghe iot', 'Cong nghe Iot', 'cong nghe iot'
@@ -272,7 +303,7 @@ function generateByOrder(entity){
 //  ,'Qt trị kinh doanh', 'quản trị kinh doanh', 'Quản trị kinh doanh']
 
 //   const arrKey = ['mkt', 'Mkt', 'MKT', 'Marketing','marketing']
-  const arrKey = ['kt', 'KT', 'Kt', 'ke toan','Ke toan','kế toán','Kế toán']
+//   const arrKey = ['kt', 'KT', 'Kt', 'ke toan','Ke toan','kế toán','Kế toán']
 
 //  const arrKey = ['aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa','aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa'
 // ,'aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa'
@@ -282,4 +313,6 @@ function generateByOrder(entity){
 // ,'aaaaaaa', 'aaaaaaa', 'aaaaaaa', 'aaaaaaa']
 
 // generateTongquan("kt")
-generateByOrder("kt")
+// generateByOrder("kt")
+
+generateBySelect("attt", objFlagCoso)
