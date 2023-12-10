@@ -1011,15 +1011,6 @@
     "thoi_gian_dao_tao": {
         "chung": "- Chương trình đào tạo được thực hiện trong 4,5 năm gồm 9 học kỳ: có 8 học kỳ tích lũy kiến thức tại Học viện và 1 kỳ thực tập chuyên sâu và thực tập thực tế tại cơ sở (đối với các ngành CNTT, CNKT Đ-ĐT, KT ĐTVT, ATTT, CNĐPT, KT ĐK&TĐH, IoT) và 4 năm gồm 8 học kỳ: có 7 học kỳ tích lũy kiến thức tại Học viện và 1 kỳ thực tập chuyên sâu và thực tập thực tế tại cơ sở (đối với các ngành QTKD, Kế toán, Marketing). Cuối khóa sinh viên làm đồ án/khóa luận tốt nghiệp hoặc học các học phần thay thế tốt nghiệp theo quy chế đào tạo.\n - Sinh viên được đào tạo theo Quy chế đào tạo đại học áp dụng theo Thông tư số 08/2021/TT-BGDĐT ngày 18 tháng 3 năm 2021 của Bộ trưởng Bộ Giáo dục và Đào tạo.\n - Thời gian học tập tối thiểu là từ 3,5-4 năm và thời gian học tập tối đa là 8-9 năm tùy theo từng ngành.  "
     },
-    "khoa_quan_ly": {
-        "chung": "Các phòng, trung tâm và khoa của Học viện: \nPhòng Giáo vụ\nPhòng Công tác Sinh viên\nPhòng Đào tạo & Khoa học Công nghệ\nPhòng Tổ chức - Hành chính – Quản trị\nPhòng Kinh tế - Tài chính\nTrung tâm Khảo thí & Đảm bảo chất lượng giáo dục\nKhoa Cơ Bản 2\nKhoa Công Nghệ Thông Tin 2\nKhoa Kỹ thuật Điện tử 2\nKhoa Viễn thông 2\nKhoa Quản trị Kinh doanh 2\n",
-        "cntt": {
-            "chung": "",
-            "phu_trach": "",
-            "chuc_nang": "",
-            "giang_vien": ""
-        }
-    },
     "truong": {
         "tong_quan": "Học viện Công nghệ Bưu chính Viễn thông là đơn vị sự nghiệp công lập trực thuộc\nBộ Thông tin & Truyền thông. Trải qua 70 năm xây dựng và phát triển từ Trường Bưu điện\n- Vô tuyến điện, nay là Học viện Công nghệ Bưu chính Viễn thông đã trở thành một trong\nnhững tổ chức Giáo dục Đào tạo và Khoa học Công nghệ hàng đầu, có uy tín trong lĩnh\nvực Thông tin và Truyền thông. ",
         "ten_truong": "- Tên tiếng Việt : Học viện Công nghệ Bưu chính Viễn thông\n- Tên tiếng Anh :Posts and Telecommunications Institute of Technology\n- - Viết tắt: PTIT",
@@ -1033,7 +1024,7 @@
     },
     "khoa_coban": {
         "chung": "Địa chỉ: Phòng 2A12, 97 Man Thiện, Phường Hiệp Phú, Tp. Thủ Đức, Tp. HCM\n11 Nguyễn Đình Chiểu, Phường Đa Kao, Quận 1, Tp. HCM \nĐiện thoại: 028.37305313 Fax: 028. 37305313\nWebsite khoa: http://ffs.ptithcm.edu.vn\nEmail: lethanhthuy@ptithcm.edu.vn\nTrưởng khoa: TS. Nguyễn Xuân Hải Email: nxhai@ptithcm.edu.vn\nPhó Trưởng khoa: TS. Nguyễn Hồng Quân Email: hongquan@ptithcm.edu.vn\nChức năng:\n+ Phụ trách đào tạo các học phần giáo dục đại cương.\n+ Quản lý, cố vấn học tập cho sinh viên năm thứ nhất. ",
-        "giang_vien": ""
+        "giang_vien": "Đang cập nhật danh sách giảng viên khoa cơ bản 2..."
     },
     "khoa_cntt": {
         "chung": "Địa chỉ: Phòng 2B16, 97 Man Thiện, Phường Hiệp Phú, Tp. Thủ Đức, Tp. HCM\n 11 Nguyễn Đình Chiểu, Phường Đa Kao, Quận 1, Tp. HCM\nĐiện thoại: 028.37305316 Fax: 028.37305316\nWebsite khoa: http://fit.ptithcm.edu.vn\nEmail: nhatrang@ptithcm.edu.vn\nTrưởng khoa: TS. Nguyễn Hồng Sơn Email: ngson@ptithcm.edu.vn\nPhó Trưởng khoa: TS. Huỳnh Trọng Thưa Email: htthua@ptithcm.edu.vn\nChức năng\n+ Phụ trách đào tạo các ngành và chuyên ngành Công nghệ thông tin, An toàn\nthông tin, Công nghệ Đa phương tiện.\n+ Quản lý, cố vấn học tập cho sinh viên thuộc Khoa CNTT2",

@@ -109,11 +109,9 @@ responses:
   - text: |-
       Tôi có thể hỗ trợ trả lời các thông tin liên quan tới quản lý đào tạo của Học viện như:
       - Các ngành đào tạo
-      - Một số thông tin về ngành đào tạo như tổng quan, điểm chuẩn, học phí, số tín chỉ, khối thi, chuyên ngành
-      - Điểm chuẩn
+      - Một số thông tin về ngành đào tạo như tổng quan, điểm chuẩn, học phí, số tín chỉ, khối thi, chuyên ngành, chương trình đào tạo
       - Phương thức tuyển sinh
       - Học phí
-      - Chương trình đào tạo
       - Kí túc xá
       - Điều kiện tốt nghiệp
       - Tổ hợp xét tuyển
@@ -121,9 +119,9 @@ responses:
 
     buttons:
       - title: "Phương thức tuyển sinh"
-        payload: '/phuong_thuc_tuyen_sinh{{"thongtinchinh":"phuong_thuc_tuyen_sinh"}}'
+        payload: '/intent_ttchinh_ttphu{{"thongtinchinh":"phuong_thuc_tuyen_sinh"}}'
       - title: "Các ngành đào tạo"
-        payload: '/nganh_dao_tao{{"thongtinchinh":"nganh_dao_tao"}}'
+        payload: '/intent_ttchinh_ttphu{{"thongtinchinh":"nganh_dao_tao"}}'
       - title: "Điểm chuẩn"
         payload: '/diem_chuan{{"thongtinphu":"diem_chuan"}}'
       - title: "Tổ hợp xét tuyển"
@@ -133,11 +131,11 @@ responses:
       - title: "Chương trình đào tạo"
         payload: '/chuong_trinh_dao_tao{{"thongtinchinh":"chuong_trinh_dao_tao"}}'
       - title: "Kí túc xá"
-        payload: '/ki_tuc_xa{{"thongtinchinh":"ktx"}}'
+        payload: '/intent_ttchinh_ttphu{{"thongtinchinh":"ktx"}}'
       - title: "Kí túc xá"
-        payload: '/dieu_kien_tot_nghiep{{"thongtinchinh":"dieu_kien_tot_nghiep"}}'
+        payload: '/intent_ttchinh_ttphu{{"thongtinchinh":"dieu_kien_tot_nghiep"}}'
       - title: "Đại học vừa làm vừa học"
-        payload: '/vhvl_tong_quan{{"thongtinchinh":"vhvl"}}'
+        payload: '/intent_ttchinh_ttphu{{"thongtinchinh":"vhvl"}}'
 
   utter_ctdt_2_mien:
   - text: |-

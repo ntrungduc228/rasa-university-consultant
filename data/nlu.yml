@@ -110,6 +110,80 @@ nlu:
     - [em muon biet]{"entity":"thongtinphu","value":"tong_quan"} ve [hoc vien co so]{"entity":"thongtinchinh","value":"truong"}
     - [em muon hoi]{"entity":"thongtinphu","value":"tong_quan"} ve [ptithcm]{"entity":"thongtinchinh","value":"truong"}
 
+    - [khoa quan ly]{"entity":"thongtinchinh","value":"khoa_quan_ly"}
+    - [khoa quản lý]{"entity":"thongtinchinh","value":"khoa_quan_ly"}
+    - [Khoa quản lý]{"entity":"thongtinchinh","value":"khoa_quan_ly"}
+    - [Khoa quan ly]{"entity":"thongtinchinh","value":"khoa_quan_ly"}
+    - [Khoa quan li]{"entity":"thongtinchinh","value":"khoa_quan_ly"}
+    - [Khoa quản lí]]{"entity":"thongtinchinh","value":"khoa_quan_ly"}
+
+    - [khoa cntt]]{"entity":"thongtinchinh","value":"khoa_cntt"}
+    - [khoa cntt 2]{"entity":"thongtinchinh","value":"khoa_cntt"}
+    - [khoa cong nghe thong tin]{"entity":"thongtinchinh","value":"khoa_cntt"}
+    - [khoa công nghệ thông tin]{"entity":"thongtinchinh","value":"khoa_cntt"}
+    - [Khoa cntt]{"entity":"thongtinchinh","value":"khoa_cntt"}
+    - [Khoa cong nghe thong tin]{"entity":"thongtinchinh","value":"khoa_cntt"}
+    - [Khoa công nghệ thông tin]{"entity":"thongtinchinh","value":"khoa_cntt"}
+    - [khoa it]{"entity":"thongtinchinh","value":"khoa_cntt"}
+    - [khoa cong nghe thong tin 2]{"entity":"thongtinchinh","value":"khoa_cntt"}
+    - [khoa công nghệ thông tin 2]{"entity":"thongtinchinh","value":"khoa_cntt"}
+    - [Khoa cntt 2]{"entity":"thongtinchinh","value":"khoa_cntt"}
+    - [Khoa cong nghe thong tin 2]{"entity":"thongtinchinh","value":"khoa_cntt"}
+    - [Khoa công nghệ thông tin 2]{"entity":"thongtinchinh","value":"khoa_cntt"}
+    - [khoa it 2]{"entity":"thongtinchinh","value":"khoa_cntt"}
+
+    - [khoa co ban]{"entity":"thongtinchinh","value":"khoa_coban"}
+    - [khoa co ban]{"entity":"thongtinchinh","value":"khoa_coban"} 
+    - [Khoa cơ bản]{"entity":"thongtinchinh","value":"khoa_coban"}
+    - [khoa cơ bản]{"entity":"thongtinchinh","value":"khoa_coban"}
+
+    - [khoa ktdt]{"entity":"thongtinchinh","value":"khoa_ktdt"}
+    - [khoa kỹ thuật điện tử]{"entity":"thongtinchinh","value":"khoa_ktdt"}
+    - [khoa ky thuat dien tu]{"entity":"thongtinchinh","value":"khoa_ktdt"}
+    - [Khoa ky thuat dien tu]{"entity":"thongtinchinh","value":"khoa_ktdt"}
+    - [Khoa kỹ thuât điện tử]{"entity":"thongtinchinh","value":"khoa_ktdt"}
+
+    - [khoa vt]{"entity":"thongtinchinh","value":"khoa_vt"}
+    - [khoa vien thong]{"entity":"thongtinchinh","value":"khoa_vt"}
+    - [khoa viễn thông]{"entity":"thongtinchinh","value":"khoa_vt"}
+    - [Khoa viễn thông]{"entity":"thongtinchinh","value":"khoa_vt"}
+    - [Khoa vien thong]{"entity":"thongtinchinh","value":"khoa_vt"}
+
+    - [khoa qtkd]{"entity":"thongtinchinh","value":"khoa_qtkd"}
+    - [khoa quan tri kinh doanh]{"entity":"thongtinchinh","value":"khoa_qtkd"}
+    - [khoa quản trị kinh doanh]{"entity":"thongtinchinh","value":"khoa_qtkd"}
+    - [Khoa quan tri kinh doanh]{"entity":"thongtinchinh","value":"khoa_qtkd"}
+    - [Khoa quản trị kinh doanh]{"entity":"thongtinchinh","value":"khoa_qtkd"}
+
+    - [giang vien]{"entity":"thongtinphu","value":"giang_vien"} [khoa cntt]{"entity":"thongtinchinh","value":"khoa_cntt"}
+    - [gv]{"entity":"thongtinphu","value":"giang_vien"} [khoa cong nghe thong tin]{"entity":"thongtinchinh","value":"khoa_cntt"}
+    - [giảng viên]{"entity":"thongtinphu","value":"giang_vien"} [khoa công nghệ thông tin]{"entity":"thongtinchinh","value":"khoa_cntt"}
+    - [Giảng viên]{"entity":"thongtinphu","value":"giang_vien"} [khoa cong nghe thong tin 2]{"entity":"thongtinchinh","value":"khoa_cntt"}
+    - [Giang vien]{"entity":"thongtinphu","value":"giang_vien"} [khoa it]{"entity":"thongtinchinh","value":"khoa_cntt"}
+
+    - [giang vien]{"entity":"thongtinphu","value":"giang_vien"} [khoa co ban]{"entity":"thongtinchinh","value":"khoa_coban"}
+    - [gv]{"entity":"thongtinphu","value":"giang_vien"} [khoa co ban]{"entity":"thongtinchinh","value":"khoa_coban"}
+    - [Giảng viên]{"entity":"thongtinphu","value":"giang_vien"} [Khoa cơ bản]{"entity":"thongtinchinh","value":"khoa_coban"}
+    - [Giang vien]{"entity":"thongtinphu","value":"giang_vien"} [khoa cơ bản]{"entity":"thongtinchinh","value":"khoa_coban"}
+
+    - [giang vien]{"entity":"thongtinphu","value":"giang_vien"} [khoa ktdt]{"entity":"thongtinchinh","value":"khoa_ktdt"}
+    - [gv]{"entity":"thongtinphu","value":"giang_vien"} [khoa kỹ thuật điện tử]{"entity":"thongtinchinh","value":"khoa_ktdt"}
+    - [giảng viên]{"entity":"thongtinphu","value":"giang_vien"} [khoa ky thuat dien tu]{"entity":"thongtinchinh","value":"khoa_ktdt"}
+    - [Giảng viên]{"entity":"thongtinphu","value":"giang_vien"} [Khoa ky thuat dien tu]{"entity":"thongtinchinh","value":"khoa_ktdt"}
+    - [Giang vien]{"entity":"thongtinphu","value":"giang_vien"} [Khoa kỹ thuât điện tử]{"entity":"thongtinchinh","value":"khoa_ktdt"}
+
+    - [giang vien]{"entity":"thongtinphu","value":"giang_vien"} [khoa vt]{"entity":"thongtinchinh","value":"khoa_vt"}
+    - [gv]{"entity":"thongtinphu","value":"giang_vien"} [khoa vien thong]{"entity":"thongtinchinh","value":"khoa_vt"}
+    - [giảng viên]{"entity":"thongtinphu","value":"giang_vien"} [khoa viễn thông]{"entity":"thongtinchinh","value":"khoa_vt"}
+    - [Giảng viên]{"entity":"thongtinphu","value":"giang_vien"} [Khoa viễn thông]{"entity":"thongtinchinh","value":"khoa_vt"}
+    - [Giang vien]{"entity":"thongtinphu","value":"giang_vien"} [Khoa vien thong]{"entity":"thongtinchinh","value":"khoa_vt"}
+
+    - [giang vien]{"entity":"thongtinphu","value":"giang_vien"} [khoa qtkd]{"entity":"thongtinchinh","value":"khoa_qtkd"}
+    - [gv]{"entity":"thongtinphu","value":"giang_vien"} [khoa quan tri kinh doanh]{"entity":"thongtinchinh","value":"khoa_qtkd"}
+    - [giảng viên]{"entity":"thongtinphu","value":"giang_vien"} [khoa quản trị kinh doanh]{"entity":"thongtinchinh","value":"khoa_qtkd"}
+    - [Giảng viên]{"entity":"thongtinphu","value":"giang_vien"} [khoa quan tri kinh doanh]{"entity":"thongtinchinh","value":"khoa_qtkd"}
+    - [Giang vien]{"entity":"thongtinphu","value":"giang_vien"} [khoa quản trị kinh doanh]{"entity":"thongtinchinh","value":"khoa_qtkd"}
+
     - Cho em hoi truong co nhung [phuong thuc xet tuyen]{"entity":"thongtinchinh","value":"phuong_thuc_tuyen_sinh"} nao
     - [Phuong thuc xet tuyen]{"entity":"thongtinchinh","value":"phuong_thuc_tuyen_sinh"}
     - [Phương thức xét tuyển]{"entity":"thongtinchinh","value":"phuong_thuc_tuyen_sinh"}
@@ -2240,6 +2314,85 @@ nlu:
     - chuyên ngành
     - Chuyên Ngành
     - Chuyên ngành
+
+
+- synonym: hoc_bong
+  examples: |
+    - hoc bong
+    - học bổng
+    - Hoc bong
+    - Học bổng
+
+- synonym: cac_loai
+  examples: |
+    - cac loai
+    - Các loại
+    - các loại
+
+- synonym: khoa_quan_ly
+  examples: |
+    - khoa quan ly
+    - khoa quản lý
+    - Khoa quản lý
+    - Khoa quan ly
+    - Khoa quan li
+    - Khoa quản lí
+
+- synonym: khoa_cntt
+  examples: |
+    - khoa cntt
+    - khoa cntt 2
+    - khoa cong nghe thong tin
+    - khoa công nghệ thông tin
+    - Khoa cntt
+    - Khoa cong nghe thong tin
+    - Khoa công nghệ thông tin
+    - khoa it
+    - khoa cong nghe thong tin 2
+    - khoa công nghệ thông tin 2
+    - Khoa cntt 2
+    - Khoa cong nghe thong tin 2
+    - Khoa công nghệ thông tin 2
+    - khoa it 2
+    
+- synonym: khoa_coban
+  examples: |
+    - khoa co ban
+    - Khoa co ban 
+    - Khoa cơ bản
+    - khoa cơ bản
+
+- synonym: khoa_ktdt
+  examples: |
+    - khoa ktdt
+    - khoa kỹ thuật điện tử
+    - khoa ky thuat dien tu
+    - Khoa ky thuat dien tu
+    - Khoa kỹ thuât điện tử
+
+- synonym: khoa_vt
+  examples: |
+    - khoa vt
+    - khoa vien thong
+    - khoa viễn thông
+    - Khoa viễn thông
+    - Khoa vien thong
+
+- synonym: khoa_qtkd
+  examples: |
+    - khoa qtkd
+    - khoa quan tri kinh doanh
+    - khoa quản trị kinh doanh
+    - Khoa quan tri kinh doanh
+    - Khoa quản trị kinh doanh
+
+- synonym: giang_vien
+  examples: |
+    - giang vien
+    - gv
+    - giảng viên
+    - Giảng viên
+    - Giang vien
 
 # - intent: check_balance
 #   examples: |

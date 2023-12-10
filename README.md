@@ -537,3 +537,80 @@ và tự động hóa
     - hoc vien cong nghe buu chinh vien thong
     - Hoc vien cong nghe buu chinh vien thong
     
+- synonym: hoc_bong
+  examples: |
+    - hoc bong
+    - học bổng
+    - Hoc bong
+    - Học bổng
+
+- synonym: cac_loai
+  examples: |
+    - cac loai
+    - Các loại
+    - các loại
+
+- synonym: khoa_quan_ly
+  examples: |
+    - khoa quan ly
+    - khoa quản lý
+    - Khoa quản lý
+    - Khoa quan ly
+    - Khoa quan li
+    - Khoa quản lí
+
+- synonym: khoa_cntt
+  examples: |
+    - khoa cntt
+    - khoa cntt 2
+    - khoa cong nghe thong tin
+    - khoa công nghệ thông tin
+    - Khoa cntt
+    - Khoa cong nghe thong tin
+    - Khoa công nghệ thông tin
+    - khoa it
+    - khoa cong nghe thong tin 2
+    - khoa công nghệ thông tin 2
+    - Khoa cntt 2
+    - Khoa cong nghe thong tin 2
+    - Khoa công nghệ thông tin 2
+    - khoa it 2
+    
+- synonym: khoa_coban
+  examples: |
+    - khoa co ban
+    - Khoa co ban 
+    - Khoa cơ bản
+    - khoa cơ bản
+
+- synonym: khoa_ktdt
+  examples: |
+    - khoa ktdt
+    - khoa kỹ thuật điện tử
+    - khoa ky thuat dien tu
+    - Khoa ky thuat dien tu
+    - Khoa kỹ thuât điện tử
+
+- synonym: khoa_vt
+  examples: |
+    - khoa vt
+    - khoa vien thong
+    - khoa viễn thông
+    - Khoa viễn thông
+    - Khoa vien thong
+
+- synonym: khoa_qtkd
+  examples: |
+    - khoa qtkd
+    - khoa quan tri kinh doanh
+    - khoa quản trị kinh doanh
+    - Khoa quan tri kinh doanh
+    - Khoa quản trị kinh doanh
+    
+- synonym: giang_vien
+  examples: |
+    - giang vien
+    - gv
+    - giảng viên
+    - Giảng viên
+    - Giang vien
