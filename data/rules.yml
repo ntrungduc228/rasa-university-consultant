@@ -52,12 +52,8 @@ rules:
   - intent: intent_flag_namhoc
   - action: action_ttchinh_ttphu_namhoc
 
-- rule: check account
-  steps:
-  - intent: check_balance
-  - action: utter_check_balance
 
-- rule: check loai phong
-  steps:
-  - intent: ki_tuc_xa_loai_phong
-  - action: utter_ki_tuc_xa_loai_phong
+# - rule: check account
+#   steps:
+#   - intent: check_balance
+#   - action: utter_check_balance
