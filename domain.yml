@@ -14,6 +14,7 @@ intents:
   - intent_flag_coso
   - intent_flag_namhoc
   - check_balance
+  - ki_tuc_xa_loai_phong
 
 entities:
   - thongtinchinh
@@ -139,9 +140,13 @@ responses:
       - title: "Đại học vừa làm vừa học"
         payload: '/vhvl_tong_quan{{"thongtinchinh":"vhvl"}}'
 
- utter_ctdt_2_mien:
+  utter_ctdt_2_mien:
   - text: |-
         Chương trình đào tạo của Học viện được áp dụng thống nhất ở cả 2 Cơ sở đào tạo Hà Nội và Tp. Hồ Chí Minh
+
+  utter_ki_tuc_xa_loai_phong:
+  - text: |-
+        Kí túc xá có 2 loại phòng là phòng dịch vụ và phòng dịch vụ chất lượng cao
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
