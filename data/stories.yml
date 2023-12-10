@@ -14,7 +14,7 @@ stories:
   - intent: hoi_chuc_nang
   - action: utter_hoi_chuc_nang
 
-- story: chao hoi - menu - intent_ttchinh_ttphu
+- story: chao hoi - menu - intent_ttchinh_ttphu 
   steps:
   - intent: chao_hoi
   - action: utter_chao_hoi
@@ -22,6 +22,18 @@ stories:
   - action: utter_hoi_chuc_nang
   - intent: intent_ttchinh_ttphu
   - action: action_ttchinh_ttphu
+
+
+- story: chao hoi - menu - intent_ttchinh_ttphu - tam biet
+  steps:
+  - intent: chao_hoi
+  - action: utter_chao_hoi
+  - intent: hoi_chuc_nang
+  - action: utter_hoi_chuc_nang
+  - intent: intent_ttchinh_ttphu
+  - action: action_ttchinh_ttphu
+  - intent: tam_biet
+  - action: utter_tam_biet
 
 - story:  chao hoi - intent_ttchinh_ttphu
   steps:
@@ -49,4 +61,93 @@ stories:
   - intent: intent_ttchinh_ttphu_namhoc
   - action: action_ttchinh_ttphu_namhoc
 
+- story: intent_ttchinh_ttphu - intent_ttchinh_ttphu_coso intent_ttchinh_ttphu_namhoc
+  steps:
+  - intent: intent_ttchinh_ttphu
+  - action: action_ttchinh_ttphu
+  - intent: intent_ttchinh_ttphu_coso
+  - action: action_ttchinh_ttphu_coso
+  - intent: intent_ttchinh_ttphu_namhoc
+  - action: action_ttchinh_ttphu_namhoc
 
+- story: intent_ttchinh_ttphu -  intent_ttchinh_ttphu_namhoc intent_ttchinh_ttphu_coso
+  steps:
+  - intent: intent_ttchinh_ttphu
+  - action: action_ttchinh_ttphu
+  - intent: intent_ttchinh_ttphu_namhoc
+  - action: action_ttchinh_ttphu_namhoc
+  - intent: intent_ttchinh_ttphu_coso
+  - action: action_ttchinh_ttphu_coso
+
+- story: intent_ttchinh_ttphu -  intent_flag_ttphu
+  steps:
+  - intent: intent_ttchinh_ttphu
+  - action: action_ttchinh_ttphu
+  - intent: intent_flag_ttphu
+  - action: action_ttchinh_ttphu
+
+- story: intent_ttchinh_ttphu_coso -  intent_flag_coso
+  steps:
+  - intent: intent_ttchinh_ttphu_coso
+  - action: action_ttchinh_ttphu_coso
+  - intent: intent_flag_coso
+  - action: action_ttchinh_ttphu_coso
+
+
+- story: intent_ttchinh_ttphu_namhoc -  intent_flag_namhoc
+  steps:
+  - intent: intent_ttchinh_ttphu_namhoc
+  - action: action_ttchinh_ttphu_namhoc
+  - intent: intent_flag_namhoc
+  - action: action_ttchinh_ttphu_namhoc
+
+- story: intent_ttchinh_ttphu_coso -  intent_flag_coso intent_ttchinh_ttphu_namhoc -  intent_flag_namhoc
+  steps:
+  - intent: intent_ttchinh_ttphu_coso
+  - action: action_ttchinh_ttphu_coso
+  - intent: intent_flag_coso
+  - action: action_ttchinh_ttphu_coso
+  - intent: intent_ttchinh_ttphu_namhoc
+  - action: action_ttchinh_ttphu_namhoc
+  - intent: intent_flag_namhoc
+  - action: action_ttchinh_ttphu_namhoc
+
+
+- story: intent_ttchinh_ttphu_namhoc -  intent_flag_namhoc intent_ttchinh_ttphu_namhoc -  intent_flag_namhoc
+  steps:
+  - intent: intent_ttchinh_ttphu_namhoc
+  - action: action_ttchinh_ttphu_namhoc
+  - intent: intent_flag_namhoc
+  - action: action_ttchinh_ttphu_namhoc
+  - intent: intent_ttchinh_ttphu_coso
+  - action: action_ttchinh_ttphu_coso
+  - intent: intent_flag_coso
+  - action: action_ttchinh_ttphu_coso
+
+
+- story: intent_ttchinh_ttphu intent_ttchinh_ttphu_coso -  intent_flag_coso intent_ttchinh_ttphu_namhoc -  intent_flag_namhoc
+  steps:
+  - intent: intent_ttchinh_ttphu
+  - action: action_ttchinh_ttphu
+  - intent: intent_ttchinh_ttphu_coso
+  - action: action_ttchinh_ttphu_coso
+  - intent: intent_flag_coso
+  - action: action_ttchinh_ttphu_coso
+  - intent: intent_ttchinh_ttphu_namhoc
+  - action: action_ttchinh_ttphu_namhoc
+  - intent: intent_flag_namhoc
+  - action: action_ttchinh_ttphu_namhoc
+
+
+- story: intent_ttchinh_ttphu intent_ttchinh_ttphu_namhoc -  intent_flag_namhoc intent_ttchinh_ttphu_namhoc -  intent_flag_namhoc
+  steps:
+  - intent: intent_ttchinh_ttphu
+  - action: action_ttchinh_ttphu
+  - intent: intent_ttchinh_ttphu_namhoc
+  - action: action_ttchinh_ttphu_namhoc
+  - intent: intent_flag_namhoc
+  - action: action_ttchinh_ttphu_namhoc
+  - intent: intent_ttchinh_ttphu_coso
+  - action: action_ttchinh_ttphu_coso
+  - intent: intent_flag_coso
+  - action: action_ttchinh_ttphu_coso

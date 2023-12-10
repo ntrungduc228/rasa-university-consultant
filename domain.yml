@@ -5,7 +5,6 @@ intents:
   - tam_biet
   - hoi_chuc_nang
   - ctdt_2_mien
-  - bot_challenge
   - nlu_fallblack
   - intent_ttchinh_ttphu
   - intent_ttchinh_ttphu_coso
@@ -13,7 +12,8 @@ intents:
   - intent_flag_ttphu
   - intent_flag_coso
   - intent_flag_namhoc
-  - check_balance
+  # - check_balance
+  # - bot_challenge
 
 entities:
   - thongtinchinh
@@ -93,8 +93,8 @@ responses:
           payload: "/hoi_chuc_nang"
 
 
-  utter_check_balance:
-  - text: ok this is your {account}
+  # utter_check_balance:
+  # - text: ok this is your {account}
 
   utter_tam_biet:
   - text: "Bye"
@@ -102,8 +102,6 @@ responses:
   - text: "Chào bạn nha"
   - text: "Vâng, hẹn hôm khác nói chuyện tiếp nha"
 
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
 
   utter_hoi_chuc_nang:
   - text: |-
