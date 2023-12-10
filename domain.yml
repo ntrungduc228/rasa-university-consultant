@@ -1,14 +1,11 @@
 version: "3.1"
 
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
+  - chao_hoi
+  - tam_biet
+  - hoi_chuc_nang
+  - ctdt_2_mien
   - bot_challenge
-  - cntt_tongquan
   - nlu_fallblack
   - intent_ttchinh_ttphu
   - intent_ttchinh_ttphu_coso
@@ -81,24 +78,29 @@ actions:
 
 
 responses:
-  utter_greet:
-  - text: "Hey! How are you?"
+  utter_chao_hoi:
+  - text: |-
+        Xin chào!
+        Tôi là chatbot hỗ trợ tư vấn các vấn đề liên quan đến quản lý đào tạo của Học viện Công nghệ Bưu chính Viễn thông
+    buttons:
+        - title: "Menu"
+          payload: "/hoi_chuc_nang"
+  - text: |-
+        Chào bạn, hôm nay bạn muốn hỏi gì không?
+        Tôi là một trợ lý ảo, tôi sẽ hỗ trợ bạn giải đáp thắc mắc về các vấn đề liên quan đến quản lý đào tạo của Học viện Công nghệ Bưu chính Viễn thông
+    buttons:
+        - title: "Menu"
+          payload: "/hoi_chuc_nang"
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
 
   utter_check_balance:
   - text: ok this is your {account}
 
-  utter_goodbye:
+  utter_tam_biet:
   - text: "Bye"
+  - text: "Tạm biệt, hẹn gặp lại bạn sau"
+  - text: "Chào bạn nha"
+  - text: "Vâng, hẹn hôm khác nói chuyện tiếp nha"
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
@@ -137,6 +139,9 @@ responses:
       - title: "Đại học vừa làm vừa học"
         payload: '/vhvl_tong_quan{{"thongtinchinh":"vhvl"}}'
 
+ utter_ctdt_2_mien:
+  - text: |-
+        Chương trình đào tạo của Học viện được áp dụng thống nhất ở cả 2 Cơ sở đào tạo Hà Nội và Tp. Hồ Chí Minh
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

@@ -1,87 +1,68 @@
 version: "3.1"
 
 nlu:
-- intent: greet
-  examples: |
-    - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
 
-- intent: goodbye
+- intent: chao_hoi
+    examples: |
+      - hey
+      - hello
+      - hi
+      - xin chào
+      - ê
+      - có ai ở đây không
+      - chào ad
+      - bắt đầu
+      - bat dau
+      - chào bạn
+      - Chào bạn
+      - chào cậu
+      - chào đồng chí
+      - chào em
+      - chào anh
+      - chào mày
+      - hello mày
+      - alo mày
+      - alo bạn eiii
+      - này bạn eii
+      - ê thằng kia
+      - ê mày
+      - ê mài
+      - ê bạn eii
+      - ee banj eeii
+      - ê bạn êii
+      - này thằng kia
+      - bạn ei
+      - hú
+      - bot ơi dậy đi
+
+
+- intent: tam_biet
   examples: |
-    - cu
-    - good by
-    - cee you later
-    - good night
     - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
+    - bai
+    - hẹn gặp lại
+    - tạm biệt
 
-- intent: affirm
-  examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
 
-- intent: deny
+- intent: hoi_chuc_nang
   examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
+    - cụ thể là bạn giúp được gì?
+    - bạn giúp được gì
+    - nhiệm vụ của bạn là gì
+    - menu
+    - cho toi xem chuc nang
+    - bạn có chức năng gì
+    - cho tôi xem menu
+    - tôi muốn xem chức năng
+    - tôi muốn xem menu
+    - tôi xem menu được không
+    - chuc nang
+    - chức năng
+    - help
+    - chuc nang cua bot
+    - cho toi xem menu cua bot
+    - toi muon xem chuc nang cua bot
 
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
-
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
 
 - intent: bot_challenge
   examples: |
@@ -90,6 +71,13 @@ nlu:
     - am I talking to a bot?
     - am I talking to a human?
 
+
+- intent: ctdt_2_mien
+  examples: |
+    - Chương trình đào tạo tại miền Nam có khác với miền Bắc không?
+    - chuong trinh dao tao tai mien Nam co khac voi mien bac khong
+    - chuong trinh dao tao 2 mien khac nhau khong
+    - chuong trinh dao tao 2 mien giong nhau khong
 
 - intent: intent_ttchinh_ttphu
   examples: |
@@ -3166,7 +3154,6 @@ nlu:
       - Cho em hỏi về [học phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [KT]{"entity":"thongtinchinh","value":"kt"} năm [2019]{"entity":"namhoc","value":"2019"}
       - em muốn biết [chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [Kt]{"entity":"thongtinchinh","value":"kt"} năm [2020]{"entity":"namhoc","value":"2020"}
       - em muốn biết [Chi phí]{"entity":"thongtinphu","value":"hoc_phi"} ngành [ke toan]{"entity":"thongtinchinh","value":"kt"} nam [2023]{"entity":"namhoc","value":"2023"}
-      PS C:\Users\anony\OneDrive\Desktop\Workspace\Python\rasa-university-consultant> node gejs.js
       - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [ktddt]{"entity":"thongtinchinh","value":"ktddt"} nam [2023]{"entity":"namhoc","value":"2023"}
       - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [KTDDT]{"entity":"thongtinchinh","value":"ktddt"} nam [2022]{"entity":"namhoc","value":"2022"}
       - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} nam [2021]{"entity":"namhoc","value":"2021"}

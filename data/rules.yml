@@ -2,15 +2,25 @@ version: "3.1"
 
 rules:
 
-- rule: Say goodbye anytime the user says goodbye
+- rule: chao hoi
   steps:
-  - intent: goodbye
-  - action: utter_goodbye
+  - intent: chao_hoi
+  - action: utter_chao_hoi
 
-- rule: Say 'I am a bot' anytime the user challenges
+- rule: tam biet
   steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
+  - intent: tam_biet
+  - action: utter_tam_biet
+
+- rule:  hoi chuc nang
+  steps:
+  - intent: hoi_chuc_nang
+  - action: utter_hoi_chuc_nang
+
+# - rule: Say 'I am a bot' anytime the user challenges
+#   steps:
+#   - intent: bot_challenge
+#   - action: utter_iamabot
 
 - rule: action default
   steps:
