@@ -203,8 +203,6 @@ const objEx = [
     (ex,entity) => `[to hop mon]{"entity":"thongtinphu","value":"khoi_thi"} nganh [${ex}]{"entity":"thongtinchinh","value":"${entity}"}`,
     (ex,entity) => `[tổ hợp môn]{"entity":"thongtinphu","value":"khoi_thi"} thi ngành [${ex}]{"entity":"thongtinchinh","value":"${entity}"}`,
     (ex,entity) => `[tổ hợp môn]{"entity":"thongtinphu","value":"khoi_thi"} thi ngành [${ex}]{"entity":"thongtinchinh","value":"${entity}"}`,
-
-
 ]
 
 const objFlagCoso = [
@@ -276,17 +274,18 @@ const objFlagNamhoc = [
 ]
 
 const objFlagPhu = [
-    (ex, entity) => `em cũng [muốn biết thêm]{"entity":"flag","value":"more"} về [${ex}]{"entity":"thongtinphu","value":"${entity}"}`,
-    (ex, entity) => `em [muon biet them]{"entity":"flag","value":"more"} ve [${ex}]{"entity":"thongtinphu","value":"${entity}"}`,
-    (ex, entity) => `em [cũng muốn biết]{"entity":"flag","value":"more"} [${ex}]{"entity":"thongtinphu","value":"${entity}"}`,
-    (ex, entity) => `em [cung muon biet]{"entity":"flag","value":"more"} [${ex}]{"entity":"thongtinphu","value":"${entity}"}`,
+    (ex, entity) => `em [cũng]{"entity":"flag","value":"more"} muốn biết thêm [${ex}]{"entity":"thongtinphu","value":"${entity}"}`,
+    (ex, entity) => `em [cung]{"entity":"flag","value":"more"} muon biet them [${ex}]{"entity":"thongtinphu","value":"${entity}"}`,
+    (ex, entity) => `em [cũng]{"entity":"flag","value":"more"} muốn biết [${ex}]{"entity":"thongtinphu","value":"${entity}"}`,
+    (ex, entity) => `em [cung]{"entity":"flag","value":"more"} muon biet [${ex}]{"entity":"thongtinphu","value":"${entity}"}`,
     (ex, entity) => `cho em [hỏi thêm]{"entity":"flag","value":"more"} [${ex}]{"entity":"thongtinphu","value":"${entity}"} ạ`,
-    (ex, entity) => `cho em [hoi them]{"entity":"flag","value":"more"} [${ex}]{"entity":"thongtinphu","value":"${entity}"}`,
     (ex, entity) => `cho em [hoi them]{"entity":"flag","value":"more"} [${ex}]{"entity":"thongtinphu","value":"${entity}"}`,
     (ex, entity) => `[thế còn]{"entity":"flag","value":"more"} [${ex}]{"entity":"thongtinphu","value":"${entity}"}`,
     (ex, entity) => `[vậy còn]{"entity":"flag","value":"more"} [${ex}]{"entity":"thongtinphu","value":"${entity}"}`,
     (ex, entity) => `[the con]{"entity":"flag","value":"more"} [${ex}]{"entity":"thongtinphu","value":"${entity}"}`,
     (ex, entity) => `[vay con]{"entity":"flag","value":"more"} [${ex}]{"entity":"thongtinphu","value":"${entity}"}`,
+    (ex, entity) => `con [${ex}]{"entity":"thongtinphu","value":"${entity}"} [thi sao]{"entity":"flag","value":"more"}`,
+    (ex, entity) => `còn [${ex}]{"entity":"thongtinphu","value":"${entity}"} [thì sao]{"entity":"flag","value":"more"}`,
 ]
 
 

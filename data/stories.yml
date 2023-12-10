@@ -7,17 +7,33 @@ stories:
   - intent: nlu_fallblack
   - action: action_default_fallback
 
-# - story: happy path
-#   steps:
-#   - intent: greet
-#   - action: utter_greet
-#   - intent: mood_great
-#   - action: utter_happy
+- story: chao hoi - menu
+  steps:
+  - intent: chao_hoi
+  - action: utter_chao_hoi
+  - intent: hoi_chuc_nang
+  - action: utter_hoi_chuc_nang
 
-# - story: utter_check_balance
-#   steps:
-#   - intent: check_balance
-#   - action: utter_check_balance
+- story: chao hoi - menu - intent_ttchinh_ttphu
+  steps:
+  - intent: chao_hoi
+  - action: utter_chao_hoi
+  - intent: hoi_chuc_nang
+  - action: utter_hoi_chuc_nang
+  - intent: intent_ttchinh_ttphu
+  - action: action_ttchinh_ttphu
+
+- story:  chao hoi - intent_ttchinh_ttphu
+  steps:
+  - intent: chao_hoi
+  - action: utter_chao_hoi
+  - intent: intent_ttchinh_ttphu
+  - action: action_ttchinh_ttphu
+
+- story: intent_ttchinh_ttphu
+  steps:
+  - intent: intent_ttchinh_ttphu
+  - action: action_ttchinh_ttphu
 
 - story: intent_ttchinh_ttphu - intent_ttchinh_ttphu_coso
   steps:
@@ -33,24 +49,4 @@ stories:
   - intent: intent_ttchinh_ttphu_namhoc
   - action: action_ttchinh_ttphu_namhoc
 
-
-# - story: sad path 1
-#   steps:
-#   - intent: greet
-#   - action: utter_greet
-#   - intent: mood_unhappy
-#   - action: utter_cheer_up
-#   - action: utter_did_that_help
-#   - intent: affirm
-#   - action: utter_happy
-
-# - story: sad path 2
-#   steps:
-#   - intent: greet
-#   - action: utter_greet
-#   - intent: mood_unhappy
-#   - action: utter_cheer_up
-#   - action: utter_did_that_help
-#   - intent: deny
-#   - action: utter_goodbye
 

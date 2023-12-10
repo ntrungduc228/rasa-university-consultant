@@ -17,11 +17,6 @@ rules:
   - intent: hoi_chuc_nang
   - action: utter_hoi_chuc_nang
 
-# - rule: Say 'I am a bot' anytime the user challenges
-#   steps:
-#   - intent: bot_challenge
-#   - action: utter_iamabot
-
 - rule: action default
   steps:
   - intent: nlu_fallblack
