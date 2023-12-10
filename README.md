@@ -515,3 +515,25 @@ và tự động hóa
     - chuyên ngành
     - Chuyên Ngành
     - Chuyên ngành
+
+
+- synonym: truong
+  examples: |
+    - truong
+    - trường
+    - học viện
+    - hoc vien
+    - Hoc vien
+    - Học viện
+    - học viện cơ sở
+    - Học viện cơ sở
+    - hoc vien co so
+    - trường ptit
+    - trường ptithcm
+    - ptit
+    - ptithcm
+    - học viện công nghệ bưu chính viễn thông
+    - Học viện Công nghệ Bưu chính Viễn thông
+    - hoc vien cong nghe buu chinh vien thong
+    - Hoc vien cong nghe buu chinh vien thong
+    

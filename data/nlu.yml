@@ -82,6 +82,34 @@ nlu:
 
 - intent: intent_ttchinh_ttphu
   examples: |
+    - [tổng quan]{"entity":"thongtinphu","value":"tong_quan"} về [trường]{"entity":"thongtinchinh","value":"truong"}
+    - [Tong quan]{"entity":"thongtinphu","value":"tong_quan"} về [truong]{"entity":"thongtinchinh","value":"truong"}
+    - [Tổng quan]{"entity":"thongtinphu","value":"tong_quan"} về [học viện]{"entity":"thongtinchinh","value":"truong"}
+    - [tóm tắt]{"entity":"thongtinphu","value":"tong_quan"} [hoc vien]{"entity":"thongtinchinh","value":"truong"} 
+    - [khái quát]{"entity":"thongtinphu","value":"tong_quan"} [Hoc vien]{"entity":"thongtinchinh","value":"truong"} 
+    - [Khái quát]{"entity":"thongtinphu","value":"tong_quan"} [Học viện]{"entity":"thongtinchinh","value":"truong"} 
+    - [Khai quat]{"entity":"thongtinphu","value":"tong_quan"} [học viện cơ sở]{"entity":"thongtinchinh","value":"truong"} 
+    - [tong quan]{"entity":"thongtinphu","value":"tong_quan"} [Học viện cơ sở]{"entity":"thongtinchinh","value":"truong"}
+    - [tom tat]{"entity":"thongtinphu","value":"tong_quan"} [hoc vien co so]{"entity":"thongtinchinh","value":"truong"}
+    - [Tom tat]{"entity":"thongtinphu","value":"tong_quan"} [trường ptit]{"entity":"thongtinchinh","value":"truong"}
+    - [Tóm tắt]{"entity":"thongtinphu","value":"tong_quan"} [trường ptithcm]{"entity":"thongtinchinh","value":"truong"}
+    - [khai quat]{"entity":"thongtinphu","value":"tong_quan"} ve [ptit]{"entity":"thongtinchinh","value":"truong"}
+    - [giới thiệu]{"entity":"thongtinphu","value":"tong_quan"} về [ptithcm]{"entity":"thongtinchinh","value":"truong"}
+    - [Giới thiệu]{"entity":"thongtinphu","value":"tong_quan"} về [học viện công nghệ bưu chính viễn thông]{"entity":"thongtinchinh","value":"truong"}
+    - [Gioi thieu]{"entity":"thongtinphu","value":"tong_quan"} về [Học viện Công nghệ Bưu chính Viễn thông]{"entity":"thongtinchinh","value":"truong"}
+    - [cho em hỏi]{"entity":"thongtinphu","value":"tong_quan"} về [hoc vien cong nghe buu chinh vien thong]{"entity":"thongtinchinh","value":"truong"}
+    - [cho em hỏi]{"entity":"thongtinphu","value":"tong_quan"} về [Hoc vien cong nghe buu chinh vien thong]{"entity":"thongtinchinh","value":"truong"}
+    - [Cho em hoii]{"entity":"thongtinphu","value":"tong_quan"} về [truong]{"entity":"thongtinchinh","value":"truong"}
+    - [Cho em hỏi]{"entity":"thongtinphu","value":"tong_quan"} về [trường{"entity":"thongtinchinh","value":"truong"}
+    - [em muốn biết]{"entity":"thongtinphu","value":"tong_quan"} về [học viện]{"entity":"thongtinchinh","value":"truong"}
+    - [Em muon biet]{"entity":"thongtinphu","value":"tong_quan"} về [hoc vien]{"entity":"thongtinchinh","value":"truong"}
+    - [Em muốn hỏi]{"entity":"thongtinphu","value":"tong_quan"} về [Hoc vien]{"entity":"thongtinchinh","value":"truong"}
+    - [em muốn hỏi]{"entity":"thongtinphu","value":"tong_quan"} về [Học viện]{"entity":"thongtinchinh","value":"truong"}
+    - [gioi thieu]{"entity":"thongtinphu","value":"tong_quan"} ve [học viện cơ sở]{"entity":"thongtinchinh","value":"truong"}
+    - [cho em hoi]{"entity":"thongtinphu","value":"tong_quan"} ve [Học viện cơ sở]{"entity":"thongtinchinh","value":"truong"}
+    - [em muon biet]{"entity":"thongtinphu","value":"tong_quan"} ve [hoc vien co so]{"entity":"thongtinchinh","value":"truong"}
+    - [em muon hoi]{"entity":"thongtinphu","value":"tong_quan"} ve [ptithcm]{"entity":"thongtinchinh","value":"truong"}
+
     - Cho em hoi truong co nhung [phuong thuc xet tuyen]{"entity":"thongtinchinh","value":"phuong_thuc_tuyen_sinh"} nao
     - [Phuong thuc xet tuyen]{"entity":"thongtinchinh","value":"phuong_thuc_tuyen_sinh"}
     - [Phương thức xét tuyển]{"entity":"thongtinchinh","value":"phuong_thuc_tuyen_sinh"}
@@ -1842,6 +1870,27 @@ nlu:
     - diem trung tuyen
     - Điểm trúng tuyển
     - Diem trung tuyen
+
+- synonym: truong
+  examples: |
+    - truong
+    - trường
+    - học viện
+    - hoc vien
+    - Hoc vien
+    - Học viện
+    - học viện cơ sở
+    - Học viện cơ sở
+    - hoc vien co so
+    - trường ptit
+    - trường ptithcm
+    - ptit
+    - ptithcm
+    - học viện công nghệ bưu chính viễn thông
+    - Học viện Công nghệ Bưu chính Viễn thông
+    - hoc vien cong nghe buu chinh vien thong
+    - Hoc vien cong nghe buu chinh vien thong
+    
 
 - synonym: khoi_thi
   examples: |
