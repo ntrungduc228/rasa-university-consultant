@@ -2933,6 +2933,203 @@ nlu:
       - [Điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Ke toan]{"entity":"thongtinchinh","value":"kt"} ở cơ sở phía [nam]{"entity":"coso","value":"nam"}
       - [Diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kế toán]{"entity":"thongtinchinh","value":"kt"} ở cơ sở phía [bắc]{"entity":"coso","value":"bac"}
 
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cntt]{"entity":"thongtinchinh","value":"cntt"} cơ sở [hn]{"entity":"coso","value":"bac"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [it]{"entity":"thongtinchinh","value":"cntt"} co so [Hn]{"entity":"coso","value":"bac"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [CNTT]{"entity":"thongtinchinh","value":"cntt"} cơ sở [HN]{"entity":"coso","value":"bac"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [It]{"entity":"thongtinchinh","value":"cntt"} co so [ha noi]{"entity":"coso","value":"bac"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [iT]{"entity":"thongtinchinh","value":"cntt"} cơ sở [hcm]{"entity":"coso","value":"nam"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [IT]{"entity":"thongtinchinh","value":"cntt"} cơ sở [Hcm]{"entity":"coso","value":"nam"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cong nghe thong tin]{"entity":"thongtinchinh","value":"cntt"} co so [ho chi minh]{"entity":"coso","value":"nam"}
+      - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cong nghe tt]{"entity":"thongtinchinh","value":"cntt"} co so [HCM]{"entity":"coso","value":"nam"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Cong nghe thong tin]{"entity":"thongtinchinh","value":"cntt"} ở cơ sở [ha noi]{"entity":"coso","value":"bac"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Cong nghe tt]{"entity":"thongtinchinh","value":"cntt"} ở cơ sở [hà nội]{"entity":"coso","value":"bac"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [công nghệ thông tin]{"entity":"thongtinchinh","value":"cntt"} o co so [Ha Noi]{"entity":"coso","value":"bac"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [công nghệ tt]{"entity":"thongtinchinh","value":"cntt"} o co so [Hà Nội]{"entity":"coso","value":"bac"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Công nghệ thông tin]{"entity":"thongtinchinh","value":"cntt"}  ở cơ sở [nam]{"entity":"coso","value":"nam"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Công nghệ tt]{"entity":"thongtinchinh","value":"cntt"} ở cơ sở [hồ chí minh]{"entity":"coso","value":"nam"}
+      - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cn thong tin]{"entity":"thongtinchinh","value":"cntt"} o co so [Ho Chi Minh]{"entity":"coso","value":"nam"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Cn thong tin]{"entity":"thongtinchinh","value":"cntt"} o co so [Hcm]{"entity":"coso","value":"nam"}
+      - [điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cn thông tin]{"entity":"thongtinchinh","value":"cntt"} o co so [Hồ Chí Minh]{"entity":"coso","value":"nam"}
+      - [diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Cn thông tin]{"entity":"thongtinchinh","value":"cntt"} o co so [Ha Noi]{"entity":"coso","value":"bac"}
+      - [Điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cntt]{"entity":"thongtinchinh","value":"cntt"} ở cơ sở [hồ chí minh]{"entity":"coso","value":"nam"}
+      - [Diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [it]{"entity":"thongtinchinh","value":"cntt"} ở cơ sở [HN]{"entity":"coso","value":"bac"}
+
+
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [ktddt]{"entity":"thongtinchinh","value":"ktddt"} cơ sở [hn]{"entity":"coso","value":"bac"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [KTDDT]{"entity":"thongtinchinh","value":"ktddt"} co so [Hn]{"entity":"coso","value":"bac"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} cơ sở [HN]{"entity":"coso","value":"bac"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [điện tử]{"entity":"thongtinchinh","value":"ktddt"} co so [ha noi]{"entity":"coso","value":"bac"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [ki thuat dien dien tu]{"entity":"thongtinchinh","value":"ktddt"} cơ sở [hcm]{"entity":"coso","value":"nam"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Ki thuat dien dien tu]{"entity":"thongtinchinh","value":"ktddt"} cơ sở [Hcm]{"entity":"coso","value":"nam"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [ky thuat dien dien tu]{"entity":"thongtinchinh","value":"ktddt"} co so [ho chi minh]{"entity":"coso","value":"nam"}
+      - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Ky thuat dien dien tu]{"entity":"thongtinchinh","value":"ktddt"} co so [HCM]{"entity":"coso","value":"nam"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kt dien dien tu]{"entity":"thongtinchinh","value":"ktddt"} ở cơ sở [ha noi]{"entity":"coso","value":"bac"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Kt dien dien tu]{"entity":"thongtinchinh","value":"ktddt"} ở cơ sở [hà nội]{"entity":"coso","value":"bac"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kt điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} o co so [Ha Noi]{"entity":"coso","value":"bac"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Kt điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} o co so [Hà Nội]{"entity":"coso","value":"bac"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [dien tu]{"entity":"thongtinchinh","value":"ktddt"}  ở cơ sở [nam]{"entity":"coso","value":"nam"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [dien dien tu]{"entity":"thongtinchinh","value":"ktddt"} ở cơ sở [hồ chí minh]{"entity":"coso","value":"nam"}
+      - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kĩ thuật điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} o co so [Ho Chi Minh]{"entity":"coso","value":"nam"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Kĩ thuật điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} o co so [Hcm]{"entity":"coso","value":"nam"}
+      - [điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [kỹ thuật điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} o co so [Hồ Chí Minh]{"entity":"coso","value":"nam"}
+      - [diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Kỹ thuật điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} o co so [Ha Noi]{"entity":"coso","value":"bac"}
+      - [Điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [kt điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} ở cơ sở [hồ chí minh]{"entity":"coso","value":"nam"}
+      - [Diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Kt điện điện tử]{"entity":"thongtinchinh","value":"ktddt"} ở cơ sở [HN]{"entity":"coso","value":"bac"}
+
+
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [attt]{"entity":"thongtinchinh","value":"attt"} cơ sở [hn]{"entity":"coso","value":"bac"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [ATTT]{"entity":"thongtinchinh","value":"attt"} co so [Hn]{"entity":"coso","value":"bac"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Attt]{"entity":"thongtinchinh","value":"attt"} cơ sở [HN]{"entity":"coso","value":"bac"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [an toan thong tin]{"entity":"thongtinchinh","value":"attt"} co so [ha noi]{"entity":"coso","value":"bac"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [an toan tt]{"entity":"thongtinchinh","value":"attt"} cơ sở [hcm]{"entity":"coso","value":"nam"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [bao mat]{"entity":"thongtinchinh","value":"attt"} cơ sở [Hcm]{"entity":"coso","value":"nam"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [An toan thong tin]{"entity":"thongtinchinh","value":"attt"} co so [ho chi minh]{"entity":"coso","value":"nam"}
+      - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [An toan tt]{"entity":"thongtinchinh","value":"attt"} co so [HCM]{"entity":"coso","value":"nam"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [an toàn thông tin]{"entity":"thongtinchinh","value":"attt"} ở cơ sở [ha noi]{"entity":"coso","value":"bac"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [an toàn tt]{"entity":"thongtinchinh","value":"attt"} ở cơ sở [hà nội]{"entity":"coso","value":"bac"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [An toàn thông tin]{"entity":"thongtinchinh","value":"attt"} o co so [Ha Noi]{"entity":"coso","value":"bac"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [An toàn tt]{"entity":"thongtinchinh","value":"attt"} o co so [Hà Nội]{"entity":"coso","value":"bac"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [attt]{"entity":"thongtinchinh","value":"attt"}  ở cơ sở [nam]{"entity":"coso","value":"nam"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [ATTT]{"entity":"thongtinchinh","value":"attt"} ở cơ sở [hồ chí minh]{"entity":"coso","value":"nam"}
+      - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Attt]{"entity":"thongtinchinh","value":"attt"} o co so [Ho Chi Minh]{"entity":"coso","value":"nam"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [an toan thong tin]{"entity":"thongtinchinh","value":"attt"} o co so [Hcm]{"entity":"coso","value":"nam"}
+      - [điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [an toan tt]{"entity":"thongtinchinh","value":"attt"} o co so [Hồ Chí Minh]{"entity":"coso","value":"nam"}
+      - [diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [bao mat]{"entity":"thongtinchinh","value":"attt"} o co so [Ha Noi]{"entity":"coso","value":"bac"}
+      - [Điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [An toan thong tin]{"entity":"thongtinchinh","value":"attt"} ở cơ sở [hồ chí minh]{"entity":"coso","value":"nam"}
+      - [Diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [An toan tt]{"entity":"thongtinchinh","value":"attt"} ở cơ sở [HN]{"entity":"coso","value":"bac"}
+
+
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [iot]{"entity":"thongtinchinh","value":"iot"} cơ sở [hn]{"entity":"coso","value":"bac"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [IOt]{"entity":"thongtinchinh","value":"iot"} co so [Hn]{"entity":"coso","value":"bac"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [ioT]{"entity":"thongtinchinh","value":"iot"} cơ sở [HN]{"entity":"coso","value":"bac"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [IOT]{"entity":"thongtinchinh","value":"iot"} co so [ha noi]{"entity":"coso","value":"bac"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cong nghe iot]{"entity":"thongtinchinh","value":"iot"} cơ sở [hcm]{"entity":"coso","value":"nam"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cn iot]{"entity":"thongtinchinh","value":"iot"} cơ sở [Hcm]{"entity":"coso","value":"nam"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Cong nghe IOT]{"entity":"thongtinchinh","value":"iot"} co so [ho chi minh]{"entity":"coso","value":"nam"}
+      - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Cong nghe iot]{"entity":"thongtinchinh","value":"iot"} co so [HCM]{"entity":"coso","value":"nam"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Cong nghe Iot]{"entity":"thongtinchinh","value":"iot"} ở cơ sở [ha noi]{"entity":"coso","value":"bac"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cong nghe iot]{"entity":"thongtinchinh","value":"iot"} ở cơ sở [hà nội]{"entity":"coso","value":"bac"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cong nghe Iot]{"entity":"thongtinchinh","value":"iot"} o co so [Ha Noi]{"entity":"coso","value":"bac"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cong nghe internet van vat]{"entity":"thongtinchinh","value":"iot"} o co so [Hà Nội]{"entity":"coso","value":"bac"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Cong nghe internet van vat]{"entity":"thongtinchinh","value":"iot"}  ở cơ sở [nam]{"entity":"coso","value":"nam"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cong nghe Internet van vat]{"entity":"thongtinchinh","value":"iot"} ở cơ sở [hồ chí minh]{"entity":"coso","value":"nam"}
+      - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cn internet van vat]{"entity":"thongtinchinh","value":"iot"} o co so [Ho Chi Minh]{"entity":"coso","value":"nam"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Công nghệ IOT]{"entity":"thongtinchinh","value":"iot"} o co so [Hcm]{"entity":"coso","value":"nam"}
+      - [điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Công nghệ iot]{"entity":"thongtinchinh","value":"iot"} o co so [Hồ Chí Minh]{"entity":"coso","value":"nam"}
+      - [diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Công nghệ Iot]{"entity":"thongtinchinh","value":"iot"} o co so [Ha Noi]{"entity":"coso","value":"bac"}
+      - [Điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [công nghệ iot]{"entity":"thongtinchinh","value":"iot"} ở cơ sở [hồ chí minh]{"entity":"coso","value":"nam"}
+      - [Diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [công nghệ Iot]{"entity":"thongtinchinh","value":"iot"} ở cơ sở [HN]{"entity":"coso","value":"bac"}
+
+
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [ktdkvtdh]{"entity":"thongtinchinh","value":"ktdkvtdh"} cơ sở [hn]{"entity":"coso","value":"bac"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kt dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} co so [Hn]{"entity":"coso","value":"bac"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} cơ sở [HN]{"entity":"coso","value":"bac"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} co so [ha noi]{"entity":"coso","value":"bac"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} cơ sở [hcm]{"entity":"coso","value":"nam"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} cơ sở [Hcm]{"entity":"coso","value":"nam"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [kt điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} co so [ho chi minh]{"entity":"coso","value":"nam"}
+      - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kĩ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} co so [HCM]{"entity":"coso","value":"nam"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kỹ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} ở cơ sở [ha noi]{"entity":"coso","value":"bac"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Kỹ thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} ở cơ sở [hà nội]{"entity":"coso","value":"bac"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Kĩ thuật thuật điều khiển và tự động hóa]{"entity":"thongtinchinh","value":"ktdkvtdh"} o co so [Ha Noi]{"entity":"coso","value":"bac"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [kt điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"} o co so [Hà Nội]{"entity":"coso","value":"bac"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [ki thuat dieu khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"}  ở cơ sở [nam]{"entity":"coso","value":"nam"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [ky thuat dieu khien tu dong]{"entity":"thongtinchinh","value":"ktdkvtdh"} ở cơ sở [hồ chí minh]{"entity":"coso","value":"nam"}
+      - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kĩ thuật điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"} o co so [Ho Chi Minh]{"entity":"coso","value":"nam"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [ky thuat điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"} o co so [Hcm]{"entity":"coso","value":"nam"}
+      - [điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [ktdkvtdh]{"entity":"thongtinchinh","value":"ktdkvtdh"} o co so [Hồ Chí Minh]{"entity":"coso","value":"nam"}
+      - [diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kt dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} o co so [Ha Noi]{"entity":"coso","value":"bac"}
+      - [Điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} ở cơ sở [hồ chí minh]{"entity":"coso","value":"nam"}
+      - [Diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"} ở cơ sở [HN]{"entity":"coso","value":"bac"}
+
+
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cndpt]{"entity":"thongtinchinh","value":"cndpt"} cơ sở [hn]{"entity":"coso","value":"bac"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} co so [Hn]{"entity":"coso","value":"bac"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} cơ sở [HN]{"entity":"coso","value":"bac"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} co so [ha noi]{"entity":"coso","value":"bac"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} cơ sở [hcm]{"entity":"coso","value":"nam"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} cơ sở [Hcm]{"entity":"coso","value":"nam"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} co so [ho chi minh]{"entity":"coso","value":"nam"}
+      - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} co so [HCM]{"entity":"coso","value":"nam"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} ở cơ sở [ha noi]{"entity":"coso","value":"bac"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cndpt]{"entity":"thongtinchinh","value":"cndpt"} ở cơ sở [hà nội]{"entity":"coso","value":"bac"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} o co so [Ha Noi]{"entity":"coso","value":"bac"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} o co so [Hà Nội]{"entity":"coso","value":"bac"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}  ở cơ sở [nam]{"entity":"coso","value":"nam"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} ở cơ sở [hồ chí minh]{"entity":"coso","value":"nam"}
+      - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} o co so [Ho Chi Minh]{"entity":"coso","value":"nam"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} o co so [Hcm]{"entity":"coso","value":"nam"}
+      - [điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} o co so [Hồ Chí Minh]{"entity":"coso","value":"nam"}
+      - [diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"} o co so [Ha Noi]{"entity":"coso","value":"bac"}
+      - [Điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [cndpt]{"entity":"thongtinchinh","value":"cndpt"} ở cơ sở [hồ chí minh]{"entity":"coso","value":"nam"}
+      - [Diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"} ở cơ sở [HN]{"entity":"coso","value":"bac"}
+
+
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [qtkd]{"entity":"thongtinchinh","value":"qtkd"} cơ sở [hn]{"entity":"coso","value":"bac"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} co so [Hn]{"entity":"coso","value":"bac"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} cơ sở [HN]{"entity":"coso","value":"bac"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} co so [ha noi]{"entity":"coso","value":"bac"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} cơ sở [hcm]{"entity":"coso","value":"nam"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Qt trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} cơ sở [Hcm]{"entity":"coso","value":"nam"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} co so [ho chi minh]{"entity":"coso","value":"nam"}
+      - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} co so [HCM]{"entity":"coso","value":"nam"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [qtkd]{"entity":"thongtinchinh","value":"qtkd"} ở cơ sở [ha noi]{"entity":"coso","value":"bac"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} ở cơ sở [hà nội]{"entity":"coso","value":"bac"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} o co so [Ha Noi]{"entity":"coso","value":"bac"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} o co so [Hà Nội]{"entity":"coso","value":"bac"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}  ở cơ sở [nam]{"entity":"coso","value":"nam"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Qt trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} ở cơ sở [hồ chí minh]{"entity":"coso","value":"nam"}
+      - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} o co so [Ho Chi Minh]{"entity":"coso","value":"nam"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} o co so [Hcm]{"entity":"coso","value":"nam"}
+      - [điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [qtkd]{"entity":"thongtinchinh","value":"qtkd"} o co so [Hồ Chí Minh]{"entity":"coso","value":"nam"}
+      - [diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} o co so [Ha Noi]{"entity":"coso","value":"bac"}
+      - [Điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} ở cơ sở [hồ chí minh]{"entity":"coso","value":"nam"}
+      - [Diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"} ở cơ sở [HN]{"entity":"coso","value":"bac"}
+
+
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [mkt]{"entity":"thongtinchinh","value":"mkt"} cơ sở [hn]{"entity":"coso","value":"bac"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Mkt]{"entity":"thongtinchinh","value":"mkt"} co so [Hn]{"entity":"coso","value":"bac"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [MKT]{"entity":"thongtinchinh","value":"mkt"} cơ sở [HN]{"entity":"coso","value":"bac"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Marketing]{"entity":"thongtinchinh","value":"mkt"} co so [ha noi]{"entity":"coso","value":"bac"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [marketing]{"entity":"thongtinchinh","value":"mkt"} cơ sở [hcm]{"entity":"coso","value":"nam"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [mkt]{"entity":"thongtinchinh","value":"mkt"} cơ sở [Hcm]{"entity":"coso","value":"nam"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Mkt]{"entity":"thongtinchinh","value":"mkt"} co so [ho chi minh]{"entity":"coso","value":"nam"}
+      - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [MKT]{"entity":"thongtinchinh","value":"mkt"} co so [HCM]{"entity":"coso","value":"nam"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [Marketing]{"entity":"thongtinchinh","value":"mkt"} ở cơ sở [ha noi]{"entity":"coso","value":"bac"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [marketing]{"entity":"thongtinchinh","value":"mkt"} ở cơ sở [hà nội]{"entity":"coso","value":"bac"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [mkt]{"entity":"thongtinchinh","value":"mkt"} o co so [Ha Noi]{"entity":"coso","value":"bac"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Mkt]{"entity":"thongtinchinh","value":"mkt"} o co so [Hà Nội]{"entity":"coso","value":"bac"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [MKT]{"entity":"thongtinchinh","value":"mkt"}  ở cơ sở [nam]{"entity":"coso","value":"nam"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Marketing]{"entity":"thongtinchinh","value":"mkt"} ở cơ sở [hồ chí minh]{"entity":"coso","value":"nam"}
+      - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [marketing]{"entity":"thongtinchinh","value":"mkt"} o co so [Ho Chi Minh]{"entity":"coso","value":"nam"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [mkt]{"entity":"thongtinchinh","value":"mkt"} o co so [Hcm]{"entity":"coso","value":"nam"}
+      - [điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Mkt]{"entity":"thongtinchinh","value":"mkt"} o co so [Hồ Chí Minh]{"entity":"coso","value":"nam"}
+      - [diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [MKT]{"entity":"thongtinchinh","value":"mkt"} o co so [Ha Noi]{"entity":"coso","value":"bac"}
+      - [Điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Marketing]{"entity":"thongtinchinh","value":"mkt"} ở cơ sở [hồ chí minh]{"entity":"coso","value":"nam"}
+      - [Diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [marketing]{"entity":"thongtinchinh","value":"mkt"} ở cơ sở [HN]{"entity":"coso","value":"bac"}
+
+
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [kt]{"entity":"thongtinchinh","value":"kt"} cơ sở [hn]{"entity":"coso","value":"bac"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [KT]{"entity":"thongtinchinh","value":"kt"} co so [Hn]{"entity":"coso","value":"bac"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Kt]{"entity":"thongtinchinh","value":"kt"} cơ sở [HN]{"entity":"coso","value":"bac"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [ke toan]{"entity":"thongtinchinh","value":"kt"} co so [ha noi]{"entity":"coso","value":"bac"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Ke toan]{"entity":"thongtinchinh","value":"kt"} cơ sở [hcm]{"entity":"coso","value":"nam"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kế toán]{"entity":"thongtinchinh","value":"kt"} cơ sở [Hcm]{"entity":"coso","value":"nam"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Kế toán]{"entity":"thongtinchinh","value":"kt"} co so [ho chi minh]{"entity":"coso","value":"nam"}
+      - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kt]{"entity":"thongtinchinh","value":"kt"} co so [HCM]{"entity":"coso","value":"nam"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [KT]{"entity":"thongtinchinh","value":"kt"} ở cơ sở [ha noi]{"entity":"coso","value":"bac"}
+      - [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Kt]{"entity":"thongtinchinh","value":"kt"} ở cơ sở [hà nội]{"entity":"coso","value":"bac"}
+      - [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [ke toan]{"entity":"thongtinchinh","value":"kt"} o co so [Ha Noi]{"entity":"coso","value":"bac"}
+      - [Điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Ke toan]{"entity":"thongtinchinh","value":"kt"} o co so [Hà Nội]{"entity":"coso","value":"bac"}
+      - [Diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kế toán]{"entity":"thongtinchinh","value":"kt"}  ở cơ sở [nam]{"entity":"coso","value":"nam"}
+      - Cho em hỏi [điểm chuẩn]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Kế toán]{"entity":"thongtinchinh","value":"kt"} ở cơ sở [hồ chí minh]{"entity":"coso","value":"nam"}
+      - Cho em hoi [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kt]{"entity":"thongtinchinh","value":"kt"} o co so [Ho Chi Minh]{"entity":"coso","value":"nam"}
+      - Em muon biet [diem chuan]{"entity":"thongtinphu","value":"diem_chuan"} nganh [KT]{"entity":"thongtinchinh","value":"kt"} o co so [Hcm]{"entity":"coso","value":"nam"}
+      - [điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Kt]{"entity":"thongtinchinh","value":"kt"} o co so [Hồ Chí Minh]{"entity":"coso","value":"nam"}
+      - [diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [ke toan]{"entity":"thongtinchinh","value":"kt"} o co so [Ha Noi]{"entity":"coso","value":"bac"}
+      - [Điểm trúng tuyển]{"entity":"thongtinphu","value":"diem_chuan"} ngành [Ke toan]{"entity":"thongtinchinh","value":"kt"} ở cơ sở [hồ chí minh]{"entity":"coso","value":"nam"}
+      - [Diem trung tuyen]{"entity":"thongtinphu","value":"diem_chuan"} nganh [kế toán]{"entity":"thongtinchinh","value":"kt"} ở cơ sở [HN]{"entity":"coso","value":"bac"}
+
 ### hien tai gom: diem chuan, hoc phi
 - intent: intent_ttchinh_ttphu_namhoc
   examples: |
