@@ -4,7 +4,7 @@ intents:
   - chao_hoi
   - tam_biet
   - hoi_chuc_nang
-  - ctdt_2_mien
+  # - ctdt_2_mien
   - nlu_fallblack
   - intent_ttchinh_ttphu
   - intent_ttchinh_ttphu_coso

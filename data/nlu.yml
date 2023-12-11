@@ -72,12 +72,12 @@ nlu:
     - am I talking to a human?
 
 
-- intent: ctdt_2_mien
-  examples: |
-    - Chương trình đào tạo tại miền Nam có khác với miền Bắc không?
-    - chuong trinh dao tao tai mien Nam co khac voi mien bac khong
-    - chuong trinh dao tao 2 mien khac nhau khong
-    - chuong trinh dao tao 2 mien giong nhau khong
+# - intent: ctdt_2_mien
+#   examples: |
+#     - Chương trình đào tạo tại miền Nam có khác với miền Bắc không?
+#     - chuong trinh dao tao tai mien Nam co khac voi mien bac khong
+#     - chuong trinh dao tao 2 mien khac nhau khong
+#     - chuong trinh dao tao 2 mien giong nhau khong
 
 
 - intent: intent_ttchinh_ttphu
@@ -491,7 +491,7 @@ nlu:
     - [em muon hoi]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [Cn thông tin]{"entity":"thongtinchinh","value":"cntt"}
     - [em muon hoi]{"entity":"thongtinphu","value":"tong_quan"} ve nganh [cntt]{"entity":"thongtinchinh","value":"cntt"}
 
-        - Em có dự định muốn học ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}, vậy cho em hỏi học ngành này xong thì ra ngoài có thể [làm gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} ạ
+    - Em có dự định muốn học ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}, vậy cho em hỏi học ngành này xong thì ra ngoài có thể [làm gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} ạ
     - Hoc xong [it]{"entity":"thongtinchinh","value":"cntt"} co the [lam cong viêc gi]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} a
     - Học xong [CNTT]{"entity":"thongtinchinh","value":"cntt"} co the [làm công việc gì]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} a
     - [IT]{"entity":"thongtinchinh","value":"cntt"} [làm vị trí nào]{"entity":"thongtinphu","value":"tot_nghiep_lam_gi"} khi học xong
