@@ -196,6 +196,9 @@ nlu:
     - [Phuong thuc tuyen sinh]{"entity":"thongtinchinh","value":"phuong_thuc_tuyen_sinh"}
     - [Phương thức tuyển sinh]{"entity":"thongtinchinh","value":"phuong_thuc_tuyen_sinh"}
     - [Hinh thuc tuyen sinh]{"entity":"thongtinchinh","value":"phuong_thuc_tuyen_sinh"}
+    - [Hình thức tuyển sinh]{"entity":"thongtinchinh","value":"phuong_thuc_tuyen_sinh"}
+    - [hinh thuc tuyen sinh]{"entity":"thongtinchinh","value":"phuong_thuc_tuyen_sinh"}
+    - [hình thức tuyển sinh]{"entity":"thongtinchinh","value":"phuong_thuc_tuyen_sinh"}
     - [hinh thuc xet tuyen]{"entity":"thongtinchinh","value":"phuong_thuc_tuyen_sinh"}
     - [hình thức xét tuyển]{"entity":"thongtinchinh","value":"phuong_thuc_tuyen_sinh"}
     - [Hình thức xét tuyển]{"entity":"thongtinchinh","value":"phuong_thuc_tuyen_sinh"}
@@ -213,6 +216,10 @@ nlu:
     - các [nganh]{"entity":"thongtinchinh","value":"nganh_dao_tao"}
     - các [Ngành]{"entity":"thongtinchinh","value":"nganh_dao_tao"}
     - các [Nganh]{"entity":"thongtinchinh","value":"nganh_dao_tao"}
+    - [nganh dao tao]{"entity":"thongtinchinh","value":"nganh_dao_tao"}
+    - [ngành đào tạo]{"entity":"thongtinchinh","value":"nganh_dao_tao"}
+    - [Ngành đào tạo]{"entity":"thongtinchinh","value":"nganh_dao_tao"}
+    - [Nganh dao tao]{"entity":"thongtinchinh","value":"nganh_dao_tao"}
 
     - truong [dao tao may nam]{"entity":"thongtinchinh","value":"thoi_gian_dao_tao"}
     - truong [dao tao bao lau]{"entity":"thongtinchinh","value":"thoi_gian_dao_tao"}
@@ -239,10 +246,24 @@ nlu:
     - Bao lau [thoi gian]{"entity":"thongtinchinh","value":"thoi_gian_dao_tao"} la can thiet cho qua trinh dao tao? 
     - Thoi gian can dau tu cho dao tao la [bao lau]{"entity":"thongtinchinh","value":"thoi_gian_dao_tao"}
     - [Dao tao keo dai trong khoang bao lau]{"entity":"thongtinchinh","value":"thoi_gian_dao_tao"}?
+    - [thoi gian dao tao]{"entity":"thongtinchinh","value":"thoi_gian_dao_tao"}
+    - [thời gian đào tạo]{"entity":"thongtinchinh","value":"thoi_gian_dao_tao"}
+    - [Thời gian đào tạo]{"entity":"thongtinchinh","value":"thoi_gian_dao_tao"}
+    - [Thoi gian dao tao]{"entity":"thongtinchinh","value":"thoi_gian_dao_tao"}
+    - [thời gian học]{"entity":"thongtinchinh","value":"thoi_gian_dao_tao"}
+    - [thoi gian hoc]{"entity":"thongtinchinh","value":"thoi_gian_dao_tao"}
+    - [Thời gian học]{"entity":"thongtinchinh","value":"thoi_gian_dao_tao"}
+    - [Thoi gian hoc]{"entity":"thongtinchinh","value":"thoi_gian_dao_tao"}
+    - [thời gian học tập]{"entity":"thongtinchinh","value":"thoi_gian_dao_tao"}
+    - [thoi gian hoc tap]{"entity":"thongtinchinh","value":"thoi_gian_dao_tao"}
+    - [Thời gian học tập]{"entity":"thongtinchinh","value":"thoi_gian_dao_tao"}
+    - [Thoi gian hoc tap]{"entity":"thongtinchinh","value":"thoi_gian_dao_tao"}
 
     - cho em hỏi [học phí]{"entity":"thongtinchinh","value":"hoc_phi"} của trường bao nhiêu 1 năm
     - [học phí]{"entity":"thongtinchinh","value":"hoc_phi"}
     - [hoc phi]{"entity":"thongtinchinh","value":"hoc_phi"}
+    - [Hoc phi]{"entity":"thongtinchinh","value":"hoc_phi"}
+    - [Học phi]{"entity":"thongtinchinh","value":"hoc_phi"}
     - [học phí]{"entity":"thongtinchinh","value":"hoc_phi"} của trường bao nhiêu ạ
     - [học phí]{"entity":"thongtinchinh","value":"hoc_phi"} 1 năm bao nhiêu
     - [hoc phi]{"entity":"thongtinchinh","value":"hoc_phi"} 1 nam bao nhieu
@@ -267,16 +288,6 @@ nlu:
     - Tinh toan chi phi [hoc phi]{"entity":"thongtinchinh","value":"hoc_phi"} mot nam tai truong la bao nhieu?
     - Tinh tong so tien [hoc phi]{"entity":"thongtinchinh","value":"hoc_phi"} can thanh toan moi nam la bao nhieu?"
 
-    - Cho em hỏi các [ngành đào tạo]{"entity":"thongtinchinh","value":"nganh_dao_tao"} của trường
-    - trường đào tạo [ngành]{"entity":"thongtinchinh","value":"nganh_dao_tao"} nào ạ
-    - Thế trường [đào tạo ngành]{"entity":"thongtinchinh","value":"nganh_dao_tao"} nào
-    - Các [ngành đào tạo]{"entity":"thongtinchinh","value":"nganh_dao_tao"} của trường là gì
-    - các [ngành đào tạo]{"entity":"thongtinchinh","value":"nganh_dao_tao"}
-    - cac [ngành đào tạo]{"entity":"thongtinchinh","value":"nganh_dao_tao"}
-    - truong [dao tao nganh]{"entity":"thongtinchinh","value":"nganh_dao_tao"} nao
-    - cac [nganh dao tao]{"entity":"thongtinchinh","value":"nganh_dao_tao"} cua truong
-    - cac [nganh dao tao]{"entity":"thongtinchinh","value":"nganh_dao_tao"}
-    - các [ngành đào tạo]{"entity":"thongtinchinh","value":"nganh_dao_tao"}
 
     - [ki tuc xa]{"entity":"thongtinchinh","value":"ktx"}
     - [kí túc xá]{"entity":"thongtinchinh","value":"ktx"}
@@ -3815,11 +3826,25 @@ nlu:
     - bắc
     - Bac
     - Bắc
+    - hn
+    - Hn
+    - HN
+    - ha noi
+    - hà nội
+    - Ha Noi
+    - Hà Nội
 
 - synonym: nam
   examples: |
     - nam
     - Nam
+    - hcm
+    - Hcm
+    - hồ chí minh
+    - ho chi minh
+    - Hồ Chí Minh
+    - Ho Chi Minh
+    - HCM
 
 - synonym: thoi_gian_dao_tao
   examples: |

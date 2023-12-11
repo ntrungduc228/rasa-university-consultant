@@ -83,11 +83,25 @@ và tự động hóa
     - bắc
     - Bac
     - Bắc
+    - hn
+    - Hn
+    - HN
+    - ha noi
+    - hà nội
+    - Ha Noi
+    - Hà Nội
 
 - synonym: nam
   examples: |
     - nam
     - Nam
+    - hcm
+    - Hcm
+    - hồ chí minh
+    - ho chi minh
+    - Hồ Chí Minh
+    - Ho Chi Minh
+    - HCM
 
 - synonym: thoi_gian_dao_tao
   examples: |

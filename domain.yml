@@ -4,7 +4,6 @@ intents:
   - chao_hoi
   - tam_biet
   - hoi_chuc_nang
-  # - ctdt_2_mien
   - nlu_fallblack
   - intent_ttchinh_ttphu
   - intent_ttchinh_ttphu_coso
@@ -14,6 +13,8 @@ intents:
   - intent_flag_namhoc
   # - check_balance
   # - bot_challenge
+  # - ctdt_2_mien
+
 
 entities:
   - thongtinchinh
@@ -122,7 +123,7 @@ responses:
       - title: "Các ngành đào tạo"
         payload: '/intent_ttchinh_ttphu{{"thongtinchinh":"nganh_dao_tao"}}'
       - title: "Học phí"
-        payload: '/hoc_phi{{"thongtinphu":"hoc_phi"}}'
+        payload: '/intent_ttchinh_ttphu{{"thongtinchinh":"hoc_phi"}}'
       - title: "Kí túc xá"
         payload: '/intent_ttchinh_ttphu{{"thongtinchinh":"ktx"}}'
       - title: "Điều kiện tốt nghiệp"
@@ -132,9 +133,9 @@ responses:
       - title: "Khoa quản lý"
         payload: '/intent_ttchinh_ttphu{{"thongtinchinh":"khoa_quan_ly"}}'
 
-  utter_ctdt_2_mien:
-  - text: |-
-        Chương trình đào tạo của Học viện được áp dụng thống nhất ở cả 2 Cơ sở đào tạo Hà Nội và Tp. Hồ Chí Minh
+  # utter_ctdt_2_mien:
+  # - text: |-
+  #       Chương trình đào tạo của Học viện được áp dụng thống nhất ở cả 2 Cơ sở đào tạo Hà Nội và Tp. Hồ Chí Minh
 
 session_config:
   session_expiration_time: 60
