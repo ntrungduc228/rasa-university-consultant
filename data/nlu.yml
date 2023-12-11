@@ -3949,6 +3949,45 @@ nlu:
       - [vay con]{"entity":"flag","value":"more"} co so phia [bac]{"entity":"coso","value":"bac"}
       - [vay con]{"entity":"flag","value":"more"} co so phia [nam]{"entity":"coso","value":"nam"}
 
+      - em cũng [muốn biết thêm]{"entity":"flag","value":"more"} cơ sở [hn]{"entity":"coso","value":"bac"}
+      - em cũng [muốn biết thêm]{"entity":"flag","value":"more"} cơ sở [hcm]{"entity":"coso","value":"nam"}
+      - em cũng [muốn biết thêm]{"entity":"flag","value":"more"} cơ sở [hà nội]{"entity":"coso","value":"bac"}
+      - em cũng [muốn biết thêm]{"entity":"flag","value":"more"} cơ sở [hồ chí minh]{"entity":"coso","value":"nam"}
+      - em [muon biet them]{"entity":"flag","value":"more"} co so [ha noi]{"entity":"coso","value":"bac"}
+      - em [muon biet them]{"entity":"flag","value":"more"} co so [HN]{"entity":"coso","value":"bac"}
+      - em [muon biet them]{"entity":"flag","value":"more"} co so [ho chi minh]{"entity":"coso","value":"nam"}
+      - em [muon biet them]{"entity":"flag","value":"more"} co so [HCM]{"entity":"coso","value":"nam"}
+      - em [cũng muốn biết]{"entity":"flag","value":"more"} cơ sở [Hà nội]{"entity":"coso","value":"bac"}
+      - em [cũng muốn biết]{"entity":"flag","value":"more"} co so [Ha Noi]{"entity":"coso","value":"bac"}
+      - em [cũng muốn biết]{"entity":"flag","value":"more"} cơ sở [Hồ Chí Minh]{"entity":"coso","value":"nam"}
+      - em [cũng muốn biết]{"entity":"flag","value":"more"} co so [Ho Chi Minh]{"entity":"coso","value":"nam"}
+      - em [cung muon biet]{"entity":"flag","value":"more"} co so [Hn]{"entity":"coso","value":"bac"}
+      - em [cung muon biet]{"entity":"flag","value":"more"} co so [Hcm]{"entity":"coso","value":"nam"}
+      - em [cung muon biet]{"entity":"flag","value":"more"} cơ sở [hà nội]{"entity":"coso","value":"bac"}
+      - em [cung muon biet]{"entity":"flag","value":"more"} cơ sở [hồ chí minh]{"entity":"coso","value":"nam"}
+      - cho em [hỏi thêm]{"entity":"flag","value":"more"} cơ sở [hn]{"entity":"coso","value":"bac"}
+      - cho em [hỏi thêm]{"entity":"flag","value":"more"} cơ sở [hcm]{"entity":"coso","value":"nam"}
+      - cho em [hỏi thêm]{"entity":"flag","value":"more"} co so [bac]{"entity":"coso","value":"bac"} 
+      - cho em [hỏi thêm]{"entity":"flag","value":"more"} co so [HN]{"entity":"coso","value":"nam"}
+      - cho em [hoi them]{"entity":"flag","value":"more"} cơ sở [ha noi]{"entity":"coso","value":"bac"}
+      - cho em [hoi them]{"entity":"flag","value":"more"} cơ sở [HCM]{"entity":"coso","value":"nam"}
+      - cho em [hoi them]{"entity":"flag","value":"more"} co so [Ha Noi]{"entity":"coso","value":"bac"}  
+      - cho em [hoi them]{"entity":"flag","value":"more"} co so [Ho Chi Minh]{"entity":"coso","value":"nam"} 
+      - [thế còn]{"entity":"flag","value":"more"} cơ sở [hn]{"entity":"coso","value":"bac"}
+      - [thế còn]{"entity":"flag","value":"more"} cơ sở [hcm]{"entity":"coso","value":"nam"}
+      - [thế còn]{"entity":"flag","value":"more"} co so [ha noi]{"entity":"coso","value":"bac"}
+      - [thế còn]{"entity":"flag","value":"more"} co so [ho chi minh]{"entity":"coso","value":"nam"}
+      - [vậy còn]{"entity":"flag","value":"more"} cơ sở [hà nội]{"entity":"coso","value":"bac"}
+      - [vậy còn]{"entity":"flag","value":"more"} cơ sở [hồ chí minh]{"entity":"coso","value":"nam"}
+      - [vậy còn]{"entity":"flag","value":"more"} co so [Ha Noi]{"entity":"coso","value":"bac"}
+      - [vậy còn]{"entity":"flag","value":"more"} co so [Ho Chi Minh]{"entity":"coso","value":"nam"}
+      - [the con]{"entity":"flag","value":"more"} cơ sở [HN]{"entity":"coso","value":"bac"}
+      - [the con]{"entity":"flag","value":"more"} cơ sở [HCM]{"entity":"coso","value":"nam"}
+      - [vay con]{"entity":"flag","value":"more"} cơ sở [Hn]{"entity":"coso","value":"bac"}
+      - [vay con]{"entity":"flag","value":"more"} cơ sở [Hcm]{"entity":"coso","value":"nam"}
+      - [vay con]{"entity":"flag","value":"more"} co so [ha noi]{"entity":"coso","value":"bac"}
+      - [vay con]{"entity":"flag","value":"more"} co so [ho chi minh]{"entity":"coso","value":"nam"}
+
 ### [2023, 2022, 2021, 2020, 2019]
 - intent: intent_flag_namhoc
   examples: |
