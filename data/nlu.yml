@@ -42,6 +42,11 @@ nlu:
     - bai
     - hẹn gặp lại
     - tạm biệt
+    - tam biet
+    - hen gap lai
+    - bai bai
+    - bye bye
+    - tạm biệt bot
 
 
 - intent: hoi_chuc_nang
@@ -64,12 +69,12 @@ nlu:
     - toi muon xem chuc nang cua bot
 
 
-- intent: bot_challenge
-  examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+# - intent: bot_challenge
+#   examples: |
+#     - are you a bot?
+#     - are you a human?
+#     - am I talking to a bot?
+#     - am I talking to a human?
 
 
 # - intent: ctdt_2_mien
@@ -400,9 +405,15 @@ nlu:
     - [Ai co the hoc]{"entity":"thongtinphu","value":"phu_hop"} dai hoc [vua lam vua hoc]{"entity":"thongtinchinh","value":"vhvl"}?
 
     - Chương trình đại học [vừa làm vừa học]{"entity":"thongtinchinh","value":"vhvl"} tại Học viện Công nghệ Bưu chính Viễn thông có gì [khác biệt]{"entity":"thongtinphu","value":"ly_do"}?
+    - Chương trình [vừa làm vừa học]{"entity":"thongtinchinh","value":"vhvl"} tại Học viện Công nghệ Bưu chính Viễn thông có gì [khác biệt]{"entity":"thongtinphu","value":"ly_do"}?
     - Chuong trinh dai hoc [vua lam vua hoc]{"entity":"thongtinchinh","value":"vhvl"} tai Hoc vien Cong nghe Buu chinh Vien thong co gi [khac biet]{"entity":"thongtinphu","value":"ly_do"}?
+    - Chuong trinh [vua lam vua hoc]{"entity":"thongtinchinh","value":"vhvl"} tai Hoc vien Cong nghe Buu chinh Vien thong co gi [khac biet]{"entity":"thongtinphu","value":"ly_do"}?
     - [Lý do]{"entity":"thongtinphu","value":"ly_do"} chọn chương trình đào tạo Đại học [vừa làm vừa học]{"entity":"thongtinchinh","value":"vhvl"} của PTIT
+    - [Lý do]{"entity":"thongtinphu","value":"ly_do"} chọn chương trình đào tạo [vừa làm vừa học]{"entity":"thongtinchinh","value":"vhvl"} của PTIT
+    - [Lý do]{"entity":"thongtinphu","value":"ly_do"} chọn chương trình [vừa làm vừa học]{"entity":"thongtinchinh","value":"vhvl"} của PTIT
     - [Ly do]{"entity":"thongtinphu","value":"ly_do"} chon chuong trinh dao tao Dai hoc [vua lam vua hoc]{"entity":"thongtinchinh","value":"vhvl"} cua PTIT
+    - [Ly do]{"entity":"thongtinphu","value":"ly_do"} chon chuong trinh dao tao [vua lam vua hoc]{"entity":"thongtinchinh","value":"vhvl"} cua PTIT
+    - [Ly do]{"entity":"thongtinphu","value":"ly_do"} chon chuong trinh [vua lam vua hoc]{"entity":"thongtinchinh","value":"vhvl"} cua PTIT
 
     - Đại học [vừa làm vừa học]{"entity":"thongtinchinh","value":"vhvl"} tuyển sinh những [ngành]{"entity":"thongtinphu","value":"nganh_dao_tao"} nào?
     - Dai hoc [vua lam vua hoc]{"entity":"thongtinchinh","value":"vhvl"} tuyen sinh nhung [nganh]{"entity":"thongtinphu","value":"nganh_dao_tao"} nao?

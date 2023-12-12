@@ -100,7 +100,7 @@ responses:
   utter_tam_biet:
   - text: "Bye"
   - text: "Tạm biệt, hẹn gặp lại bạn sau"
-  - text: "Chào bạn nha"
+  - text: "Hẹn gặp lại bạn nha"
   - text: "Vâng, hẹn hôm khác nói chuyện tiếp nha"
 
 
