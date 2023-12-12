@@ -293,6 +293,50 @@ nlu:
     - Tinh toan chi phi [hoc phi]{"entity":"thongtinchinh","value":"hoc_phi"} mot nam tai truong la bao nhieu?
     - Tinh tong so tien [hoc phi]{"entity":"thongtinchinh","value":"hoc_phi"} can thanh toan moi nam la bao nhieu?"
 
+    - [hoc phi]{"entity":"thongtinchinh","value":"hoc_phi"} năm [2023]{"entity":"thongtinphu","value":"2023"}
+    - [Hoc phi]{"entity":"thongtinchinh","value":"hoc_phi"} năm [2022]{"entity":"thongtinphu","value":"2022"}
+    - [hoc phi]{"entity":"thongtinchinh","value":"hoc_phi"} năm [2021]{"entity":"thongtinphu","value":"2021"}
+    - [hoc phi]{"entity":"thongtinchinh","value":"hoc_phi"} năm [2020]{"entity":"thongtinphu","value":"2020"}
+    - [hoc phi]{"entity":"thongtinchinh","value":"hoc_phi"} năm [2019]{"entity":"thongtinphu","value":"2019"}
+    - [học phí]{"entity":"thongtinchinh","value":"hoc_phi"} năm [2020]{"entity":"thongtinphu","value":"2020"}
+    - [học phí]{"entity":"thongtinchinh","value":"hoc_phi"} năm [2021]{"entity":"thongtinphu","value":"2021"}
+    - [học phí]{"entity":"thongtinchinh","value":"hoc_phi"} năm [2019]{"entity":"thongtinphu","value":"2019"}
+    - [học phí]{"entity":"thongtinchinh","value":"hoc_phi"} năm [2022]{"entity":"thongtinphu","value":"2022"}
+    - [học phí]{"entity":"thongtinchinh","value":"hoc_phi"} năm [2023]{"entity":"thongtinphu","value":"2023"}
+    - Cho em hỏi về [học phí]{"entity":"thongtinchinh","value":"hoc_phi"} năm [2019]{"entity":"thongtinphu","value":"2019"}
+    - em muốn biết [chi phí]{"entity":"thongtinchinh","value":"hoc_phi"} năm [2020]{"entity":"thongtinphu","value":"2020"}
+    - em muốn biết [Chi phí]{"entity":"thongtinchinh","value":"hoc_phi"} nam [2023]{"entity":"thongtinphu","value":"2023"}
+    - Em muon biet [chi phi]{"entity":"thongtinchinh","value":"hoc_phi"} nam [2022]{"entity":"thongtinphu","value":"2022"}
+    - Em muon biet [Chi phi]{"entity":"thongtinchinh","value":"hoc_phi"} nam [2021]{"entity":"thongtinphu","value":"2021"}
+    - Em muon biet [chi phi]{"entity":"thongtinchinh","value":"hoc_phi"} nam [2020]{"entity":"thongtinphu","value":"2020"}
+    - cho em hoi ve [học phí]{"entity":"thongtinchinh","value":"hoc_phi"} nam [2019]{"entity":"thongtinphu","value":"2019"}
+    - Cho em hoi [hoc phi]{"entity":"thongtinchinh","value":"hoc_phi"} năm [2023]{"entity":"thongtinphu","value":"2023"}
+    - [học phí]{"entity":"thongtinchinh","value":"hoc_phi"} năm [2022]{"entity":"thongtinphu","value":"2022"}
+    - [học phí]{"entity":"thongtinchinh","value":"hoc_phi"} năm [2021]{"entity":"thongtinphu","value":"2021"}
+    - [Học phí]{"entity":"thongtinchinh","value":"hoc_phi"} năm [2023]{"entity":"thongtinphu","value":"2023"}
+    - [Học phí]{"entity":"thongtinchinh","value":"hoc_phi"} năm [2022]{"entity":"thongtinphu","value":"2022"}
+    - [Học phí]{"entity":"thongtinchinh","value":"hoc_phi"} năm [2021]{"entity":"thongtinphu","value":"2021"}
+    - [Học phí]{"entity":"thongtinchinh","value":"hoc_phi"} năm [2020]{"entity":"thongtinphu","value":"2020"}
+    - [Học phí]{"entity":"thongtinchinh","value":"hoc_phi"} năm [2019]{"entity":"thongtinphu","value":"2019"}
+    - [Hoc phi]{"entity":"thongtinchinh","value":"hoc_phi"} nam [2023]{"entity":"thongtinphu","value":"2023"}
+    - [Hoc phi]{"entity":"thongtinchinh","value":"hoc_phi"} nam [2022]{"entity":"thongtinphu","value":"2022"}
+    - [Hoc phi]{"entity":"thongtinchinh","value":"hoc_phi"} nam [2021]{"entity":"thongtinphu","value":"2021"}
+    - [Hoc phi]{"entity":"thongtinchinh","value":"hoc_phi"} nam [2020]{"entity":"thongtinphu","value":"2020"}
+    - [Hoc phi]{"entity":"thongtinchinh","value":"hoc_phi"} nam [2019]{"entity":"thongtinphu","value":"2019"}
+    - [tổng tiền]{"entity":"thongtinchinh","value":"hoc_phi"} năm [2020]{"entity":"thongtinphu","value":"2020"}
+    - [tong tien]{"entity":"thongtinchinh","value":"hoc_phi"} nam [2023]{"entity":"thongtinphu","value":"2023"}
+    - [Tong tien]{"entity":"thongtinchinh","value":"hoc_phi"} nam [2022]{"entity":"thongtinphu","value":"2022"}
+    - [Tổng tiền]{"entity":"thongtinchinh","value":"hoc_phi"} nam [2021]{"entity":"thongtinphu","value":"2021"}
+    - [số tiền]{"entity":"thongtinchinh","value":"hoc_phi"} nam [2020]{"entity":"thongtinphu","value":"2020"}
+    - [so tien]{"entity":"thongtinchinh","value":"hoc_phi"} nam [2019]{"entity":"thongtinphu","value":"2019"}
+    - [Số tiền]{"entity":"thongtinchinh","value":"hoc_phi"} nam [2019]{"entity":"thongtinphu","value":"2019"}
+    - [So tien]{"entity":"thongtinchinh","value":"hoc_phi"} nam [2022]{"entity":"thongtinphu","value":"2022"}
+    - [Học phí]{"entity":"thongtinchinh","value":"hoc_phi"} nam [2020]{"entity":"thongtinphu","value":"2020"}
+    - cho em hỏi [học phí]{"entity":"thongtinchinh","value":"hoc_phi"} của trường năm [2023]{"entity":"thongtinphu","value":"2023"}
+    - cho em hỏi [học phí]{"entity":"thongtinchinh","value":"hoc_phi"} của trường năm [2022]{"entity":"thongtinphu","value":"2022"}
+    - cho em hỏi [học phí]{"entity":"thongtinchinh","value":"hoc_phi"} của trường năm [2021]{"entity":"thongtinphu","value":"2021"}
+    - cho em hỏi [học phí]{"entity":"thongtinchinh","value":"hoc_phi"} của trường năm [2020]{"entity":"thongtinphu","value":"2020"}
+    - cho em hỏi [học phí]{"entity":"thongtinchinh","value":"hoc_phi"} của trường năm [2019]{"entity":"thongtinphu","value":"2019"}
 
     - [ki tuc xa]{"entity":"thongtinchinh","value":"ktx"}
     - [kí túc xá]{"entity":"thongtinchinh","value":"ktx"}

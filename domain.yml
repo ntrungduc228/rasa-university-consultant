@@ -117,21 +117,21 @@ responses:
       - Đại học vừa làm vừa học
       - Khoa quản lý, giảng viên của khoa
 
-    buttons:
-      - title: "Phương thức tuyển sinh"
-        payload: '/intent_ttchinh_ttphu{{"thongtinchinh":"phuong_thuc_tuyen_sinh"}}'
-      - title: "Các ngành đào tạo"
-        payload: '/intent_ttchinh_ttphu{{"thongtinchinh":"nganh_dao_tao"}}'
-      - title: "Học phí"
-        payload: '/intent_ttchinh_ttphu{{"thongtinchinh":"hoc_phi"}}'
-      - title: "Kí túc xá"
-        payload: '/intent_ttchinh_ttphu{{"thongtinchinh":"ktx"}}'
-      - title: "Điều kiện tốt nghiệp"
-        payload: '/intent_ttchinh_ttphu{{"thongtinchinh":"dieu_kien_tot_nghiep"}}'
-      - title: "Đại học vừa làm vừa học"
-        payload: '/intent_ttchinh_ttphu{{"thongtinchinh":"vhvl"}}'
-      - title: "Khoa quản lý"
-        payload: '/intent_ttchinh_ttphu{{"thongtinchinh":"khoa_quan_ly"}}'
+    # buttons:
+    #   - title: "Phương thức tuyển sinh"
+    #     payload: '/intent_ttchinh_ttphu{{"thongtinchinh":"phuong_thuc_tuyen_sinh"}}'
+    #   - title: "Các ngành đào tạo"
+    #     payload: '/intent_ttchinh_ttphu{{"thongtinchinh":"nganh_dao_tao"}}'
+    #   - title: "Học phí"
+    #     payload: '/intent_ttchinh_ttphu{{"thongtinchinh":"hoc_phi"}}'
+    #   - title: "Kí túc xá"
+    #     payload: '/intent_ttchinh_ttphu{{"thongtinchinh":"ktx"}}'
+    #   - title: "Điều kiện tốt nghiệp"
+    #     payload: '/intent_ttchinh_ttphu{{"thongtinchinh":"dieu_kien_tot_nghiep"}}'
+    #   - title: "Đại học vừa làm vừa học"
+    #     payload: '/intent_ttchinh_ttphu{{"thongtinchinh":"vhvl"}}'
+    #   - title: "Khoa quản lý"
+    #     payload: '/intent_ttchinh_ttphu{{"thongtinchinh":"khoa_quan_ly"}}'
 
   # utter_ctdt_2_mien:
   # - text: |-
