@@ -3968,7 +3968,7 @@ nlu:
       - cho em [hỏi thêm]{"entity":"flag","value":"more"} cơ sở [hn]{"entity":"coso","value":"bac"}
       - cho em [hỏi thêm]{"entity":"flag","value":"more"} cơ sở [hcm]{"entity":"coso","value":"nam"}
       - cho em [hỏi thêm]{"entity":"flag","value":"more"} co so [bac]{"entity":"coso","value":"bac"} 
-      - cho em [hỏi thêm]{"entity":"flag","value":"more"} co so [HN]{"entity":"coso","value":"nam"}
+      - cho em [hỏi thêm]{"entity":"flag","value":"more"} co so [HN]{"entity":"coso","value":"bac"}
       - cho em [hoi them]{"entity":"flag","value":"more"} cơ sở [ha noi]{"entity":"coso","value":"bac"}
       - cho em [hoi them]{"entity":"flag","value":"more"} cơ sở [HCM]{"entity":"coso","value":"nam"}
       - cho em [hoi them]{"entity":"flag","value":"more"} co so [Ha Noi]{"entity":"coso","value":"bac"}  

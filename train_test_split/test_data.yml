@@ -1,0 +1,1304 @@
+version: "3.1"
+nlu:
+- intent: tam_biet
+  examples: |
+    - hẹn gặp lại
+- intent: bot_challenge
+  examples: |
+    - are you a human?
+- intent: hoi_chuc_nang
+  examples: |
+    - tôi muốn xem chức năng
+    - cho toi xem menu cua bot
+    - cụ thể là bạn giúp được gì?
+- intent: intent_flag_ttphu
+  examples: |
+    - con [chi phi]{"entity": "thongtinphu", "value": "hoc_phi"} [thi sao]{"entity": "flag", "value": "more"}
+    - [thế còn]{"entity": "flag", "value": "more"} [Thời gian học]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"}
+    - [vậy còn]{"entity": "flag", "value": "more"} [Thoi gian hoc]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"}
+    - còn [học mấy năm]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"} [thì sao]{"entity": "flag", "value": "more"}
+    - em [cung]{"entity": "flag", "value": "more"} muon biet [Thoi gian dao tao]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"}
+- intent: chao_hoi
+  examples: |
+    - chào bạn
+    - ee banj eeii
+    - alo bạn eiii
+    - xin chào
+    - này bạn eii
+    - ê bạn eii
+- intent: intent_flag_namhoc
+  examples: |
+    - cho em [hỏi thêm]{"entity": "flag", "value": "more"} năm [2020](namhoc)
+    - em [cung muon biet]{"entity": "flag", "value": "more"} nam [2022](namhoc)
+    - cho em [hỏi thêm]{"entity": "flag", "value": "more"} năm [2023](namhoc)
+    - [thế còn]{"entity": "flag", "value": "more"} năm [2020](namhoc)
+    - [the con]{"entity": "flag", "value": "more"} nam [2023](namhoc)
+    - em [cũng muốn biết]{"entity": "flag", "value": "more"} năm [2020](namhoc)
+    - cho em [hỏi thêm]{"entity": "flag", "value": "more"} năm [2022](namhoc)
+    - cho em [hoi them]{"entity": "flag", "value": "more"} nam [2022](namhoc)
+    - em cũng [muốn biết thêm]{"entity": "flag", "value": "more"} năm [2019](namhoc)
+    - em [muon biet them]{"entity": "flag", "value": "more"} nam [2020](namhoc)
+- intent: intent_flag_coso
+  examples: |
+    - [vay con]{"entity": "flag", "value": "more"} cơ sở phía [bắc]{"entity": "coso", "value": "bac"}
+    - em [muon biet them]{"entity": "flag", "value": "more"} co so [HN]{"entity": "coso", "value": "bac"}
+    - cho em [hỏi thêm]{"entity": "flag", "value": "more"} cơ sở [hcm]{"entity": "coso", "value": "nam"}
+    - em [muon biet them]{"entity": "flag", "value": "more"} co so phia [Nam]{"entity": "coso", "value": "nam"}
+    - [vay con]{"entity": "flag", "value": "more"} co so phia [bac](coso)
+    - [thế còn]{"entity": "flag", "value": "more"} co so [ha noi]{"entity": "coso", "value": "bac"}
+    - em [muon biet them]{"entity": "flag", "value": "more"} co so [ha noi]{"entity": "coso", "value": "bac"}
+    - em [cung muon biet]{"entity": "flag", "value": "more"} co so phia [bac](coso)
+    - [thế còn]{"entity": "flag", "value": "more"} co so phia [nam](coso)
+    - [vậy còn]{"entity": "flag", "value": "more"} cơ sở phía [nam](coso)
+    - cho em [hỏi thêm]{"entity": "flag", "value": "more"} co so phia [bac](coso)
+    - em cũng [muốn biết thêm]{"entity": "flag", "value": "more"} cơ sở [hcm]{"entity": "coso", "value": "nam"}
+    - [vay con]{"entity": "flag", "value": "more"} cơ sở [Hcm]{"entity": "coso", "value": "nam"}
+    - cho em [hoi them]{"entity": "flag", "value": "more"} cơ sở phía [nam](coso)
+    - cho em [hoi them]{"entity": "flag", "value": "more"} co so phia [bac](coso)
+    - em [cung muon biet]{"entity": "flag", "value": "more"} co so [Hcm]{"entity": "coso", "value": "nam"}
+- intent: intent_ttchinh_ttphu_coso
+  examples: |
+    - [Diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [mkt](thongtinchinh) cơ sở phía [nam](coso)
+    - [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [cong nghe Iot]{"entity": "thongtinchinh", "value": "iot"} o co so [Ha Noi]{"entity": "coso", "value": "bac"}
+    - [Diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [kế toán]{"entity": "thongtinchinh", "value": "kt"}  ở cơ sở phía [nam](coso)
+    - Cho em hỏi [điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [dien dien tu]{"entity": "thongtinchinh", "value": "ktddt"} ở cơ sở phía [Nam]{"entity": "coso", "value": "nam"}
+    - Cho em hoi [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [kĩ thuật điều khiển và tự động hóa]{"entity": "thongtinchinh", "value": "ktdkvtdh"} co so phia [Nam]{"entity": "coso", "value": "nam"}
+    - [Điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [Mkt]{"entity": "thongtinchinh", "value": "mkt"} o co so phia [Bac]{"entity": "coso", "value": "bac"}
+    - [diem trung tuyen]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [MKT]{"entity": "thongtinchinh", "value": "mkt"} o co so phia [Bac]{"entity": "coso", "value": "bac"}
+    - [điểm trúng tuyển]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [an toan tt]{"entity": "thongtinchinh", "value": "attt"} o co so [Hồ Chí Minh]{"entity": "coso", "value": "nam"}
+    - [diem trung tuyen]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [Cn thông tin]{"entity": "thongtinchinh", "value": "cntt"} o co so [Ha Noi]{"entity": "coso", "value": "bac"}
+    - [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [công nghệ thông tin]{"entity": "thongtinchinh", "value": "cntt"} o co so [Ha Noi]{"entity": "coso", "value": "bac"}
+    - [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [it]{"entity": "thongtinchinh", "value": "cntt"} co so [Hn]{"entity": "coso", "value": "bac"}
+    - Cho em hỏi [điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [Cong nghe da phuong tien]{"entity": "thongtinchinh", "value": "cndpt"} ở cơ sở [hồ chí minh]{"entity": "coso", "value": "nam"}
+    - Cho em hỏi [điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [điện tử viễn thông]{"entity": "thongtinchinh", "value": "ktdtvt"} ở cơ sở phía [Nam]{"entity": "coso", "value": "nam"}
+    - Cho em hỏi [điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [ky thuat dien dien tu]{"entity": "thongtinchinh", "value": "ktddt"} co so phia [Nam]{"entity": "coso", "value": "nam"}
+    - Cho em hỏi [điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [Marketing]{"entity": "thongtinchinh", "value": "mkt"} ở cơ sở [hồ chí minh]{"entity": "coso", "value": "nam"}
+    - [Diem trung tuyen]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [Quan tri kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"} ở cơ sở [HN]{"entity": "coso", "value": "bac"}
+    - [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [it]{"entity": "thongtinchinh", "value": "cntt"} co so phia [bac](coso)
+    - [điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [cong nghe iot]{"entity": "thongtinchinh", "value": "iot"} ở cơ sở phía [bắc]{"entity": "coso", "value": "bac"}
+    - [Điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [kt dien tu vien thong]{"entity": "thongtinchinh", "value": "ktdtvt"} cơ sở phía [nam](coso)
+    - [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [mkt](thongtinchinh) o co so [Ha Noi]{"entity": "coso", "value": "bac"}
+    - Em muon biet [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [kỹ thuật điều khiển và tự động hóa]{"entity": "thongtinchinh", "value": "ktdkvtdh"} ở cơ sở [ha noi]{"entity": "coso", "value": "bac"}
+    - [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [It]{"entity": "thongtinchinh", "value": "cntt"} co so [ha noi]{"entity": "coso", "value": "bac"}
+    - [Diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [mkt](thongtinchinh) cơ sở [Hcm]{"entity": "coso", "value": "nam"}
+    - [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [quan tri kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"} o co so phia [Bac]{"entity": "coso", "value": "bac"}
+    - [Diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [công nghệ đa phương tiện]{"entity": "thongtinchinh", "value": "cndpt"} cơ sở [Hcm]{"entity": "coso", "value": "nam"}
+    - [điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [qtkd](thongtinchinh) cơ sở phía [bắc]{"entity": "coso", "value": "bac"}
+    - [Điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [Mkt]{"entity": "thongtinchinh", "value": "mkt"} o co so [Hà Nội]{"entity": "coso", "value": "bac"}
+    - Cho em hoi [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [cn thong tin]{"entity": "thongtinchinh", "value": "cntt"} o co so [Ho Chi Minh]{"entity": "coso", "value": "nam"}
+    - [Diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [MKT]{"entity": "thongtinchinh", "value": "mkt"}  ở cơ sở [nam](coso)
+    - [điểm trúng tuyển]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [an toan tt]{"entity": "thongtinchinh", "value": "attt"} o co so phia [Nam]{"entity": "coso", "value": "nam"}
+    - Em muon biet [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [KT]{"entity": "thongtinchinh", "value": "kt"} ở cơ sở [ha noi]{"entity": "coso", "value": "bac"}
+    - [Điểm trúng tuyển]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [kt điện điện tử]{"entity": "thongtinchinh", "value": "ktddt"} ở cơ sở phía [nam](coso)
+    - [điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [ktddt](thongtinchinh) cơ sở phía [bắc]{"entity": "coso", "value": "bac"}
+    - Em muon biet [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [qtkd](thongtinchinh) ở cơ sở phía [bắc]{"entity": "coso", "value": "bac"}
+    - Cho em hỏi [điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [An toan thong tin]{"entity": "thongtinchinh", "value": "attt"} co so [ho chi minh]{"entity": "coso", "value": "nam"}
+    - [diem trung tuyen]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [Công nghệ Iot]{"entity": "thongtinchinh", "value": "iot"} o co so phia [Bac]{"entity": "coso", "value": "bac"}
+    - Cho em hoi [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [công nghệ đa phương tiện]{"entity": "thongtinchinh", "value": "cndpt"} o co so [Ho Chi Minh]{"entity": "coso", "value": "nam"}
+    - [Diem trung tuyen]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [Kt điện điện tử]{"entity": "thongtinchinh", "value": "ktddt"} ở cơ sở [HN]{"entity": "coso", "value": "bac"}
+    - [điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [Kt dien dien tu]{"entity": "thongtinchinh", "value": "ktddt"} ở cơ sở [hà nội]{"entity": "coso", "value": "bac"}
+    - Cho em hoi [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [Quản trị kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"} co so phia [Nam]{"entity": "coso", "value": "nam"}
+    - Cho em hoi [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [cn thong tin]{"entity": "thongtinchinh", "value": "cntt"} o co so phia [nam](coso)
+    - [Diem trung tuyen]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [An toan tt]{"entity": "thongtinchinh", "value": "attt"} ở cơ sở phía [bắc]{"entity": "coso", "value": "bac"}
+    - [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [Mkt]{"entity": "thongtinchinh", "value": "mkt"} co so [Hn]{"entity": "coso", "value": "bac"}
+    - [Diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [Qt trị kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"} cơ sở phía [nam](coso)
+    - Em muon biet [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [qtkd](thongtinchinh) ở cơ sở [ha noi]{"entity": "coso", "value": "bac"}
+    - [điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [ktdkvtdh](thongtinchinh) cơ sở phía [bắc]{"entity": "coso", "value": "bac"}
+    - [Diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [attt](thongtinchinh)  ở cơ sở [nam](coso)
+    - [diem trung tuyen]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [kt dieu khien va tu dong hoa]{"entity": "thongtinchinh", "value": "ktdkvtdh"} o co so phia [Bac]{"entity": "coso", "value": "bac"}
+    - Em muon biet [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [Kỹ thuật điện tử viễn thông]{"entity": "thongtinchinh", "value": "ktdtvt"} ở cơ sở phía [bắc]{"entity": "coso", "value": "bac"}
+    - [điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [ki thuat dieu khien va tu dong hoa]{"entity": "thongtinchinh", "value": "ktdkvtdh"} cơ sở phía [Bắc]{"entity": "coso", "value": "bac"}
+    - [Điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [cong nghe internet van vat]{"entity": "thongtinchinh", "value": "iot"} o co so phia [Bac]{"entity": "coso", "value": "bac"}
+    - [Điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [ki thuat dien tu vien thong]{"entity": "thongtinchinh", "value": "ktdtvt"} o co so phia [Bac]{"entity": "coso", "value": "bac"}
+    - [điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [ktdkvtdh](thongtinchinh) cơ sở [hn]{"entity": "coso", "value": "bac"}
+    - [điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [CNTT]{"entity": "thongtinchinh", "value": "cntt"} cơ sở [HN]{"entity": "coso", "value": "bac"}
+    - [Điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [Cn da phuong tien]{"entity": "thongtinchinh", "value": "cndpt"} o co so [Hà Nội]{"entity": "coso", "value": "bac"}
+    - [Điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [kt điều khiển tự động]{"entity": "thongtinchinh", "value": "ktdkvtdh"} o co so [Hà Nội]{"entity": "coso", "value": "bac"}
+    - [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [kt điện điện tử]{"entity": "thongtinchinh", "value": "ktddt"} o co so [Ha Noi]{"entity": "coso", "value": "bac"}
+    - Em muon biet [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [Công nghệ đa phương tiện]{"entity": "thongtinchinh", "value": "cndpt"} o co so phia [Nam]{"entity": "coso", "value": "nam"}
+    - Em muon biet [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [Cong nghe Iot]{"entity": "thongtinchinh", "value": "iot"} ở cơ sở [ha noi]{"entity": "coso", "value": "bac"}
+    - [Diem trung tuyen]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [công nghệ Iot]{"entity": "thongtinchinh", "value": "iot"} ở cơ sở [HN]{"entity": "coso", "value": "bac"}
+    - [Điểm trúng tuyển]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [Ke toan]{"entity": "thongtinchinh", "value": "kt"} ở cơ sở [hồ chí minh]{"entity": "coso", "value": "nam"}
+    - [diem trung tuyen]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [qt kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"} o co so [Ha Noi]{"entity": "coso", "value": "bac"}
+    - [điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [cndpt](thongtinchinh) ở cơ sở [hà nội]{"entity": "coso", "value": "bac"}
+    - [điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [quan tri kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"} cơ sở [HN]{"entity": "coso", "value": "bac"}
+    - Em muon biet [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [kỹ thuật điều khiển và tự động hóa]{"entity": "thongtinchinh", "value": "ktdkvtdh"} ở cơ sở phía [bắc]{"entity": "coso", "value": "bac"}
+    - Em muon biet [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [ky thuat điều khiển tự động]{"entity": "thongtinchinh", "value": "ktdkvtdh"} o co so phia [Nam]{"entity": "coso", "value": "nam"}
+    - [Điểm trúng tuyển]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [ki thuat dieu khien va tu dong hoa]{"entity": "thongtinchinh", "value": "ktdkvtdh"} ở cơ sở phía [nam](coso)
+    - [Diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [cn iot]{"entity": "thongtinchinh", "value": "iot"} cơ sở [Hcm]{"entity": "coso", "value": "nam"}
+    - [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [KT]{"entity": "thongtinchinh", "value": "kt"} co so [Hn]{"entity": "coso", "value": "bac"}
+    - Cho em hỏi [điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [cong nghe thong tin]{"entity": "thongtinchinh", "value": "cntt"} co so phia [Nam]{"entity": "coso", "value": "nam"}
+    - Em muon biet [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [an toan thong tin]{"entity": "thongtinchinh", "value": "attt"} o co so [Hcm]{"entity": "coso", "value": "nam"}
+    - [Diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [cn thông tin]{"entity": "thongtinchinh", "value": "cntt"}  ở cơ sở phía [nam](coso)
+    - Cho em hoi [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [Ky thuat dien dien tu]{"entity": "thongtinchinh", "value": "ktddt"} co so [HCM]{"entity": "coso", "value": "nam"}
+    - Cho em hoi [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [kt](thongtinchinh) co so [HCM]{"entity": "coso", "value": "nam"}
+    - Cho em hỏi [điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [Kế toán]{"entity": "thongtinchinh", "value": "kt"} co so phia [Nam]{"entity": "coso", "value": "nam"}
+- intent: intent_ttchinh_ttphu_namhoc
+  examples: |
+    - em muốn biết [chi phí]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [Kt]{"entity": "thongtinchinh", "value": "kt"} năm [2020](namhoc)
+    - Em muon biet [chi phi]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [ATTT]{"entity": "thongtinchinh", "value": "attt"} nam [2022](namhoc)
+    - [số tiền]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [Kỹ thuật điện điện tử]{"entity": "thongtinchinh", "value": "ktddt"} nam [2020](namhoc)
+    - Em muon biet [chi phi]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [IOT]{"entity": "thongtinchinh", "value": "iot"} nam [2020](namhoc)
+    - [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [cn da phuong tien]{"entity": "thongtinchinh", "value": "cndpt"} nam [2022](namhoc)
+    - [So tien]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [Cong nghe da phuong tien]{"entity": "thongtinchinh", "value": "cndpt"} am [2022](namhoc)
+    - [Số tiền]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [It]{"entity": "thongtinchinh", "value": "cntt"} nam [2019](namhoc)
+    - [Diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [Ke toan]{"entity": "thongtinchinh", "value": "kt"} nam [2022](namhoc)
+    - [Diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [kt điều khiển tự động]{"entity": "thongtinchinh", "value": "ktdkvtdh"} nam [2022](namhoc)
+    - Cho em hỏi [điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [attt](thongtinchinh) năm [2019](namhoc)
+    - Cho em hoi [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [ky thuat dieu khien tu dong]{"entity": "thongtinchinh", "value": "ktdkvtdh"} năm [2022](namhoc)
+    - [hoc phi]{"entity": "thongtinphu", "value": "hoc_phi"} [marketing]{"entity": "thongtinchinh", "value": "mkt"} năm [2023](namhoc)
+    - [Tổng tiền]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [Cong nghe internet van vat]{"entity": "thongtinchinh", "value": "iot"} nam [2021](namhoc)
+    - em muốn biết [Chi phí]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [ke toan]{"entity": "thongtinchinh", "value": "kt"} nam [2023](namhoc)
+    - [Tổng tiền]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [kỹ thuật điện điện tử]{"entity": "thongtinchinh", "value": "ktddt"} nam [2021](namhoc)
+    - [Diem trung tuyen]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [công nghệ iot]{"entity": "thongtinchinh", "value": "iot"} năm [2023](namhoc)
+    - [điểm trúng tuyển]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [Quản trị kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"} năm [2023](namhoc)
+    - Em muon biet [Chi phi]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [kế toán]{"entity": "thongtinchinh", "value": "kt"} nam [2021](namhoc)
+    - [hoc phi]{"entity": "thongtinphu", "value": "hoc_phi"} [cn da phuong tien]{"entity": "thongtinchinh", "value": "cndpt"} năm [2023](namhoc)
+    - Em muon biet [chi phi]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [mkt](thongtinchinh) nam [2022](namhoc)
+    - cho em hoi ve [học phí]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [ki thuat dieu khiển tự động]{"entity": "thongtinchinh", "value": "ktdkvtdh"} nam [2019](namhoc)
+    - Em muon biet [Chi phi]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [cn đa phương tiện]{"entity": "thongtinchinh", "value": "cndpt"} nam [2021](namhoc)
+    - [Học phí]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [Ke toan]{"entity": "thongtinchinh", "value": "kt"} năm [2019](namhoc)
+    - [so tien]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [Attt]{"entity": "thongtinchinh", "value": "attt"} nam [2019](namhoc)
+    - [học phí]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [Quản trị kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"} năm [2021](namhoc)
+    - [số tiền]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [cn da phuong tien]{"entity": "thongtinchinh", "value": "cndpt"} nam [2020](namhoc)
+    - Cho em hỏi [điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [dien tu]{"entity": "thongtinchinh", "value": "ktddt"} năm [2019](namhoc)
+    - [tong tien]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [Cn thông tin]{"entity": "thongtinchinh", "value": "cntt"} nam [2023](namhoc)
+    - [Điểm trúng tuyển]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [Kỹ thuật điện điện tử]{"entity": "thongtinchinh", "value": "ktddt"} nam [2021](namhoc)
+    - [Tổng tiền]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [Ki thuat dieu khien va tu dong hoa]{"entity": "thongtinchinh", "value": "ktdkvtdh"} nam [2021](namhoc)
+    - [Điểm trúng tuyển]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [cn đa phương tiện]{"entity": "thongtinchinh", "value": "cndpt"} nam [2021](namhoc)
+    - [học phí]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [mkt](thongtinchinh) năm [2022](namhoc)
+    - [điểm trúng tuyển]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [Công nghệ đa phương tiện]{"entity": "thongtinchinh", "value": "cndpt"} năm [2023](namhoc)
+    - Cho em hoi [hoc phi]{"entity": "thongtinphu", "value": "hoc_phi"} [Cn da phuong tien]{"entity": "thongtinchinh", "value": "cndpt"} năm [2023](namhoc)
+    - [điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [cntt](thongtinchinh) nam [2022](namhoc)
+    - Cho em hỏi về [học phí]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [điện điện tử]{"entity": "thongtinchinh", "value": "ktddt"} năm [2019](namhoc)
+    - [Diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [Quan tri kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"} nam [2022](namhoc)
+    - [Hoc phi]{"entity": "thongtinphu", "value": "hoc_phi"} [ktddt](thongtinchinh) năm [2022](namhoc)
+    - Em muon biet [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [Cn đa phương tiện]{"entity": "thongtinchinh", "value": "cndpt"} năm [2020](namhoc)
+    - [điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [kỹ thuật điều khiển và tự động hóa]{"entity": "thongtinchinh", "value": "ktdkvtdh"} năm [2019](namhoc)
+    - [điểm trúng tuyển]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [KT]{"entity": "thongtinchinh", "value": "kt"} năm [2023](namhoc)
+    - [hoc phi]{"entity": "thongtinphu", "value": "hoc_phi"} [công nghệ Iot]{"entity": "thongtinchinh", "value": "iot"} năm [2023](namhoc)
+    - [Số tiền]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [Quản trị kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"} nam [2019](namhoc)
+    - [tong tien]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [cong nghe Iot]{"entity": "thongtinchinh", "value": "iot"} nam [2023](namhoc)
+    - [Diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [bao mat]{"entity": "thongtinchinh", "value": "attt"} năm [2023](namhoc)
+    - [Diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [kế toán]{"entity": "thongtinchinh", "value": "kt"} năm [2023](namhoc)
+    - em muốn biết [Chi phí]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [kỹ thuật điều khiển và tự động hóa]{"entity": "thongtinchinh", "value": "ktdkvtdh"} nam [2023](namhoc)
+    - Em muon biet [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [An toan tt]{"entity": "thongtinchinh", "value": "attt"} năm [2020](namhoc)
+    - em muốn biết [chi phí]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [cn internet vạn vật]{"entity": "thongtinchinh", "value": "iot"} năm [2020](namhoc)
+    - [Điểm trúng tuyển]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [kt dieu khien va tu dong hoa]{"entity": "thongtinchinh", "value": "ktdkvtdh"} nam [2021](namhoc)
+    - [hoc phi]{"entity": "thongtinphu", "value": "hoc_phi"} [Ky thuat dieu khien va tu dong hoa]{"entity": "thongtinchinh", "value": "ktdkvtdh"} năm [2021](namhoc)
+    - Em muon biet [chi phi]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [MKT]{"entity": "thongtinchinh", "value": "mkt"} nam [2020](namhoc)
+    - [tong tien]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [ki thuat dieu khien va tu dong hoa]{"entity": "thongtinchinh", "value": "ktdkvtdh"} nam [2023](namhoc)
+    - [điểm trúng tuyển]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [mkt](thongtinchinh) năm [2023](namhoc)
+    - Cho em hoi [hoc phi]{"entity": "thongtinphu", "value": "hoc_phi"} [Cong nghe thong tin]{"entity": "thongtinchinh", "value": "cntt"} năm [2023](namhoc)
+    - [Điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [Cong nghe da phuong tien]{"entity": "thongtinchinh", "value": "cndpt"} nam [2019](namhoc)
+    - Cho em hỏi về [học phí]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [kt điều khiển và tự động hóa]{"entity": "thongtinchinh", "value": "ktdkvtdh"} năm [2019](namhoc)
+    - [điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [iot](thongtinchinh) nam [2023](namhoc)
+    - Cho em hoi [hoc phi]{"entity": "thongtinphu", "value": "hoc_phi"} [marketing]{"entity": "thongtinchinh", "value": "mkt"} năm [2023](namhoc)
+    - [tổng tiền]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [qt kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"} năm [2020](namhoc)
+    - [Điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [ki thuat dien dien tu]{"entity": "thongtinchinh", "value": "ktddt"} nam [2019](namhoc)
+    - [Điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [cn da phuong tien]{"entity": "thongtinchinh", "value": "cndpt"} nam [2021](namhoc)
+    - [diem trung tuyen]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [Kt]{"entity": "thongtinchinh", "value": "kt"} nam [2022](namhoc)
+    - [Tong tien]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [cong nghe internet van vat]{"entity": "thongtinchinh", "value": "iot"} nam [2022](namhoc)
+    - Em muon biet [Chi phi]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [cong nghe tt]{"entity": "thongtinchinh", "value": "cntt"} nam [2021](namhoc)
+    - [điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [Marketing]{"entity": "thongtinchinh", "value": "mkt"} năm [2019](namhoc)
+    - Cho em hỏi về [học phí]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [KT]{"entity": "thongtinchinh", "value": "kt"} năm [2019](namhoc)
+    - [Diem trung tuyen]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [kt điện điện tử]{"entity": "thongtinchinh", "value": "ktddt"} năm [2023](namhoc)
+    - em muốn biết [Chi phí]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [marketing]{"entity": "thongtinchinh", "value": "mkt"} nam [2023](namhoc)
+    - [điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [quan tri kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"} nam [2021](namhoc)
+    - [Hoc phi]{"entity": "thongtinphu", "value": "hoc_phi"} [công nghệ internet vạn vật]{"entity": "thongtinchinh", "value": "iot"} năm [2022](namhoc)
+    - [Hoc phi]{"entity": "thongtinphu", "value": "hoc_phi"} [Cn da phuong tien]{"entity": "thongtinchinh", "value": "cndpt"} năm [2022](namhoc)
+    - em muốn biết [Chi phí]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [ki thuat dien dien tu]{"entity": "thongtinchinh", "value": "ktddt"} nam [2023](namhoc)
+    - [hoc phi]{"entity": "thongtinphu", "value": "hoc_phi"} [KTDDT]{"entity": "thongtinchinh", "value": "ktddt"} năm [2021](namhoc)
+    - [Điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [An toàn thông tin]{"entity": "thongtinchinh", "value": "attt"} nam [2021](namhoc)
+    - [Điểm trúng tuyển]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [Công nghệ Iot]{"entity": "thongtinchinh", "value": "iot"} nam [2021](namhoc)
+    - [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [qt kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"} nam [2022](namhoc)
+- intent: intent_ttchinh_ttphu
+  examples: |
+    - ngành [cntt](thongtinchinh) có tổng cộng bao nhiêu [tín chỉ]{"entity": "thongtinphu", "value": "sotc"}
+    - [Cong nghe thong tin]{"entity": "thongtinchinh", "value": "cntt"} [chuyen nganh]{"entity": "thongtinphu", "value": "chuyen_nganh"}
+    - em muon biết [khoi thi]{"entity": "thongtinphu", "value": "khoi_thi"} nganh [Kế toán]{"entity": "thongtinchinh", "value": "kt"}
+    - em muon biet [Chuong trinh dao tao]{"entity": "thongtinphu", "value": "chuong_trinh_dao_tao"} nganh [cn iot]{"entity": "thongtinchinh", "value": "iot"}
+    - [cong nghe internet van vat]{"entity": "thongtinchinh", "value": "iot"}
+    - [tổng tiền]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [ktddt](thongtinchinh)
+    - [Qt trị kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"} [Làm công việc gì]{"entity": "thongtinphu", "value": "tot_nghiep_lam_gi"} khi học xong
+    - [Thoi gian dao tao]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"} [ke toan]{"entity": "thongtinchinh", "value": "kt"}
+    - Em muốn biết [khối thi]{"entity": "thongtinphu", "value": "khoi_thi"} ngành [Cong nghe internet van vat]{"entity": "thongtinchinh", "value": "iot"}
+    - [khai quat]{"entity": "thongtinphu", "value": "tong_quan"} ve nganh [Kt điện điện tử]{"entity": "thongtinchinh", "value": "ktddt"}
+    - [tổng tiền]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [qtkd](thongtinchinh)
+    - [Ky thuat dien tu vien thong]{"entity": "thongtinchinh", "value": "ktdtvt"} [lam duoc gi]{"entity": "thongtinphu", "value": "tot_nghiep_lam_gi"} khi hoc xong
+    - [Số tiền]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [cndpt](thongtinchinh)
+    - [KT]{"entity": "thongtinchinh", "value": "kt"}
+    - [dieu kien tot nghiep]{"entity": "thongtinchinh", "value": "dieu_kien_tot_nghiep"}
+    - [Khoi thi]{"entity": "thongtinphu", "value": "khoi_thi"} nganh [qt kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"}
+    - [khoa cong nghe thong tin]{"entity": "thongtinchinh", "value": "khoa_cntt"}
+    - [Chương trình đào tạo]{"entity": "thongtinphu", "value": "chuong_trinh_dao_tao"} [it]{"entity": "thongtinchinh", "value": "cntt"}
+    - [tổ hợp môn]{"entity": "thongtinphu", "value": "khoi_thi"} thi ngành [KT]{"entity": "thongtinchinh", "value": "kt"}
+    - [cho em hỏi]{"entity": "thongtinphu", "value": "tong_quan"} về ngành [Công nghệ đa phương tiện]{"entity": "thongtinchinh", "value": "cndpt"}
+    - học [ke toan]{"entity": "thongtinchinh", "value": "kt"} [bao lâu]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"} thì xong
+    - [Điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [kt điện điện tử]{"entity": "thongtinchinh", "value": "ktddt"}
+    - học [ky thuat dieu khien va tu dong hoa]{"entity": "thongtinchinh", "value": "ktdkvtdh"} có thể [làm những công việc nào]{"entity": "thongtinphu", "value": "tot_nghiep_lam_gi"}
+    - [chuong trinh dao tao]{"entity": "thongtinphu", "value": "chuong_trinh_dao_tao"} [dien dien tu]{"entity": "thongtinchinh", "value": "ktddt"}
+    - [An toàn tt]{"entity": "thongtinchinh", "value": "attt"} [làm vị trí nào]{"entity": "thongtinphu", "value": "tot_nghiep_lam_gi"} khi học xong
+    - [em muốn biết]{"entity": "thongtinphu", "value": "tong_quan"} về ngành [Quản trị kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"}
+    - Cho em hỏi [Ma Nganh]{"entity": "thongtinphu", "value": "ma_nganh"} [An toàn thông tin]{"entity": "thongtinchinh", "value": "attt"}
+    - [hoc phi]{"entity": "thongtinphu", "value": "hoc_phi"} [CNTT]{"entity": "thongtinchinh", "value": "cntt"}
+    - [điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [Kĩ thuật thuật điều khiển và tự động hóa]{"entity": "thongtinchinh", "value": "ktdkvtdh"}
+    - [Tóm tắt]{"entity": "thongtinphu", "value": "tong_quan"} nganh [ke toan]{"entity": "thongtinchinh", "value": "kt"}
+    - [Cho em hoi]{"entity": "thongtinphu", "value": "tong_quan"} về ngành [kt dieu khien va tu dong hoa]{"entity": "thongtinchinh", "value": "ktdkvtdh"}
+    - ngành [ki thuat dien tu vien thong]{"entity": "thongtinchinh", "value": "ktdtvt"} [học mấy năm]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"}
+    - [Khoa quan ly]{"entity": "thongtinchinh", "value": "khoa_quan_ly"}
+    - [Cho em hỏi]{"entity": "thongtinphu", "value": "tong_quan"} về ngành [cndpt](thongtinchinh)
+    - [hoc phi]{"entity": "thongtinphu", "value": "hoc_phi"} [Kế toán]{"entity": "thongtinchinh", "value": "kt"}
+    - [tổng quan]{"entity": "thongtinphu", "value": "tong_quan"} về ngành [attt](thongtinchinh)
+    - hoc [Kt điện điện tử]{"entity": "thongtinchinh", "value": "ktddt"} [bao lâu]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"} thì ra trường
+    - [khai quat]{"entity": "thongtinphu", "value": "tong_quan"} ve nganh [kt điều khiển tự động]{"entity": "thongtinchinh", "value": "ktdkvtdh"}
+    - Cho em hỏi [khối thi]{"entity": "thongtinphu", "value": "khoi_thi"} ngành [an toàn thông tin]{"entity": "thongtinchinh", "value": "attt"}
+    - [thoi gian hoc tap]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"} của ngành [dien tu vien thong]{"entity": "thongtinchinh", "value": "ktdtvt"}
+    - [dien tu vien thong]{"entity": "thongtinchinh", "value": "ktdtvt"} [chuyên ngành]{"entity": "thongtinphu", "value": "chuyen_nganh"}
+    - [Thoi gian dao tao]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"} [an toàn thông tin]{"entity": "thongtinchinh", "value": "attt"}
+    - [cn internet van vat]{"entity": "thongtinchinh", "value": "iot"}
+    - Chuong trinh dai hoc [vua lam vua hoc]{"entity": "thongtinchinh", "value": "vhvl"} tai Hoc vien Cong nghe Buu chinh Vien thong co gi [khac biet]{"entity": "thongtinphu", "value": "ly_do"}?
+    - em muốn biết [Chuong trinh dao tao]{"entity": "thongtinphu", "value": "chuong_trinh_dao_tao"} nganh [Cong nghe IOT]{"entity": "thongtinchinh", "value": "iot"}
+    - [Kt điện điện tử]{"entity": "thongtinchinh", "value": "ktddt"} [Làm được gì]{"entity": "thongtinphu", "value": "tot_nghiep_lam_gi"} khi học xong
+    - nganh [cn internet vạn vật]{"entity": "thongtinchinh", "value": "iot"} co tong cong bao nhieu [tin chi]{"entity": "thongtinphu", "value": "sotc"}
+    - [Thời gian học]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"} ngành [KT]{"entity": "thongtinchinh", "value": "kt"}
+    - Em có dự định muốn học ngành [công nghệ đa phương tiện]{"entity": "thongtinchinh", "value": "cndpt"}, vậy cho em hỏi học ngành này xong thì ra ngoài có thể [làm gì]{"entity": "thongtinphu", "value": "tot_nghiep_lam_gi"} ạ
+    - [Thoi gian hoc]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"} [kt dien tu vien thong]{"entity": "thongtinchinh", "value": "ktdtvt"}
+    - ngành [cn thong tin]{"entity": "thongtinchinh", "value": "cntt"} [học mấy năm]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"}
+    - [Khoa quan li]{"entity": "thongtinchinh", "value": "khoa_quan_ly"}
+    - [giới thiệu]{"entity": "thongtinphu", "value": "tong_quan"} về ngành [attt](thongtinchinh)
+    - [tom tat]{"entity": "thongtinphu", "value": "tong_quan"} nganh [Cong nghe Iot]{"entity": "thongtinchinh", "value": "iot"}
+    - Cho em hỏi về [chương trình đào tạo]{"entity": "thongtinphu", "value": "chuong_trinh_dao_tao"} ngành [Công nghệ thông tin]{"entity": "thongtinchinh", "value": "cntt"} ạ
+    - [quan tri kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"} có [bao nhiêu tín chỉ]{"entity": "thongtinphu", "value": "sotc"}
+    - [tong tien]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [KTDDT]{"entity": "thongtinchinh", "value": "ktddt"}
+    - số [tín chỉ]{"entity": "thongtinphu", "value": "sotc"} chương trình [vừa làm vừa học]{"entity": "thongtinchinh", "value": "vhvl"} là bao nhiêu
+    - Chi phí [học phí]{"entity": "thongtinchinh", "value": "hoc_phi"} hàng năm là bao nhiêu tiền?
+    - [ky thuat dieu khien va tu dong hoa]{"entity": "thongtinchinh", "value": "ktdkvtdh"}
+    - ngành [kế toán]{"entity": "thongtinchinh", "value": "kt"} có những [chuyên ngành]{"entity": "thongtinphu", "value": "chuyen_nganh"} nào
+    - [Hoc phi]{"entity": "thongtinphu", "value": "hoc_phi"} dai hoc [vua lam vua hoc]{"entity": "thongtinchinh", "value": "vhvl"}
+    - em muon biet [Khối thi]{"entity": "thongtinphu", "value": "khoi_thi"} ngành [Marketing]{"entity": "thongtinchinh", "value": "mkt"}
+    - Chương trình đại học [vừa làm vừa học]{"entity": "thongtinchinh", "value": "vhvl"} [phù hợp]{"entity": "thongtinchinh", "value": "phu_hop"} với những ai?
+    - nganh [Mkt]{"entity": "thongtinchinh", "value": "mkt"} co bao nhieu [tin chi]{"entity": "thongtinphu", "value": "sotc"}
+    - [Khái quát]{"entity": "thongtinphu", "value": "tong_quan"} ngành [bao mat]{"entity": "thongtinchinh", "value": "attt"}
+    - [khoa cntt 2]{"entity": "thongtinchinh", "value": "khoa_cntt"}
+    - [tóm tắt]{"entity": "thongtinphu", "value": "tong_quan"} ngành [it]{"entity": "thongtinchinh", "value": "cntt"}
+    - [cn internet vạn vật]{"entity": "thongtinchinh", "value": "iot"} [lam gi]{"entity": "thongtinphu", "value": "tot_nghiep_lam_gi"} khi hoc xong
+    - nganh [Quản trị kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"} co bn [tin chi]{"entity": "thongtinphu", "value": "sotc"}
+    - [thoi gian dao tao]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"} nganh [MKT]{"entity": "thongtinchinh", "value": "mkt"}
+    - Can bao nhieu [thoi gian de hoan thanh dao tao]{"entity": "thongtinchinh", "value": "thoi_gian_dao_tao"}?
+    - [công nghệ Internet vạn vật]{"entity": "thongtinchinh", "value": "iot"} tổng cộng [bao nhiêu tín chỉ]{"entity": "thongtinphu", "value": "sotc"}
+    - ngành [Qt kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"} [Dao tao bao lau]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"}
+    - Em muon biet [chi phi]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [Cn đa phương tiện]{"entity": "thongtinchinh", "value": "cndpt"} ạ
+    - [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [cong nghe Internet van vat]{"entity": "thongtinchinh", "value": "iot"}
+    - học [IOT]{"entity": "thongtinchinh", "value": "iot"} có thể [làm những công việc nào]{"entity": "thongtinphu", "value": "tot_nghiep_lam_gi"}
+    - hoc [Mkt]{"entity": "thongtinchinh", "value": "mkt"} trong [bao lau]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"}
+    - [Quan tri kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"} có tất cả [bao nhiêu tin chỉ]{"entity": "thongtinphu", "value": "sotc"}
+    - [Chương trình đào tạo]{"entity": "thongtinphu", "value": "chuong_trinh_dao_tao"} [Kĩ thuật thuật điều khiển và tự động hóa]{"entity": "thongtinchinh", "value": "ktdkvtdh"}
+    - [Ma Nganh]{"entity": "thongtinphu", "value": "ma_nganh"} [MKT]{"entity": "thongtinchinh", "value": "mkt"}
+    - [Khái quát]{"entity": "thongtinphu", "value": "tong_quan"} ngành [kế toán]{"entity": "thongtinchinh", "value": "kt"}
+    - [mkt](thongtinchinh) co [bao nhieu tin chi]{"entity": "thongtinphu", "value": "sotc"}
+    - [IT]{"entity": "thongtinchinh", "value": "cntt"} [làm vị trí nào]{"entity": "thongtinphu", "value": "tot_nghiep_lam_gi"} khi học xong
+    - Cho em hỏi về [chương trình đào tạo]{"entity": "thongtinphu", "value": "chuong_trinh_dao_tao"} ngành [cong nghe da phuong tien]{"entity": "thongtinchinh", "value": "cndpt"} ạ
+    - [Ma Nganh]{"entity": "thongtinphu", "value": "ma_nganh"} [Dien tu vien thong]{"entity": "thongtinchinh", "value": "ktdtvt"}
+    - ngành [Cn đa phương tiện]{"entity": "thongtinchinh", "value": "cndpt"} [đào tạo bao lâu]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"}
+    - [Kt điện điện tử]{"entity": "thongtinchinh", "value": "ktddt"}
+    - [Điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [cong nghe da phuong tien]{"entity": "thongtinchinh", "value": "cndpt"}
+    - [Công nghệ IOT]{"entity": "thongtinchinh", "value": "iot"} [Làm được gì]{"entity": "thongtinphu", "value": "tot_nghiep_lam_gi"} khi học xong
+    - [Cho em hỏi]{"entity": "thongtinphu", "value": "tong_quan"} về ngành [kt điện điện tử]{"entity": "thongtinchinh", "value": "ktddt"}
+    - em muon biet [Chuong trinh dao tao]{"entity": "thongtinphu", "value": "chuong_trinh_dao_tao"} nganh [công nghệ Internet vạn vật]{"entity": "thongtinchinh", "value": "iot"}
+    - cho em hoi ve [phong dich vu]{"entity": "thongtinphu", "value": "phong_dich_vu"} [ktx](thongtinchinh)
+    - Em muon biet [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [Quan tri kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"}
+    - học [công nghệ internet vạn vật]{"entity": "thongtinchinh", "value": "iot"} mất [bao lâu]
+    - [Qt kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"} co [bao nhieu tin chi]{"entity": "thongtinphu", "value": "sotc"}
+    - [Thoi gian dao tao]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"} [Cong nghe Iot]{"entity": "thongtinchinh", "value": "iot"}
+    - ngành [KT]{"entity": "thongtinchinh", "value": "kt"} [Đào tạo bao lâu]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"}
+    - [Số tiền]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [kĩ thuật điều khiển tự động]{"entity": "thongtinchinh", "value": "ktdkvtdh"}
+    - [to hop mon]{"entity": "thongtinphu", "value": "khoi_thi"} nganh [ky thuat dieu khien va tu dong hoa]{"entity": "thongtinchinh", "value": "ktdkvtdh"}
+    - [khoa it]{"entity": "thongtinchinh", "value": "khoa_cntt"}
+    - [sotc](thongtinphu) ngành [qt kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"}
+    - ngành [kế toán]{"entity": "thongtinchinh", "value": "kt"} có tổng cộng bao nhiêu [tín chỉ]{"entity": "thongtinphu", "value": "sotc"}
+    - [tổ hợp xét tuyển]{"entity": "thongtinphu", "value": "khoi_thi"} ngành [An toan thong tin]{"entity": "thongtinchinh", "value": "attt"}
+    - [em muốn biết]{"entity": "thongtinphu", "value": "tong_quan"} về ngành [kỹ thuật điện tử viễn thông]{"entity": "thongtinchinh", "value": "ktdtvt"}
+    - [khối thi]{"entity": "thongtinphu", "value": "khoi_thi"} ngành [Kế toán]{"entity": "thongtinchinh", "value": "kt"}
+    - [cho em hỏi]{"entity": "thongtinphu", "value": "tong_quan"} về ngành [kỹ thuật điện điện tử]{"entity": "thongtinchinh", "value": "ktddt"}
+    - nganh [qtkd](thongtinchinh) co tong cong bao nhieu [tin chi]{"entity": "thongtinphu", "value": "sotc"} tat ca
+    - em muốn biết [chi phí]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [Marketing]{"entity": "thongtinchinh", "value": "mkt"} ạ
+    - [Thời gian học tập]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"} của ngành [qt kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"}
+    - [tổ hợp môn]{"entity": "thongtinphu", "value": "khoi_thi"} thi ngành [kỹ thuật điện điện tử]{"entity": "thongtinchinh", "value": "ktddt"}
+    - nganh [Ky thuat dien tu vien thong]{"entity": "thongtinchinh", "value": "ktdtvt"} co tong cong bao nhieu [tin chi]{"entity": "thongtinphu", "value": "sotc"}
+    - [khoi thi]{"entity": "thongtinphu", "value": "khoi_thi"} nganh [cn internet van vat]{"entity": "thongtinchinh", "value": "iot"}
+    - [Dai hoc vua lam vua hoc]{"entity": "thongtinchinh", "value": "vhvl"}
+    - [Diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [Kt điện điện tử]{"entity": "thongtinchinh", "value": "ktddt"}
+    - [tổng tiền]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [cn thong tin]{"entity": "thongtinchinh", "value": "cntt"}
+    - [Kế toán]{"entity": "thongtinchinh", "value": "kt"}
+    - ngành [marketing]{"entity": "thongtinchinh", "value": "mkt"} [hoc may nam]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"}
+    - [Học phí]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [Quản trị kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"}
+    - em muốn hỏi về [kí túc xá]{"entity": "thongtinchinh", "value": "ktx"}
+    - [Điện tử viễn thông]{"entity": "thongtinchinh", "value": "ktdtvt"} có tất cả [bao nhiêu tin chỉ]{"entity": "thongtinphu", "value": "sotc"}
+    - em muon biet [Chuong trinh dao tao]{"entity": "thongtinphu", "value": "chuong_trinh_dao_tao"} nganh [công nghệ đa phương tiện]{"entity": "thongtinchinh", "value": "cndpt"}
+    - [to hop xet tuyen]{"entity": "thongtinphu", "value": "khoi_thi"} nganh [cn da phuong tien]{"entity": "thongtinchinh", "value": "cndpt"}
+    - [Khoa ky thuat dien tu]{"entity": "thongtinchinh", "value": "khoa_ktdt"}
+    - [Ke toan]{"entity": "thongtinchinh", "value": "kt"} [Làm được gì]{"entity": "thongtinphu", "value": "tot_nghiep_lam_gi"} khi học xong
+    - [Cong nghe IOT]{"entity": "thongtinchinh", "value": "iot"}
+    - [Quản trị kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"} [Làm được gì]{"entity": "thongtinphu", "value": "tot_nghiep_lam_gi"} khi học xong
+    - [Thời gian học tập]{"entity": "thongtinchinh", "value": "thoi_gian_dao_tao"} là bao nhiêu?
+    - em muon biet [Chuong trinh dao tao]{"entity": "thongtinphu", "value": "chuong_trinh_dao_tao"} nganh [mkt](thongtinchinh)
+    - [gioi thieu]{"entity": "thongtinphu", "value": "tong_quan"} ve nganh [điện tử viễn thông]{"entity": "thongtinchinh", "value": "ktdtvt"}
+    - cho em hỏi [khối thi]{"entity": "thongtinphu", "value": "khoi_thi"} ngành [Kĩ thuật điện điện tử]{"entity": "thongtinchinh", "value": "ktddt"}
+    - cho em hoi [Chuong trinh dao tao]{"entity": "thongtinphu", "value": "chuong_trinh_dao_tao"} nganh [an toan tt]{"entity": "thongtinchinh", "value": "attt"}
+    - [so tien]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [ky thuat dieu khien tu dong]{"entity": "thongtinchinh", "value": "ktdkvtdh"}
+    - [Công nghệ thông tin]{"entity": "thongtinchinh", "value": "cntt"} [Chuyen Nganh]{"entity": "thongtinphu", "value": "chuyen_nganh"}
+    - [cho em hỏi]{"entity": "thongtinphu", "value": "tong_quan"} về ngành [ky thuat điều khiển tự động]{"entity": "thongtinchinh", "value": "ktdkvtdh"}
+    - [em muon hoi]{"entity": "thongtinphu", "value": "tong_quan"} ve nganh [Kỹ thuật điện tử viễn thông]{"entity": "thongtinchinh", "value": "ktdtvt"}
+    - [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [IT]{"entity": "thongtinchinh", "value": "cntt"}
+    - [điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [cntt](thongtinchinh)
+    - [To hop xet tuyen]{"entity": "thongtinphu", "value": "khoi_thi"} thi nganh [ky thuat dieu khien tu dong]{"entity": "thongtinchinh", "value": "ktdkvtdh"}
+    - [điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [kĩ thuật điện tử viễn thông]{"entity": "thongtinchinh", "value": "ktdtvt"}
+    - [khai quat]{"entity": "thongtinphu", "value": "tong_quan"} ve nganh [cong nghe internet van vat]{"entity": "thongtinchinh", "value": "iot"}
+    - [điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [KT]{"entity": "thongtinchinh", "value": "kt"}
+    - [Kế toán]{"entity": "thongtinchinh", "value": "kt"} [làm những công việc nào]{"entity": "thongtinphu", "value": "tot_nghiep_lam_gi"} khi học xong
+    - [sotc](thongtinphu) ngành [cntt](thongtinchinh)
+    - Cho em hỏi về [chương trình đào tạo]{"entity": "thongtinphu", "value": "chuong_trinh_dao_tao"} ngành [mkt](thongtinchinh) ạ
+    - cho em hoi [ma nganh]{"entity": "thongtinphu", "value": "ma_nganh"} [cn iot]{"entity": "thongtinchinh", "value": "iot"}
+    - [Thời gian]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"} ngành [an toan thong tin]{"entity": "thongtinchinh", "value": "attt"}
+    - [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [cong nghe internet van vat]{"entity": "thongtinchinh", "value": "iot"}
+    - Học xong [An toàn thông tin]{"entity": "thongtinchinh", "value": "attt"} co the [làm công việc gì]{"entity": "thongtinphu", "value": "tot_nghiep_lam_gi"} a
+    - Cho em hỏi về [học phí]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [qtkd](thongtinchinh) ạ
+    - [Tổng tiền]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [Ke toan]{"entity": "thongtinchinh", "value": "kt"}
+    - [em muốn hỏi]{"entity": "thongtinphu", "value": "tong_quan"} về ngành [Cn thông tin]{"entity": "thongtinchinh", "value": "cntt"}
+    - [ktdkvtdh](thongtinchinh) [Lam cong viec gi]{"entity": "thongtinphu", "value": "tot_nghiep_lam_gi"} khi hoc xong
+    - [Dien tu vien thong]{"entity": "thongtinchinh", "value": "ktdtvt"} [chuyen nganh]{"entity": "thongtinphu", "value": "chuyen_nganh"}
+    - [thời gian học]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"} ngành [iT]{"entity": "thongtinchinh", "value": "cntt"}
+    - [khoa co ban]{"entity": "thongtinchinh", "value": "khoa_coban"}
+    - Tổng cộng chi phí [học phí]{"entity": "thongtinchinh", "value": "hoc_phi"} một năm là bao nhiêu?
+    - em muốn biết [chi phí]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [qt kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"} ạ
+    - [cho em hoi]{"entity": "thongtinphu", "value": "tong_quan"} ve nganh [bao mat]{"entity": "thongtinchinh", "value": "attt"}
+    - học [Cong nghe internet van vat]{"entity": "thongtinchinh", "value": "iot"} [bao lâu]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"} thì xong
+    - [Tong tien]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [ke toan]{"entity": "thongtinchinh", "value": "kt"}
+    - [hoc phi]{"entity": "thongtinchinh", "value": "hoc_phi"}
+    - [khai quat]{"entity": "thongtinphu", "value": "tong_quan"} ve nganh [Quan tri kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"}
+    - [Em muốn biết]{"entity": "thongtinphu", "value": "tong_quan"} về ngành [công nghệ tt]{"entity": "thongtinchinh", "value": "cntt"}
+    - [thoi gian dao tao]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"} nganh [kế toán]{"entity": "thongtinchinh", "value": "kt"}
+    - [to hop mon]{"entity": "thongtinphu", "value": "khoi_thi"} nganh [Quan tri kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"}
+    - [Học phí]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [kt dien tu vien thong]{"entity": "thongtinchinh", "value": "ktdtvt"}
+    - [số tín chỉ]{"entity": "thongtinphu", "value": "sotc"} ngành [quan tri kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"}
+    - [em muốn biết]{"entity": "thongtinphu", "value": "tong_quan"} về ngành [cn thông tin]{"entity": "thongtinchinh", "value": "cntt"}
+    - Em có dự định muốn học ngành [dien tu]{"entity": "thongtinchinh", "value": "ktddt"}, vậy cho em hỏi học ngành này xong thì ra ngoài có thể [làm gì]{"entity": "thongtinphu", "value": "tot_nghiep_lam_gi"} ạ
+    - [marketing]{"entity": "thongtinchinh", "value": "mkt"}
+    - [Cong nghe da phuong tien]{"entity": "thongtinchinh", "value": "cndpt"} [làm những công việc gì]{"entity": "thongtinphu", "value": "tot_nghiep_lam_gi"} khi học xong
+    - [cho em hỏi]{"entity": "thongtinphu", "value": "tong_quan"} về ngành [kế toán]{"entity": "thongtinchinh", "value": "kt"}
+    - [điều kiện tôt nghiệp]{"entity": "thongtinchinh", "value": "dieu_kien_tot_nghiep"}
+    - [tóm tắt]{"entity": "thongtinphu", "value": "tong_quan"} ngành [an toan thong tin]{"entity": "thongtinchinh", "value": "attt"}
+    - [cho em hỏi]{"entity": "thongtinphu", "value": "tong_quan"} về ngành [ktdkvtdh](thongtinchinh)
+    - nganh [mkt](thongtinchinh) co bn [tin chi]{"entity": "thongtinphu", "value": "sotc"}
+    - Cho em hoi [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [Công nghệ Iot]{"entity": "thongtinchinh", "value": "iot"}
+    - truong [dao tao nganh]{"entity": "thongtinchinh", "value": "nganh_dao_tao"} nao
+    - [Khoi thi]{"entity": "thongtinphu", "value": "khoi_thi"} nganh [Ki thuat dien dien tu]{"entity": "thongtinchinh", "value": "ktddt"}
+    - [em muon hoi]{"entity": "thongtinphu", "value": "tong_quan"} về ngành [Kế toán]{"entity": "thongtinchinh", "value": "kt"}
+    - [Chương trình đào tạo]{"entity": "thongtinphu", "value": "chuong_trinh_dao_tao"} [kỹ thuật điện tử viễn thông]{"entity": "thongtinchinh", "value": "ktdtvt"}
+    - [to hop xet tuyen]{"entity": "thongtinphu", "value": "khoi_thi"} nganh [An toàn thông tin]{"entity": "thongtinchinh", "value": "attt"}
+    - [Mkt]{"entity": "thongtinchinh", "value": "mkt"} [làm những công việc nào]{"entity": "thongtinphu", "value": "tot_nghiep_lam_gi"} khi học xong
+    - [Thời gian học tập]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"} của ngành [kt](thongtinchinh)
+    - [học mấy năm]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"} ngành [Ky thuat dien dien tu]{"entity": "thongtinchinh", "value": "ktddt"}
+    - ngành [dien dien tu]{"entity": "thongtinchinh", "value": "ktddt"} [học mấy năm]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"}
+    - Em muon biet [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [Kt dien dien tu]{"entity": "thongtinchinh", "value": "ktddt"}
+    - nganh [kĩ thuật điều khiển và tự động hóa]{"entity": "thongtinchinh", "value": "ktdkvtdh"} co bn [tin chi]{"entity": "thongtinphu", "value": "sotc"}
+    - [kĩ thuật điều khiển tự động]{"entity": "thongtinchinh", "value": "ktdkvtdh"}
+    - [thoi gian dao tao]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"} [Quản trị kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"}
+    - Khoang [thoi gian hoc]{"entity": "thongtinchinh", "value": "thoi_gian_dao_tao"} la bao lau?
+    - [Diem trung tuyen]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [Dien tu vien thong]{"entity": "thongtinchinh", "value": "ktdtvt"}
+    - [hoc phi]{"entity": "thongtinphu", "value": "hoc_phi"} [cong nghe Internet van vat]{"entity": "thongtinchinh", "value": "iot"}
+    - [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [Quan tri kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"}
+    - cho em hỏi [điều kiện để tốt nghiệp]{"entity": "thongtinchinh", "value": "dieu_kien_tot_nghiep"} ạ
+    - [Học phí]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [Cong nghe Iot]{"entity": "thongtinchinh", "value": "iot"}
+    - [So tien]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [Cong nghe iot]{"entity": "thongtinchinh", "value": "iot"}
+    - [Tom tat]{"entity": "thongtinphu", "value": "tong_quan"} nganh [cong nghe iot]{"entity": "thongtinchinh", "value": "iot"}
+    - [An toàn tt]{"entity": "thongtinchinh", "value": "attt"}
+    - [Dien tu vien thong]{"entity": "thongtinchinh", "value": "ktdtvt"} co tat ca [bao nhieu tin chi]{"entity": "thongtinphu", "value": "sotc"}
+    - [Khối thi]{"entity": "thongtinphu", "value": "khoi_thi"} ngành [Ky thuat dien tu vien thong]{"entity": "thongtinchinh", "value": "ktdtvt"}
+    - [Cho em hoii]{"entity": "thongtinphu", "value": "tong_quan"} về ngành [Công nghệ thông tin]{"entity": "thongtinchinh", "value": "cntt"}
+    - Cho em hỏi về [chương trình đào tạo]{"entity": "thongtinphu", "value": "chuong_trinh_dao_tao"} ngành [Marketing]{"entity": "thongtinchinh", "value": "mkt"} ạ
+    - [Thời gian]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"} ngành [ke toan]{"entity": "thongtinchinh", "value": "kt"}
+    - em muon biet [Chuong trinh dao tao]{"entity": "thongtinphu", "value": "chuong_trinh_dao_tao"} nganh [công nghệ tt]{"entity": "thongtinchinh", "value": "cntt"}
+    - ngành [Cn da phuong tien]{"entity": "thongtinchinh", "value": "cndpt"} có bao nhiêu [Tin chi]{"entity": "thongtinphu", "value": "sotc"}
+    - [Cn thông tin]{"entity": "thongtinchinh", "value": "cntt"} [lam gi]{"entity": "thongtinphu", "value": "tot_nghiep_lam_gi"} khi hoc xong
+    - [so tin chi]{"entity": "thongtinphu", "value": "sotc"} nganh [kĩ thuật điện điện tử]{"entity": "thongtinchinh", "value": "ktddt"}
+    - [công nghệ Iot]{"entity": "thongtinchinh", "value": "iot"} [Lam duoc gi]{"entity": "thongtinphu", "value": "tot_nghiep_lam_gi"} khi hoc xong
+    - [em muon hoi]{"entity": "thongtinphu", "value": "tong_quan"} về ngành [MKT]{"entity": "thongtinchinh", "value": "mkt"}
+    - hoc [công nghệ Iot]{"entity": "thongtinchinh", "value": "iot"} [bao lâu]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"} thì ra trường
+    - [tổng quan]{"entity": "thongtinphu", "value": "tong_quan"} về [trường]{"entity": "thongtinchinh", "value": "truong"}
+    - nganh [Công nghệ IOT]{"entity": "thongtinchinh", "value": "iot"} co bn [tin chi]{"entity": "thongtinphu", "value": "sotc"}
+    - [tổng tiền]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [KT]{"entity": "thongtinchinh", "value": "kt"}
+    - [Số tiền]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [quản trị kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"}
+    - [cho em hoi]{"entity": "thongtinphu", "value": "tong_quan"} ve nganh [cn iot]{"entity": "thongtinchinh", "value": "iot"}
+    - [To hop mon]{"entity": "thongtinphu", "value": "khoi_thi"} thi nganh [ki thuat dieu khien va tu dong hoa]{"entity": "thongtinchinh", "value": "ktdkvtdh"}
+    - [So tien]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [ki thuat dien tu vien thong]{"entity": "thongtinchinh", "value": "ktdtvt"}
+    - học [ioT]{"entity": "thongtinchinh", "value": "iot"} có thể [làm những công việc gì]{"entity": "thongtinphu", "value": "tot_nghiep_lam_gi"}
+    - [Học phí]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [marketing]{"entity": "thongtinchinh", "value": "mkt"}
+    - [khối thi]{"entity": "thongtinphu", "value": "khoi_thi"} ngành [cntt](thongtinchinh)
+    - [Thời gian đào tạo]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"} [kt dieu khien va tu dong hoa]{"entity": "thongtinchinh", "value": "ktdkvtdh"}
+    - [em muốn biết]{"entity": "thongtinphu", "value": "tong_quan"} về ngành [công nghệ internet vạn vật]{"entity": "thongtinchinh", "value": "iot"}
+    - [so tin chi]{"entity": "thongtinphu", "value": "sotc"} nganh [KT]{"entity": "thongtinchinh", "value": "kt"}
+    - [Thoi gian]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"} [ki thuat dien tu vien thong]{"entity": "thongtinchinh", "value": "ktdtvt"}
+    - [Thời gian học tập]{"entity": "thongtinchinh", "value": "thoi_gian_dao_tao"}
+    - [tong tien]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [Kt]{"entity": "thongtinchinh", "value": "kt"}
+    - học [quan tri kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"} có thể [làm những công việc gì]{"entity": "thongtinphu", "value": "tot_nghiep_lam_gi"}
+    - [em muốn biết]{"entity": "thongtinphu", "value": "tong_quan"} về ngành [Qt kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"}
+    - hoc xong [công nghệ thông tin]{"entity": "thongtinchinh", "value": "cntt"} thi [lam duoc gi]{"entity": "thongtinphu", "value": "tot_nghiep_lam_gi"}
+    - cho em hoi ve [học phí]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [Ki thuat dieu khien va tu dong hoa]{"entity": "thongtinchinh", "value": "ktdkvtdh"} ạ
+    - [tổ hợp xét tuyển]{"entity": "thongtinphu", "value": "khoi_thi"} ngành [Kĩ thuật thuật điều khiển và tự động hóa]{"entity": "thongtinchinh", "value": "ktdkvtdh"}
+    - ngành [dien tu]{"entity": "thongtinchinh", "value": "ktddt"} có những [chuyên ngành]{"entity": "thongtinphu", "value": "chuyen_nganh"} nào
+    - [đào tạo mấy năm]{"entity": "thongtinchinh", "value": "thoi_gian_dao_tao"} keo dai bao lau?
+    - em muốn hỏi về [ktx](thongtinchinh)
+    - [so tin chi]{"entity": "thongtinphu", "value": "sotc"} nganh [cn internet van vat]{"entity": "thongtinchinh", "value": "iot"}
+    - em muon hoi ve [phong dich vu chat luong cao]{"entity": "thongtinphu", "value": "phong_dich_vu_clc"} [ktx](thongtinchinh)
+    - Khi ket thuc chuong trinh dao tao [vua lam vua hoc]{"entity": "thongtinchinh", "value": "vhvl"}, sinh vien se duoc nhan [bang dai hoc]{"entity": "thongtinphu", "value": "loai_bang"} hay chung chi?
+    - Em muon biet [khối thi]{"entity": "thongtinphu", "value": "khoi_thi"} ngành [Kt]{"entity": "thongtinchinh", "value": "kt"}
+    - ngành [IT]{"entity": "thongtinchinh", "value": "cntt"} [dao tao bao lau]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"}
+    - [cho em hoi]{"entity": "thongtinphu", "value": "tong_quan"} ve nganh [công nghệ thông tin]{"entity": "thongtinchinh", "value": "cntt"}
+    - em muốn biết [Chi phí]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [kĩ thuật điện điện tử]{"entity": "thongtinchinh", "value": "ktddt"} ạ
+    - [tổng quan]{"entity": "thongtinphu", "value": "tong_quan"} về ngành [kt](thongtinchinh)
+    - [tóm tắt]{"entity": "thongtinphu", "value": "tong_quan"} [hoc vien]{"entity": "thongtinchinh", "value": "truong"}
+    - ngành [Quan tri kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"} có bn [tín chỉ]{"entity": "thongtinphu", "value": "sotc"} tất cả
+    - [gv]{"entity": "thongtinphu", "value": "giang_vien"} [khoa vien thong]{"entity": "thongtinchinh", "value": "khoa_vt"}
+    - [tóm tắt]{"entity": "thongtinphu", "value": "tong_quan"} ngành [cong nghe da phuong tien]{"entity": "thongtinchinh", "value": "cndpt"}
+    - [đại học vừa làm vừa học]{"entity": "thongtinchinh", "value": "vhvl"} là gì
+    - Cho em hoi [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [ki thuat dien tu vien thong]{"entity": "thongtinchinh", "value": "ktdtvt"}
+    - Dai hoc [vua lam vua hoc]{"entity": "thongtinchinh", "value": "vhvl"} tuyen sinh nhung [nganh]{"entity": "thongtinphu", "value": "nganh_dao_tao"} nao?
+    - [Thời gian học]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"} ngành [ATTT]{"entity": "thongtinchinh", "value": "attt"}
+    - em muon biet ve [phong dich vu chat luong cao]{"entity": "thongtinphu", "value": "phong_dich_vu_clc"} [ki tuc xa]{"entity": "thongtinchinh", "value": "ktx"}
+    - [quản trị kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"} tổng cộng [bao nhiêu tín chỉ]{"entity": "thongtinphu", "value": "sotc"}
+    - Cho em hoi [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [Công nghệ đa phương tiện]{"entity": "thongtinchinh", "value": "cndpt"}
+    - Em muon biết [Ma Nganh]{"entity": "thongtinphu", "value": "ma_nganh"} [An toàn tt]{"entity": "thongtinchinh", "value": "attt"}
+    - [cho em hoi]{"entity": "thongtinphu", "value": "tong_quan"} ve nganh [cong nghe tt]{"entity": "thongtinchinh", "value": "cntt"}
+    - [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [ATTT]{"entity": "thongtinchinh", "value": "attt"}
+    - học [an toan tt]{"entity": "thongtinchinh", "value": "attt"} có thể [làm những công việc gì]{"entity": "thongtinphu", "value": "tot_nghiep_lam_gi"}
+    - em muon hoi ve [phong dich vu]{"entity": "thongtinphu", "value": "phong_dich_vu"} [ki tuc xa]{"entity": "thongtinchinh", "value": "ktx"}
+    - [Cho em hỏi]{"entity": "thongtinphu", "value": "tong_quan"} về ngành [quan tri kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"}
+    - [MKT]{"entity": "thongtinchinh", "value": "mkt"} [Làm công việc gì]{"entity": "thongtinphu", "value": "tot_nghiep_lam_gi"} khi học xong
+    - [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [An toàn tt]{"entity": "thongtinchinh", "value": "attt"}
+    - cho em hoi [Chuong trinh dao tao]{"entity": "thongtinphu", "value": "chuong_trinh_dao_tao"} nganh [ky thuat dien tu vien thong]{"entity": "thongtinchinh", "value": "ktdtvt"}
+    - [học mấy năm]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"} ngành [Điện tử viễn thông]{"entity": "thongtinchinh", "value": "ktdtvt"}
+    - [tổ hợp xét tuyển]{"entity": "thongtinphu", "value": "khoi_thi"} thi ngành [ke toan]{"entity": "thongtinchinh", "value": "kt"}
+    - [Kỹ thuật điện tử viễn thông]{"entity": "thongtinchinh", "value": "ktdtvt"} co [bao nhieu tin chi]{"entity": "thongtinphu", "value": "sotc"}
+    - [kt dien tu vien thong]{"entity": "thongtinchinh", "value": "ktdtvt"} [Làm được gì]{"entity": "thongtinphu", "value": "tot_nghiep_lam_gi"} khi học xong
+    - [Cho em hoii]{"entity": "thongtinphu", "value": "tong_quan"} về ngành [Dien tu vien thong]{"entity": "thongtinchinh", "value": "ktdtvt"}
+    - [tong tien]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [Kỹ thuật điều khiển và tự động hóa]{"entity": "thongtinchinh", "value": "ktdkvtdh"}
+    - [tom tat]{"entity": "thongtinphu", "value": "tong_quan"} nganh [iT]{"entity": "thongtinchinh", "value": "cntt"}
+    - em muon biet [Chuong trinh dao tao]{"entity": "thongtinphu", "value": "chuong_trinh_dao_tao"} nganh [ki thuat dien tu vien thong]{"entity": "thongtinchinh", "value": "ktdtvt"}
+    - [phong dich vu]{"entity": "thongtinphu", "value": "phong_dich_vu"} [ki tuc xa]{"entity": "thongtinchinh", "value": "ktx"}
+    - [Ki thuat dien dien tu]{"entity": "thongtinchinh", "value": "ktddt"}
+    - ngành [ky thuat dien tu vien thong]{"entity": "thongtinchinh", "value": "ktdtvt"} có tổng cộng bao nhiêu [tín chỉ]{"entity": "thongtinphu", "value": "sotc"} tất cả
+    - ngành [An toan thong tin]{"entity": "thongtinchinh", "value": "attt"} có tổng cộng bao nhiêu [tín chỉ]{"entity": "thongtinphu", "value": "sotc"} tất cả
+    - [kt](thongtinchinh) co [bao nhieu tin chi]{"entity": "thongtinphu", "value": "sotc"}
+    - em muốn hỏi về [phòng dịch vụ]{"entity": "thongtinphu", "value": "phong_dich_vu"} [ktx](thongtinchinh)
+    - Cho em hoi [Ma Nganh]{"entity": "thongtinphu", "value": "ma_nganh"} [cong nghe thong tin]{"entity": "thongtinchinh", "value": "cntt"}
+    - [iot](thongtinchinh)
+    - [nganh dao tao]{"entity": "thongtinchinh", "value": "nganh_dao_tao"}
+    - Tổng chi phí [học phí]{"entity": "thongtinchinh", "value": "hoc_phi"} một năm là bao nhiêu?
+    - [kế toán]{"entity": "thongtinchinh", "value": "kt"} [lam gi]{"entity": "thongtinphu", "value": "tot_nghiep_lam_gi"} khi hoc xong
+    - [hoc phi]{"entity": "thongtinphu", "value": "hoc_phi"} [cong nghe da phuong tien]{"entity": "thongtinchinh", "value": "cndpt"}
+    - [so tin chi]{"entity": "thongtinphu", "value": "sotc"} nganh [kt điều khiển và tự động hóa]{"entity": "thongtinchinh", "value": "ktdkvtdh"}
+    - [to hop xet tuyen]{"entity": "thongtinphu", "value": "khoi_thi"} thi nganh [Ky thuat dien dien tu]{"entity": "thongtinchinh", "value": "ktddt"}
+    - các [ngành]{"entity": "thongtinphu", "value": "nganh_dao_tao"} đào tạo của đại học [vừa làm vừa học]{"entity": "thongtinchinh", "value": "vhvl"}
+    - [cn da phuong tien]{"entity": "thongtinchinh", "value": "cndpt"} [Làm công việc gì]{"entity": "thongtinphu", "value": "tot_nghiep_lam_gi"} khi học xong
+    - [tổ hợp môn]{"entity": "thongtinphu", "value": "khoi_thi"} thi ngành [Qt trị kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"}
+    - [khoa ktdt]{"entity": "thongtinchinh", "value": "khoa_ktdt"}
+    - cho em hoi [ma nganh]{"entity": "thongtinphu", "value": "ma_nganh"} [Ky thuat dieu khien va tu dong hoa]{"entity": "thongtinchinh", "value": "ktdkvtdh"}
+    - em muon biet [Chuong trinh dao tao]{"entity": "thongtinphu", "value": "chuong_trinh_dao_tao"} nganh [điện tử viễn thông]{"entity": "thongtinchinh", "value": "ktdtvt"}
+    - cho em hoi [Chuong trinh dao tao]{"entity": "thongtinphu", "value": "chuong_trinh_dao_tao"} nganh [kỹ thuật điện điện tử]{"entity": "thongtinchinh", "value": "ktddt"}
+    - [Điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [kĩ thuật điều khiển tự động]{"entity": "thongtinchinh", "value": "ktdkvtdh"}
+    - [em muon hoi]{"entity": "thongtinphu", "value": "tong_quan"} ve nganh [cntt](thongtinchinh)
+    - ngành [Marketing]{"entity": "thongtinchinh", "value": "mkt"} [học mấy năm]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"}
+    - [KTDDT]{"entity": "thongtinchinh", "value": "ktddt"} hoc [bao nhieu tin chi]{"entity": "thongtinphu", "value": "sotc"}
+    - [Tóm tắt]{"entity": "thongtinphu", "value": "tong_quan"} nganh [cong nghe Iot]{"entity": "thongtinchinh", "value": "iot"}
+    - em muốn biết [Chuong trinh dao tao]{"entity": "thongtinphu", "value": "chuong_trinh_dao_tao"} nganh [cn đa phương tiện]{"entity": "thongtinchinh", "value": "cndpt"}
+    - [điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [cn da phuong tien]{"entity": "thongtinchinh", "value": "cndpt"}
+    - [Công nghệ đa phương tiện]{"entity": "thongtinchinh", "value": "cndpt"} hoc [bao nhieu tin chi]{"entity": "thongtinphu", "value": "sotc"}
+    - [Thoi gian hoc]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"} [kt điều khiển và tự động hóa]{"entity": "thongtinchinh", "value": "ktdkvtdh"}
+    - [thoi gian hoc tap]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"} của ngành [Cong nghe iot]{"entity": "thongtinchinh", "value": "iot"}
+    - [To hop mon]{"entity": "thongtinphu", "value": "khoi_thi"} thi nganh [dien tu vien thong]{"entity": "thongtinchinh", "value": "ktdtvt"}
+    - [khoa vt]{"entity": "thongtinchinh", "value": "khoa_vt"}
+    - em muon biet [Khối thi]{"entity": "thongtinphu", "value": "khoi_thi"} ngành [KT]{"entity": "thongtinchinh", "value": "kt"}
+    - [ATTT]{"entity": "thongtinchinh", "value": "attt"} [Làm công việc gì]{"entity": "thongtinphu", "value": "tot_nghiep_lam_gi"} khi học xong
+    - Cho em hoi [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [cong nghe tt]{"entity": "thongtinchinh", "value": "cntt"}
+    - [cho em hỏi]{"entity": "thongtinphu", "value": "tong_quan"} về ngành [ky thuat dien tu vien thong]{"entity": "thongtinchinh", "value": "ktdtvt"}
+    - cho em hỏi về [phong dich vu chat luong cao]{"entity": "thongtinphu", "value": "phong_dich_vu_clc"} [ký túc xá]{"entity": "thongtinchinh", "value": "ktx"}
+    - [thoi gian dao tao]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"} [ky thuat điều khiển tự động]{"entity": "thongtinchinh", "value": "ktdkvtdh"}
+    - [điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [cong nghe Iot]{"entity": "thongtinchinh", "value": "iot"}
+    - [Tom tat]{"entity": "thongtinphu", "value": "tong_quan"} nganh [Kt dien dien tu]{"entity": "thongtinchinh", "value": "ktddt"}
+    - [Mã Ngành]{"entity": "thongtinphu", "value": "ma_nganh"} [ki thuat dien tu vien thong]{"entity": "thongtinchinh", "value": "ktdtvt"}
+    - nganh [kỹ thuật điều khiển và tự động hóa]{"entity": "thongtinchinh", "value": "ktdkvtdh"} co bao nhieu [tin chi]{"entity": "thongtinphu", "value": "sotc"}
+    - [so tin chi]{"entity": "thongtinphu", "value": "sotc"} nganh [Attt]{"entity": "thongtinchinh", "value": "attt"}
+    - [em muon biet]{"entity": "thongtinphu", "value": "tong_quan"} ve nganh [Kt]{"entity": "thongtinchinh", "value": "kt"}
+    - [Học phí]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [Ky thuat dien tu vien thong]{"entity": "thongtinchinh", "value": "ktdtvt"}
+    - [cho em hỏi]{"entity": "thongtinphu", "value": "tong_quan"} về ngành [Công nghệ IOT]{"entity": "thongtinchinh", "value": "iot"}
+    - cho em hoi ve [học phí]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [cn đa phương tiện]{"entity": "thongtinchinh", "value": "cndpt"} ạ
+    - cho em hỏi [khối thi]{"entity": "thongtinphu", "value": "khoi_thi"} ngành [Cong nghe da phuong tien]{"entity": "thongtinchinh", "value": "cndpt"}
+    - cho em hoi [ma nganh]{"entity": "thongtinphu", "value": "ma_nganh"} [dien dien tu]{"entity": "thongtinchinh", "value": "ktddt"}
+    - [Khai quat]{"entity": "thongtinphu", "value": "tong_quan"} ngành [CNTT]{"entity": "thongtinchinh", "value": "cntt"}
+    - [thoi gian]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"} [quan tri kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"}
+    - [Cho em hỏi]{"entity": "thongtinphu", "value": "tong_quan"} về ngành [Marketing]{"entity": "thongtinchinh", "value": "mkt"}
+    - [tom tat]{"entity": "thongtinphu", "value": "tong_quan"} nganh [an toàn thông tin]{"entity": "thongtinchinh", "value": "attt"}
+    - Số [tín chỉ]{"entity": "thongtinphu", "value": "sotc"} đại học [vừa làm vừa học]{"entity": "thongtinchinh", "value": "vhvl"} là bao nhiêu
+    - [Mã Ngành]{"entity": "thongtinphu", "value": "ma_nganh"} [ki thuat dien dien tu]{"entity": "thongtinchinh", "value": "ktddt"}
+    - nganh [thuat dien tu vien thông]{"entity": "thongtinchinh", "value": "ktdtvt"} co tong cong bao nhieu [tin chi]{"entity": "thongtinphu", "value": "sotc"} tat ca
+    - Cho em hoi [Ma Nganh]{"entity": "thongtinphu", "value": "ma_nganh"} [cong nghe da phuong tien]{"entity": "thongtinchinh", "value": "cndpt"}
+    - [Ma Nganh]{"entity": "thongtinphu", "value": "ma_nganh"} [Cn thong tin]{"entity": "thongtinchinh", "value": "cntt"}
+    - Cho em hỏi về [chương trình đào tạo]{"entity": "thongtinphu", "value": "chuong_trinh_dao_tao"} ngành [kt dien dien tu]{"entity": "thongtinchinh", "value": "ktddt"} ạ
+    - em muon biet [Chuong trinh dao tao]{"entity": "thongtinphu", "value": "chuong_trinh_dao_tao"} nganh [Cn đa phương tiện]{"entity": "thongtinchinh", "value": "cndpt"}
+    - [Điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [iT]{"entity": "thongtinchinh", "value": "cntt"}
+    - [tổ hợp xét tuyển]{"entity": "thongtinphu", "value": "khoi_thi"} ngành [iT]{"entity": "thongtinchinh", "value": "cntt"}
+    - [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [ke toan]{"entity": "thongtinchinh", "value": "kt"}
+    - [dieu kien de tot nghiep]{"entity": "thongtinchinh", "value": "dieu_kien_tot_nghiep"} dai Hoc
+    - Cho em hoi [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [attt](thongtinchinh)
+    - [thời gian đào tạo]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"} của ngành [kt điều khiển và tự động hóa]{"entity": "thongtinchinh", "value": "ktdkvtdh"}
+    - [công nghệ Iot]{"entity": "thongtinchinh", "value": "iot"}
+    - Em muon biet [chi phi]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [mkt](thongtinchinh) ạ
+    - nganh [kt dien tu vien thong]{"entity": "thongtinchinh", "value": "ktdtvt"} co bn [tín chỉ]{"entity": "thongtinphu", "value": "sotc"}
+    - [Kt]{"entity": "thongtinchinh", "value": "kt"}
+    - cho em hoi ve [phong dich vu chat luong cao]{"entity": "thongtinphu", "value": "phong_dich_vu_clc"} [ktx](thongtinchinh)
+    - hoc xong [qt kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"} thi [lam duoc gi]{"entity": "thongtinphu", "value": "tot_nghiep_lam_gi"}
+    - [Tong quan]{"entity": "thongtinphu", "value": "tong_quan"} về [truong](thongtinchinh)
+    - [Chương trình đào tạo]{"entity": "thongtinphu", "value": "chuong_trinh_dao_tao"} [Cn da phuong tien]{"entity": "thongtinchinh", "value": "cndpt"}
+    - [To hop mon]{"entity": "thongtinphu", "value": "khoi_thi"} thi nganh [kế toán]{"entity": "thongtinchinh", "value": "kt"}
+    - [Thời gian học tập]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"} của ngành [Kỹ thuật điều khiển và tự động hóa]{"entity": "thongtinchinh", "value": "ktdkvtdh"}
+    - [Khái quát]{"entity": "thongtinphu", "value": "tong_quan"} ngành [CNTT]{"entity": "thongtinchinh", "value": "cntt"}
+    - [phòng dịch vụ chất lượng cao]{"entity": "thongtinphu", "value": "phong_dich_vu_clc"} [ktx](thongtinchinh)
+    - [số tiền]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [ki thuat dien dien tu]{"entity": "thongtinchinh", "value": "ktddt"}
+    - hoc [Ky thuat dieu khien va tu dong hoa]{"entity": "thongtinchinh", "value": "ktdkvtdh"} trong [bao lau]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"}
+    - [to hop xet tuyen]{"entity": "thongtinphu", "value": "khoi_thi"} thi nganh [công nghệ Iot]{"entity": "thongtinchinh", "value": "iot"}
+    - cac [nganh dao tao]{"entity": "thongtinchinh", "value": "nganh_dao_tao"}
+    - cho em hoi ve [học phí]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [ki thuat dien tu vien thong]{"entity": "thongtinchinh", "value": "ktdtvt"} ạ
+    - [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [kt điều khiển tự động]{"entity": "thongtinchinh", "value": "ktdkvtdh"}
+    - học [Dien tu vien thong]{"entity": "thongtinchinh", "value": "ktdtvt"} [bao lâu]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"} thì xong
+    - hoc xong [ATTT]{"entity": "thongtinchinh", "value": "attt"} thi [lam duoc gi]{"entity": "thongtinphu", "value": "tot_nghiep_lam_gi"}
+    - [Diem trung tuyen]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [Cn da phuong tien]{"entity": "thongtinchinh", "value": "cndpt"}
+    - [cntt](thongtinchinh) có tất cả [bao nhiêu tin chỉ]{"entity": "thongtinphu", "value": "sotc"}
+    - em muon biet ve [ki tuc xa]{"entity": "thongtinchinh", "value": "ktx"}
+    - [thoi gian hoc tap]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"} của ngành [Cong nghe da phuong tien]{"entity": "thongtinchinh", "value": "cndpt"}
+    - [Khoa kỹ thuât điện tử]{"entity": "thongtinchinh", "value": "khoa_ktdt"}
+    - [Kĩ thuật thuật điều khiển và tự động hóa]{"entity": "thongtinchinh", "value": "ktdkvtdh"}
+    - [Diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [Kỹ thuật điện tử viễn thông]{"entity": "thongtinchinh", "value": "ktdtvt"}
+    - nganh [ky thuat dien tu vien thong]{"entity": "thongtinchinh", "value": "ktdtvt"} co bn [tin chi]{"entity": "thongtinphu", "value": "sotc"}
+    - [so tin chi]{"entity": "thongtinphu", "value": "sotc"} nganh [Qt kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"}
+    - [Hoc phi]{"entity": "thongtinphu", "value": "hoc_phi"} [kĩ thuật điều khiển tự động]{"entity": "thongtinchinh", "value": "ktdkvtdh"}
+    - [Thoi gian hoc tap]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"} của ngành [An toàn thông tin]{"entity": "thongtinchinh", "value": "attt"}
+    - [so tin chi]{"entity": "thongtinphu", "value": "sotc"} nganh [It]{"entity": "thongtinchinh", "value": "cntt"}
+    - nganh [Kt dien dien tu]{"entity": "thongtinchinh", "value": "ktddt"} co cac [chuyen nganh]{"entity": "thongtinphu", "value": "chuyen_nganh"} nao
+    - [thoi gian hoc tap]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"} của ngành [Marketing]{"entity": "thongtinchinh", "value": "mkt"}
+    - [Chương trình đào tạo]{"entity": "thongtinphu", "value": "chuong_trinh_dao_tao"} [MKT]{"entity": "thongtinchinh", "value": "mkt"}
+    - Em muon biết [Ma Nganh]{"entity": "thongtinphu", "value": "ma_nganh"} [ke toan]{"entity": "thongtinchinh", "value": "kt"}
+    - [Khối thi]{"entity": "thongtinphu", "value": "khoi_thi"} ngành [qtkd](thongtinchinh)
+    - [Co hoi viec lam]{"entity": "thongtinphu", "value": "co_hoi_viec_lam"} dai hoc [vua lam vua hoc]{"entity": "thongtinchinh", "value": "vhvl"}
+    - [thời gian đào tạo]{"entity": "thongtinchinh", "value": "thoi_gian_dao_tao"}
+    - học [Cn đa phương tiện]{"entity": "thongtinchinh", "value": "cndpt"} có thể [làm những công việc gì]{"entity": "thongtinphu", "value": "tot_nghiep_lam_gi"}
+    - [kí túc xá]{"entity": "thongtinchinh", "value": "ktx"} [loại phòng]{"entity": "thongtinphu", "value": "loai_phong"}
+    - [Tóm tắt]{"entity": "thongtinphu", "value": "tong_quan"} [trường ptithcm]{"entity": "thongtinchinh", "value": "truong"}
+    - [Tong tien]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [Attt]{"entity": "thongtinchinh", "value": "attt"}
+    - em muốn hỏi về [ký túc xá]{"entity": "thongtinchinh", "value": "ktx"}
+    - em muon biet [Khối thi]{"entity": "thongtinphu", "value": "khoi_thi"} ngành [an toan thong tin]{"entity": "thongtinchinh", "value": "attt"}
+    - em muon biết [khoi thi]{"entity": "thongtinphu", "value": "khoi_thi"} nganh [Ky thuat dieu khien va tu dong hoa]{"entity": "thongtinchinh", "value": "ktdkvtdh"}
+    - [giới thiệu]{"entity": "thongtinphu", "value": "tong_quan"} về ngành [cong nghe thong tin]{"entity": "thongtinchinh", "value": "cntt"}
+    - [tong tien]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [Cong nghe da phuong tien]{"entity": "thongtinchinh", "value": "cndpt"}
+    - [giới thiệu]{"entity": "thongtinphu", "value": "tong_quan"} về ngành [Cong nghe internet van vat]{"entity": "thongtinchinh", "value": "iot"}
+    - ngành [Kỹ thuật điện tử viễn thông]{"entity": "thongtinchinh", "value": "ktdtvt"} có bao nhiêu [Tin chi]{"entity": "thongtinphu", "value": "sotc"}
+    - [Mã Ngành]{"entity": "thongtinphu", "value": "ma_nganh"} [qtkd](thongtinchinh)
+    - [So tien]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [Quản trị kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"}
+    - [giang vien]{"entity": "thongtinphu", "value": "giang_vien"} [khoa qtkd]{"entity": "thongtinchinh", "value": "khoa_qtkd"}
+    - [Diem trung tuyen]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [cn iot]{"entity": "thongtinchinh", "value": "iot"}
+    - học [Cn thong tin]{"entity": "thongtinchinh", "value": "cntt"} mất [bao lâu]
+    - [Gioi thieu]{"entity": "thongtinphu", "value": "tong_quan"} về [Học viện Công nghệ Bưu chính Viễn thông]{"entity": "thongtinchinh", "value": "truong"}
+    - [tổ hợp môn]{"entity": "thongtinphu", "value": "khoi_thi"} thi ngành [Ky thuat dieu khien va tu dong hoa]{"entity": "thongtinchinh", "value": "ktdkvtdh"}
+    - [an toan thong tin]{"entity": "thongtinchinh", "value": "attt"}
+    - [chuong trinh dao tao]{"entity": "thongtinphu", "value": "chuong_trinh_dao_tao"} [cntt](thongtinchinh)
+    - [dieu kien de ra truong]{"entity": "thongtinchinh", "value": "dieu_kien_tot_nghiep"}
+    - [giới thiệu]{"entity": "thongtinphu", "value": "tong_quan"} về ngành [cong nghe da phuong tien]{"entity": "thongtinchinh", "value": "cndpt"}
+    - Cần bao nhiêu [thời gian]{"entity": "thongtinchinh", "value": "thoi_gian_dao_tao"} để hoàn thành đào tạo?
+    - [giảng viên]{"entity": "thongtinphu", "value": "giang_vien"} [khoa viễn thông]{"entity": "thongtinchinh", "value": "khoa_vt"}
+    - [Thoi gian hoc tap]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"} của ngành [cong nghe Iot]{"entity": "thongtinchinh", "value": "iot"}
+    - ngành [Cong nghe Iot]{"entity": "thongtinchinh", "value": "iot"} có những [chuyên ngành]{"entity": "thongtinphu", "value": "chuyen_nganh"} nào
+    - [Em muon biet]{"entity": "thongtinphu", "value": "tong_quan"} về [hoc vien]{"entity": "thongtinchinh", "value": "truong"}
+    - [so tien]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [cn iot]{"entity": "thongtinchinh", "value": "iot"}
+    - [IT]{"entity": "thongtinchinh", "value": "cntt"} được chia mấy [Chuyên ngành]{"entity": "thongtinphu", "value": "chuyen_nganh"}
+    - Em muon biết [Ma Nganh]{"entity": "thongtinphu", "value": "ma_nganh"} [Kt điện điện tử]{"entity": "thongtinchinh", "value": "ktddt"}
+    - em muon biết [khoi thi]{"entity": "thongtinphu", "value": "khoi_thi"} nganh [it]{"entity": "thongtinchinh", "value": "cntt"}
+    - ngành [kt dien tu vien thong]{"entity": "thongtinchinh", "value": "ktdtvt"} có những [chuyên ngành]{"entity": "thongtinphu", "value": "chuyen_nganh"} nào
+    - ngành [An toàn thông tin]{"entity": "thongtinchinh", "value": "attt"} [hoc may nam]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"}
+    - [iT]{"entity": "thongtinchinh", "value": "cntt"} [làm gì]{"entity": "thongtinphu", "value": "tot_nghiep_lam_gi"} khi học xong
+    - [IOT]{"entity": "thongtinchinh", "value": "iot"} có tất cả [bao nhiêu tin chỉ]{"entity": "thongtinphu", "value": "sotc"}
+    - hoc [kt điều khiển tự động]{"entity": "thongtinchinh", "value": "ktdkvtdh"} [bao lâu]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"} thì ra trường
+    - [MKT]{"entity": "thongtinchinh", "value": "mkt"} [lam vi tri nao]{"entity": "thongtinphu", "value": "tot_nghiep_lam_gi"} khi hoc xong
+    - Em muon biet [khối thi]{"entity": "thongtinphu", "value": "khoi_thi"} ngành [an toàn tt]{"entity": "thongtinchinh", "value": "attt"}
+    - [Ma Nganh]{"entity": "thongtinphu", "value": "ma_nganh"} [dien tu vien thong]{"entity": "thongtinchinh", "value": "ktdtvt"}
+    - các [ngành đào tạo]{"entity": "thongtinchinh", "value": "nganh_dao_tao"}
+    - [thời gian học tập]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"} của ngành [qtkd](thongtinchinh)
+    - [gioi thieu]{"entity": "thongtinphu", "value": "tong_quan"} ve nganh [Dien tu vien thong]{"entity": "thongtinchinh", "value": "ktdtvt"}
+    - Em muốn biết [khối thi]{"entity": "thongtinphu", "value": "khoi_thi"} ngành [mkt](thongtinchinh)
+    - [hoc phi]{"entity": "thongtinphu", "value": "hoc_phi"} [Dien tu vien thong]{"entity": "thongtinchinh", "value": "ktdtvt"}
+    - [Khoi thi]{"entity": "thongtinphu", "value": "khoi_thi"} nganh [công nghệ đa phương tiện]{"entity": "thongtinchinh", "value": "cndpt"}
+    - [thoi gian]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"} [mkt](thongtinchinh)
+    - cho em hoi [ma nganh]{"entity": "thongtinphu", "value": "ma_nganh"} [Marketing]{"entity": "thongtinchinh", "value": "mkt"}
+    - [Ai co the hoc]{"entity": "thongtinphu", "value": "phu_hop"} chuong trinh dai hoc [vua lam vua hoc]{"entity": "thongtinchinh", "value": "vhvl"}?
+    - ngành [kỹ thuật điện tử viễn thông]{"entity": "thongtinchinh", "value": "ktdtvt"}  [tín chỉ]{"entity": "thongtinphu", "value": "sotc"} tất cả
+    - [Công nghệ đa phương tiện]{"entity": "thongtinchinh", "value": "cndpt"} [lam vi tri nao]{"entity": "thongtinphu", "value": "tot_nghiep_lam_gi"} khi hoc xong
+    - ngành [cn thông tin]{"entity": "thongtinchinh", "value": "cntt"} có những [chuyên ngành]{"entity": "thongtinphu", "value": "chuyen_nganh"} nào
+    - [Học phí]{"entity": "thongtinphu", "value": "hoc_phi"} đại học [vừa làm vừa học]{"entity": "thongtinchinh", "value": "vhvl"}
+    - Em muon biet [diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [Kỹ thuật điện tử viễn thông]{"entity": "thongtinchinh", "value": "ktdtvt"}
+    - [thoi gian hoc]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"} [marketing]{"entity": "thongtinchinh", "value": "mkt"}
+    - Nhung khoan phi [hoc phi]{"entity": "thongtinchinh", "value": "hoc_phi"} can chi tra trong mot nam la bao nhieu?
+    - Cho em hỏi về [học phí]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [dien tu]{"entity": "thongtinchinh", "value": "ktddt"} ạ
+    - [Mkt]{"entity": "thongtinchinh", "value": "mkt"} [lam nhung cong viec nao]{"entity": "thongtinphu", "value": "tot_nghiep_lam_gi"} khi hoc xong
+    - [ma nganh]{"entity": "thongtinphu", "value": "ma_nganh"} [Kt]{"entity": "thongtinchinh", "value": "kt"}
+    - em muốn biết [chi phí]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [iT]{"entity": "thongtinchinh", "value": "cntt"} ạ
+    - [Kt dien dien tu]{"entity": "thongtinchinh", "value": "ktddt"}
+    - em muốn biết [mã ngành]{"entity": "thongtinphu", "value": "ma_nganh"} [Quản trị kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"}
+    - cho em hoi [Chuong trinh dao tao]{"entity": "thongtinphu", "value": "chuong_trinh_dao_tao"} nganh [kt dien tu vien thong]{"entity": "thongtinchinh", "value": "ktdtvt"}
+    - [khoi thi]{"entity": "thongtinphu", "value": "khoi_thi"} nganh [ktdtvt](thongtinchinh)
+    - [Điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [Công nghệ internet vạn vật]{"entity": "thongtinchinh", "value": "iot"}
+    - [ma nganh]{"entity": "thongtinphu", "value": "ma_nganh"} [bao mat]{"entity": "thongtinchinh", "value": "attt"}
+    - em muon biết [khoi thi]{"entity": "thongtinphu", "value": "khoi_thi"} nganh [Qt trị kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"}
+    - [thời gian học tập]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"} của ngành [an toàn thông tin]{"entity": "thongtinchinh", "value": "attt"}
+    - [Cn da phuong tien]{"entity": "thongtinchinh", "value": "cndpt"} có [bao nhiêu tín chỉ]{"entity": "thongtinphu", "value": "sotc"}
+    - [so tien]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [bao mat]{"entity": "thongtinchinh", "value": "attt"}
+    - [Dai hoc vua lam vua hoc]{"entity": "thongtinchinh", "value": "vhvl"} la gi
+    - em muốn biết [mã ngành]{"entity": "thongtinphu", "value": "ma_nganh"} [cn da phuong tien]{"entity": "thongtinchinh", "value": "cndpt"}
+    - Chuong trinh dao tao [vua lam vua hoc]{"entity": "thongtinchinh", "value": "vhvl"} co bao nhieu [tin chi]{"entity": "thongtinphu", "value": "sotc"}?
+    - em muốn biết về [phòng dịch vụ]{"entity": "thongtinphu", "value": "phong_dich_vu"} [ký túc xá]{"entity": "thongtinchinh", "value": "ktx"}
+    - Tổ hợp môn]{"entity":"thongtinphu","value":"khoi_thi"} ngành [kt dieu khien va tu dong hoa]{"entity": "thongtinchinh", "value": "ktdkvtdh"}
+    - [thoi gian dao tao]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"} [marketing]{"entity": "thongtinchinh", "value": "mkt"}
+    - em muốn hỏi về [phòng dịch vụ]{"entity": "thongtinphu", "value": "phong_dich_vu"} [ký túc xá]{"entity": "thongtinchinh", "value": "ktx"}
+    - [kĩ thuật điều khiển tự động]{"entity": "thongtinchinh", "value": "ktdkvtdh"} tổng cộng [bao nhiêu tín chỉ]{"entity": "thongtinphu", "value": "sotc"}
+    - [mkt](thongtinchinh) [làm vị trí nào]{"entity": "thongtinphu", "value": "tot_nghiep_lam_gi"} khi học xong
+    - cho em hoi [Chuong trinh dao tao]{"entity": "thongtinphu", "value": "chuong_trinh_dao_tao"} nganh [an toàn tt]{"entity": "thongtinchinh", "value": "attt"}
+    - [Attt]{"entity": "thongtinchinh", "value": "attt"} [làm được gì]{"entity": "thongtinphu", "value": "tot_nghiep_lam_gi"} khi học xong
+    - [to hop xet tuyen]{"entity": "thongtinphu", "value": "khoi_thi"} thi nganh [An toan tt]{"entity": "thongtinchinh", "value": "attt"}
+    - [Mkt]{"entity": "thongtinchinh", "value": "mkt"} có [bao nhiêu tín chỉ]{"entity": "thongtinphu", "value": "sotc"}
+    - ngành [bao mat]{"entity": "thongtinchinh", "value": "attt"} có bao nhiêu [Tin chi]{"entity": "thongtinphu", "value": "sotc"}
+    - [hoc phi]{"entity": "thongtinphu", "value": "hoc_phi"} [Công nghệ IOT]{"entity": "thongtinchinh", "value": "iot"}
+    - [ctdt]{"entity": "thongtinphu", "value": "chuong_trinh_dao_tao"} [MKT]{"entity": "thongtinchinh", "value": "mkt"}
+    - em muon hoi ve [phong dich vu]{"entity": "thongtinphu", "value": "phong_dich_vu"} [ky tuc xa]{"entity": "thongtinchinh", "value": "ktx"}
+    - [tong quan]{"entity": "thongtinphu", "value": "tong_quan"} nganh [Ky thuat dien dien tu]{"entity": "thongtinchinh", "value": "ktddt"}
+    - [so tin chi]{"entity": "thongtinphu", "value": "sotc"} nganh [Công nghệ đa phương tiện]{"entity": "thongtinchinh", "value": "cndpt"}
+    - [Em muon biet]{"entity": "thongtinphu", "value": "tong_quan"} về ngành [kt dien tu vien thong]{"entity": "thongtinchinh", "value": "ktdtvt"}
+    - [khoa công nghệ thông tin 2]{"entity": "thongtinchinh", "value": "khoa_cntt"}
+    - [khái quát]{"entity": "thongtinphu", "value": "tong_quan"} ngành [ki thuat dien dien tu]{"entity": "thongtinchinh", "value": "ktddt"}
+    - cho em hỏi [Mã ngành]{"entity": "thongtinphu", "value": "ma_nganh"} [ky thuat dien tu vien thong]{"entity": "thongtinchinh", "value": "ktdtvt"}
+    - em muon hoi ve [ktx](thongtinchinh)
+    - [Diem chuan]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [Mkt]{"entity": "thongtinchinh", "value": "mkt"}
+    - học [Cn da phuong tien]{"entity": "thongtinchinh", "value": "cndpt"} mất [bao lâu]
+    - [số tiền]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [an toan tt]{"entity": "thongtinchinh", "value": "attt"}
+    - ngành [Attt]{"entity": "thongtinchinh", "value": "attt"} [dao tao bao lau]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"}
+    - [dien dien tu]{"entity": "thongtinchinh", "value": "ktddt"} [Chuyen Nganh]{"entity": "thongtinphu", "value": "chuyen_nganh"}
+    - [diem trung tuyen]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [Quan tri kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"}
+    - [so tin chi]{"entity": "thongtinphu", "value": "sotc"} nganh [MKT]{"entity": "thongtinchinh", "value": "mkt"}
+    - [sotc](thongtinphu) ngành [cong nghe iot]{"entity": "thongtinchinh", "value": "iot"}
+    - Cho em hỏi [điểm chuẩn]{"entity": "thongtinphu", "value": "diem_chuan"} ngành [an toan tt]{"entity": "thongtinchinh", "value": "attt"}
+    - [cn thong tin]{"entity": "thongtinchinh", "value": "cntt"} [lam nhung cong viec nao]{"entity": "thongtinphu", "value": "tot_nghiep_lam_gi"} khi hoc xong
+    - [Gioi thieu]{"entity": "thongtinphu", "value": "tong_quan"} về ngành [kĩ thuật điện điện tử]{"entity": "thongtinchinh", "value": "ktddt"}
+    - [cho em hoi]{"entity": "thongtinphu", "value": "tong_quan"} ve nganh [Cn da phuong tien]{"entity": "thongtinchinh", "value": "cndpt"}
+    - Dạ cho em hỏi về các [phương thức tuyển sinh]{"entity": "thongtinchinh", "value": "phuong_thuc_tuyen_sinh"} của trường
+    - [An toàn tt]{"entity": "thongtinchinh", "value": "attt"} [lam gi]{"entity": "thongtinphu", "value": "tot_nghiep_lam_gi"} khi hoc xong
+    - [Tổng tiền]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [ki thuat dien tu vien thong]{"entity": "thongtinchinh", "value": "ktdtvt"}
+    - Tổ hợp môn]{"entity":"thongtinphu","value":"khoi_thi"} ngành [ATTT]{"entity": "thongtinchinh", "value": "attt"}
+    - [diem trung tuyen]{"entity": "thongtinphu", "value": "diem_chuan"} nganh [it]{"entity": "thongtinchinh", "value": "cntt"}
+    - [An toan tt]{"entity": "thongtinchinh", "value": "attt"}
+    - em muon biet [Chuong trinh dao tao]{"entity": "thongtinphu", "value": "chuong_trinh_dao_tao"} nganh [iT]{"entity": "thongtinchinh", "value": "cntt"}
+    - [kĩ thuật điều khiển và tự động hóa]{"entity": "thongtinchinh", "value": "ktdkvtdh"} được chia mấy [chuyên ngành]{"entity": "thongtinphu", "value": "chuyen_nganh"}
+    - [thời gian học tập]{"entity": "thongtinphu", "value": "thoi_gian_dao_tao"} của ngành [Công nghệ thông tin]{"entity": "thongtinchinh", "value": "cntt"}
+    - [Ma Nganh]{"entity": "thongtinphu", "value": "ma_nganh"} [quản trị kinh doanh]{"entity": "thongtinchinh", "value": "qtkd"}
+    - Tổ hợp môn]{"entity":"thongtinphu","value":"khoi_thi"} ngành [Cong nghe da phuong tien]{"entity": "thongtinchinh", "value": "cndpt"}
+    - Phải trả bao nhiêu tiền [học phí]{"entity": "thongtinchinh", "value": "hoc_phi"} trong vòng một năm?
+    - Cho em hỏi về [học phí]{"entity": "thongtinphu", "value": "hoc_phi"} ngành [an toan tt]{"entity": "thongtinchinh", "value": "attt"} ạ
+    - [Cho em hỏi]{"entity": "thongtinphu", "value": "tong_quan"} về ngành [Ke toan]{"entity": "thongtinchinh", "value": "kt"}
+    - [em muốn hỏi]{"entity": "thongtinphu", "value": "tong_quan"} về ngành [kỹ thuật điều khiển và tự động hóa]{"entity": "thongtinchinh", "value": "ktdkvtdh"}
+    - Tong cong chi phi [hoc phi]{"entity": "thongtinchinh", "value": "hoc_phi"} mot nam la bao nhieu?
+    - [Ma Nganh]{"entity": "thongtinphu", "value": "ma_nganh"} [cn đa phương tiện]{"entity": "thongtinchinh", "value": "cndpt"}
+    - [Kt điện điện tử]{"entity": "thongtinchinh", "value": "ktddt"} được chia mấy [chuyên ngành]{"entity": "thongtinphu", "value": "chuyen_nganh"}
+    - ngành [An toan tt]{"entity": "thongtinchinh", "value": "attt"} có bn [tín chỉ]{"entity": "thongtinphu", "value": "sotc"} tất cả
+    - [Em muon hoi]{"entity": "thongtinphu", "value": "tong_quan"} về ngành [ATTT]{"entity": "thongtinchinh", "value": "attt"}
+    - [dai hoc vua lam vua hoc]{"entity": "thongtinchinh", "value": "vhvl"}
+- synonym: tong_quan
+  examples: |
+    - tổng quan
+    - Tong quan
+    - Tổng quan
+    - tóm tắt
+    - khái quát
+    - Khái quát
+    - Khai quat
+    - tong quan
+    - tom tat
+    - Tom tat
+    - Tóm tắt
+    - khai quat
+    - giới thiệu
+    - Giới thiệu
+    - Gioi thieu
+    - cho em hỏi
+    - Cho em hoii
+    - Cho em hỏi
+    - em muốn biết
+    - Em muon biet
+    - Em muốn hỏi
+    - em muốn hỏi
+    - gioi thieu
+    - cho em hoi
+    - em muon biet
+    - em muon hoi
+    - Em muốn biết
+    - Em muon hoi
+    - Cho em hoi
+    - em muon hỏi
+- synonym: truong
+  examples: |
+    - trường
+    - học viện
+    - hoc vien
+    - Hoc vien
+    - Học viện
+    - học viện cơ sở
+    - Học viện cơ sở
+    - hoc vien co so
+    - trường ptit
+    - trường ptithcm
+    - ptit
+    - ptithcm
+    - học viện công nghệ bưu chính viễn thông
+    - Học viện Công nghệ Bưu chính Viễn thông
+    - hoc vien cong nghe buu chinh vien thong
+    - Hoc vien cong nghe buu chinh vien thong
+    - truong
+- synonym: khoa_quan_ly
+  examples: |
+    - khoa quan ly
+    - khoa quản lý
+    - Khoa quản lý
+    - Khoa quan ly
+    - Khoa quan li
+    - Khoa quản lí
+- synonym: khoa_cntt
+  examples: |
+    - khoa cntt 2
+    - khoa cong nghe thong tin
+    - khoa công nghệ thông tin
+    - Khoa cntt
+    - Khoa cong nghe thong tin
+    - Khoa công nghệ thông tin
+    - khoa it
+    - khoa cong nghe thong tin 2
+    - khoa công nghệ thông tin 2
+    - Khoa cntt 2
+    - Khoa cong nghe thong tin 2
+    - Khoa công nghệ thông tin 2
+    - khoa it 2
+    - khoa cntt
+- synonym: khoa_coban
+  examples: |
+    - khoa co ban
+    - Khoa cơ bản
+    - khoa cơ bản
+    - Khoa co ban
+- synonym: khoa_ktdt
+  examples: |
+    - khoa ktdt
+    - khoa kỹ thuật điện tử
+    - khoa ky thuat dien tu
+    - Khoa ky thuat dien tu
+    - Khoa kỹ thuât điện tử
+- synonym: khoa_vt
+  examples: |
+    - khoa vt
+    - khoa vien thong
+    - khoa viễn thông
+    - Khoa viễn thông
+    - Khoa vien thong
+- synonym: khoa_qtkd
+  examples: |
+    - khoa qtkd
+    - khoa quan tri kinh doanh
+    - khoa quản trị kinh doanh
+    - Khoa quan tri kinh doanh
+    - Khoa quản trị kinh doanh
+- synonym: giang_vien
+  examples: |
+    - giang vien
+    - gv
+    - giảng viên
+    - Giảng viên
+    - Giang vien
+- synonym: phuong_thuc_tuyen_sinh
+  examples: |
+    - phuong thuc xet tuyen
+    - Phuong thuc xet tuyen
+    - Phương thức xét tuyển
+    - phương thức xét tuyển
+    - hinh thuc tuyen sinh
+    - hình thức tuyển sinh
+    - phương thức tuyển sinh
+    - Phuong thuc tuyen sinh
+    - Phương thức tuyển sinh
+    - Hinh thuc tuyen sinh
+    - Hình thức tuyển sinh
+    - hinh thuc xet tuyen
+    - hình thức xét tuyển
+    - Hình thức xét tuyển
+    - phuong thuc tuyen sinh
+    - Hinh thuc xet tuyen
+- synonym: nganh_dao_tao
+  examples: |
+    - ngành đào tạo
+    - ngành
+    - đào tạo ngành
+    - dao tao nganh
+    - nganh dao tao
+    - nganh
+    - Ngành
+    - Nganh
+    - Ngành đào tạo
+    - Nganh dao tao
+    - các ngành đào tạo
+    - cac nganh dao tao
+    - Các ngành đào tạo
+    - Cac nganh
+    - Các ngành
+- synonym: thoi_gian_dao_tao
+  examples: |
+    - dao tao may nam
+    - dao tao bao lau
+    - thoi gian dao tao
+    - thời gian đào tạo
+    - đào tạo bao lâu
+    - đào tạo mấy năm
+    - Thời gian đào tạo
+    - thời gian
+    - thời gian học
+    - Thời gian
+    - Thời gian học tập
+    - bao lâu
+    - Thoi gian dao tao
+    - thời gian học tập
+    - Thoi gian
+    - thoi gian de hoan thanh dao tao
+    - thoi gian hoc
+    - Thoi gian can de tot nghiep
+    - Thoi gian hoc tap
+    - thoi gian
+    - bao lau
+    - Dao tao keo dai trong khoang bao lau
+    - Thời gian học
+    - Thoi gian hoc
+    - thoi gian hoc tap
+    - học mấy năm
+    - hoc may nam
+    - Đào tạo bao lâu
+    - Dao tao bao lau
+    - Đao tao bao lau
+- synonym: hoc_phi
+  examples: |
+    - học phí
+    - hoc phi
+    - Hoc phi
+    - Học phi
+    - Học phí
+    - bao nhieu tien
+    - chi phí
+    - Chi phí
+    - chi phi
+    - Chi phi
+    - tổng tiền
+    - tong tien
+    - Tong tien
+    - Tổng tiền
+    - số tiền
+    - so tien
+    - Số tiền
+    - So tien
+    - tiền
+    - Tiền
+    - tien
+    - Tien
+- synonym: ktx
+  examples: |
+    - ki tuc xa
+    - kí túc xá
+    - ký túc xá
+    - ky túc xa
+    - ky tuc xa
+    - ktx
+    - kí túc
+    - Kí túc xá
+    - Ki tuc xa
+    - ki Tuc xa
+    - ki tuc Xa
+    - ki tuc
+    - KTX
+- synonym: loai_phong
+  examples: |
+    - loai phong
+    - loại phòng
+- synonym: phong_dich_vu
+  examples: |
+    - phong dich vu
+    - phòng dịch vụ
+    - Phòng dịch vụ
+    - Phong dich vu
+- synonym: phong_dich_vu_clc
+  examples: |
+    - phong dich vu chat luong cao
+    - phòng dịch vụ chất lượng cao
+    - phòng dịch vụ chất luọng cao
+    - phong dich vu clc
+    - phòng dịch vụ clc
+    - Phòng dịch vụ clc
+    - Phòng dịch vụ chất lượng cao
+    - Phong dich vu clc
+    - Phong dich vu chat luong cao
+    - Phong dich vu chat luong
+- synonym: dieu_kien_tot_nghiep
+  examples: |
+    - điều kiện tốt nghiệp
+    - dieu kien tot nghiep
+    - Điều kiện để tốt nghiệp
+    - dieu kien de tot nghiep
+    - dieu kien de ra truong
+    - điều kiện để ra trường
+    - điều kiện tôt nghiệp
+    - điều kiện để tốt nghiệp
+    - xét tốt nghiệp
+    - xet tot nghiep
+    - dk tot nghiep
+    - dieu kien de duoc tot nghiep
+    - điều kiện để được tốt nghiệp
+    - Dieu kien de tot nghiep
+    - Dieu kien de duoc tot nghiep
+    - dk tot nghiep la gi
+    - đk tốt nghiệp là gì
+    - dk ra truong
+    - đk ra trường
+    - dk de ra truong
+    - đk để ra trường
+- synonym: vhvl
+  examples: |
+    - Đại học vừa làm vừa học
+    - Dai hoc vua lam vua hoc
+    - đại học vừa làm vừa học
+    - dai hoc vua lam vua hoc
+    - vừa làm vừa học
+    - vua lam vua hoc
+- synonym: phu_hop
+  examples: |
+    - phù hợp
+    - phu hop
+    - Ai có thể học
+    - Ai co the hoc
+- synonym: ly_do
+  examples: |
+    - khác biệt
+    - khac biet
+    - Lý do
+    - Ly do
+- synonym: sotc
+  examples: |
+    - tín chỉ
+    - tin chi
+    - số tín chỉ
+    - Số tín chỉ
+    - so tin chi
+    - So tin chi
+    - Tin chi
+    - bao nhieu tin chi
+    - bao nhiêu tín chỉ
+    - bao nhiêu tin chỉ
+    - sotc
+    - Tín chỉ
+- synonym: loai_bang
+  examples: |
+    - bằng đại học
+    - bang dai hoc
+- synonym: co_hoi_viec_lam
+  examples: |
+    - Cơ hội việc làm
+    - Co hoi viec lam
+- synonym: cntt
+  examples: |
+    - it
+    - IT
+    - cong nghe thong tin
+    - CNTT
+    - công nghệ thông tin
+    - CÔNG NGHỆ THÔNG TIN
+    - Cong nghe thong tin
+    - cong nghe tt
+    - cn thong tin
+    - Cn thong tin
+    - Cn thông tin
+    - iT
+    - It
+    - Công nghệ thông tin
+    - công nghệ tt
+    - cn thông tin
+    - Cong nghe tt
+    - Công nghệ tt
+    - cntt
+- synonym: tot_nghiep_lam_gi
+  examples: |
+    - làm gì
+    - lam cong viêc gi
+    - làm công việc gì
+    - làm vị trí nào
+    - Làm công việc gì
+    - làm được gì
+    - Làm được gì
+    - làm những công việc gì
+    - làm những công việc nào
+    - lam vi tri nao
+    - Lam duoc gi
+    - lam duoc gi
+    - lam nhung cong viec gi
+    - lam nhung cong viec nao
+    - lam gi
+    - Lam cong viec gi
+    - tot nghiep lam gi
+    - tốt nghiệp làm gì
+    - Lam gi
+    - Làm gì
+    - Tốt nghiệp làm gì
+    - Làm vị trí nào
+    - Lam vi tri nao
+    - Tot nghiep lam gi
+- synonym: ma_nganh
+  examples: |
+    - ma nganh
+    - Mã ngành
+    - mã ngành
+    - Ma nganh
+    - Ma Nganh
+    - Mã Ngành
+- synonym: chuong_trinh_dao_tao
+  examples: |
+    - chuong trinh dao tao
+    - Chương trình đào tạo
+    - chương trình đào tạo
+    - Chuong trinh dao tao
+    - ctdt
+- synonym: chuyen_nganh
+  examples: |
+    - chuyen nganh
+    - chuyên ngành
+    - Chuyên ngành
+    - Chuyen nganh
+    - Chuyen Nganh
+    - Chuyên Ngành
+- synonym: diem_chuan
+  examples: |
+    - điểm chuẩn
+    - diem chuan
+    - Điểm chuẩn
+    - Diem chuan
+    - điểm trúng tuyển
+    - diem trung tuyen
+    - Điểm trúng tuyển
+    - Diem trung tuyen
+- synonym: khoi_thi
+  examples: |
+    - khối thi
+    - khoi thi
+    - Khối thi
+    - Khoi thi
+    - tổ hợp xét tuyển
+    - to hop xet tuyen
+    - Tổ hợp xét tuyển
+    - To hop xet tuyen
+    - Tổ hợp môn
+    - To hop mon
+    - to hop mon
+    - tổ hợp môn
+- synonym: ktdtvt
+  examples: |
+    - KTDTVT
+    - ky thuat dien tu vien thong
+    - kỹ thuật điện tử viễn thông
+    - kt điện tử viễn thông
+    - kt dien tu vien thong
+    - kĩ thuật điện tử viễn thông
+    - ki thuat dien tu vien thong
+    - Kĩ thuật điện tử viễn thông
+    - Ki thuat dien tu vien thong
+    - Ky thuat dien tu vien thong
+    - Kỹ thuật điện tử viễn thông
+    - điện tử viễn thông
+    - dien tu vien thong
+    - Điện tử viễn thông
+    - Dien tu vien thong
+    - Ki thuat dien tu vien thông
+    - Kt dien tu vien thong
+    - ki thuat dien tu vien thongg
+    - thuat dien tu vien thông
+    - ktdtvt
+- synonym: ktddt
+  examples: |
+    - KTDDT
+    - điện điện tử
+    - điện tử
+    - ki thuat dien dien tu
+    - Ki thuat dien dien tu
+    - ky thuat dien dien tu
+    - Ky thuat dien dien tu
+    - kt dien dien tu
+    - Kt dien dien tu
+    - kt điện điện tử
+    - Kt điện điện tử
+    - dien tu
+    - dien dien tu
+    - kĩ thuật điện điện tử
+    - Kĩ thuật điện điện tử
+    - kỹ thuật điện điện tử
+    - Kỹ thuật điện điện tử
+    - ktddt
+- synonym: attt
+  examples: |
+    - ATTT
+    - Attt
+    - an toan thong tin
+    - an toan tt
+    - bao mat
+    - An toan thong tin
+    - An toan tt
+    - an toàn thông tin
+    - an toàn tt
+    - An toàn thông tin
+    - An toàn tt
+    - attt
+- synonym: iot
+  examples: |
+    - IOt
+    - ioT
+    - IOT
+    - cong nghe iot
+    - cn iot
+    - Cong nghe IOT
+    - Cong nghe iot
+    - Cong nghe Iot
+    - cong nghe Iot
+    - cong nghe internet van vat
+    - Cong nghe internet van vat
+    - cong nghe Internet van vat
+    - cn internet van vat
+    - Công nghệ IOT
+    - Công nghệ iot
+    - Công nghệ Iot
+    - công nghệ iot
+    - công nghệ Iot
+    - công nghệ internet vạn vật
+    - Công nghệ internet vạn vật
+    - công nghệ Internet vạn vật
+    - cn internet vạn vật
+    - iot
+- synonym: ktdkvtdh
+  examples: |
+    - kt dieu khien va tu dong hoa
+    - ki thuat dieu khien va tu dong hoa
+    - ky thuat dieu khien va tu dong hoa
+    - Ki thuat dieu khien va tu dong hoa
+    - Ky thuat dieu khien va tu dong hoa
+    - kt điều khiển và tự động hóa
+    - kĩ thuật điều khiển và tự động hóa
+    - kỹ thuật điều khiển và tự động hóa
+    - Kỹ thuật điều khiển và tự động hóa
+    - Kĩ thuật thuật điều khiển và tự động hóa
+    - kt điều khiển tự động
+    - ki thuat dieu khiển tự động
+    - ky thuat dieu khien tu dong
+    - kĩ thuật điều khiển tự động
+    - ky thuat điều khiển tự động
+    - ktdkvtdh
+- synonym: cndpt
+  examples: |
+    - cn da phuong tien
+    - Cn da phuong tien
+    - cong nghe da phuong tien
+    - Cong nghe da phuong tien
+    - công nghệ đa phương tiện
+    - Công nghệ đa phương tiện
+    - Cn đa phương tiện
+    - cn đa phương tiện
+    - cndpt
+- synonym: qtkd
+  examples: |
+    - qt kinh doanh
+    - quan tri kinh doanh
+    - Quan tri kinh doanh
+    - Qt kinh doanh
+    - Qt trị kinh doanh
+    - quản trị kinh doanh
+    - Quản trị kinh doanh
+    - qtkd
+- synonym: mkt
+  examples: |
+    - Mkt
+    - MKT
+    - Marketing
+    - marketing
+    - mkt
+- synonym: kt
+  examples: |
+    - KT
+    - Kt
+    - ke toan
+    - Ke toan
+    - kế toán
+    - Kế toán
+    - kt
+- synonym: bac
+  examples: |
+    - bắc
+    - Bắc
+    - Bac
+    - hn
+    - Hn
+    - HN
+    - ha noi
+    - hà nội
+    - Ha Noi
+    - Hà Nội
+    - Hà nội
+    - bac
+- synonym: nam
+  examples: |
+    - Nam
+    - hcm
+    - Hcm
+    - ho chi minh
+    - HCM
+    - hồ chí minh
+    - Ho Chi Minh
+    - Hồ Chí Minh
+    - nam
+- synonym: more
+  examples: |
+    - cũng
+    - cung
+    - hỏi thêm
+    - hoi them
+    - thế còn
+    - vậy còn
+    - the con
+    - vay con
+    - thi sao
+    - thì sao
+    - muốn biết thêm
+    - muon biet them
+    - cũng muốn biết
+    - cung muon biet
+- synonym: hoc_bong
+  examples: |
+    - hoc bong
+    - học bổng
+    - Hoc bong
+    - Học bổng
+- synonym: cac_loai
+  examples: |
+    - cac loai
+    - Các loại
+    - các loại
