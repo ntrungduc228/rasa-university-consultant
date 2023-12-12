@@ -483,4 +483,4 @@ const multObjPhu = {
     ]
 }
 
-multipleGenerateBySelect(multObj, objFlagCoso);
+multipleGenerateBySelect(multObjPhu, objFlagPhu);

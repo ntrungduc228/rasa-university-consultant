@@ -101,8 +101,9 @@ class ActionTimThongtinchinhThongtinphu(Action):
             f = open('./data/collections/data_collect.json', encoding="utf8")
             data = json.load(f)
 
-            if tmp_thongtinchinh is None:
-                return [FollowupAction("utter_hoi_chuc_nang")]
+            if tmp_thongtinchinh is None or tmp_thongtinchinh == '':
+                dispatcher.utter_message(text=f'Bot vẫn chưa hiểu rõ ý định chính của bạn')
+                return [AllSlotsReset(),FollowupAction("utter_hoi_chuc_nang")]
 
             if thongtinphu is None:
                 thongtinphu = thongtinphu_default
@@ -189,8 +190,9 @@ class ActionThongtinchinhThongtinphuCoso(Action):
             f = open('./data/collections/data_collect.json', encoding="utf8")
             data = json.load(f)
 
-            if tmp_thongtinchinh is None:
-                return [FollowupAction("utter_hoi_chuc_nang")]
+            if tmp_thongtinchinh is None or tmp_thongtinchinh == '':
+                dispatcher.utter_message(text=f'Bot vẫn chưa hiểu rõ ý định chính của bạn')
+                return [AllSlotsReset(), FollowupAction("utter_hoi_chuc_nang")]
 
             global tmp_thongtinphu
             if tmp_thongtinphu is None:
@@ -233,7 +235,8 @@ class ActionThongtinchinhThongtinphuCoso(Action):
             data = json.load(f)
 
             if thongtinchinh is None:
-                return [FollowupAction("utter_hoi_chuc_nang")]
+                return [AllSlotsReset(),FollowupAction("utter_hoi_chuc_nang")]
+
 
             if thongtinphu is None:
                 thongtinphu = thongtinphu_default
@@ -297,8 +300,10 @@ class ActionThongtinchinhThongtinphuNamhoc(Action):
             f = open('./data/collections/data_collect.json', encoding="utf8")
             data = json.load(f)
 
-            if tmp_thongtinchinh is None:
-                return [FollowupAction("utter_hoi_chuc_nang")]
+            if tmp_thongtinchinh is None or tmp_thongtinchinh == '':
+                dispatcher.utter_message(text=f'Bot vẫn chưa hiểu rõ ý định chính của bạn')
+                return [AllSlotsReset(),FollowupAction("utter_hoi_chuc_nang")]
+
 
             global tmp_thongtinphu
             if tmp_thongtinphu is None:
@@ -391,7 +396,8 @@ class ActionThongtinchinhThongtinphuCosoNamhoc(Action):
 
 
         if thongtinchinh is None:
-            return [FollowupAction("utter_hoi_chuc_nang")]
+            return [AllSlotsReset(),FollowupAction("utter_hoi_chuc_nang")]
+
 
         if thongtinphu is None:
             thongtinphu = thongtinphu_default
