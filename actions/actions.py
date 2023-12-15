@@ -135,7 +135,7 @@ class ActionTimThongtinchinhThongtinphu(Action):
             data = json.load(f)
 
             if thongtinchinh is None:
-                return [FollowupAction("utter_hoi_chuc_nang")]
+                return [AllSlotsReset(),FollowupAction("utter_hoi_chuc_nang")]
 
             if thongtinphu is None:
                 thongtinphu = thongtinphu_default
@@ -154,6 +154,8 @@ class ActionTimThongtinchinhThongtinphu(Action):
                         dispatcher.utter_message(text=f'{data["nganh"][thongtinchinh][thongtinphu]}')
 
             else:
+                if thongtinchinh not in data:
+                    return [AllSlotsReset(),FollowupAction("utter_hoi_chuc_nang")]
                 if thongtinchinh in data and  thongtinphu not in data[thongtinchinh]:
                     dispatcher.utter_message(text=f'bot chua co thong tin')
                 else:
@@ -527,13 +529,13 @@ class ActionThongtinchinhThongtinphuCosoNamhoc(Action):
 '''
 # thongtinchinh_data  = [""]
 # thongtinphu_data = [""]
-coso_data = ["chung","bac","nam"]
-nganh_data = ["cntt", "ktdtvt", "ktddt", "attt", "ktdkvtdh", "iot", "cndpt", "qtkd", "mkt", "kt"]
-coso_default = "chung"
-namhoc_data = ["2023", "2022", "2021", "2020", "2019"]
-namhoc_default = "chung"
-thongtinphu_default ="chung"
-nganh_tq="tong_quan"
+# coso_data = ["chung","bac","nam"]
+# nganh_data = ["cntt", "ktdtvt", "ktddt", "attt", "ktdkvtdh", "iot", "cndpt", "qtkd", "mkt", "kt"]
+# coso_default = "chung"
+# namhoc_data = ["2023", "2022", "2021", "2020", "2019"]
+# namhoc_default = "chung"
+# thongtinphu_default ="chung"
+# nganh_tq="tong_quan"
 
 def get_thong_tin_nganh(nganh, thongtinphu, coso):
     f = open('./data/collections/data_collect.json', encoding="utf8")
