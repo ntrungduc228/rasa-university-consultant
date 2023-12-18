@@ -209,8 +209,7 @@ nlu:
     - [Hình thức xét tuyển]{"entity":"thongtinchinh","value":"phuong_thuc_tuyen_sinh"}
 
     - Cho em hỏi các [ngành đào tạo]{"entity":"thongtinchinh","value":"nganh_dao_tao"} của trường
-    - trường đào tạo [ngành]{"entity":"thongtinchinh","value":"nganh_dao_tao"} nào ạ
-    - trường đào tạo nhưng [ngành]{"entity":"thongtinchinh","value":"nganh_dao_tao"} nào
+    - trường đào tạo những [ngành]{"entity":"thongtinchinh","value":"nganh_dao_tao"} nào
     - truong dao tao [nganh]{"entity":"thongtinchinh","value":"nganh_dao_tao"} nao
     - truong dao tao nhung [nganh]{"entity":"thongtinchinh","value":"nganh_dao_tao"} nao
     - Thế trường [đào tạo ngành]{"entity":"thongtinchinh","value":"nganh_dao_tao"} nào
@@ -512,6 +511,8 @@ nlu:
     - [cn thong tin]{"entity":"thongtinchinh","value":"cntt"}
     - [Cn thong tin]{"entity":"thongtinchinh","value":"cntt"}
     - [Cn thông tin]{"entity":"thongtinchinh","value":"cntt"}
+    - nganh [cong nghe thong tin]{"entity":"thongtinchinh","value":"cntt"}
+    - ngành [công nghệ thông tin]{"entity":"thongtinchinh","value":"cntt"}
 
     - [tổng quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
     - [Tong quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [cntt]{"entity":"thongtinchinh","value":"cntt"}
@@ -776,6 +777,10 @@ nlu:
     - [dien tu vien thong]{"entity":"thongtinchinh","value":"ktdtvt"}
     - [Điện tử viễn thông]{"entity":"thongtinchinh","value":"ktdtvt"}
     - [Dien tu vien thong]{"entity":"thongtinchinh","value":"ktdtvt"}
+    - nganh [ki thuat dien tu vien thong]{"entity":"thongtinchinh","value":"ktdtvt"}
+    - nganh [ky thuat dien tu vien thong]{"entity":"thongtinchinh","value":"ktdtvt"}
+    - ngành [kỹ thuật điện tử viễn thông]{"entity":"thongtinchinh","value":"ktdtvt"}
+    - ngành [kĩ thuật điện tử viễn thông]{"entity":"thongtinchinh","value":"ktdtvt"}
 
     - [tổng quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [ktdtvt]{"entity":"thongtinchinh","value":"ktdtvt"}
     - [Tong quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [KTDTVT]{"entity":"thongtinchinh","value":"ktdtvt"}
@@ -1102,6 +1107,10 @@ nlu:
     - [Kỹ thuật điện điện tử]{"entity":"thongtinchinh","value":"ktddt"}
     - [kt điện điện tử]{"entity":"thongtinchinh","value":"ktddt"}
     - [Kt điện điện tử]{"entity":"thongtinchinh","value":"ktddt"}
+    - nganh [ky thuat dien dien tu]{"entity":"thongtinchinh","value":"ktddt"}
+    - ngành [kỹ thuật điện điện tử]{"entity":"thongtinchinh","value":"ktddt"}
+    - nganh [ki thuat dien dien tu]{"entity":"thongtinchinh","value":"ktddt"}
+    - ngành [kĩ thuật điện điện tử]{"entity":"thongtinchinh","value":"ktddt"}
     - [tổng quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [ktddt]{"entity":"thongtinchinh","value":"ktddt"}
     - [Tong quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [KTDDT]{"entity":"thongtinchinh","value":"ktddt"}
     - [Tổng quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [điện điện tử]{"entity":"thongtinchinh","value":"ktddt"}
@@ -1313,6 +1322,8 @@ nlu:
     - [an toàn tt]{"entity":"thongtinchinh","value":"attt"}
     - [An toàn thông tin]{"entity":"thongtinchinh","value":"attt"}
     - [An toàn tt]{"entity":"thongtinchinh","value":"attt"}
+    - nganh [an toan thong tin]{"entity":"thongtinchinh","value":"attt"}
+    - ngành [an toàn thông tin]{"entity":"thongtinchinh","value":"attt"}
     - [tổng quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [attt]{"entity":"thongtinchinh","value":"attt"}
     - [Tong quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [ATTT]{"entity":"thongtinchinh","value":"attt"}
     - [Tổng quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Attt]{"entity":"thongtinchinh","value":"attt"}
@@ -1536,6 +1547,8 @@ nlu:
     - [Công nghệ internet vạn vật]{"entity":"thongtinchinh","value":"iot"}
     - [công nghệ Internet vạn vật]{"entity":"thongtinchinh","value":"iot"}
     - [cn internet vạn vật]{"entity":"thongtinchinh","value":"iot"}
+    - nganh [cong nghe iot]{"entity":"thongtinchinh","value":"iot"}
+    - ngành [công nghệ iot]{"entity":"thongtinchinh","value":"iot"}
 
     - [tổng quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [iot]{"entity":"thongtinchinh","value":"iot"}
     - [Tong quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [IOt]{"entity":"thongtinchinh","value":"iot"}
@@ -1752,6 +1765,10 @@ nlu:
     - [ky thuat dieu khien tu dong]{"entity":"thongtinchinh","value":"ktdkvtdh"}
     - [kĩ thuật điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"}
     - [ky thuat điều khiển tự động]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - nganh [ky thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - ngành [kỹ thuật điều khiển và tự động hoá]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - nganh [ki thuat dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
+    - ngành [kĩ thuật điều khiển và tự động hoá]{"entity":"thongtinchinh","value":"ktdkvtdh"}
 
     - [tổng quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [ktdkvtdh]{"entity":"thongtinchinh","value":"ktdkvtdh"}
     - [Tong quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [kt dieu khien va tu dong hoa]{"entity":"thongtinchinh","value":"ktdkvtdh"}
@@ -1962,6 +1979,8 @@ nlu:
     - [Công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
     - [Cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
     - [cn đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
+    - nganh [cong nghe da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
+    - ngành [công nghệ đa phương tiện]{"entity":"thongtinchinh","value":"cndpt"}
     - [tổng quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [cndpt]{"entity":"thongtinchinh","value":"cndpt"}
     - [Tong quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
     - [Tổng quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Cn da phuong tien]{"entity":"thongtinchinh","value":"cndpt"}
@@ -2169,6 +2188,8 @@ nlu:
     - [Qt trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
     - [quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
     - [Quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - nganh [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
+    - ngành [quản trị kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
     - [tổng quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [qtkd]{"entity":"thongtinchinh","value":"qtkd"}
     - [Tong quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [qt kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
     - [Tổng quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [quan tri kinh doanh]{"entity":"thongtinchinh","value":"qtkd"}
@@ -2373,6 +2394,8 @@ nlu:
     - [MKT]{"entity":"thongtinchinh","value":"mkt"}
     - [Marketing]{"entity":"thongtinchinh","value":"mkt"}
     - [marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - nganh [marketing]{"entity":"thongtinchinh","value":"mkt"}
+    - ngành [marketing]{"entity":"thongtinchinh","value":"mkt"}
     - [tổng quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [mkt]{"entity":"thongtinchinh","value":"mkt"}
     - [Tong quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [Mkt]{"entity":"thongtinchinh","value":"mkt"}
     - [Tổng quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [MKT]{"entity":"thongtinchinh","value":"mkt"}
@@ -2579,6 +2602,8 @@ nlu:
     - [Ke toan]{"entity":"thongtinchinh","value":"kt"}
     - [kế toán]{"entity":"thongtinchinh","value":"kt"}
     - [Kế toán]{"entity":"thongtinchinh","value":"kt"}
+    - nganh [ke toan]{"entity":"thongtinchinh","value":"kt"}
+    - ngành [kế toán]{"entity":"thongtinchinh","value":"kt"}
 
     - [tổng quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [kt]{"entity":"thongtinchinh","value":"kt"}
     - [Tong quan]{"entity":"thongtinphu","value":"tong_quan"} về ngành [KT]{"entity":"thongtinchinh","value":"kt"}

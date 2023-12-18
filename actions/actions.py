@@ -329,10 +329,17 @@ class ActionThongtinchinhThongtinphuNamhoc(Action):
                         dispatcher.utter_message(text=f'{data["nganh"][tmp_thongtinchinh][tmp_thongtinphu][namhoc][none_coso_namhoc]}')
 
             else:
-                if data[tmp_thongtinchinh] and tmp_thongtinphu not in data[tmp_thongtinchinh]:
-                    dispatcher.utter_message(text=f'bot chua co thong tin')
+                if namhoc != coso_default:
+                    if data[tmp_thongtinchinh] and namhoc not in data[tmp_thongtinchinh]:
+                        dispatcher.utter_message(text=f'bot chua co thong tin')
+                    else:
+                        dispatcher.utter_message(text=f'{data[tmp_thongtinchinh][namhoc]}')
                 else:
-                    dispatcher.utter_message(text=f'{data[tmp_thongtinchinh][tmp_thongtinphu]}')
+
+                    if data[tmp_thongtinchinh] and tmp_thongtinphu not in data[tmp_thongtinchinh]:
+                        dispatcher.utter_message(text=f'bot chua co thong tin')
+                    else:
+                        dispatcher.utter_message(text=f'{data[tmp_thongtinchinh][tmp_thongtinphu]}')
             
             set_tmp_val(tmp_thongtinchinh, tmp_thongtinphu, '', namhoc)
             print_tmp_val()
